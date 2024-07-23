@@ -1,2 +1,2 @@
-# standards-and-guidelines-dev
+# Standards and Guidelines Development
 Repo for VT GIS Standards and Guidelines Development
