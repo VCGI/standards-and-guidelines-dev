@@ -444,7 +444,7 @@ A copy of the discrepancy list serves as a complementary tool for mapping provid
 
 - [ ] Prior to finalizing updated parcels, confirm that data are formatted correctly and adhere to standard requirements, including coordinate system, naming conventions, schema, and metadata.
 
-- [ ] Submit finalized, zipped geodatabase file to VCGI using the [web submission form](https://vcgi.vermont.gov/data-and-programs/share-map-data). VCGI will confirm receipt via email, and the municipality will appear in the ‘In Publishing Queue’ map of the [Town Mapping Status Application](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6) (application is updated weekly, therefore submitted town may not appear immediately). 
+- [ ] Submit finalized, zipped geodatabase file to VCGI using the [web submission form](https://vcgi.vermont.gov/data-and-programs/share-map-data). VCGI will confirm receipt via email, and the municipality will appear in the ‘In Publishing Queue’ map of the [Town Mapping Status Application](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6) (application is updated weekly, therefore submitted town may not appear immediately). *Updated parcels will typically be reviewed by VCGI in 1 to 3 weeks and published for public access via the [Parcel Viewer](https://maps.vcgi.vermont.gov/parcelviewer/) and for download via the [Open Geodata Portal](https://geodata.vermont.gov/).*
 
 ## Glossary
 **Abutting** - Sharing a contiguous border or boundary. 
