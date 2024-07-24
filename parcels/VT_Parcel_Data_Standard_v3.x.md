@@ -380,6 +380,72 @@ A copy of the discrepancy list serves as a complementary tool for mapping provid
 
 - [ ] Maintain a list of parcel changes each year to facilitate updates. Collect and organize corresponding source documents including surveys, plats, and deeds. Copies of recent surveys may also be available in the [Vermont Land Survey Library](https://maps.vcgi.vermont.gov/landsurveylibrary/) which is integrated into the Parcel Viewer.
 
+- [ ] Maintain a Discrepancies List to track existing issues with parcel data that the vendor/GIS staff should address in the subsequent update.
+
+- [ ] Review the [Town Mapping Status Application](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6), particularly the ‘Town Match Status’ tab, to locate parcels that may not have a match in the statewide Grand List (e.g., a missing or incorrect SPAN). Review all Unmatched parcels and add any changes/corrections to list of updates.
+
+- [ ] Send the vendor/GIS staff the list of changes and discrepancies needed to perform updates. Support update process by answering questions and making source materials available.
+
+- [ ] Review best practices around inactive parcels and determine how the municipality accounts for them spatially, if at all.
+
+- [ ] If necessary, work with vendor/GIS staff to prioritize issues to be addressed in the current update and those that may be reserved for later updates. Not all edits may make it in one update cycle. 
+
+- [ ] Review updated parcels prior to submittal to VCGI. Confirm that parcels without SPANs have been reviewed/resolved, inactive parcels are included if desired, multi-SPAN parcels are accurately represented, and large differences between deeded and GIS acreages are examined. Verify other documented changes and discrepancies have been addressed. Provide feedback to vendor/GIS staff as needed.
+
+- [ ] Verify that vendor/GIS staff understands how to upload final products to VCGI via the [web submission form](https://vcgi.vermont.gov/data-and-programs/share-map-data), and that submittals have been received/published as expected using the [Town Mapping Status Application](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6). The status map is refreshed weekly; towns listed in the publishing queue are typically reviewed and published by VCGI within 1 to 3 weeks of receipt.
+
+- [ ] Review the municipality’s update information in the [Town Mapping Status Application](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6) by selecting the town in the upper right search bar. Confirm that information in the right-side panel related to parcel maintenance (GIS publish date, current vendor, update frequency, etc.) is correct. Contact VCGI with any updates or changes.
+
+- [ ] If working with a mapping vendor, revisit contract as needed. Consider any revisions based on desired deliverables (town-specific digital parcel viewer, paper maps, PDFs, etc.), budget, adherence to parcel data standards, timeline and schedule, etc.
+
+### Checklist for Municipalities Finding a Mapping Vendor and/or Updating Parcel Data without a Mapping Vendor or GIS Staff
+
+- [ ] Review the most recent parcel data for your municipality using the [Parcel Viewer](https://maps.vcgi.vermont.gov/parcelviewer/) and the [Town Mapping Status Application](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6).
+
+-[ ] Review parcel data maintenance practices of other municipalities using the [Town Mapping Status Application](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6), particularly practices of neighboring towns and common [mapping vendors](https://airtable.com/appI2jeVIZTBdYISK/shrARBcXQsMkEvxz3/tbl1phknn1b8uhXt2) across the state. [Regional planning commissions](https://www.vapda.org/regions.html) (RPCs) may also be able to contract for parcel mapping services.
+
+- [ ] Determine the frequency and immediate need for updates based on the number of discrepancies and changes each year. 
+
+- [ ] Determine if there are official or employees of the municipality with the training, skills, and resources to support the town in making GIS/digital parcel data updates. If so, see checklist above.
+
+- [ ] Review best practices around inactive parcels and determine how the municipality accounts for them spatially, if at all.
+
+- [ ] If no municipal employees are available or able to perform parcel data updates, reach out to the appropriate RPC and/or mapping vendors to determine availability for services. Send a Request for Proposals (RFP) to interested parties outlining the needs and expectations of the municipality.
+
+- [ ] Select a mapping vendor based on best fit including qualifications, price, and desired deliverables. At a minimum, mapping vendors should provide digital parcel data that is suitable for submittal to VCGI based on the standards in this document. Confirm that the municipality will own the final deliverables it paid for and will not have to pay again to access them in the future.
+
+- [ ] Even without a mapping vendor or GIS staff, keep an ongoing list of parcel changes and a Discrepancies List. Collect and organize corresponding source documents including surveys, plats, and deeds, including any submissions to the [[Vermont Land Survey Library](https://maps.vcgi.vermont.gov/landsurveylibrary/). Maintaining good documentation of parcel changes and source documents will greatly facilitate updates when resources, staff, and/or funds allow. [Contact VCGI](https://vcgi.vermont.gov/resources/frequently-asked-questions/parcel-program-faqs#24) as needed for additional guidance and to communicate potential limitations surrounding updates.
+
+### Checklist for Mapping Vendors or Municipal Staff when performing Parcel Data Updates
+
+- [ ] Download published parcel data from the [Open Geodata Portal](https://geodata.vermont.gov/) for the municipality in geodatabase format. This ensures the most current version of the parcels will be updated, including any edits made by VCGI following the previous submission by the municipality/vendor.
+
+- [ ] Data can also be loaded into the [empty Geodatabase Template](https://vcgi.vermont.gov/document/geodatabase-template-parcel-data-standard), which contains the appropriate layers, schema, and domains for parcel data. Update the file and folder names per the Format and Naming Convention section of this document.
+
+- [ ] Using the municipality’s compiled list of updates and resources (surveys, deeds, municipal Grand List, etc.), perform GIS edits to the data in ArcGIS Pro 3.X or another compatible mapping software. Document edits in the appropriate fields of the Active parcels layer as needed.
+
+- [ ] Review best practices around inactive parcels and determine how the municipality accounts for them spatially, if at all.
+
+- [ ] Communicate with the municipality regarding their Discrepancy List; confirm existing/known issues with current parcels are addressed using appropriate source documents.
+
+- [ ] Review the Data Quality Challenges section as needed to confirm that multi-part polygons, inactive parcels, multi-SPAN parcels and unlanded structures, road centerlines, and parcels without SPANs are being represented in the layer correctly.
+
+- [ ] Review multi-SPAN parcels: confirm correct syntax is used for placeholder SPANs in the Active parcels layer (see the Parcels with Multiple SPANs section of this document).
+
+- [ ] Review the [Town Mapping Status Application](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6), particularly the ‘Town Match Status’ tab, to locate parcels that may not have a match in the statewide Grand List (e.g., a missing or incorrect SPAN). Review all Unmatched parcels and address any changes/corrections to the extent possible. Additional communication with town officials may be required.
+
+- [ ] Perform topology check on parcels to confirm layer does not include gaps or overlaps.
+
+- [ ] Confirm that in the Active parcels layer all ‘PARCEL’ entries in the PROPTYPE field are either ‘MATCH’ or ‘UNMATCHED’ in the MATCHSTAT field. The MATCHSTAT ‘EXEMPT’ should only be used for roads, water bodies, and some railroad features.
+
+- [ ] Check SPAN field in Active parcels layer for duplicates (not permitted). Duplicates often result when a parcel is subdivided but SPANs have not been updated. 
+
+- [ ] Submit a draft version of a parcel data update to the municipality for review. Work with the municipality to address any unresolved or erroneous items using necessary source documents.
+
+- [ ] Prior to finalizing updated parcels, confirm that data are formatted correctly and adhere to standard requirements, including coordinate system, naming conventions, schema, and metadata.
+
+- [ ] Submit finalized, zipped geodatabase file to VCGI using the [web submission form](https://vcgi.vermont.gov/data-and-programs/share-map-data). VCGI will confirm receipt via email, and the municipality will appear in the ‘In Publishing Queue’ map of the [Town Mapping Status Application](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6) (application is updated weekly, therefore submitted town may not appear immediately). 
+
 ## Glossary
 **Abutting** - Sharing a contiguous border or boundary. 
 
