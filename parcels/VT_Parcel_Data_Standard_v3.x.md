@@ -1,6 +1,4 @@
 # Vermont GIS Parcel Data Standard
-# Last Edited: July 23, 2024 
-# Chaveli Miles
 
 ## Updates
 - **October 20, 2016** - Version 2.3 adopted by Vermont Enterprise GIS Consortium
@@ -175,7 +173,7 @@ In cases where an active parcel represents of more than one Grand List record (e
 
 **Intersection Table** - The Intersection Table relates records from the Grand List to records in the Active Parcels (polygons) feature class to account for parcels associated with more than one Grand List record. The Intersection Table does not contain spatial data.
 
-[IMAGE]
+[INSERT IMAGE]
 
 |Field Name  |Field Type    |Length|Allow NULL|
 |------------|--------------|------|----------|
@@ -333,8 +331,10 @@ Topology refers to the spatial relationships between adjacent and neighboring fe
 Gaps and overlaps are most often found along town boundaries. Since all Vermont municipalities maintain parcel data separately and with varying methods, it is inevitable that parcels along town boundaries may be misaligned with respect to those in a neighboring town. Currently, VCGI recommends that municipalities work with neighboring towns to identify and correct these discrepancies to the best of their abilities. These efforts may require coordination with additional parties including surveyors and mapping vendors. 
 
 ### Border Boundary Discrepancies 
+[INSERT TEXT]
 
 ### CAMA Integration and Multiple Systems
+[INSERT TEXT]
 
 ### General Practices to Improve Data Quality
 Accurate parcel representation and attribution are complicated by the speed at which different updates take place. Property transfers occur relatively quickly, while the statewide Grand List is published once per year and parcel geometry is updated on a rolling, sometimes irregular, basis. With so many moving pieces, it is important to acknowledge that parcel data are representative in nature and are continually evolving and improving. To facilitate long-term improvement of statewide parcel data, VCGI recommends the following:
@@ -371,8 +371,10 @@ The discrepancy list should be maintained in an agreed upon format indexed by SP
 A copy of the discrepancy list serves as a complementary tool for mapping providers to use during a parcel data update in addition to their standard practice reviewing existing municipal land records and surveys. The use of a discrepancy list should not necessarily relieve the mapping provider of their responsibility to continue efforts to map and identify the parcels properly. If, in the view of the municipality, the mapping provider has not used all the obvious and reasonably economical methods of approach, they should request the contractor to do so at the contractor’s expense.
 
 ## Accessing and Using Parcel Data Published by the Parcel Program
+[INSERT TEXT]
 
 ## Access and Integration with Other VT GIS Data
+[INSERT TEXT]
 
 ## Appendices
 
@@ -445,6 +447,8 @@ A copy of the discrepancy list serves as a complementary tool for mapping provid
 - [ ] Prior to finalizing updated parcels, confirm that data are formatted correctly and adhere to standard requirements, including coordinate system, naming conventions, schema, and metadata.
 
 - [ ] Submit finalized, zipped geodatabase file to VCGI using the [web submission form](https://vcgi.vermont.gov/data-and-programs/share-map-data). VCGI will confirm receipt via email, and the municipality will appear in the ‘In Publishing Queue’ map of the [Town Mapping Status Application](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6) (application is updated weekly, therefore submitted town may not appear immediately). *Updated parcels will typically be reviewed by VCGI in 1 to 3 weeks and published for public access via the [Parcel Viewer](https://maps.vcgi.vermont.gov/parcelviewer/) and for download via the [Open Geodata Portal](https://geodata.vermont.gov/).*
+
+[INSERT SAMPLE MAINTENANCE SCHEDULE]
 
 ## Glossary
 **Abutting** - Sharing a contiguous border or boundary. 
