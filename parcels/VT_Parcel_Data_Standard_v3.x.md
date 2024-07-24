@@ -320,16 +320,59 @@ Most parcels have one SPAN to be joined to their respective Grand List record. I
 For digital parcel mapping, it is recommended to have related SPANs (such as all the SPANs associated with a new condominium development) assigned to one parcel. This allows common property to be included as part of the calculated acreage for analytical purposes. And just as with inactive parcels, it may be necessary for listers, assessors, the Vermont Department of Taxes, GIS professionals, and other related professionals to develop uniform policy, procedures, and requirements for tracking and depicting condominiums, mobile homes, energy infrastructure, and any other unlanded structures. Codifying standards and uniform practices across related professions and software tools will go a long way to ensuring accurate acreage, attribution, and proper depiction of these multi-part parcels. Current Vermont law related to this subject is detailed in [27 V.S.A. § 1322](https://legislature.vermont.gov/statutes/section/27/015/01322) and [27A V.S.A. § 1-105](https://legislature.vermont.gov/statutes/section/27a/001/00105).
 
 ### Parcels without a SPAN
+The SPAN is a statewide unique identification number linking the parcel geometry to the Grand List. All property must have a unique record in the Grand List and have a corresponding SPAN. This includes non-taxable lots owned by the town, Native American tribes, the State of Vermont, federal entities, and non-profit organizations. While represented in the parcel data, some common property associated with mobile home parks and condominiums may not be the Grand List and therefore may not have a SPAN. These parcels are considered “unmatched.” Other examples of parcels that may be unmatched include cemeteries and fragments of parcels unclaimed or claimed by more than one abutting parcel. In such cases, local parcel IDs, which are often used in conjunction with the SPAN, become the primary unique identifier. Subdivisions that have occurred more recently than the date of the last grand list join may temporarily appear as without a SPAN, but these are a special case and should be attributed in the next Grand List join.
+
+For parcels without SPANs, attribute information can be stored in the parcel data in lieu of the Grand List entry. It is recommended to provide a short description detailing the nature of its unmatched status to provide clarity for users viewing the parcel data through the Parcel Viewer or other online mapping tool. Similarly, parcels which do not have a SPAN in the Grand List because of a recent subdivision should be considered unmatched until a SPAN has been assigned. Finally, sometimes municipal grand lists or other sources contain new SPANs that are included in parcel data updates but do not yet have a match in the statewide Grand List. In this case, retain the SPAN in the parcel data (active/inactive data layers and the intersection table) and leave the status “Unmatched”. The missing SPAN should have a match once the subsequent version of the statewide Grand List is published. 
 
 ### Multi-part Polygons
+State statute defines a parcel as "all contiguous land in the same ownership, together with all improvements thereon" (32 V.S.A. § 4152(a)(3)). Though not specifically stated above, the accepted interpretation is that division of a tract by a road does not create two parcels (but instead creates a multi-part parcel, a non-contiguous parcel, or a multipolygons). A parcel split by an ‘Exempt’ feature such as a road or water body, therefore, is still considered a single entity with a single data record and Grand List entry despite being represented as multiple polygons. Multi-part polygons that are distant from each other may suggest an error in the data; examine supporting documentation to determine if disassociating the polygons by splitting into multiple parcels is warranted. 
 
 ### Gaps and Overlaps
+Topology refers to the spatial relationships between adjacent and neighboring features. The Active parcel data layer should contain no gaps or overlaps between parcels. If gaps or overlaps are discovered within the Active parcel layer, refer to source documentation for the best way to address them. In the case of gaps, sometimes a new feature is created to account for the error, with corresponding information added to the attribute table. Often these new features are left Unmatched unless a valid SPAN can be identified in the Grand List. 
+
+Gaps and overlaps are most often found along town boundaries. Since all Vermont municipalities maintain parcel data separately and with varying methods, it is inevitable that parcels along town boundaries may be misaligned with respect to those in a neighboring town. Currently, VCGI recommends that municipalities work with neighboring towns to identify and correct these discrepancies to the best of their abilities. These efforts may require coordination with additional parties including surveyors and mapping vendors. 
 
 ### Border Boundary Discrepancies 
 
 ### CAMA Integration and Multiple Systems
 
 ### General Practices to Improve Data Quality
+Accurate parcel representation and attribution are complicated by the speed at which different updates take place. Property transfers occur relatively quickly, while the statewide Grand List is published once per year and parcel geometry is updated on a rolling, sometimes irregular, basis. With so many moving pieces, it is important to acknowledge that parcel data are representative in nature and are continually evolving and improving. To facilitate long-term improvement of statewide parcel data, VCGI recommends the following:
+
+- Municipalities should perform regular, consistent maintenance of parcel-related changes and updates to assist mapping vendors, GIS staff, and/or VCGI. This can include compiling and organizing relevant source documentation (surveys, deeds, etc.) for reference when parcel data updates are performed. 
+
+- SPANs should be included for all parcels. If the parcel/SPAN is not in the Grand List, include a note in the layer’s EDITNOTE field to provide context (e.g., federal land, utility, etc.). 
+
+- To the extent possible, municipalities should work with neighboring towns to address parcels along town boundaries with edge-matching discrepancies (gaps and overlaps).
+
+- Review parcels in reference to best-available GIS information, particularly aerial imagery, as well as surveys. 
+
+- Prioritize changes and professionalize maintenance to ensure timely updates. 
+
+## Discrepancy Lists
+A town’s discrepancy list forms the basis for identification of errors in digital parcel data and is often the first step to help address some of the challenges described in the previous section which negatively impact the usefulness of parcel data over time. Beyond any issues noted in previous updates, the discrepancy list may be amended to include anything identified by municipal officials as well as residents.  
+
+The discrepancy list should be maintained in an agreed upon format indexed by SPAN and parcel identification number corresponding with the map. It should also include all relevant information from municipal land records and surveys. Items to note in a discrepancy list include but are not limited to the following:
+
+- Parcels to be subdivided or merged 
+
+- Boundary line changes 
+
+- Active parcels to be updated to Inactive parcels (and vice versa) 
+
+- Parcels without a SPAN 
+
+- Parcels with an incorrect SPAN 
+
+- Parcels to be linked to multiple SPANs 
+
+- Corrections to be made to the town’s internal Grand List
+
+A copy of the discrepancy list serves as a complementary tool for mapping providers to use during a parcel data update in addition to their standard practice reviewing existing municipal land records and surveys. The use of a discrepancy list should not necessarily relieve the mapping provider of their responsibility to continue efforts to map and identify the parcels properly. If, in the view of the municipality, the mapping provider has not used all the obvious and reasonably economical methods of approach, they should request the contractor to do so at the contractor’s expense.
+
+## Accessing and Using Parcel Data Published by the Parcel Program
+
+## Access and Integration with Other VT GIS Data
 
 ## Glossary
 **Abutting** - Sharing a contiguous border or boundary. 
