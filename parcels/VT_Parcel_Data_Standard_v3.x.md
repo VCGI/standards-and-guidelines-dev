@@ -394,7 +394,7 @@ A copy of the discrepancy list serves as a complementary tool for mapping provid
 
 - [ ] Review the most recent parcel data for your municipality using the [Parcel Viewer](https://maps.vcgi.vermont.gov/parcelviewer/) and the [Town Mapping Status Application](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6).
 
--[ ] Review parcel data maintenance practices of other municipalities using the [Town Mapping Status Application](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6), particularly practices of neighboring towns and common [mapping vendors](https://airtable.com/appI2jeVIZTBdYISK/shrARBcXQsMkEvxz3/tbl1phknn1b8uhXt2) across the state. [Regional planning commissions](https://www.vapda.org/regions.html) (RPCs) may also be able to contract for parcel mapping services.
+- [ ] Review parcel data maintenance practices of other municipalities using the [Town Mapping Status Application](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6), particularly practices of neighboring towns and common [mapping vendors](https://airtable.com/appI2jeVIZTBdYISK/shrARBcXQsMkEvxz3/tbl1phknn1b8uhXt2) across the state. [Regional planning commissions](https://www.vapda.org/regions.html) (RPCs) may also be able to contract for parcel mapping services.
 
 - [ ] Determine the frequency and immediate need for updates based on the number of discrepancies and changes each year. 
 
@@ -438,7 +438,10 @@ A copy of the discrepancy list serves as a complementary tool for mapping provid
 
 - [ ] Submit finalized, zipped geodatabase file to VCGI using the [web submission form](https://vcgi.vermont.gov/data-and-programs/share-map-data). VCGI will confirm receipt via email, and the municipality will appear in the ‘In Publishing Queue’ map of the [Town Mapping Status Application](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6) (application is updated weekly, therefore submitted town may not appear immediately). *Updated parcels will typically be reviewed by VCGI in 1 to 3 weeks and published for public access via the [Parcel Viewer](https://maps.vcgi.vermont.gov/parcelviewer/) and for download via the [Open Geodata Portal](https://geodata.vermont.gov/).*
 
-[INSERT SAMPLE MAINTENANCE SCHEDULE]
+## Sample Parcel Data Maintenance Schedule
+The schedule below includes dates determined by the Vermont Department of Taxes for contextual reference. Italicized items are recommendations for how municipalities might work with a vendor/GIS staff to maintain their digital parcel data, with updates submitted annually to VCGI. This timeframe is intended to be an example; specific municipalities should make adjustments depending on their needs, resources, and the contract with their map vendor.
+
+[INSERT SAMPLE]
 
 ## Glossary
 **Abutting** - Sharing a contiguous border or boundary. 
