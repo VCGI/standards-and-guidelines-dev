@@ -452,7 +452,7 @@ The schedule below includes dates determined by the Vermont Department of Taxes 
 
 **Appraisal** - A valuation or estimation of property value by person of suitable qualifications, usually including a description of the property at a specific date. 
 
-**Assesso** - Elected or appointed official who determines the fair market value of property for a municipality. 
+**Assessor** - Elected or appointed official who determines the fair market value of property for a municipality. 
 
 **Attribute** - Nonspatial information (e.g., property owner) used to describe spatial data and often stored in a table.
 
