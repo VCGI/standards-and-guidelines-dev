@@ -102,7 +102,6 @@ In cases where an active parcel represents of more than one Grand List record (e
 |EDITDATE    |Text          |8     |No        |
 |MATCHSTAT   |Text          |9     |No        |
 |EDITNOTE    |Text          |254   |Yes       |
-<br>
 
 - SPAN - A statewide 11-digit unique identification number assigned to each property in a municipality’s Grand List. Each SPAN in the Grand List is to be assigned to only one active parcel record in the feature class. Apart from some railroad rights-of-way which may have a SPAN in the Grand List, all non-parcel features represented in the feature class should be assigned a NULL value. Active parcels with no SPAN (no record in the Grand List) should also be assigned a NULL value.
 
@@ -117,7 +116,6 @@ In cases where an active parcel represents of more than one Grand List record (e
 |ROW_RAIL  |Railroad right-of-way                                        |
 |ROW_TRAIL |Legal trail right-of-way (included in the Town Highway Maps) |
 |WATER     |Surface water area                                           |
-<br>
 
 - YEAR - The year of the submission represented by 4 digits. 
 
@@ -135,7 +133,6 @@ In cases where an active parcel represents of more than one Grand List record (e
 |NON-SCANNED TAX MAP  |Non-scanned tax map                                                                                              |
 |UNKNOWN              |Unknown source such as pre-existing parcel data                                                                  |
 |MULTIPLE             |Multiple sources                                                                                                 |
-<br>
 
 - SOURCEDATE - The date of the source information per the syntax YYYYMMDD. 
 
@@ -152,7 +149,6 @@ In cases where an active parcel represents of more than one Grand List record (e
 |RTK GPS              |High-precision GPS collection conducted with Real-Time Kinematic (RTK) positioning                    |
 |OTHER                |Other                                                                                                 |
 |UNKNOWN              |Unknown                                                                                               |
-<br>
 
 - EDITOR - The name or editor that added or modified the feature. 
 
@@ -165,7 +161,6 @@ In cases where an active parcel represents of more than one Grand List record (e
 |MATCH     |An active parcel with at least one valid Grand List record     |
 |UNMATCHED |An active parcel which does NOT have a valid Grand List record |
 |EXEMPT*   |For all features which are not active parcels                  |
-<br>
 
 *An EXEMPT entry in the MATCHSTAT field is not intended as an indication of tax exemption in this context. Property that may be tax exempt (e.g., Native American tribes, town-owned land, schools, etc.) should have a MATCH or UNMATCHED status as applicable.
 
@@ -181,7 +176,6 @@ In cases where an active parcel represents of more than one Grand List record (e
 |GLIST_SPAN  |Text          |13    |Yes       |
 |YEAR        |Short Integer |4     |No        |
 |TOWN        |Text          |30    |No        |
-<br>
 
 - GIS_SPAN - The SPAN exactly as attributed in the SPAN field in the Active Parcels (polygon) feature class. Every SPAN listed in the Active Parcels (polygon) feature class, excluding NULLs, must be listed in the GIS_SPAN field of the Intersection Table. Duplicate SPANs are valid when one record in the Active Parcels (polygons) feature class is associated with more than one record in the Grand List; this is often the case for any placeholder SPANs (e.g., C-XXX-####). Each GIS_SPAN must have a corresponding GLIST_SPAN in the Intersection Table. 
 
@@ -239,7 +233,6 @@ In cases where an active parcel represents of more than one Grand List record (e
 |NON-SCANNED TAX MAP  |Non-scanned tax map                                                                                              |
 |UNKNOWN              |Unknown source such as pre-existing parcel data                                                                  |
 |MULTIPLE             |Multiple sources                                                                                                 |
-<br>
 
 - SOURCEDATE - The date of the source information per the syntax YYYYMMDD. 
 
@@ -256,7 +249,6 @@ In cases where an active parcel represents of more than one Grand List record (e
 |RTK GPS              |High-precision GPS collection conducted with Real-Time Kinematic (RTK) positioning                    |
 |OTHER                |Other                                                                                                 |
 |UNKNOWN              |Unknown                                                                                               |
-<br>
 
 - EDITOR - The name or editor that added or modified the feature. 
 
@@ -268,7 +260,6 @@ In cases where an active parcel represents of more than one Grand List record (e
 |----------|--------------------------------------------------------------|
 |MATCH     |An active parcel with at least one valid Grand list record    |
 |UNMATCHED |An active parcel which does NOT have a valid Grand List record|
-<br>
 
 - EDITNOTE - Additional information about the feature. 
 
