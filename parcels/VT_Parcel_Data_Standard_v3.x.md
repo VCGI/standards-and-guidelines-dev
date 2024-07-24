@@ -212,7 +212,6 @@ In cases where an active parcel represents of more than one Grand List record (e
 |EDITDATE    |Text          |8     |No        |
 |MATCHSTAT   |Text          |9     |Yes       |
 |EDITNOTE    |Text          |254   |Yes       |
-<br>
 
 - STATUS - Indicates if the record is for an active or inactive parcel. 
 
