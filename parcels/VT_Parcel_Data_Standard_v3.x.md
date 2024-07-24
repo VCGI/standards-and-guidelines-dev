@@ -374,6 +374,12 @@ A copy of the discrepancy list serves as a complementary tool for mapping provid
 
 ## Access and Integration with Other VT GIS Data
 
+## Appendices
+
+### Checklist for Municipalities Working with a Mapping Vendor or Municipal GIS Staff to Update Parcel Data
+
+- [ ] Maintain a list of parcel changes each year to facilitate updates. Collect and organize corresponding source documents including surveys, plats, and deeds. Copies of recent surveys may also be available in the [Vermont Land Survey Library](https://maps.vcgi.vermont.gov/landsurveylibrary/) which is integrated into the Parcel Viewer.
+
 ## Glossary
 **Abutting** - Sharing a contiguous border or boundary. 
 
