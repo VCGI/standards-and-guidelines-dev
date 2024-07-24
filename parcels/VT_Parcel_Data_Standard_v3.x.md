@@ -168,7 +168,7 @@ In cases where an active parcel represents of more than one Grand List record (e
 
 **Intersection Table** - The Intersection Table relates records from the Grand List to records in the Active Parcels (polygons) feature class to account for parcels associated with more than one Grand List record. The Intersection Table does not contain spatial data.
 
-[INSERT IMAGE]
+[IMAGE]
 
 |Field Name  |Field Type    |Length|Allow NULL|
 |------------|--------------|------|----------|
