@@ -24,6 +24,11 @@
 - ![image](https://github.com/user-attachments/assets/6b768d0a-3d22-4625-aa38-84153334181c)
 
 - [USGS Imagery Only](http://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer) - combines imagery from the U.S.; resolution may vary from 6 inches to 1 meter. **EPSG:102100 (3857)**
+
+- ![image](https://github.com/user-attachments/assets/29d67c3a-50a7-46e0-a0dd-aab0675271b5)
+
+- ![image](https://github.com/user-attachments/assets/ca081e48-0ee1-4d29-ae67-d91e17bc53c9)
+
 - [USGS Imagery Topo](http://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryTopo/MapServer) - combines imagery with contours and other vector themes (boundaries, geographic names, hydrography, structures, and transportation), based on cartographic styling used on US Topo products. **EPSG:102100 (3857)**
 - [Hydrography](https://basemap.nationalmap.gov/arcgis/rest/services/USGSHydroCached/MapServer) - combines naturally occurring and man-made bodies of surface water, paths through which water flows, and ​related features​ such as stream gages and dams​​, and additional hydrologic information​. **EPSG:102100 (3857)**
 - [Base Map-Blank](https://basemap.nationalmap.gov/arcgis/rest/services/USGSTNMBlank/MapServer) - consists of ocean tints and coastlines to provide an outline of the United States as a blank base map for addition of other services. **EPSG:4326**
