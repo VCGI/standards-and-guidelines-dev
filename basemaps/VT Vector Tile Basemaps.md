@@ -1,7 +1,6 @@
 # Vermont Vector Tile Basemaps
 
 # Example: ESRI Topographic
-## Sources
 
 ## Services
 
@@ -9,8 +8,13 @@
 
 - ![image](https://github.com/user-attachments/assets/beb75925-079b-42ae-b29c-e2b5c0d74edc)
 
-## Projections
+# Example: ESRI Outdoor
 
+## Services
+
+- ![image](https://github.com/user-attachments/assets/0906b571-e260-4f99-b6a5-870241371c0b)
+
+- ![image](https://github.com/user-attachments/assets/d8fa409a-fb48-4f30-8c4d-d88eab0153b3)
 
 # Example: USGS Topo
 ## [Sources](https://www.usgs.gov/faqs/what-sources-vector-data-were-used-create-base-maps-national-map)
