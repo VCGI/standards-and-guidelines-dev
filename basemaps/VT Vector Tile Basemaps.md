@@ -1,8 +1,7 @@
 # Vermont Vector Tile Basemaps
 
-# Examples
 
-# USGS Topo
+# Example: USGS Topo
 ## [Sources](https://www.usgs.gov/faqs/what-sources-vector-data-were-used-create-base-maps-national-map)
 - National Hydrography Dataset (NHD)
 - Geographic Names Information System (GNIS)
