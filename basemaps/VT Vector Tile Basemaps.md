@@ -17,6 +17,9 @@
 - [USGS Imagery Topo](http://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryTopo/MapServer) - combines imagery with contours and other vector themes (boundaries, geographic names, hydrography, structures, and transportation), based on cartographic styling used on US Topo products. **EPSG:102100 (3857)**
 - [Hydrography](https://basemap.nationalmap.gov/arcgis/rest/services/USGSHydroCached/MapServer) - combines naturally occurring and man-made bodies of surface water, paths through which water flows, and ​related features​ such as stream gages and dams​​, and additional hydrologic information​. **EPSG:102100 (3857)**
 - [Base Map-Blank](https://basemap.nationalmap.gov/arcgis/rest/services/USGSTNMBlank/MapServer) - consists of ocean tints and coastlines to provide an outline of the United States as a blank base map for addition of other services. **EPSG:4326**
+  
+- ![image](https://github.com/user-attachments/assets/2dc9737f-65a4-4fe6-961a-510e76c19bfe)
+
 
 For USGS basemap services, tiled base maps [are cached from global scale to a scale of 1:9,000](https://www.usgs.gov/faqs/what-difference-between-tiled-and-dynamic-services) (and presumably render on demand below 1:9,000)
 
