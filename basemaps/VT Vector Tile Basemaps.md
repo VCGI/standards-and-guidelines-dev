@@ -20,7 +20,7 @@
 
 ## Symbols
 
-- [USGS Topographic Map Symbol Sheet](https://www.usgs.gov/faqs/where-can-i-find-topographic-map-symbol-sheet)
+- [USGS Topographic Map Symbol Sheet](https://www.usgs.gov/faqs/where-can-i-find-topographic-map-symbol-sheet) [(Sample)](https://www.usgs.gov/media/images/us-topo-map-symbol-file-sample)
 
 ## Projections
 
