@@ -18,6 +18,8 @@
 - [Hydrography](https://basemap.nationalmap.gov/arcgis/rest/services/USGSHydroCached/MapServer) - combines naturally occurring and man-made bodies of surface water, paths through which water flows, and ​related features​ such as stream gages and dams​​, and additional hydrologic information​.
 - [Base Map-Blank](https://basemap.nationalmap.gov/arcgis/rest/services/USGSTNMBlank/MapServer) - consists of ocean tints and coastlines to provide an outline of the United States as a blank base map for addition of other services.
 
+For USGS basemap services, tiled base maps [are cached from global scale to a scale of 1:9,000](https://www.usgs.gov/faqs/what-difference-between-tiled-and-dynamic-services) (and presumably render on demand below 1:9,000)
+
 ## Symbols
 
 - [USGS Topographic Map Symbol Sheet](https://www.usgs.gov/faqs/where-can-i-find-topographic-map-symbol-sheet) [(Sample)](https://www.usgs.gov/media/images/us-topo-map-symbol-file-sample)
