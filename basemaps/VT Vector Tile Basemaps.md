@@ -36,6 +36,11 @@
 - ![image](https://github.com/user-attachments/assets/5628dcb3-9768-41bd-ae90-2b0dddf72f7c)
 
 - [Hydrography](https://basemap.nationalmap.gov/arcgis/rest/services/USGSHydroCached/MapServer) - combines naturally occurring and man-made bodies of surface water, paths through which water flows, and ​related features​ such as stream gages and dams​​, and additional hydrologic information​. **EPSG:102100 (3857)**
+
+- ![image](https://github.com/user-attachments/assets/dba1f197-15a2-4a36-bdb7-5f34bb74da7b)
+
+- ![image](https://github.com/user-attachments/assets/8e8d2012-2a47-4a21-8cdf-62dcf885f5ca)
+
 - [Base Map-Blank](https://basemap.nationalmap.gov/arcgis/rest/services/USGSTNMBlank/MapServer) - consists of ocean tints and coastlines to provide an outline of the United States as a blank base map for addition of other services. **EPSG:4326**
   
 - ![image](https://github.com/user-attachments/assets/2dc9737f-65a4-4fe6-961a-510e76c19bfe)
