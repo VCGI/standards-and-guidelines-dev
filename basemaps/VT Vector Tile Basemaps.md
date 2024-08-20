@@ -6,7 +6,8 @@
 
 - ![image](https://github.com/user-attachments/assets/9e80ebb0-2b2a-423c-bdbb-4e33ec84b1d2)
   
-- ![image](https://github.com/user-attachments/assets/c77f5632-70cf-4ca9-a385-31235e761196)
+- ![image](https://github.com/user-attachments/assets/34c0e955-1a72-4410-9d72-2be3bbb877a9)
+
 
 # Example: ESRI Topographic
 
