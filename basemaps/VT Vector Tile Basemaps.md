@@ -14,13 +14,15 @@ Medium Scale Physical Geography Dark
 
 ![image](https://github.com/user-attachments/assets/cf80b403-5487-4550-af7d-bd9899d78f7a)
 
-- ![image](https://github.com/user-attachments/assets/4022613f-8d10-42bb-8513-3a8a02dff1b1)
+Medium to Large Scale Land Cover
 
-- ![image](https://github.com/user-attachments/assets/ab3d685f-2f12-45c5-b4c2-ac2f3c222a4b)
+![image](https://github.com/user-attachments/assets/4022613f-8d10-42bb-8513-3a8a02dff1b1)
 
-- ![image](https://github.com/user-attachments/assets/a9fb856a-da5b-436e-b1d9-762268dcdf05)
+![image](https://github.com/user-attachments/assets/ab3d685f-2f12-45c5-b4c2-ac2f3c222a4b)
 
-- ![image](https://github.com/user-attachments/assets/b5855677-489c-43da-ba17-3670cd06bdb5)
+![image](https://github.com/user-attachments/assets/a9fb856a-da5b-436e-b1d9-762268dcdf05)
+
+![image](https://github.com/user-attachments/assets/b5855677-489c-43da-ba17-3670cd06bdb5)
 
 - ![image](https://github.com/user-attachments/assets/842e92ee-9579-49b5-abcb-181ca294c7ce)
 
