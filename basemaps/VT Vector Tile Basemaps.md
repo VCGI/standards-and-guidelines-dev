@@ -24,9 +24,11 @@ Medium to Large Scale Land Cover
 
 ![image](https://github.com/user-attachments/assets/b5855677-489c-43da-ba17-3670cd06bdb5)
 
-- ![image](https://github.com/user-attachments/assets/842e92ee-9579-49b5-abcb-181ca294c7ce)
+Medium to Large Scale Topographic
 
-- ![image](https://github.com/user-attachments/assets/77daeb94-a551-4c50-8a94-ac16b358b927)
+![image](https://github.com/user-attachments/assets/842e92ee-9579-49b5-abcb-181ca294c7ce)
+
+![image](https://github.com/user-attachments/assets/77daeb94-a551-4c50-8a94-ac16b358b927)
 
 # Example: ESRI Topographic
 
