@@ -11,10 +11,16 @@
 - 1 Foot Contours
 - Building Footprints
 - Hydrography (VHD Carto Polygons)
-- Road Centerlines
 - Base Land Cover
 - Land Cover Impervious Surfaces
 - Land Cover Tree Canopy
+- Mountain Points
+
+- Road Centerlines
+- Rail Lines
+- Airports
+- Sidewalks (Future Layer)
+- Bike/Ped (Future Layer?)
 
 ## Raster
 - Bare Earth Hillshade
