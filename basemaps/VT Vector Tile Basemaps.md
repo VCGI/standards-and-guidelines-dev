@@ -15,6 +15,8 @@
 - Land Cover Impervious Surfaces
 - Land Cover Tree Canopy
 - Mountains and Hills
+- Tree Centroids
+- Tree Canopy
 
 - Road Centerlines
 - Rail Lines
