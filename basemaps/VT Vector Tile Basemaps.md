@@ -9,6 +9,7 @@
 - Parcels
 - Protected Lands
 - 1 Foot Contours
+- Building Footprints
 - Hydrography (VHD Carto Polygons)
 - Road Centerlines
 - Base Land Cover
