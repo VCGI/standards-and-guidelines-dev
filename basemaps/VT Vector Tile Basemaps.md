@@ -17,6 +17,9 @@
 - Land Cover Tree Canopy
 
 ## Raster
+- Bare Earth Hillshade
+- DSM Hillshade
+- Best of Color Imagery
 
 # VCGI Topographic / Physical Geography
 
