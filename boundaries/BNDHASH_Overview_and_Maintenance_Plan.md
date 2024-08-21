@@ -4,7 +4,7 @@
 
 The Vermont boundaries (BNDHASH) dataset depicts Vermont villages, towns, counties, and Regional Planning Commissions (RPC) boundaries and repersents the best available boundaries from various data sources. The name BNDHASH comes from the concept of “hashing together” best-available Vermont boundary information.  
 
-With the creation of the City of Essex Junction in 2022, Vermont now has 256 municipalities: 237 towns, 10 cities, 5 unincorporated towns, and 4 gores. While BNDHASH does not attempt to provide a legally definitive boundary, it is important that BNDHASH reviewed on an annual basis to maintain a reasonably accurate representation of Vermont’s municipal boundaries. The purpose of the document is to provide an overview of BNDHASH and detail the procedure for its annual update.
+With the creation of the City of Essex Junction in 2022, Vermont now has 256 municipalities: 237 towns, 10 cities, 5 unincorporated towns, and 4 gores. While BNDHASH does not attempt to provide a legally definitive boundary, it is important that BNDHASH is reviewed on an annual basis to maintain a reasonably accurate representation of Vermont’s boundaries. The purpose of the document is to provide an overview of BNDHASH and detail the procedure for its annual update.
 
 ## Description
 BNDHASH was originally developed from TBHASH which was the master town boundary layer prior to the development of BNDHASH. The Vermont Center for Geographic Information (VCGI) manages BNDHASH as an Esri geodatabase feature dataset which includes the following layers:
