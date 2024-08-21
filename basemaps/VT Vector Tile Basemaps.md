@@ -2,6 +2,8 @@
 
 # Layers
 ## Vector
+
+### VCGI
 - State Boundary
 - County Boundaries
 - Town Boundaries
@@ -9,7 +11,6 @@
 - Parcels
 - Protected Lands
 - 1 Foot Contours
-- Building Footprints
 - Surface Waters (VHD Carto Polygons)
 - Base Land Cover
 - Land Cover Impervious Surfaces
@@ -18,13 +19,19 @@
 - Tree Centroids
 - Tree Canopy
 
+### VTrans
+
 - Road Centerlines
 - Rail Lines
 - Airports
 - Sidewalks (Future Layer)
 - Bike/Ped (Future Layer?)
-- Private Driveways
 
+### E911
+- Private Driveways
+- Building Footprints
+
+### ANR
 - Wetlands
 
 ## Raster
