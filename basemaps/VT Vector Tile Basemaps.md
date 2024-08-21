@@ -10,17 +10,20 @@
 - Protected Lands
 - 1 Foot Contours
 - Building Footprints
-- Hydrography (VHD Carto Polygons)
+- Surface Waters (VHD Carto Polygons)
 - Base Land Cover
 - Land Cover Impervious Surfaces
 - Land Cover Tree Canopy
-- Mountain Points
+- Mountains and Hills
 
 - Road Centerlines
 - Rail Lines
 - Airports
 - Sidewalks (Future Layer)
 - Bike/Ped (Future Layer?)
+- Private Driveways
+
+- Wetlands
 
 ## Raster
 - Bare Earth Hillshade
