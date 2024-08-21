@@ -1,5 +1,20 @@
 # Vermont Vector Tile Basemaps
 
+# Layers
+## Vector
+- State Boundary
+- County Boundaries
+- Town Boundaries
+- Village Boundaries
+- Parcels
+- Protected Lands
+- Road Centerlines
+- Base Land Cover
+- Land Cover Impervious Surfaces
+- Land Cover Tree Canopy
+
+## Raster
+
 # VCGI Topographic / Physical Geography
 
 ## Development Images
