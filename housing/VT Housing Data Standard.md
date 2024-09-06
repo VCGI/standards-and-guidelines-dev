@@ -22,5 +22,5 @@
 | Permitted Construction     | Survey of Construction (Permit Completion)   | Annual               | Survey          |                                           |
 | Non-Permitted Construction | Survey of Construction (Non-permitted areas) | Annual               | Survey          | Regional, distributed                     |
 | New Mobile Homes           | Manufactured Homes Survey                    | Annual               | Shipment Counts | State, distributed to places by 5-yr ACS  |
-| Housing Unit Loss          | 2009 and 2011 American Housing Survey        |                      |                 |                                           |
-| Housing Unit Loss          | FEMA disaster assistance requests            |                      |                 |                                           |
+| Housing Unit Loss          | 2009 and 2011 American Housing Survey        |                      |                 | Regional                                  |
+| Housing Unit Loss          | FEMA disaster assistance requests            |                      |                 | Gecoded Lat/Lon                           |
