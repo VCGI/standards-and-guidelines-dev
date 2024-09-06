@@ -10,3 +10,8 @@
 ![image](https://github.com/user-attachments/assets/452aaad7-f778-4750-8d34-877cfb0894c6)
 
 2020 Decennial Census Housing Units + New Residential Construction + New Mobile Homes - Housing Units Lost = July 1 Housing Unit Estimate
+
+![image](https://github.com/user-attachments/assets/e3317249-80e0-422e-be3d-842abd4d0da7)
+
+## Sources
+
