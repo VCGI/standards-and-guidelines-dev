@@ -15,3 +15,12 @@
 
 ## Sources
 
+| Component                  | Source Name                                  | Update Frequency     | Update Type     | Geography                                 |
+|----------------------------|----------------------------------------------|----------------------|-----------------|-------------------------------------------|
+| Annual Housing Unit Counts | 2020 Census Housing Unit Counts              | Annual               | Retabulation    | BAS Boundaries, most recent annual (Town) |
+| Permitted Construction     | Building Permits Survey (Issued Permits)     | Annual (6 month lag) | Survey          |                                           |
+| Permitted Construction     | Survey of Construction (Permit Completion)   | Annual               | Survey          |                                           |
+| Non-Permitted Construction | Survey of Construction (Non-permitted areas) | Annual               | Survey          | Regional, distributed                     |
+| New Mobile Homes           | Manufactured Homes Survey                    | Annual               | Shipment Counts | State, distributed to places by 5-yr ACS  |
+| Housing Unit Loss          | 2009 and 2011 American Housing Survey        |                      |                 |                                           |
+| Housing Unit Loss          | FEMA disaster assistance requests            |                      |                 |                                           |
