@@ -13,6 +13,8 @@
 
 ![image](https://github.com/user-attachments/assets/e3317249-80e0-422e-be3d-842abd4d0da7)
 
+[Census Housing Unit Counts Methodology Diagram.pdf](https://github.com/user-attachments/files/16945136/Census.Housing.Unit.Counts.Methodology.Diagram.pdf)
+
 ## Sources
 
 | Component                  | Source Name                                  | Update Frequency     | Update Type     | Geography                                 |
