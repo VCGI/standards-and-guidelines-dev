@@ -1,4 +1,4 @@
-![census_housing_unit_counts_methodology_diagram](https://github.com/user-attachments/assets/c975be57-a432-482a-ae16-8f816480dfcd)# Vermont Housing Data Standard
+# Vermont Housing Data Standard
 
 # Related Documents
 
