@@ -13,7 +13,7 @@
 
 ![image](https://github.com/user-attachments/assets/e3317249-80e0-422e-be3d-842abd4d0da7)
 
-![Census Housing Unit Counts Methodology Diagram](https://github.com/user-attachments/assets/c5cc4a28-c230-4b0b-a541-2ffe430aaf72)
+![Census Housing Unit Counts Methodology Diagram](https://github.com/user-attachments/assets/3fb19eaa-821c-4fed-a3f2-33bb1fb1c1fb)
 
 ## Sources
 
