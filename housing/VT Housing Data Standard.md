@@ -2,7 +2,7 @@
 
 # Related Documents
 
-## Census 2023 Housing Unit Estimates
+## 2023 Census Housing Unit Estimates
 [2023 Census Housing Unit Estimate Methodology pdf](https://www2.census.gov/programs-surveys/popest/technical-documentation/methodology/2020-2023/2023-hu-meth.pdf)
 
 ### Method
@@ -20,3 +20,11 @@
 | New Mobile Homes           | Manufactured Homes Survey                    | Annual               | Shipment Counts | State, distributed to places by 5-yr ACS  |
 | Housing Unit Loss          | 2009 and 2011 American Housing Survey        |                      |                 | Regional                                  |
 | Housing Unit Loss          | FEMA disaster assistance requests            |                      |                 | Gecoded Lat/Lon                           |
+
+## 2024 HIFLD Parcels, Buildings, and Assessment Data
+
+### Addresses
+
+### Buildings
+
+### Assessments (CAMA)
