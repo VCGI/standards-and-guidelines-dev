@@ -25,6 +25,10 @@
 
 ### Addresses
 
+- 545,699 total records
+- 349,068 (64%) unique on Address field
+- 196,631 (36%) duplicate on Address field
+
 ### Buildings
 
 ### Assessments (CAMA)
