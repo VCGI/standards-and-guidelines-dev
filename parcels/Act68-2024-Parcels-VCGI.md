@@ -22,10 +22,15 @@ Text.
 
 Text.
 
-## Related Statutes
+## Related VT Statutes
 [19 V.S.A. § 32 Assumed width of right-of-way](https://legislature.vermont.gov/statutes/section/19/001/00032)
 
 [19 V.S.A. § 1111 Permitted use of the right-of-way relocation or adjustment orders](https://legislature.vermont.gov/statutes/section/19/011/01111)
+
+## Example Statutes in Other States
+
+Washington
+[RCW 84.36.210 Public right-of-way easements](https://app.leg.wa.gov/rcw/default.aspx?cite=84.36.210)
 
 # Recommendation 5: Clarify Grand List vs. GIS Acreage Guidance
 
