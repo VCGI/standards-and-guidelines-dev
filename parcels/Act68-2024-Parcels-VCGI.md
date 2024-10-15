@@ -42,7 +42,7 @@ Text.
 
 Text.
 
-# Recommendation 10: Consider Moving Parcel Program in VT Statute
+# Recommendation 10: Consider Updating and Moving Parcel Program in VT Statute
 
 Text.
 
