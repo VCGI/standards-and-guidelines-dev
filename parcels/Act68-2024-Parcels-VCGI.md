@@ -45,3 +45,7 @@ Text.
 # Recommendation 10: Consider Moving Parcel Program in VT Statute
 
 Text.
+
+## Related Statutes
+
+[19 V.S.A. § 44 Statewide Property Parcel Mapping Program](https://legislature.vermont.gov/statutes/section/19/001/00044)
