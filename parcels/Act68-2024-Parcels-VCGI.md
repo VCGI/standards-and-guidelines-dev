@@ -18,6 +18,16 @@ Text.
 
 Text.
 
+## CAMA Data Standard Components
+
+### Normalize Attribution and Mapping of Unlanded Structures
+
+### Normalize Land Use Classification Codes
+
+### Normalize Actual Year Built, Effective Year Built, and Unit Count Information 
+
+## Standardized CAMA Data Submittal to SoV
+
 ## Example Statutes in Other States
 
 Connecticut
