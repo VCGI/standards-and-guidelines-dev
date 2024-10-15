@@ -18,6 +18,11 @@ Text.
 
 Text.
 
+## Example Statutes in Other States
+
+Connecticut
+[Sec. 7-100l. Transmission of digital parcel file. Annual report.](https://www.cga.ct.gov/current/pub/chap_096a.htm#sec_7-100l)
+
 # Recommendation 4: Clarify Right-of-Way Mapping in VT Statute
 
 Text.
@@ -56,7 +61,7 @@ Text.
 
 Text.
 
-## Related Statutes
+## Related VT Statutes
 
 [19 V.S.A. § 44 Statewide Property Parcel Mapping Program](https://legislature.vermont.gov/statutes/section/19/001/00044)
 
