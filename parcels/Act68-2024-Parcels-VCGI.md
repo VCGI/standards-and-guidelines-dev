@@ -23,7 +23,7 @@ Text.
 Connecticut
 [Sec. 7-100l. Transmission of digital parcel file. Annual report.](https://www.cga.ct.gov/current/pub/chap_096a.htm#sec_7-100l)
 
-# Recommendation 4: Clarify Right-of-Way Mapping in VT Statute
+# Recommendation 4: Clarify Right-of-Way Mapping for Tax Purposes in VT Statute
 
 Text.
 
