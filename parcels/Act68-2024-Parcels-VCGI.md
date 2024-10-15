@@ -37,6 +37,9 @@ Text.
 Washington
 [RCW 84.36.210 Public right-of-way easements](https://app.leg.wa.gov/rcw/default.aspx?cite=84.36.210)
 
+New Jersey
+[N.J. Admin. Code § 18:23A-1.16 Rights-of-way and easements](https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-18-23A-1-16)
+
 # Recommendation 5: Clarify Grand List vs. GIS Acreage Guidance
 
 Text.
