@@ -1,3 +1,7 @@
+# Purpose and Goals
+
+Text.
+
 # Recommendation 1: Update Parcel Definition in VT Statute
 
 Text.
