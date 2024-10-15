@@ -20,6 +20,8 @@ Text.
 
 ## CAMA Data Standard Components
 
+### Implement Changes to Parcel Definition
+
 ### Normalize Attribution and Mapping of Unlanded Structures
 
 ### Normalize Land Use Classification Codes
