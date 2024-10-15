@@ -4,18 +4,18 @@ Text.
 
 # Overview of All Recommendations
 
-| **Recommendation**                                                                   | **Statute Change** | **Payment** | **Technical Guidance** | **New Technology** |
-|:------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------:|:------------------:|
-| Update Parcel Definition in VT Statute                                               | X                  |             |                        |                    |
-| Reward Standardized Digital Parcel Data Submittal to SoV via Per Parcel Fee          | X                  | X           |                        |                    |
-| Implement VT CAMA Data Standard and Normalize Submittal to SoV                       | (X)                |             | X                      |                    |
-| Clarify Right-of-Way Mapping for Tax Purposes in VT Statute                          | X                  |             |                        |                    |
-| Clarify Grand List vs. GIS Acreage Guidance                                          |                    |             | X                      |                    |
-| Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract |                    |             | X                      | X                  |
-| Offer Updated Statewide Parcel Contract Guidance for Municipalities                  |                    |             | X                      | X                  |
-| Pilot Remotely-Sensed Tools to Support Appraisals                                    |                    |             |                        | X                  |
-| Modernize Current Use Map Standards and Submittals                                   |                    |             |                        | X                  |
-| Consider Updating and Moving Parcel Program in VT Statute                            | X                  |             |                        |                    |
+| **Recommendation**                                                                      | **Statute Change** | **Payment** | **Technical Guidance** | **New Technology** |
+|:---------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------:|:------------------:|
+| 1. Update Parcel Definition in VT Statute                                               | X                  |             |                        |                    |
+| 2. Reward Standardized Digital Parcel Data Submittal to SoV via Per Parcel Fee          | X                  | X           |                        |                    |
+| 3. Implement VT CAMA Data Standard and Normalize Submittal to SoV                       | (X)                |             | X                      |                    |
+| 4. Clarify Right-of-Way Mapping for Tax Purposes in VT Statute                          | X                  |             |                        |                    |
+| 5. Clarify Grand List vs. GIS Acreage Guidance                                          |                    |             | X                      |                    |
+| 6. Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract |                    |             | X                      | X                  |
+| 7. Offer Updated Statewide Parcel Contract Guidance for Municipalities                  |                    |             | X                      | X                  |
+| 8. Pilot Remotely-Sensed Tools to Support Appraisals                                    |                    |             |                        | X                  |
+| 9. Modernize Current Use Map Standards and Submittals                                   |                    |             |                        | X                  |
+| 10. Consider Updating and Moving Parcel Program in VT Statute                           | X                  |             |                        |                    |
 
 # Recommendation 1: Update Parcel Definition in VT Statute
 
