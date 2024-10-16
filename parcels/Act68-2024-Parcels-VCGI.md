@@ -101,8 +101,7 @@ To improve the functionality of this method, the following recommendations shoul
 2. This list can be used to differentiate between unlanded structures in the parcel polygons layer, and if uniformly applied in CAMA and Grand List attribution, can be easily filtered for each record. Each unlanded structure can be represented as a prefix of two or three letters:
   * CO for condominiums
   * CA for camps
-  * MHU for unlanded mobile homes
-  * MHL for landed mobile homes
+  * MH for mobile homes
   * SA for solar arrays
   * WT for wind turbines
 
