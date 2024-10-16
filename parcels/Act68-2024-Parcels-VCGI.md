@@ -102,6 +102,7 @@ To improve the functionality of this method, the following recommendations shoul
   * CO for condominiums
   * CA for camps
   * MHU for unlanded mobile homes
+  * MHL for landed mobile homes
   * SA for solar arrays
   * WT for wind turbines
 
