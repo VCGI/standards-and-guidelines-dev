@@ -39,6 +39,28 @@ Each of the two individual parts are considered "inactive" parcels, by practice 
 
 This would increase the current count of parcels statewide from roughly 340,000 to at least 380,000. "At least" is stated as currently only 70% of towns (178 total) have submitted their inactive parcels as digital parcel data to VCGI. It remains unknown how many of the other 30% of towns actively track inactive parcels digitally.
 
+## Parcel Definition Alternatives
+
+### Contiguous
+
+Text.
+
+### Smallest Mappable Unit, Defined by Practice
+
+Text.
+
+### Smallest Mappable Unit, Defined by Unique Identifier
+
+Text.
+
+### Smallest Mappable Unit, Defined by Legal Document
+
+Text.
+
+### Smallest Mappable Unit, Defined by Combination
+
+Text.
+
 ## Current State of Mapped Inactive Parcels
 
 ![image](https://github.com/user-attachments/assets/c6b5cfef-b9e9-4056-8162-ad42b71a659a)
