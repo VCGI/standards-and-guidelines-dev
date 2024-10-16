@@ -25,9 +25,11 @@ Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.g
 
 This is a "contiguous" parcel definition. Separate parcels are grouped together by ownership for administrative purposes, primarily the sending of a single tax bill per owner per "parcel".
 
-Depicted visually, a contiguous parcel definition means that the two parcels below, shown split with a dotted green line and both of which have the same owner, are drawn as the single outer rectangle. This results as one "parcel" in the spatial data layer. Each of the two individual parts are considered "inactive" parcels, by practice only.
+Depicted visually, a contiguous parcel definition means that the two parcels below, shown split with a dotted green line and both of which have the same owner, are drawn as the single outer rectangle. This results as one "parcel" in the spatial data layer.
 
 ![image](https://github.com/user-attachments/assets/239c3a7e-e6f5-44cd-bb89-e8768e81a1da)
+
+Each of the two individual parts are considered "inactive" parcels, by practice only.
 
 ![image](https://github.com/user-attachments/assets/f8732056-b2f0-420a-88fa-b31bc26aa090)
 
