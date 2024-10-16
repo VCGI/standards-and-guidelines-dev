@@ -59,7 +59,7 @@ Image 2: Distributed Method of Mapping Condos
 
 ![image](https://github.com/user-attachments/assets/b39db8ec-ef97-477d-b394-b303d2ff0c4d)
 
-Image 1 and 2 Source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)
+*Image 1 and 2 Source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)*
 
 Pros
 - Creates visual distinction between unlanded structures and common land
@@ -83,7 +83,7 @@ Image 4: Stacked Method Mapping of Condos
 
 ![image](https://github.com/user-attachments/assets/8da7e8ab-d3e0-4423-881a-1ce1e2a9d399)
 
-Image 4 Source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)
+*Image 4 Source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)*
 
 Pros
 - Geometry is easier to maintain when compared to the building footprints methods
@@ -101,7 +101,7 @@ Image 5: Parcel Points Method Mapping of Condos
 
 ![image](https://github.com/user-attachments/assets/3e0e0b19-c8eb-48ad-922e-44bcfc481928)
 
-Image 5 Source: [Dakota County, Minnesota](https://gis.co.dakota.mn.us/DCGIS/)
+*Image 5 Source: [Dakota County, Minnesota](https://gis.co.dakota.mn.us/DCGIS/)*
 
 Pros
 - Already practiced by some Vermont municipalities internally
