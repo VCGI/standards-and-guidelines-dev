@@ -66,6 +66,42 @@ Cons
 
 Stacked polygons use a standalone Intersection Table to relate multiple SPANs from the Grand List to the same “placeholder” SPAN assigned to a polygon in the parcel data. 
 
+Image 3: Relationship of Grand List SPANs and GIS (drawing) SPANs in Vermont Parcel Data
+
+![image](https://github.com/user-attachments/assets/959a5b13-4dd0-484c-b064-758ae657ee00)
+
+This creates identical polygons "stacked" on top of each other, which can be “flattened” to remove all but one polygon for each parcel for analytical purposes. Unlike the building footprints methods, there is no visual distinction between unlanded structures and the common land. Because to this, parcel geometry is simpler to maintain.
+
+Image 4: Stacked Method Mapping of Condos
+
+![image](https://github.com/user-attachments/assets/8da7e8ab-d3e0-4423-881a-1ce1e2a9d399)
+
+Image 3 Source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)
+
+Pros
+- Geometry is easier to maintain when compared to the building footprints methods
+- Geometry includes common land to reflect total, calculated acreage and is relatively easy to “flatten” stacked polygons for analysis purposes
+
+Cons
+- Requires the creation and maintenance of GIS SPANs in the Intersection Table
+
+**Unlanded Structures Mapping Practices from Other States**
+
+Parcel points are maintained by Dakota County in the State of Minnesota. This data layer is a compilation of tax parcel information, containing one record for each real estate/tax parcel identification number (PIN) within the county. Condominiums are included in this dataset (whereas they are not in the polygons).
+
+Image 5: Parcel Points Method Mapping of Condos
+
+![image](https://github.com/user-attachments/assets/3e0e0b19-c8eb-48ad-922e-44bcfc481928)
+
+Image 5 Source: [Dakota County, Minnesota](https://gis.co.dakota.mn.us/DCGIS/)
+
+Pros
+- Already practiced by some Vermont municipalities internally
+- Creates some visual distinction without subtracting from total, calculated acreage
+  
+Cons
+- Requires the creation and maintenance of separate geometry layer
+
 ### Normalize Land Use Classification Codes
 
 ### Normalize Actual Year Built, Effective Year Built, and Unit Count Information 
