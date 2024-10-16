@@ -42,9 +42,15 @@ Text.
 
 The [stacked polygons method](#stacked-method---recommended) is the current recommendation per the Vermont GIS Parcel Data Standard and continues to be recommended after considering the pros and cons of all methods detailed below. To improve the functionality of this method, the following recommendations should be considered: 
 
-- While condominiums represent a vast majority of unlanded structures reflected in statewide parcel data, it is necessary to create a comprehensive list of different types of unlanded structures. The Vermont GIS Parcel Data Standard defines an unlanded building as a “condominium unit, mobile home, camp, or other building that is a unit of real estate which is separate from the underlying land surface.”
+- While condominiums represent a vast majority of unlanded structures reflected in statewide parcel data, it is necessary to create a comprehensive list of different types of unlanded structures to be uniformly attributed in CAMA and subsequent Grand List records. The Vermont GIS Parcel Data Standard defines an unlanded building as a “condominium unit, mobile home, camp, or other building that is a unit of real estate which is separate from the underlying land surface.”
 
-- This list can be used to differentiate between unlanded structures in the parcel polygons layer. Each unlanded structure can be represented as two letters: CO for condominiums, CA for camps, MH for mobile homes, etc. While not the intended purpose, the SOURCENAME field can be used to track this information. Alternatively, a new PARCTYPE (parcel type) field can be created.
+- This list can be used to differentiate between unlanded structures in the parcel polygons layer, and if uniformly applied in CAMA and Grand List attribution, easily filtered for each record. Each unlanded structure can be represented as a prefix of two or three letters:
+- CO for condominiums
+- CA for camps
+- MHU for unlanded mobile homes
+- SA for solar arrays
+
+- While not the intended purpose, the SOURCENAME field can be used to track this information.
 
 - This list can also be used to create GIS SPANs in the Intersection Table based on the type of unlanded structure. The same two-letter system described above can be implemented followed by the town code (first three digits of the town SPAN) and a four-digit numeric count.
 
