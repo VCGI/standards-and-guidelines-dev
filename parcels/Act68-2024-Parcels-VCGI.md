@@ -40,7 +40,7 @@ Text.
 
 ### Normalize Attribution and Mapping of Unlanded Structures
 
-The stacked polygons method is the current recommendation per the Vermont GIS Parcel Data Standard and continues to be recommended after considering the pros and cons of all methods detailed below. To improve the functionality of this method, the following recommendations should be considered: 
+The [stacked polygons method](#stacked-method---recommended) is the current recommendation per the Vermont GIS Parcel Data Standard and continues to be recommended after considering the pros and cons of all methods detailed below. To improve the functionality of this method, the following recommendations should be considered: 
 
 - While condominiums represent a vast majority of unlanded structures reflected in statewide parcel data, it is necessary to create a comprehensive list of different types of unlanded structures. The Vermont GIS Parcel Data Standard defines an unlanded building as a “condominium unit, mobile home, camp, or other building that is a unit of real estate which is separate from the underlying land surface.”
 
