@@ -55,7 +55,7 @@ Statewide standardized parcel data in Vermont is currently comprised of parcel g
 **Current Unlanded Structure Mapping Practices in Vermont**
 
 ***
-**Discrete and Distributed Methods**
+#### Discrete and Distributed Methods
 
 Building footprints  are often used to visually distinguish between unlanded structures and the common land, particularly as a paper tax map convention. The difference between the “Distributed” and “Discrete” building footprint methods is whether or not the common land has a SPAN. Per the Vermont GIS Parcel Data Standard, “in some instances, a deed specifies a percentage of common land ownership to each condominium unit and the common land does not have a SPAN number. In other instances, a deed does not allocate the common land, and the common land does have a SPAN number.”
 
@@ -77,7 +77,7 @@ Cons
 - Time intensive to create/maintain individual building footprints geometry
 
 ***
-**Stacked Method - Recommended**
+#### Stacked Method - Recommended
 
 Stacked polygons use a standalone Intersection Table to relate multiple SPANs from the Grand List to the same “placeholder” SPAN assigned to a polygon in the parcel data. 
 
