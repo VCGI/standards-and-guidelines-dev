@@ -45,19 +45,19 @@ This would increase the current count of parcels statewide from roughly 340,000 
 
 Text.
 
-### Smallest Mappable Unit, Defined by Practice
+### Separate and Smallest Mappable Unit, Defined by Practice
 
 Text.
 
-### Smallest Mappable Unit, Defined by Unique Identifier
+### Separate and Smallest Mappable Unit, Defined by Unique Identifier
 
 Text.
 
-### Smallest Mappable Unit, Defined by Legal Document
+### Separate and Smallest Mappable Unit, Defined by Legal Document
 
 Text.
 
-### Smallest Mappable Unit, Defined by Combination
+### Separate and Smallest Mappable Unit, Defined by Combination
 
 Text.
 
