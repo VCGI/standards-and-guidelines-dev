@@ -23,6 +23,9 @@ Text.
 Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.gov/statutes/section/32/129/04152) defines a parcel as:
 > (3) A brief description of each parcel of taxable real estate in the town. “Parcel” means all contiguous land in the same ownership, together with all improvements thereon.
 
+This is a "contiguous" parcel definition. Separate parcels are grouped together by ownership for administrative purposes, primarily the sending of a single tax bill per owner per "parcel".
+
+Depicted visually, a contiguous parcel definition means that the two parcels below, shown split with a dotted green line, both of which have the same owner, are drawn as the single outer rectangle, reflected as one "parcel" in the spatial data layer.
 
 ![image](https://github.com/user-attachments/assets/239c3a7e-e6f5-44cd-bb89-e8768e81a1da)
 
