@@ -58,10 +58,11 @@ Image 2: Distributed Method of Mapping Condos
 Image 1 and 2 Source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)
 
 Pros
-•	Creates visual distinction between unlanded structures and common land
-•	Avoids potential confusion caused by the use of different GIS and Grand List SPANs in the Intersection Table
+- Creates visual distinction between unlanded structures and common land
+- Avoids potential confusion caused by the use of different GIS and Grand List SPANs in the Intersection Table
+  
 Cons
-•	Time intensive to create/maintain individual building footprints geometry
+- Time intensive to create/maintain individual building footprints geometry
 
 Stacked polygons use a standalone Intersection Table to relate multiple SPANs from the Grand List to the same “placeholder” SPAN assigned to a polygon in the parcel data. 
 
