@@ -22,6 +22,11 @@ Text.
 
 Text.
 
+![image](https://github.com/user-attachments/assets/239c3a7e-e6f5-44cd-bb89-e8768e81a1da)
+
+![image](https://github.com/user-attachments/assets/f8732056-b2f0-420a-88fa-b31bc26aa090)
+
+
 ## Current State of Mapped Inactive Parcels
 
 ![image](https://github.com/user-attachments/assets/c6b5cfef-b9e9-4056-8162-ad42b71a659a)
