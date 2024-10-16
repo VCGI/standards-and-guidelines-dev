@@ -49,12 +49,12 @@ Text.
 
 
 Example:
-> A separately assessed lot or piece of real property - New York
+> A separately assessed lot or piece of real property - New York Property tax and assessment administration definitions / [guidance](https://www.tax.ny.gov/research/property/equal/assessrpt/b_define.htm)
 
 
 ### Separate Mapped Unit, Defined by Unique Identifier
 
-> "Parcel" means a separate plot of land as identified by the municipality tax map and lot number. - New Hampshire
+> "Parcel" means a separate plot of land as identified by the municipality tax map and lot number. - New Hampshire Admin. Code § Cub 301.15
 
 ### Separate Mapped Unit, Defined by Legal Document
 
