@@ -36,11 +36,11 @@ Text.
 
 ## CAMA Data Standard Components
 
-### Implement Changes to Parcel Definition
+### Implement VT CAMA Data Standard and Crosswalks
 
 Text.
 
-### Implement VT CAMA Data Standard and Crosswalks
+### Implement Changes to Parcel Definition
 
 Text.
 
