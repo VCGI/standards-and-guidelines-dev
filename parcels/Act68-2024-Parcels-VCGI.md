@@ -8,7 +8,7 @@ Text.
 |:---------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------:|:------------------:|
 | [1. Update Parcel Definition in VT Statute](#recommendation-1-update-parcel-definition-in-vt-statute)                                              | X                  |             |                        |                    |
 | [2. Reward Standardized Digital Parcel Data Submittal to SoV via Per Parcel Fee](#recommendation-2-reward-digital-parcel-submittal-to-sov-via-per-parcel-fee)          | X                  | X           |                        |                    |
-| 3. Implement VT CAMA Data Standard and Normalize Submittal to SoV                       | (X)                |             | X                      |                    |
+| 3. Implement VT CAMA Data Standard and Require Submittal to SoV                       | (X)                |             | X                      |                    |
 | 4. Clarify Right-of-Way Mapping for Tax Purposes in VT Statute                          | X                  |             |                        |                    |
 | 5. Clarify Grand List vs. GIS Acreage Guidance                                          |                    |             | X                      |                    |
 | 6. Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract |                    |             | X                      | X                  |
