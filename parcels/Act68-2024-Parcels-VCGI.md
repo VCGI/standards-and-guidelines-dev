@@ -29,7 +29,7 @@ Text.
 
 Text.
 
-# Recommendation 3: Implement VT CAMA Data Standard and Normalize Submittal to SoV
+# Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
 
 Text.
 
