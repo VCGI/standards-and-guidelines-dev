@@ -24,8 +24,7 @@ Text.
 
 ## Current State of Mapped Inactive Parcels
 
-![image](https://github.com/user-attachments/assets/1dbb1c46-4b5d-4443-bc08-df81273f5fa5)
-
+![image](https://github.com/user-attachments/assets/c6b5cfef-b9e9-4056-8162-ad42b71a659a)
 
 ## Related VT Statutes
 
