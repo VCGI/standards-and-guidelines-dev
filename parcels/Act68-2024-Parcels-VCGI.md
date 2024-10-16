@@ -216,4 +216,12 @@ Text.
 
 # Recommendation 11: Coordinate With Concurrent Efforts to Digitize Land Records
 
+Text.
+
+## Related VT Statutes and Bills
+
+[H.512 (Act 171) of 2022 - An act relating to modernizing land records and notarial acts law](https://legislature.vermont.gov/bill/status/2022/H.512)
+
+
+
 # Appendices
