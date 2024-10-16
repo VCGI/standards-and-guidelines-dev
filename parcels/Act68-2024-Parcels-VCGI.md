@@ -60,14 +60,14 @@ Statewide standardized parcel data in Vermont is currently comprised of parcel g
 Building footprints  are often used to visually distinguish between unlanded structures and the common land, particularly as a paper tax map convention. The difference between the “Distributed” and “Discrete” building footprint methods is whether or not the common land has a SPAN. Per the Vermont GIS Parcel Data Standard, “in some instances, a deed specifies a percentage of common land ownership to each condominium unit and the common land does not have a SPAN number. In other instances, a deed does not allocate the common land, and the common land does have a SPAN number.”
 
 Image 1: Discrete Method Mapping of Condos
+*Source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)*
 
 ![image](https://github.com/user-attachments/assets/2ff17158-461a-490d-8062-6c014960c6f0)
 
-Image 2: Distributed Method of Mapping Condos
+Image 2: Distributed Method of Mapping Condos 
+*Source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)*
 
 ![image](https://github.com/user-attachments/assets/b39db8ec-ef97-477d-b394-b303d2ff0c4d)
-
-*Image 1 and 2 Source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)*
 
 Pros
 - Creates visual distinction between unlanded structures and common land
