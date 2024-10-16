@@ -69,7 +69,7 @@ Cons
 - Time intensive to create/maintain individual building footprints geometry
 
 ***
-**Stacked Method**
+**Stacked Method - Recommended**
 
 Stacked polygons use a standalone Intersection Table to relate multiple SPANs from the Grand List to the same “placeholder” SPAN assigned to a polygon in the parcel data. 
 
