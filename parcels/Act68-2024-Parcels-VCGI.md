@@ -47,7 +47,10 @@ Text.
 
 ### Separate Mapped Unit, Defined by Practice
 
-Text.
+
+Example:
+> A separately assessed lot or piece of real property - New York
+
 
 ### Separate Mapped Unit, Defined by Unique Identifier
 
