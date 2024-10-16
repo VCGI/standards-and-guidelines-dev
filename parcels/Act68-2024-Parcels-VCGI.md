@@ -49,6 +49,7 @@ The [stacked polygons method](#stacked-method---recommended) is the current reco
   * CA for camps
   * MHU for unlanded mobile homes
   * SA for solar arrays
+  * WT for wind turbines
 
 3. While not the intended purpose, the SOURCENAME field in the parcel polygon layer can also be used to track this information.
 
