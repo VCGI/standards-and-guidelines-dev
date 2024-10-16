@@ -20,7 +20,8 @@ Text.
 
 # Recommendation 1: Update Parcel Definition in VT Statute
 
-Text.
+Current Vermont Statute defines a parcel as 
+[32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.gov/statutes/section/32/129/04152)
 
 ![image](https://github.com/user-attachments/assets/239c3a7e-e6f5-44cd-bb89-e8768e81a1da)
 
