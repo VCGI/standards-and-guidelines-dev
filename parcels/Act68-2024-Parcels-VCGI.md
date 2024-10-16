@@ -41,7 +41,7 @@ This would increase the current count of parcels statewide from roughly 340,000 
 
 ## Parcel Definition Alternatives
 
-### Contiguous Mapped Unit Defined by Ownership
+### Aggregate Mapped Unit Defined by Ownership (Contiguous)
 
 Text.
 
