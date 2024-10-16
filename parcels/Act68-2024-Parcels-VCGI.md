@@ -38,6 +38,12 @@ Text.
 
 ### Implement Changes to Parcel Definition
 
+Text.
+
+### Implement VT CAMA Data Standard and Crosswalks
+
+Text.
+
 ### Normalize Attribution and Mapping of Unlanded Structures
 
 The [stacked polygons method](#stacked-method---recommended) is the current recommendation per the Vermont GIS Parcel Data Standard and continues to be recommended after considering the pros and cons of all methods detailed below. 
@@ -125,9 +131,15 @@ Cons
 
 ### Normalize Land Use Classification Codes
 
-### Normalize Actual Year Built, Effective Year Built, and Unit Count Information 
+Text.
+
+### Normalize Actual Year Built, Effective Year Built, and Unit Count Information
+
+Text.
 
 ## Require Standardized CAMA Data Submittal to SoV
+
+Text.
 
 ## Example Statutes in Other States
 
