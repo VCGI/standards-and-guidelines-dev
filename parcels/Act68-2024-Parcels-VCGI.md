@@ -46,8 +46,8 @@ Statewide standardized parcel data in Vermont is currently comprised of parcel g
 
 **Current Unlanded Structure Mapping Practices in Vermont**
 
-**Discrete and Distributed Methods**
 ***
+**Discrete and Distributed Methods**
 
 Building footprints  are often used to visually distinguish between unlanded structures and the common land, particularly as a paper tax map convention. The difference between the “Distributed” and “Discrete” building footprint methods is whether or not the common land has a SPAN. Per the Vermont GIS Parcel Data Standard, “in some instances, a deed specifies a percentage of common land ownership to each condominium unit and the common land does not have a SPAN number. In other instances, a deed does not allocate the common land, and the common land does have a SPAN number.”
 
@@ -68,8 +68,8 @@ Pros
 Cons
 - Time intensive to create/maintain individual building footprints geometry
 
-**Stacked Method**
 ***
+**Stacked Method**
 
 Stacked polygons use a standalone Intersection Table to relate multiple SPANs from the Grand List to the same “placeholder” SPAN assigned to a polygon in the parcel data. 
 
@@ -92,8 +92,8 @@ Pros
 Cons
 - Requires the creation and maintenance of GIS SPANs in the Intersection Table
 
-**Other Unlanded Structures Mapping Practices from Other States**
 ***
+**Other Unlanded Structures Mapping Practices from Other States**
 
 Parcel points are maintained by Dakota County in the State of Minnesota. This data layer is a compilation of tax parcel information, containing one record for each real estate/tax parcel identification number (PIN) within the county. Condominiums are included in this dataset (whereas they are not in the polygons).
 
