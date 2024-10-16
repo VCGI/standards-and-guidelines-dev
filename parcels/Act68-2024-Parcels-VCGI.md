@@ -16,7 +16,7 @@ Text.
 | 8. Pilot Remotely-Sensed Tools to Support Appraisals                                    |                    |             |                        | X                  |
 | 9. Modernize Current Use Map Standards and Submittals                                   |                    |             |                        | X                  |
 | 10. Consider Updating and Moving Parcel Program in VT Statute                           | X                  |             |                        |                    |
-| 11. Coordinate With Concurrent Efforts to Digitize Land Records                         |                   |             |                        |                    |X
+| 11. Coordinate With Concurrent Efforts to Digitize Land Records                         |                   |             |                        |                    | X
 
 # Recommendation 1: Update Parcel Definition in VT Statute
 
@@ -160,5 +160,7 @@ Text.
 [19 V.S.A. § 44 Statewide Property Parcel Mapping Program](https://legislature.vermont.gov/statutes/section/19/001/00044)
 
 [10 V.S.A. § 123 Geographic Information - Powers and Duties](https://legislature.vermont.gov/statutes/section/10/008/00123)
+
+# Recommendation 11: Coordinate With Concurrent Efforts to Digitize Land Records
 
 # Appendices
