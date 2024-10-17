@@ -22,7 +22,7 @@ Text.
 
 Rec text.
 
-![image](https://github.com/user-attachments/assets/e629763f-367a-4fda-9b3e-1f29e18e7701)
+![image](https://github.com/user-attachments/assets/6855b335-1e09-41fa-99d5-b4df4066b416)
 
 
 **Background**
