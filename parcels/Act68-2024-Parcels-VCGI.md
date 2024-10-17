@@ -24,6 +24,14 @@ Rec text.
 
 **Background**
 
+![image](https://github.com/user-attachments/assets/f8732056-b2f0-420a-88fa-b31bc26aa090)
+
+This would increase the current count of parcels statewide from roughly 340,000 to at least 380,000. "At least" is stated as currently only 70% of towns (178 total) have submitted their inactive parcels as digital parcel data to VCGI. It remains unknown how many of the other 30% of towns actively track inactive parcels digitally.
+
+## Parcel Definition Alternatives
+
+### Aggregate Mapped Unit Defined by Ownership (Contiguous)
+
 Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.gov/statutes/section/32/129/04152) defines a parcel as:
 > (3) A brief description of each parcel of taxable real estate in the town. “Parcel” means all contiguous land in the same ownership, together with all improvements thereon.
 
@@ -35,18 +43,7 @@ Depicted visually, a contiguous parcel definition means that the two parcels bel
 
 Each of the two individual parts are considered "inactive" parcels, by practice only.
 
-![image](https://github.com/user-attachments/assets/f8732056-b2f0-420a-88fa-b31bc26aa090)
-
-This would increase the current count of parcels statewide from roughly 340,000 to at least 380,000. "At least" is stated as currently only 70% of towns (178 total) have submitted their inactive parcels as digital parcel data to VCGI. It remains unknown how many of the other 30% of towns actively track inactive parcels digitally.
-
-## Parcel Definition Alternatives
-
-### Aggregate Mapped Unit Defined by Ownership (Contiguous)
-
-Text.
-
 ### Separate Mapped Unit, Defined by Practice
-
 
 Example:
 > A separately assessed lot or piece of real property - *New York Property tax and assessment administration definitions / [guidance](https://www.tax.ny.gov/research/property/equal/assessrpt/b_define.htm)*
