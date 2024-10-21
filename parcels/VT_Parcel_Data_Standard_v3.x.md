@@ -1,6 +1,7 @@
 # Vermont GIS Parcel Data Standard
 
 ## Updates
+- **December 15, 2024** - Version 3.0 (draft)
 - **October 20, 2016** - Version 2.3 adopted by Vermont Enterprise GIS Consortium
 - **October 16, 2016** - Version 2.2 intermediate revised draft 
 - **October 12, 2016** - Version 2.1 intermediate revided draft
