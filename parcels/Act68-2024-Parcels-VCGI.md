@@ -61,7 +61,7 @@ Example:
 
 ### Separate Mapped Unit, Defined by Unique Identifier
 
-> "Parcel" means a separate plot of land as identified by the municipality tax map and lot number. - *New Hampshire Admin. Code § Cub 301.15*
+> "Parcel" means a separate plot of land as identified by the municipality tax map and lot number. - *[New Hampshire Admin. Code § Cub 301.15](https://casetext.com/regulation/new-hampshire-administrative-code/title-cub-chairman-current-use-board/chapter-cub-300-criteria-for-open-space-current-use-assessment/part-cub-301-definitions/section-cub-30115-parcel)*
 
 ### Separate Mapped Unit, Defined by Legal Document
 
