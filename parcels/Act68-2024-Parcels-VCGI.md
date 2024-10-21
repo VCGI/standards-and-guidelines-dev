@@ -77,7 +77,7 @@ Descriptive Text.
 
 ## Related VT Statutes
 
-Descriptive Text.
+[32 V.S.A. § 4152](https://legislature.vermont.gov/statutes/section/32/129/04152) - Taxation and Finance / Grand Tax Lists / Grand List of Town
 
 # Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Fee
 ## Summary
