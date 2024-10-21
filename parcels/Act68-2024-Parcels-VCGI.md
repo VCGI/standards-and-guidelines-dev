@@ -82,7 +82,7 @@ Descriptive Text.
 
 # Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Fee
 
-- Increase the per parcel payment to municipaltiies to [X] to match inflation and aid costs associated with data maintenance.
+- Increase the per parcel payment to municipaltiies to [X] to reflect inflation and aid costs associated with data maintenance.
 - Make disbursement of per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum once per yer per town.
 
 Background.
