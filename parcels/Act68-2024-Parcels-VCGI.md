@@ -32,7 +32,8 @@ This is a "contiguous" parcel definition, depicted in figure 1 as type 1. Separa
 
 ![image](https://github.com/user-attachments/assets/6855b335-1e09-41fa-99d5-b4df4066b416)
 
-Alternatively, 
+Alternatively, defining parcel as a separate and marketable lot or piece of real property would faciliatate data maintenance and analysis, continue to permit aggregation by owner, 
+As there are several variations in the timing of when a lot or piece of real property is created
 Existing "inactive" parcels, where they exist and are maintained, may be added to the "active" parcel layer and be attributed, maintain their unique SPAN and be attributed as completely as possible.
 
 **Background**
