@@ -91,7 +91,7 @@ Background.
 
 Text.
 
-## CAMA Data Standard Components
+## CAMA Data Components
 
 ### Design and Implement VT CAMA Data Standard
 Text.
