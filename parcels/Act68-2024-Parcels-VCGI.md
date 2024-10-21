@@ -39,6 +39,9 @@ As there are several variations in the timing of when a separate lot or piece of
 
 This would increase the current count of parcels statewide from roughly 340,000 to at least 380,000. "At least" is stated as currently only 70% of towns (178 total) have submitted their inactive parcels as digital parcel data to VCGI. It remains unknown how many of the other 30% of towns actively track inactive parcels digitally.
 
+## Example Statute Update
+> (3) A brief description of each parcel of taxable real estate in the town. “Parcel” means a separate and marketable lot or piece of real estate. ~~all contiguous land in the same ownership, together with all improvements thereon~~
+
 ## Parcel Definition Alternatives
 
 ### Aggregate Mapped Unit Defined by Ownership (Contiguous)
