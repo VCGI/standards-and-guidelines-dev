@@ -81,7 +81,7 @@ of Compliance.
 
 ### Separate Mapped Unit, Defined by Combination
 
-Descriptive Text.
+Any combination of the examples above.
 
 ## Current State of Mapped Inactive Parcels
 
@@ -99,7 +99,6 @@ Descriptive Text.
 
 # Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
 ## Summary
-
 
 Text.
 
