@@ -1,6 +1,8 @@
 # Purpose and Goals
 
-This document outlines all recommendations related to parcel mapping and data maintenance as related to [Act 68 of 2023](https://legislature.vermont.gov/bill/status/2024/H.480). It is authored by the Vermont Center for Geographic Information (VCGI), state stewards of the [Statewide Property Parcel Mapping Program](https://vcgi.vermont.gov/data-and-programs/parcel-program) since 2020, established via [19 V.S.A. § 44](https://legislature.vermont.gov/statutes/section/19/001/00044). The recommendations aim to improve parcel data quality to support timely, fair, accurate, and modern property valuation and reappraisals as sought by Act 68.
+This document outlines all recommendations related to parcel mapping and data maintenance as related to [Act 68 of 2023](https://legislature.vermont.gov/bill/status/2024/H.480). It is authored by the Vermont Center for Geographic Information (VCGI), state stewards of the [Statewide Property Parcel Mapping Program](https://vcgi.vermont.gov/data-and-programs/parcel-program) since 2020, established via [19 V.S.A. § 44](https://legislature.vermont.gov/statutes/section/19/001/00044). The recommendations aim to improve parcel data quality to support timely, fair, accurate, and modern property valuation and reappraisals as sought by Act 68, which ask the Tax Department to:
+
+> [create] recommendations and considerations for distinguishing between different types and characteristics of property and their uses, and how different property data could be used to make policy decisions.
 
 # Overview of All Recommendations
 
@@ -78,7 +80,10 @@ Text.
 
 # Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Fee
 
-Text.
+- Increase
+- Make 
+
+Background.
 
 # Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
 
