@@ -57,7 +57,7 @@ Each of the two individual parts are considered "inactive" parcels, by practice 
 ### Separate Mapped Unit, Defined by Practice
 
 Example:
-> A separately assessed lot or piece of real property - *New York Property tax and assessment administration definitions / [guidance](https://www.tax.ny.gov/research/property/equal/assessrpt/b_define.htm)*
+> A separately assessed lot or piece of real property - *New York State Property tax and assessment administration definitions / [guidance](https://www.tax.ny.gov/research/property/equal/assessrpt/b_define.htm)*
 
 ### Separate Mapped Unit, Defined by Unique Identifier
 
