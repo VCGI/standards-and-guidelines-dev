@@ -83,10 +83,6 @@ of Compliance.
 
 Any combination of the examples above.
 
-## Current State of Mapped Inactive Parcels
-
-![image](https://github.com/user-attachments/assets/c6b5cfef-b9e9-4056-8162-ad42b71a659a)
-
 ## Related VT Statutes
 
 [32 V.S.A. § 4152](https://legislature.vermont.gov/statutes/section/32/129/04152) - Taxation and Finance / Grand Tax Lists / Grand List of Town
@@ -278,3 +274,7 @@ Text.
 # Cost Estimates and Potential Funding Sources
 
 # Appendices
+
+## Current State of Mapped Inactive Parcels
+
+![image](https://github.com/user-attachments/assets/c6b5cfef-b9e9-4056-8162-ad42b71a659a)
