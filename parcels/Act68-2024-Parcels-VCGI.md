@@ -21,6 +21,7 @@ This document outlines all recommendations related to parcel mapping and data ma
 | 11. Coordinate With Concurrent Efforts to Digitize Land Records                         |                   |             |                        | X                   |
 
 # Recommendation 1: Update Parcel Definition in VT Statute
+## Summary
 - Change the current parcel definition from a "contiguous" parcel defintition to one that requries tracking of separate and marketable tracts of real estate.
 - This will replace the practice of mapping and tracking "inactive" parcels on a separate data layer and instead require towns to map and track all separate parcels individually, regardless of common ownership.
 - "Contigous" parcels aggregated by common ownership may still be created for the purposes of tax billing, but they remain solely administrative.
