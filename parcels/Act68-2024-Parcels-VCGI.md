@@ -98,7 +98,7 @@ Text.
 
 ### Implement Changes to Parcel Definition in CAMA Data
 
-Text.
+Existing CAMA data software solutions offer advanced data maintenance capabilities and should accomodate a parcel definition change to separate and marketable pieces of real estate. Data entry and maintenance practices will need to adjust to reflect these changes.
 
 ### Normalize Attribution and Mapping of Unlanded Structures
 
