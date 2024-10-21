@@ -22,7 +22,8 @@ This document outlines all recommendations related to parcel mapping and data ma
 
 # Recommendation 1: Update Parcel Definition in VT Statute
 - Change the current parcel definition from a "contiguous" parcel defintition to one that requries tracking of separate and marketable tracts of real estate.
-- Replace the practice of mapping and tracking "inactive" parcels on a separate data layer and instead map and track all separate parcels individually, regardless of common ownership.
+- This will replace the practice of mapping and tracking "inactive" parcels on a separate data layer and instead require towns to map and track all separate parcels individually, regardless of common ownership.
+- "Contigous" parcels aggregated by common ownership may still be created for the purposes of tax billing in this updated definition and practice, but they remain solely administrative.
 
 Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.gov/statutes/section/32/129/04152) defines a parcel as:
 > (3) A brief description of each parcel of taxable real estate in the town. “Parcel” means all contiguous land in the same ownership, together with all improvements thereon.
