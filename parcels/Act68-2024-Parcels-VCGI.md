@@ -258,6 +258,8 @@ Text.
 
 [H.512 (Act 171) of 2022 - An act relating to modernizing land records and notarial acts law](https://legislature.vermont.gov/bill/status/2022/H.512)
 
-# Responsibilities Per Recommendations and Their Implementation
+# Responsibilities and Implementation
+
+# Cost Estimates and Potential Funding Sources
 
 # Appendices
