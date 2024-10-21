@@ -28,6 +28,7 @@ This is a "contiguous" parcel definition, depicted in figure 1 as type 1. Separa
 
 ![image](https://github.com/user-attachments/assets/6855b335-1e09-41fa-99d5-b4df4066b416)
 
+Alternatively, 
 
 **Background**
 
