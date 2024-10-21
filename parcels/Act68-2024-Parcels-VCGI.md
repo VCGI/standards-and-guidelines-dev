@@ -93,11 +93,10 @@ Text.
 
 ## CAMA Data Standard Components
 
-### Implement VT CAMA Data Standard and Crosswalks
-
+### Design and Implement VT CAMA Data Standard
 Text.
 
-### Implement Changes to Parcel Definition
+### Implement Changes to Parcel Definition in CAMA Data
 
 Text.
 
