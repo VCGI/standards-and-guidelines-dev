@@ -39,8 +39,6 @@ As there are several variations in the timing of when a separate lot or piece of
 
 This would increase the current count of parcels statewide from roughly 340,000 to at least 380,000. "At least" is stated as currently only 70% of towns (178 total) have submitted their inactive parcels as digital parcel data to VCGI. It remains unknown how many of the other 30% of towns actively track inactive parcels digitally.
 
-**For Background / Appendices**
-
 ## Parcel Definition Alternatives
 
 ### Aggregate Mapped Unit Defined by Ownership (Contiguous)
@@ -82,13 +80,14 @@ Descriptive Text.
 Descriptive Text.
 
 # Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Fee
+## Summary
 
 - Increase the per parcel payment to municipaltiies to [X] to reflect inflation and aid costs associated with data maintenance.
 - Make disbursement of per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum once per yer per town.
 
-Background.
-
 # Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
+## Summary
+
 
 Text.
 
