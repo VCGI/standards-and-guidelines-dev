@@ -79,6 +79,8 @@ of Compliance.
 - A parcel shown on an approved Boundary Adjustment Plat.
 - A parcel described in a Grant Deed or other bona fide conveyance document recorded prior to February 1, 1972. The deed/document does not have to be in the name of the present owner. However, it must describe the perimeter boundaries only of the subject property and no other contiguous property. The legal description and County Recorder’s information must be legible to County staff. The Deed need not be an original or certified copy.
 
+There is no statewide subdivision requirement in Vermont, and not all municipalities require subdivisions. Thus, several instruments may be relied upon to help define a parcel (deed, sudvision plat where required by municipality, or property transfer / sale).
+
 ### Separate Mapped Unit, Defined by Combination
 
 Any combination of the examples above.
