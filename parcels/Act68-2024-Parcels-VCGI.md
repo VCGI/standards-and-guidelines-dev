@@ -94,7 +94,12 @@ Text.
 ## CAMA Data Components
 
 ### Design and Implement VT CAMA Data Standard
-Text.
+Five CAMA software providers operate in Vermont as of October 2024:
+- MicroSolve (NEMRC)
+- ProVal (Aumentum)
+- Vision Government Solutions CAMA
+- AssessPro (Catalis, Formerly Patriot)
+- (Tyler Technologies)
 
 ### Implement Changes to Parcel Definition in CAMA Data
 
