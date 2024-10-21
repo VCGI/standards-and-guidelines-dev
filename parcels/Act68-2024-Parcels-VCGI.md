@@ -66,11 +66,11 @@ Example:
 
 ### Separate Mapped Unit, Defined by Legal Document
 
-Text.
+Descriptive Text.
 
 ### Separate Mapped Unit, Defined by Combination
 
-Text.
+Descriptive Text.
 
 ## Current State of Mapped Inactive Parcels
 
@@ -78,12 +78,12 @@ Text.
 
 ## Related VT Statutes
 
-Text.
+Descriptive Text.
 
 # Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Fee
 
-- Increase
-- Make 
+- Increase the per parcel payment to municipaltiies to [X] to match inflation and aid costs associated with data maintenance.
+- Make disbursement of per parcel payment to municipalities contingent on submittal of Vermont GIS Data Standard-compliant digital parcel data to VCGI, max once per yer per town.
 
 Background.
 
