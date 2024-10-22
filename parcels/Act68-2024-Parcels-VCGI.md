@@ -95,6 +95,7 @@ Any combination of the examples above.
 
 - Institute a per parcel payment to municipaltiies to aid costs associated with parcel data maintenance.
 - Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum once per yer per town.
+- Per parcel payment is to be X, to be funded by Y, with estimated annual cost of Z.
 
 # Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
 ## Summary
