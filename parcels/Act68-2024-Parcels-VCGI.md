@@ -108,7 +108,7 @@ Descriptive text.
 ## CAMA Data Components
 
 ### Design and Implement VT CAMA Data Standard
-Four CAMA software providers operate in Vermont as of October 2024:
+Four CAMA software providers [operate in Vermont](https://tax.vermont.gov/municipal-officials/listers-and-assessors/district-advisors) as of October 2024:
 - MicroSolve (NEMRC)
 - ProVal (Aumentum)
 - Vision Government Solutions CAMA
