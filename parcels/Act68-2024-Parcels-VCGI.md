@@ -89,6 +89,7 @@ Any combination of the examples above.
 ## Related VT Statutes
 
 [32 V.S.A. § 4152](https://legislature.vermont.gov/statutes/section/32/129/04152) - Taxation and Finance / Grand Tax Lists / Grand List of Town
+
 [27 V.S.A. § 601](https://legislature.vermont.gov/statutes/section/27/005/00601) - Title 27: Property / Chapter 5: Conveyance of Real Estate / Subchapter 007 : Marketable Record Title 
 
 # Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Payment
