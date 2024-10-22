@@ -53,7 +53,7 @@ Depicted visually, a contiguous parcel definition means that the two parcels bel
 
 ![image](https://github.com/user-attachments/assets/239c3a7e-e6f5-44cd-bb89-e8768e81a1da)
 
-Each of the two individual parts are considered "inactive" parcels, by practice only.
+Each of the two individual parts are considered "inactive" parcels, by practice only, and not uniformly across towns.
 
 ### Separate Mapped Unit, Defined by Practice
 
