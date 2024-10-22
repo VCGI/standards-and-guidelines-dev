@@ -9,7 +9,7 @@ This document outlines all recommendations related to parcel mapping and data ma
 | **Recommendation**                                                                      | **Statute Change** | **Payment to Towns** | **Technical Guidance** | **New Technology** |
 |:---------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------:|:------------------:|
 | [1. Update Parcel Definition in VT Statute from "Contiguous" to Separate and Marketable Lots or Pieces of Real Property](#recommendation-1-update-parcel-definition-in-vt-statute)                                              | X                  |             |                        |                    |
-| [2. Reward Standardized Digital Parcel Data Submittal to SoV via Per Parcel Fee](#recommendation-2-reward-digital-parcel-submittal-to-sov-via-per-parcel-fee)          | X                  | X           |                        |                    |
+| [2. Reward Standardized Digital Parcel Data Submittal to SoV via Per Parcel Payment](#recommendation-2-reward-digital-parcel-submittal-to-sov-via-per-parcel-payment)          | X                  | X           |                        |                    |
 | 3. Implement VT CAMA Data Standard and Require Submittal to SoV                       | X                |             | X                      |                    |
 | 4. Clarify Right-of-Way Mapping for Tax Purposes in VT Statute                          | X                  |             |                        |                    |
 | 5. Clarify Grand List vs. GIS Acreage Guidance                                          |                    |             | X                      |                    |
@@ -90,7 +90,7 @@ Any combination of the examples above.
 [32 V.S.A. § 4152](https://legislature.vermont.gov/statutes/section/32/129/04152) - Taxation and Finance / Grand Tax Lists / Grand List of Town
 [27 V.S.A. § 601](https://legislature.vermont.gov/statutes/section/27/005/00601) - Title 27: Property / Chapter 5: Conveyance of Real Estate / Subchapter 007 : Marketable Record Title 
 
-# Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Fee
+# Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Payment
 ## Summary
 
 - Increase the per parcel payment to municipaltiies to [X] to reflect inflation and aid costs associated with data maintenance.
