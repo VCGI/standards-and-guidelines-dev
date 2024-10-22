@@ -69,16 +69,14 @@ Example:
 > "Legal parcel" means any parcel of real property that may be separately sold in compliance with the Subdivision Map Act (Division 2 (commencing with Section 66410) of Title 7 of the Government Code). - *[California, Sierra County](http://sierracounty.ca.gov/AgendaCenter/ViewFile/Agenda/05052014-115). In Compliance with State Subdivision Law.*
 
 This example is notable in that any **one** of the following must be met to define a legal parcel, per commentary by [CA Real Estate Law Firm](https://www.lee-associates.com/elee/sandiego/Newsletter/2017April/Miller.pdf):
-- A lot shown on a Final Map. (Major Subdivision Map)
-- A lot or parcel shown on a Record of Survey approved by the Board of Supervisors or Planning
-Commission.
-- A parcel shown on a Parcel Map or Certificate of Compliance recorded in lieu of a Parcel Map.
-- A recorded Certificate of Compliance.
-- A parcel shown on an approved Division of Land Plat.
-- A parcel shown on a Lot legalization Plat used as evidence of legal parcel prior to a Certificate
-of Compliance.
-- A parcel shown on an approved Boundary Adjustment Plat.
-- A parcel described in a Grant Deed or other bona fide conveyance document recorded prior to February 1, 1972. The deed/document does not have to be in the name of the present owner. However, it must describe the perimeter boundaries only of the subject property and no other contiguous property. The legal description and County Recorder’s information must be legible to County staff. The Deed need not be an original or certified copy.
+> - A lot shown on a Final Map. (Major Subdivision Map)
+> - A lot or parcel shown on a Record of Survey approved by the Board of Supervisors or Planning Commission.
+> - A parcel shown on a Parcel Map or Certificate of Compliance recorded in lieu of a Parcel Map.
+> - A recorded Certificate of Compliance.
+> - A parcel shown on an approved Division of Land Plat.
+> - A parcel shown on a Lot legalization Plat used as evidence of legal parcel prior to a Certificate of Compliance.
+> - A parcel shown on an approved Boundary Adjustment Plat.
+> - A parcel described in a Grant Deed or other bona fide conveyance document recorded prior to February 1, 1972. The deed/document does not have to be in the name of the present owner. However, it must describe the perimeter boundaries only of the subject property and no other contiguous property. The legal description and County Recorder’s information must be legible to County staff. The Deed need not be an original or certified copy.
 
 There is no statewide subdivision requirement in Vermont, and not all municipalities require subdivisions. Thus, several instruments may be relied upon to help define a parcel (deed, sudvision plat where required by municipality, or property transfer / sale).
 
