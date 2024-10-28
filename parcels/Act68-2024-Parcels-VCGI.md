@@ -128,10 +128,9 @@ Descriptive text.
 
 # Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
 ## Summary
-- Based on schema from current CAMA software providers (MicroSolve/NEMRC, ProVal/Aumentum, Vision, and AssessPro/Catalis), established standardized CAMA schema and domains. Use standardized land use codes and descriptions (specific and category-level) matching VT Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf), and normalize recording of other fields including actual year built, effective year built, and unit counts.
+- Establish standardized CAMA schema and domains based on schema from current CAMA software providers (MicroSolve/NEMRC, ProVal/Aumentum, Vision, and AssessPro/Catalis). Require standardized land use codes and descriptions (specific and category-level) matching VT Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf), and normalize recording of other fields including actual year built, effective year built, and unit counts.
 - Establish consistent method (i.e., stacked polygons) for representing and accounting for unlanded structures, including attribution and mapping.
-- Establish and incorporate selected standardized CAMA fields (land use type, actual and effective year built, etc.) in existing applications including the Parcel Viewer, and make full suite of fields available through the VT Geodata Portal.
-- Point
+- Establish and incorporate selected standardized CAMA fields (land use type, actual and effective year built, etc.) in existing applications including the Parcel Viewer, and make full suite of CAMA fields publicly available through the VT Geodata Portal.
 
 ## CAMA Data Components
 
@@ -145,6 +144,14 @@ Four CAMA software providers [operate in Vermont](https://tax.vermont.gov/munici
 ### Implement Changes to Parcel Definition in CAMA Data
 
 Existing CAMA data software solutions offer advanced data maintenance capabilities and should accomodate a parcel definition change to separate and marketable pieces of real estate. Data entry and maintenance practices will need to adjust to reflect these changes.
+
+### Normalize Land Use Classification Codes
+
+Standardized land use classification codes and descriptions are essential for integrating a statewide CAMA system. Currently, all four CAMA software providers use different coding systems for land use. Based on sample data, NEMRC appears to be the only vendor using codes conforming to the [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) published by the VT Department of Tax. VCGI recommends that these codes be used by all vendors. These codes provide a relatively high level of specificity for different land use types, and are grouped by broader category codes at the '100 level' (e.g., all codes between 300 and 399 have a commercial use). 
+
+### Normalize Actual Year Built, Effective Year Built, and Unit Count Information
+
+Text.
 
 ### Normalize Attribution and Mapping of Unlanded Structures
 
@@ -231,13 +238,7 @@ Pros
 Cons
 - Requires the creation and maintenance of separate geometry layer
 
-### Normalize Land Use Classification Codes
 
-Text.
-
-### Normalize Actual Year Built, Effective Year Built, and Unit Count Information
-
-Text.
 
 ## Require Standardized CAMA Data Submittal to SoV
 
