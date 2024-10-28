@@ -284,7 +284,7 @@ The [Vermont Land Survey Library](https://maps.vcgi.vermont.gov/landsurveylibrar
 
 The library consists of a web map that displays the general location of a land survey with its related information (e.g., date of land survey, town name, and the name of the land surveyor) stored in a pop-up table. A copy of the land survey is also stored in the pop-up table as a PDF attachment. The public may search and view land surveys that have been published to the library. Other spatial data maintained by VCGI such as parcel data and orthoimagery are also available for additional reference. Parcel data are maintained independently from the library and thus parcel data may not reflect the property lines represented in a published land survey. VCGI encourages municipalities and GIS consultants to use the library to inform parcel data updates as applicable.
 
-## Data Quality Challenges
+## Addressing Data Quality Challenges
 
 ### Inactive Parcels
 There is no formally defined practice or requirement for the upkeep of inactive parcels in Vermont, and maintenance practices may vary by town. In some cases where two or more abutting parcels are owned by the same individual, one parcel is considered the main (or active) parcel while the remaining parcels are considered inactive. From a tax perspective, this is done in part so that a single owner of multiple abutting parcels receives one tax bill. Accordingly, and for mapping purposes, all abutting parcels under the same ownership are represented as a single parcel with the cumulative property boundary and acreage within the “active” or main parcel data layer. Associated attribution for the inactive parcels will reflect the aggregate active parcel. 
