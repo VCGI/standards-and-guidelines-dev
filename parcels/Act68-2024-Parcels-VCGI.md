@@ -130,7 +130,7 @@ Descriptive text.
 ## Summary
 - Based on schema from current CAMA software providers (MicroSolve/NEMRC, ProVal/Aumentum, Vision, and AssessPro/Catalis), established standardized CAMA schema and domains. Use standardized land use codes and descriptions (specific and category-level) matching VT Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf), and normalize recording of other fields including actual year built, effective year built, and unit counts.
 - Establish consistent method (i.e., stacked polygons) for representing and accounting for unlanded structures, including attribution and mapping.
-- Incorporate selected standardized CAMA fields in existing applications (e.g., Parcel Viewer), and make full suite of fields available through the VT Geodata Portal.
+- Establish and incorporate selected standardized CAMA fields (land use type, actual and effective year built, etc.) in existing applications including the Parcel Viewer, and make full suite of fields available through the VT Geodata Portal.
 - Point
 
 ## CAMA Data Components
