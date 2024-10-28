@@ -153,17 +153,20 @@ To improve the functionality of this method, the following recommendations shoul
 1. While condominiums represent a vast majority of unlanded structures reflected in statewide parcel data, it is necessary to create a comprehensive list of different types of unlanded structures to be uniformly attributed in CAMA and subsequent Grand List records. The Vermont GIS Parcel Data Standard defines an unlanded building as a “condominium unit, mobile home, camp, or other building that is a unit of real estate which is separate from the underlying land surface.”
    
 2. This list can be used to differentiate between unlanded structures in the parcel polygons layer, and if uniformly applied in CAMA and Grand List attribution, can be easily filtered for each record. Each unlanded structure can be represented as a prefix of two or three letters:
-  * CO for condominiums
-  * CA for camps
-  * MH for mobile homes
-  * SA for solar arrays
-  * WT for wind turbines
+   
+| Prefix Code | Applies To                |
+|-------------|---------------------------|
+| CO          | Condominiums              |
+| CA          | Camps                     |
+| MH          | Mobile Homes              |
+| SA          | Ground-Mount Solar Arrays |
+| WT          | Wind Turbines             |
 
-3. While not the intended purpose, the SOURCENAME field in the parcel polygon layer can also be used to track this information.
+1. While not the intended purpose, the SOURCENAME field in the parcel polygon layer can also be used to track this information.
 
-4. This list can also be used to create GIS SPANs in the Intersection Table based on the type of unlanded structure. The same two-letter system described above can be implemented followed by the town code (first three digits of the town SPAN) and a four-digit numeric count.
+2. This list can also be used to create GIS SPANs in the Intersection Table based on the type of unlanded structure. The same two-letter system described above can be implemented followed by the town code (first three digits of the town SPAN) and a four-digit numeric count.
 
-5. Tax Department guidance on attribution of unlanded structures should be updated and made uniform to reflect the above prefixes and mapping practices (e.g., in the Listers and Assessors Handbook).
+3. Tax Department guidance on attribution of unlanded structures should be updated and made uniform to reflect the above prefixes and mapping practices (e.g., in the Listers and Assessors Handbook).
 
 **Background**
 
