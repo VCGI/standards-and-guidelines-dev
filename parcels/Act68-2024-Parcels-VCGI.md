@@ -256,6 +256,9 @@ Connecticut
 - 
 Text.
 
+## Example Statute Update
+> Statute text
+
 ## Related VT Statutes
 [19 V.S.A. § 32 Assumed width of right-of-way](https://legislature.vermont.gov/statutes/section/19/001/00032)
 
