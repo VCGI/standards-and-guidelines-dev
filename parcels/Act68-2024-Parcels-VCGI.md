@@ -8,7 +8,7 @@ This document outlines all recommendations related to parcel mapping and data ma
 
 | **Recommendation**                                                                      | **Statute Change** | **Payment to Towns** | **Technical Guidance** | **New Technology** |
 |:---------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------:|:------------------:|
-| [1. Update Parcel Definition in VT Statute from "Contiguous" to Separate and Marketable Lots or Pieces of Real Property](#recommendation-1-update-parcel-definition-in-vt-statute)                                              | X                  |             |                        |                    |
+| [1. Update Parcel Definition in VT Statute from "Contiguous" to Separate and Sellable Lots or Pieces of Real Property](#recommendation-1-update-parcel-definition-in-vt-statute)                                              | X                  |             |                        |                    |
 | [2. Reward Standardized Digital Parcel Data Submittal to SoV via Per Parcel Payment](#recommendation-2-reward-digital-parcel-submittal-to-sov-via-per-parcel-payment)          | X                  | X           |                        |                    |
 | [3. Implement VT CAMA Data Standard and Require Submittal to SoV](#recommendation-3-implement-vt-cama-data-standard-and-require-submittal-to-sov)                       | X                |             | X                      |                    |
 | 4. Clarify Right-of-Way Mapping for Tax Purposes in VT Statute                          | X                  |             |                        |                    |
@@ -22,26 +22,26 @@ This document outlines all recommendations related to parcel mapping and data ma
 
 # Recommendation 1: Update Parcel Definition in VT Statute
 ## Summary
-- Change the current parcel definition from a "contiguous" parcel defintition to one that requries tracking of separate and marketable pieces of real estate.
+- Change the current parcel definition from a "contiguous" parcel defintition to one that requries tracking of separate and sellable pieces of real estate.
 - This will replace the practice of mapping and tracking "inactive" parcels on a separate data layer and instead require towns to map and track all separate parcels individually, regardless of common ownership.
 - "Contigous" parcels aggregated by common ownership may still be created for the purposes of tax billing, but they remain solely administrative.
 
 Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.gov/statutes/section/32/129/04152) defines a parcel as:
 > (3) A brief description of each parcel of taxable real estate in the town. “Parcel” means all contiguous land in the same ownership, together with all improvements thereon.
 
-This is a "contiguous" parcel definition, depicted in figure 1 as type 1. Separate lots are grouped together by ownership for administrative purposes, primarily the sending of a single tax bill per owner per "parcel". Separate lots are sometimes managed as "inactive" parcels, although that term is not defined outside of the [parcel data standard](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) and their upkeep by towns is not uniform. The marketability of individual lots is not clear, and neither is it for how towns should map and track lots within a combined parcel. Aggregate parcel deliniation further complicates assignment of highest and best use valuation as assesors may have to generalize across several different lot types. Data management and downstream analysis are also negatively impacted by an aggregate, contiguous parcel definition.
+This is a "contiguous" parcel definition, depicted in figure 1 as type 1. Separate lots are grouped together by ownership for administrative purposes, primarily the sending of a single tax bill per owner per "parcel". Separate lots are sometimes managed as "inactive" parcels, although that term is not defined outside of the [parcel data standard](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) and their upkeep by towns is not uniform. The marketability of individual lots for sale is not clear, and neither is it for how towns should map and track lots within a combined parcel. Aggregate parcel deliniation further complicates assignment of highest and best use valuation as assesors may have to generalize across several different lot types. Data management and downstream analysis are also negatively impacted by an aggregate, contiguous parcel definition.
 
 ![image](https://github.com/user-attachments/assets/6855b335-1e09-41fa-99d5-b4df4066b416)
 *Figure 1: Existing contiguous parcel definition, depicted as option 1 on the left, and the proposed separate parcel defintion, depicted as option 2 on the right. The proposed separate parcel definition removes the need for tracking "inactive" parcels.*
 
-Alternatively, defining parcel as a separate and marketable lot or piece of real property would bring parcel identification in line with their common understanding as "lots" while also reducing the need to generalize highest and best use across several different lots combined by owner (not use) during valution. This change would enable improved parcel documentation, ease highest and best use valuation, faciliatate data maintenance and analysis, and continue to allow aggregation by owner for tax billing. 
+Alternatively, defining parcel as a separate and sellable lot or piece of real property would bring parcel identification in line with their common understanding as "lots" while also reducing the need to generalize highest and best use across several different lots combined by owner (not use) during valution. This change would enable improved parcel documentation, ease highest and best use valuation, faciliatate data maintenance and analysis, and continue to allow aggregation by owner for tax billing. 
 
 As there are several variations in the timing of when a separate lot or piece of real property is created, an updated parcel defintion could be written so as to allow a legal document (deed or title), subdivision plats, or sale to help define the bounds of the separate mapped and tracked area. Existing "inactive" parcels, where they exist and are maintained, may be added to the "active" parcel layer and be attributed, maintain their unique SPAN and be attributed as completely as possible. Once added, maintenance of inactive parcels as separate entities on a separate data layer should cease.
 
 These changes in parcel definition and mapping practices would increase the current count of parcels statewide from roughly 340,000 to at least 380,000. "At least" is stated as currently only 70% of towns (178 total) have submitted their inactive parcels as digital parcel data to VCGI. It remains unknown how many of the other 30% of towns actively track inactive parcels digitally.
 
 ## Example Statute Update
-> 32 V.S.A. § 4152 (a)(3) A brief description of each parcel of taxable real estate in the town. “Parcel” means a separate and marketable lot or piece of real estate. ~~all contiguous land in the same ownership, together with all improvements thereon~~
+> 32 V.S.A. § 4152 (a)(3) A brief description of each parcel of taxable real estate in the town. “Parcel” means a separate and sellable lot or piece of real estate. ~~all contiguous land in the same ownership, together with all improvements thereon~~
 
 ## Parcel Definition Alternatives
 
@@ -145,7 +145,7 @@ Based on sample data and documentation, all providers differ in how they collect
 
 ### Implement Changes to Parcel Definition in CAMA Data
 
-Existing CAMA data software solutions offer advanced data maintenance capabilities and should accomodate a parcel definition change to separate and marketable pieces of real estate. Data entry and maintenance practices will need to adjust to reflect these changes.
+Existing CAMA data software solutions offer advanced data maintenance capabilities and should accomodate a parcel definition change to separate and sellable pieces of real estate. Data entry and maintenance practices will need to adjust to reflect these changes.
 
 ### Normalize Land Use Classification Codes
 
