@@ -141,7 +141,7 @@ Four CAMA software providers [operate in Vermont](https://tax.vermont.gov/munici
 - Vision Government Solutions CAMA
 - AssessPro (Catalis, Formerly Patriot)
 
-Based on sample data and documentation, all providers differ in how they collect, format, and organize CAMA data. VCGI recommends devising a standardized template and schema, including domains for applicable fields, with input and agreement from each vendor. In most cases, vendors should be able to perform an extract of fields they are already collecting with little or no modification (or, ideally, provide a source or service that VCGI can read automatically). Some fields, particularly land use codes, will likely need to be standardized to a single set of codes and descriptions (see below).
+Based on sample data and documentation, all providers differ in how they collect, format, and organize CAMA data. VCGI recommends devising a standardized template and schema, including domains for applicable fields, with input and agreement from each vendor. In most cases, vendors should be able to perform an extract of fields they are already collecting with little or no modification (or, ideally, provide a source or service that VCGI can read automatically). Some fields, particularly land use codes, will need to be standardized to a single set of codes and descriptions (see below).
 
 ### Implement Changes to Parcel Definition in CAMA Data
 
@@ -149,11 +149,11 @@ Existing CAMA data software solutions offer advanced data maintenance capabiliti
 
 ### Normalize Land Use Classification Codes
 
-Standardized land use classification codes and descriptions are essential for integrating a statewide CAMA system. Currently, all four CAMA software providers use different coding systems for land use. Based on sample data, NEMRC appears to be the only vendor using codes conforming to the [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) published by the VT Department of Tax. VCGI recommends that these codes be used by all vendors. These codes provide a relatively high level of specificity for different land use types, and are grouped by broader category codes at the '100 level' (e.g., all codes between 300 and 399 have a commercial use) which helps to quickly identify and group more general land use types. 
+Standardized land use classification codes and descriptions are essential for integrating a statewide CAMA system. Currently, all four CAMA software providers use different coding systems for land use. Based on sample data, NEMRC appears to be the only vendor using codes conforming to the [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) published by the VT Department of Tax. VCGI recommends that these codes be used by all vendors. These codes provide a relatively high level of specificity for different land use types, and are grouped by broader category codes at the '100 level' (e.g., all codes between 300 and 399 have a commercial use) which helps to quickly identify and group more general land use types. If a vendor chooses not to adopt the VT Department of Tax Property Class Codes, a crosswalk table should be created to allow standardization when VCGI reads and integrates CAMA data into the statewide dataset.
 
 ### Normalize Actual Year Built, Effective Year Built, and Unit Count Information
 
-Text.
+Similar to Land Use Codes, consistent definitions and formatting for actual year built, effective year built, and unit count should be established for all CAMA vendors. While each of these fields appear to exist within the current schema for each vendor, it is essential that all are evaluated using the same methodology and definition.
 
 ### Normalize Attribution and Mapping of Unlanded Structures
 
