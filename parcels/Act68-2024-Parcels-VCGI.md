@@ -21,7 +21,7 @@ This document outlines all recommendations related to parcel mapping and data ma
 | 11. Coordinate With Concurrent Efforts to Digitize Land Records                         |                   |             |                        | X                   |
 
 # Recommendation 1: Update Parcel Definition in VT Statute
-## Summary
+## 1.1 Summary
 - Change the current parcel definition from a "contiguous" parcel defintition to one that requries tracking of separate and sellable pieces of real estate.
 - This will replace the practice of mapping and tracking "inactive" parcels on a separate data layer and instead require towns to map and track all separate parcels individually, regardless of common ownership.
 - "Contigous" parcels aggregated by common ownership may still be created for the purposes of tax billing, but they remain solely administrative.
@@ -40,8 +40,170 @@ As there are several variations in the timing of when a separate lot or piece of
 
 These changes in parcel definition and mapping practices would increase the current count of parcels statewide from roughly 340,000 to at least 380,000. "At least" is stated as currently only 70% of towns (178 total) have submitted their inactive parcels as digital parcel data to VCGI. It remains unknown how many of the other 30% of towns actively track inactive parcels digitally.
 
-## Example Statute Update
+## 1.2 Example Statute Update
 > 32 V.S.A. § 4152 (a)(3) A brief description of each parcel of taxable real estate in the town. “Parcel” means a separate and sellable lot or piece of real estate. ~~all contiguous land in the same ownership, together with all improvements thereon~~
+
+
+
+## 1.3 Related VT Statutes
+
+[32 V.S.A. § 4152](https://legislature.vermont.gov/statutes/section/32/129/04152) - Taxation and Finance / Grand Tax Lists / Grand List of Town
+
+[27 V.S.A. § 601](https://legislature.vermont.gov/statutes/section/27/005/00601) - Title 27: Property / Chapter 5: Conveyance of Real Estate / Subchapter 007 : Marketable Record Title 
+
+# Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Payment
+## 2.1 Summary
+
+- Institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance.
+- Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum once per yer per town.
+- Per parcel payment is to be X, funded by Y, with estimated annual cost of Z.
+
+Descriptive text.
+
+## 2.2 Stats as of 10/24/24:
+-	90% of towns are edited/updated by vendors or the town. 10% are edited/updated by VCGI (these are considered “not compliant”). 
+-	10% of submissions require edits to parcel topology (i.e., geometry) to address gaps and/or overlaps among parcels.
+-	50% of submissions required edits that were already made for the previous submission  (i.e., repeated revisions).
+-	70% of submissions contain inactive parcels. Inactives exist for at least some towns that do not include them in their submissions.
+-	96% of towns include and correctly represent rights-of-way. For those that do not, some map parcels to road centerlines, others only include main ROWs or those in the town/village center, and others have gaps in the parcel data where roads should be.
+-	24% of submissions are fully compliant with the current parcel data standard. 26% are compliant with minor edits. 37% are compliant with major edits. 13% are not compliant (see criteria below).
+-	11% of towns have a mapping vendor (to the best of VCGI's knowledge) but have not submitted an update since the original Parcel Project data (prior to 2020). These towns are currently classed as “fully compliant”, despite having stale data. 
+-	12% of submissions are/have been reviewed by towns prior to submittal; 64% have not, and 24% are unknown. Some vendors are already working quite closely with towns as edits are being made (or edits are only being made at the direction of a town official), however, which may negate the need for a more formal review of the data prior to submission.
+
+## 2.3 Considerations:
+-	In addition to submittal compliance criteria, will need a timeframe component when assessing a town's eligibility for a per parcel payment (annual?). Some towns are technically “compliant” and are working with a vendor but have not submitted an update to VCGI since before 2020. For small towns that may not have any changes from year to year (and therefore do not submit an update), VCGI should still receive an annual confirmation that no changes/updates are needed to the existing data.
+-	Tiered system for payments? Fully compliant or minor edit towns receive full amount, major edit town receive 50%, and non-compliant towns receive none?
+-	Based on vendor discussions, it is not necessarily practical or feasible for vendors to directly use parcel data published by VCGI (e.g., vendors are not downloading the latest data for a town from VCGI prior to making their next round of edits). Often vendors are maintaining additional fields and formats beyond what is submitted and used by VCGI. Likely a factor in repeat edits. Is there a way to summarize/communicate edits we do make so vendors are aware without creating significant extra work for either end?
+
+
+## 2.4 Submittal Quality Criteria
+
+ **Criteria**                | **Description/Examples**|
+|:---------------------------|:------------------------|
+|Fully Compliant             | •	Includes all towns that have not been updated since the Parcel Project (i.e., prior to 2020).<br>•	Valid topology; no gaps or overlaps among parcels<br>•	ROWs included and mapped correctly<br>•	Unmatched parcels only comprised of land expected to have no SPAN (common land, town/state/federally-owned land, etc.)<br>•	Multi-SPAN parcels (e.g., condos) are attributed correctly through the intersection table, if applicable<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard. Includes valid topology, SPANs, and ROWs that are mapped correctly; does not require edits that were made in the previous submission; any unmatched parcels are expected to be unmatched given their status as common land, government-owned land, etc.; any multi-SPAN parcels are accounted for correctly in the intersection table. Includes towns that are working with a vendor to maintain parcels but have not submitted updates to VCGI since January 1, 2020.
+|Compliant with Minor Edits  |•	Unmatched parcels (as received) are < 2%<br>•	ROWs included and mapped correctly<br>•	No/minimal repeated edits from prior submission during VCGI review<br>•	No/minimal (<10) edits to intersection table to account for multi-SPAN parcels<br>•	No topology errors<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard. Includes valid topology, SPANs, and ROWs that are mapped correctly. Requires minor editing to address unmatched parcels (<2% of town’s total parcels) that should have SPANs and a match in the annual Grand List. May include <10 edits that were made in the prior submission and/or to account for multi-SPAN parcels in the intersection table.
+|Compliant with Major Edits  |•	Unmatched parcels (as received) are > 2%<br>•	Topology errors resulting in gaps/overlaps among parcels<br>•	Incorrect or missing attribution of condos/multi-SPAN parcels in the intersection table<br>•	ROWs are missing or incomplete (e.g., parcels are mapped to road centerlines)<br>•	Repeated edits from prior submission during VCGI review<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard to the extent that it can be incorporated into the statewide parcel dataset following revisions. May require significant edits to address topology errors, missing or invalid SPANs, missing or incomplete ROWs, and/or missing or incomplete multi-SPAN parcel representation in the intersection table. Requires editing to address unmatched parcels (>2% of town’s total parcels) that should have SPANs and a match in the annual Grand List. May include >10 edits that were made in the prior submission and/or to account for multi-SPAN parcels in the intersection table.
+|Not Compliant               |•	Includes all towns that are updated by VCGI/have no vendor or capacity to submit their own updates<br>•	Submission does not include SPANs or Parcel/Map IDs that can be linked to the Grand List<br>•	Submission is in an unusable format (e.g., CAD) that cannot be converted to a geodatabase<br>•	Usable format (i.e., GIS files) but missing or invalid fields that do not allow conversion to usable schema/dataset, or require significant effort to update using existing data and external sources/map viewers (e.g., loading existing attribution into new geometry; using E911, AxisGIS, or other to validate/verify SPANs; merging/splitting active and inactive parcels, etc.)<br><br>Summary: submission does not meet format and/or content allowing for inclusion in the statewide parcel dataset. Data format may be unusable/unable to convert to GIS, and/or attribution does not include valid SPANs or Parcel/Map IDs for linking to Grand List. May sometimes include a workable data format that requires significant geometry (e.g., active and inactive parcels) and/or attribute manipulation using internal and external data sources (e.g., AxisGIS sites, surveys, E911 data, etc.) to create dataset with valid schema and attribution. Also includes towns that do not have a vendor or the capacity to make their own edits and are updated by VCGI using data available in the VT Land Survey Library.
+
+
+
+# Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
+## 3.1 Summary
+- Create standardized CAMA schema and domains based on fields from current CAMA software providers (MicroSolve/NEMRC, ProVal/Aumentum, Vision, and AssessPro/Catalis). Require standardized land use codes and descriptions matching VT Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf), either directly from each vendor or via a crosswalk table, and normalize recording of other fields including actual year built, effective year built, and unit counts.
+- Use stacked polygons for representing and accounting for unlanded structures, including attribution and mapping.
+- Provide as much useful information on structure and land use descriptions as possible in a single application (e.g., the Parcel Viewer) to aid pace and accuracy of appraisals. Make full suite of CAMA fields publicly available through the VT Geodata Portal. 
+
+## 3.2 CAMA Data Components
+
+### 3.2.1 Design and Implement VT CAMA Data Standard
+Four CAMA software providers [operate in Vermont](https://tax.vermont.gov/municipal-officials/listers-and-assessors/district-advisors) as of October 2024:
+- MicroSolve (NEMRC)
+- ProVal (Aumentum)
+- Vision Government Solutions CAMA
+- AssessPro (Catalis, Formerly Patriot)
+
+Based on sample data and documentation, all providers differ in how they collect, format, and organize CAMA data. VCGI recommends devising a standardized template and schema, including domains for applicable fields, with input and agreement from each vendor. In most cases, vendors should be able to perform an extract of fields they are already collecting with little or no modification (or, ideally, provide a source or service that VCGI can read automatically). Some fields, particularly land use codes, will need to be standardized to a single set of codes and descriptions (see below).
+
+### 3.2.2 Implement Changes to Parcel Definition in CAMA Data
+
+Existing CAMA data software solutions offer advanced data maintenance capabilities and should accomodate a parcel definition change to separate and sellable pieces of real estate. Data entry and maintenance practices will need to adjust to reflect these changes.
+
+### 3.2.3 Normalize Land Use Classification Codes
+
+Standardized land use classification codes and descriptions are essential for integrating a statewide CAMA system. Currently, all four CAMA software providers use different coding systems for land use. Based on sample data, NEMRC appears to be the only vendor using codes conforming to the [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) published by the VT Department of Tax. VCGI recommends that these codes be used by all vendors. These codes provide a relatively high level of specificity for different land use types, and are grouped by broader category codes at the '100 level' (e.g., all codes between 300 and 399 have a commercial use) which helps to quickly identify and group more general land use types. If a vendor chooses not to adopt the VT Department of Tax Property Class Codes, a crosswalk table should be created to allow standardization when VCGI reads and integrates CAMA data into the statewide dataset.
+
+### 3.2.4 Normalize Actual Year Built, Effective Year Built, and Unit Count Information
+
+Similar to Land Use Codes, consistent definitions and formatting for actual year built, effective year built, and unit count should be established for all CAMA vendors. While each of these fields appear to exist within the current schema for each vendor, it is essential that all are evaluated using the same methodology and definition.
+
+### 3.2.5 Normalize Attribution and Mapping of Unlanded Structures
+
+The [stacked polygons method](#stacked-method---recommended) is the current recommendation per the Vermont GIS Parcel Data Standard and continues to be recommended after considering the pros and cons of all methods detailed below. 
+
+To improve the functionality of this method, the following recommendations should be considered: 
+
+1. While condominiums represent a vast majority of unlanded structures reflected in statewide parcel data, it is necessary to create a comprehensive list of different types of unlanded structures to be uniformly attributed in CAMA and subsequent Grand List records. The Vermont GIS Parcel Data Standard defines an unlanded building as a “condominium unit, mobile home, camp, or other building that is a unit of real estate which is separate from the underlying land surface.”
+   
+2. This list can be used to differentiate between unlanded structures in the parcel polygons layer, and if uniformly applied in CAMA and Grand List attribution, can be easily filtered for each record. Each unlanded structure can be represented as a prefix of two or three letters:
+  * CO for condominiums
+  * CA for camps
+  * MH for mobile homes
+  * SA for solar arrays
+  * WT for wind turbines
+
+3. While not the intended purpose, the SOURCENAME field in the parcel polygon layer can also be used to track this information.
+
+4. This list can also be used to create GIS SPANs in the Intersection Table based on the type of unlanded structure. The same two-letter system described above can be implemented followed by the town code (first three digits of the town SPAN) and a four-digit numeric count.
+
+5. Tax Department guidance on attribution of unlanded structures should be updated and made uniform to reflect the above prefixes and mapping practices (e.g., in the Listers and Assessors Handbook).
+
+
+## 3.3 Require Standardized CAMA Data Submittal to SoV
+
+Text.
+
+
+
+# Recommendation 4: Clarify Right-of-Way Mapping for Tax Purposes in VT Statute
+
+Text.
+
+## Related VT Statutes
+[19 V.S.A. § 32 Assumed width of right-of-way](https://legislature.vermont.gov/statutes/section/19/001/00032)
+
+[19 V.S.A. § 1111 Permitted use of the right-of-way relocation or adjustment orders](https://legislature.vermont.gov/statutes/section/19/011/01111)
+
+## Example Statutes in Other States
+
+Washington
+[RCW 84.36.210 Public right-of-way easements](https://app.leg.wa.gov/rcw/default.aspx?cite=84.36.210)
+
+New Jersey
+[N.J. Admin. Code § 18:23A-1.16 Rights-of-way and easements](https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-18-23A-1-16)
+
+# Recommendation 5: Clarify Grand List vs. GIS Acreage Guidance
+
+Text.
+
+# Recommendation 6: Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract
+
+Text.
+
+# Recommendation 7: Offer Updated Statewide Parcel Contract Guidance for Municipalities
+
+Text.
+
+# Recommendation 8: Pilot Remotely-Sensed Tools to Support Appraisals
+
+Text.
+
+# Recommendation 9: Modernize Current Use Map Standards and Submittals
+
+Text.
+
+# Recommendation 10: Consider Updating and Moving Parcel Program in VT Statute
+
+Text.
+
+## Related VT Statutes
+
+[19 V.S.A. § 44 Statewide Property Parcel Mapping Program](https://legislature.vermont.gov/statutes/section/19/001/00044)
+
+[10 V.S.A. § 123 Geographic Information - Powers and Duties](https://legislature.vermont.gov/statutes/section/10/008/00123)
+
+# Recommendation 11: Coordinate With Concurrent Efforts to Digitize Land Records
+
+Text.
+
+## Related VT Statutes and Bills
+
+[H.512 (Act 171) of 2022 - An act relating to modernizing land records and notarial acts law](https://legislature.vermont.gov/bill/status/2022/H.512)
+
+# Responsibilities and Implementation
+
+# Cost Estimates and Potential Funding Sources
+
+# Appendices
 
 ## Parcel Definition Alternatives
 
@@ -84,99 +246,10 @@ There is no statewide subdivision requirement in Vermont, and not all municipali
 
 Any combination of the examples above.
 
-## Related VT Statutes
-
-[32 V.S.A. § 4152](https://legislature.vermont.gov/statutes/section/32/129/04152) - Taxation and Finance / Grand Tax Lists / Grand List of Town
-
-[27 V.S.A. § 601](https://legislature.vermont.gov/statutes/section/27/005/00601) - Title 27: Property / Chapter 5: Conveyance of Real Estate / Subchapter 007 : Marketable Record Title 
-
-# Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Payment
-## Summary
-
-- Institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance.
-- Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum once per yer per town.
-- Per parcel payment is to be X, funded by Y, with estimated annual cost of Z.
-
-Descriptive text.
-
-### Stats as of 10/24/24:
--	90% of towns are edited/updated by vendors or the town. 10% are edited/updated by VCGI (these are considered “not compliant”). 
--	10% of submissions require edits to parcel topology (i.e., geometry) to address gaps and/or overlaps among parcels.
--	50% of submissions required edits that were already made for the previous submission  (i.e., repeated revisions).
--	70% of submissions contain inactive parcels. Inactives exist for at least some towns that do not include them in their submissions.
--	96% of towns include and correctly represent rights-of-way. For those that do not, some map parcels to road centerlines, others only include main ROWs or those in the town/village center, and others have gaps in the parcel data where roads should be.
--	24% of submissions are fully compliant with the current parcel data standard. 26% are compliant with minor edits. 37% are compliant with major edits. 13% are not compliant (see criteria below).
--	11% of towns have a mapping vendor (to the best of VCGI's knowledge) but have not submitted an update since the original Parcel Project data (prior to 2020). These towns are currently classed as “fully compliant”, despite having stale data. 
--	12% of submissions are/have been reviewed by towns prior to submittal; 64% have not, and 24% are unknown. Some vendors are already working quite closely with towns as edits are being made (or edits are only being made at the direction of a town official), however, which may negate the need for a more formal review of the data prior to submission.
-
-### Considerations:
--	In addition to submittal compliance criteria, will need a timeframe component when assessing a town's eligibility for a per parcel payment (annual?). Some towns are technically “compliant” and are working with a vendor but have not submitted an update to VCGI since before 2020. For small towns that may not have any changes from year to year (and therefore do not submit an update), VCGI should still receive an annual confirmation that no changes/updates are needed to the existing data.
--	Tiered system for payments? Fully compliant or minor edit towns receive full amount, major edit town receive 50%, and non-compliant towns receive none?
--	Based on vendor discussions, it is not necessarily practical or feasible for vendors to directly use parcel data published by VCGI (e.g., vendors are not downloading the latest data for a town from VCGI prior to making their next round of edits). Often vendors are maintaining additional fields and formats beyond what is submitted and used by VCGI. Likely a factor in repeat edits. Is there a way to summarize/communicate edits we do make so vendors are aware without creating significant extra work for either end?
-
-
-### Submittal Quality Criteria
-
- **Criteria**                | **Description/Examples**|
-|:---------------------------|:------------------------|
-|Fully Compliant             | •	Includes all towns that have not been updated since the Parcel Project (i.e., prior to 2020).<br>•	Valid topology; no gaps or overlaps among parcels<br>•	ROWs included and mapped correctly<br>•	Unmatched parcels only comprised of land expected to have no SPAN (common land, town/state/federally-owned land, etc.)<br>•	Multi-SPAN parcels (e.g., condos) are attributed correctly through the intersection table, if applicable<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard. Includes valid topology, SPANs, and ROWs that are mapped correctly; does not require edits that were made in the previous submission; any unmatched parcels are expected to be unmatched given their status as common land, government-owned land, etc.; any multi-SPAN parcels are accounted for correctly in the intersection table. Includes towns that are working with a vendor to maintain parcels but have not submitted updates to VCGI since January 1, 2020.
-|Compliant with Minor Edits  |•	Unmatched parcels (as received) are < 2%<br>•	ROWs included and mapped correctly<br>•	No/minimal repeated edits from prior submission during VCGI review<br>•	No/minimal (<10) edits to intersection table to account for multi-SPAN parcels<br>•	No topology errors<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard. Includes valid topology, SPANs, and ROWs that are mapped correctly. Requires minor editing to address unmatched parcels (<2% of town’s total parcels) that should have SPANs and a match in the annual Grand List. May include <10 edits that were made in the prior submission and/or to account for multi-SPAN parcels in the intersection table.
-|Compliant with Major Edits  |•	Unmatched parcels (as received) are > 2%<br>•	Topology errors resulting in gaps/overlaps among parcels<br>•	Incorrect or missing attribution of condos/multi-SPAN parcels in the intersection table<br>•	ROWs are missing or incomplete (e.g., parcels are mapped to road centerlines)<br>•	Repeated edits from prior submission during VCGI review<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard to the extent that it can be incorporated into the statewide parcel dataset following revisions. May require significant edits to address topology errors, missing or invalid SPANs, missing or incomplete ROWs, and/or missing or incomplete multi-SPAN parcel representation in the intersection table. Requires editing to address unmatched parcels (>2% of town’s total parcels) that should have SPANs and a match in the annual Grand List. May include >10 edits that were made in the prior submission and/or to account for multi-SPAN parcels in the intersection table.
-|Not Compliant               |•	Includes all towns that are updated by VCGI/have no vendor or capacity to submit their own updates<br>•	Submission does not include SPANs or Parcel/Map IDs that can be linked to the Grand List<br>•	Submission is in an unusable format (e.g., CAD) that cannot be converted to a geodatabase<br>•	Usable format (i.e., GIS files) but missing or invalid fields that do not allow conversion to usable schema/dataset, or require significant effort to update using existing data and external sources/map viewers (e.g., loading existing attribution into new geometry; using E911, AxisGIS, or other to validate/verify SPANs; merging/splitting active and inactive parcels, etc.)<br><br>Summary: submission does not meet format and/or content allowing for inclusion in the statewide parcel dataset. Data format may be unusable/unable to convert to GIS, and/or attribution does not include valid SPANs or Parcel/Map IDs for linking to Grand List. May sometimes include a workable data format that requires significant geometry (e.g., active and inactive parcels) and/or attribute manipulation using internal and external data sources (e.g., AxisGIS sites, surveys, E911 data, etc.) to create dataset with valid schema and attribution. Also includes towns that do not have a vendor or the capacity to make their own edits and are updated by VCGI using data available in the VT Land Survey Library.
-
-
-
-# Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
-## Summary
-- Establish standardized CAMA schema and domains based on schema from current CAMA software providers (MicroSolve/NEMRC, ProVal/Aumentum, Vision, and AssessPro/Catalis). Require standardized land use codes and descriptions (specific and category-level) matching VT Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf), and normalize recording of other fields including actual year built, effective year built, and unit counts.
-- Establish consistent method (i.e., stacked polygons) for representing and accounting for unlanded structures, including attribution and mapping.
-- Establish and incorporate selected standardized CAMA fields (land use type, actual and effective year built, etc.) in existing applications including the Parcel Viewer, and make full suite of CAMA fields publicly available through the VT Geodata Portal.
-
-## CAMA Data Components
-
-### Design and Implement VT CAMA Data Standard
-Four CAMA software providers [operate in Vermont](https://tax.vermont.gov/municipal-officials/listers-and-assessors/district-advisors) as of October 2024:
-- MicroSolve (NEMRC)
-- ProVal (Aumentum)
-- Vision Government Solutions CAMA
-- AssessPro (Catalis, Formerly Patriot)
-
-Based on sample data and documentation, all providers differ in how they collect, format, and organize CAMA data. VCGI recommends devising a standardized template and schema, including domains for applicable fields, with input and agreement from each vendor. In most cases, vendors should be able to perform an extract of fields they are already collecting with little or no modification (or, ideally, provide a source or service that VCGI can read automatically). Some fields, particularly land use codes, will need to be standardized to a single set of codes and descriptions (see below).
-
-### Implement Changes to Parcel Definition in CAMA Data
-
-Existing CAMA data software solutions offer advanced data maintenance capabilities and should accomodate a parcel definition change to separate and sellable pieces of real estate. Data entry and maintenance practices will need to adjust to reflect these changes.
-
-### Normalize Land Use Classification Codes
-
-Standardized land use classification codes and descriptions are essential for integrating a statewide CAMA system. Currently, all four CAMA software providers use different coding systems for land use. Based on sample data, NEMRC appears to be the only vendor using codes conforming to the [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) published by the VT Department of Tax. VCGI recommends that these codes be used by all vendors. These codes provide a relatively high level of specificity for different land use types, and are grouped by broader category codes at the '100 level' (e.g., all codes between 300 and 399 have a commercial use) which helps to quickly identify and group more general land use types. If a vendor chooses not to adopt the VT Department of Tax Property Class Codes, a crosswalk table should be created to allow standardization when VCGI reads and integrates CAMA data into the statewide dataset.
-
-### Normalize Actual Year Built, Effective Year Built, and Unit Count Information
-
-Similar to Land Use Codes, consistent definitions and formatting for actual year built, effective year built, and unit count should be established for all CAMA vendors. While each of these fields appear to exist within the current schema for each vendor, it is essential that all are evaluated using the same methodology and definition.
-
-### Normalize Attribution and Mapping of Unlanded Structures
-
-The [stacked polygons method](#stacked-method---recommended) is the current recommendation per the Vermont GIS Parcel Data Standard and continues to be recommended after considering the pros and cons of all methods detailed below. 
-
-To improve the functionality of this method, the following recommendations should be considered: 
-
-1. While condominiums represent a vast majority of unlanded structures reflected in statewide parcel data, it is necessary to create a comprehensive list of different types of unlanded structures to be uniformly attributed in CAMA and subsequent Grand List records. The Vermont GIS Parcel Data Standard defines an unlanded building as a “condominium unit, mobile home, camp, or other building that is a unit of real estate which is separate from the underlying land surface.”
-   
-2. This list can be used to differentiate between unlanded structures in the parcel polygons layer, and if uniformly applied in CAMA and Grand List attribution, can be easily filtered for each record. Each unlanded structure can be represented as a prefix of two or three letters:
-  * CO for condominiums
-  * CA for camps
-  * MH for mobile homes
-  * SA for solar arrays
-  * WT for wind turbines
-
-3. While not the intended purpose, the SOURCENAME field in the parcel polygon layer can also be used to track this information.
-
-4. This list can also be used to create GIS SPANs in the Intersection Table based on the type of unlanded structure. The same two-letter system described above can be implemented followed by the town code (first three digits of the town SPAN) and a four-digit numeric count.
-
-5. Tax Department guidance on attribution of unlanded structures should be updated and made uniform to reflect the above prefixes and mapping practices (e.g., in the Listers and Assessors Handbook).
-
-**Background**
+## Land Use Codes
+## Standardized CAMA schema
+## Mapping of Unlanded Structures
+**Background** 
 
 Statewide standardized parcel data in Vermont is currently comprised of parcel geometry, the approximate parcel boundary lines drawn as closed multi-sided shapes (parcel polygons) as sourced from municipalities, and parcel attribution from the annual Grand List collected and published by the Tax Department. These two components are joined together by a matching School Property Account Number (SPAN) in the attribute table of the parcel polygons layer and in the Grand List. In most cases, each polygon is joined to one Grand List record but it’s not uncommon for more than one Grand List record to be joined to the same polygon. This happens most often with condominiums as they are typically described by their percentage of undivided interest in the common area and facilities rather than discrete boundaries that can be easily represented by polygons. While VCGI has provided some guidance on mapping condominiums per the Vermont GIS Parcel Data Standard, a more comprehensive recommendation for mapping all types of unlanded structures is necessary to improve data quality, clarity, and ease of use.
 
@@ -240,77 +313,11 @@ Pros
 Cons
 - Requires the creation and maintenance of separate geometry layer
 
-
-
-## Require Standardized CAMA Data Submittal to SoV
-
-Text.
-
 ## Example Statutes in Other States
 
 Connecticut
 [Sec. 7-100l. Transmission of digital parcel file. Annual report.](https://www.cga.ct.gov/current/pub/chap_096a.htm#sec_7-100l)
 
-# Recommendation 4: Clarify Right-of-Way Mapping for Tax Purposes in VT Statute
-
-Text.
-
-## Related VT Statutes
-[19 V.S.A. § 32 Assumed width of right-of-way](https://legislature.vermont.gov/statutes/section/19/001/00032)
-
-[19 V.S.A. § 1111 Permitted use of the right-of-way relocation or adjustment orders](https://legislature.vermont.gov/statutes/section/19/011/01111)
-
-## Example Statutes in Other States
-
-Washington
-[RCW 84.36.210 Public right-of-way easements](https://app.leg.wa.gov/rcw/default.aspx?cite=84.36.210)
-
-New Jersey
-[N.J. Admin. Code § 18:23A-1.16 Rights-of-way and easements](https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-18-23A-1-16)
-
-# Recommendation 5: Clarify Grand List vs. GIS Acreage Guidance
-
-Text.
-
-# Recommendation 6: Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract
-
-Text.
-
-# Recommendation 7: Offer Updated Statewide Parcel Contract Guidance for Municipalities
-
-Text.
-
-# Recommendation 8: Pilot Remotely-Sensed Tools to Support Appraisals
-
-Text.
-
-# Recommendation 9: Modernize Current Use Map Standards and Submittals
-
-Text.
-
-# Recommendation 10: Consider Updating and Moving Parcel Program in VT Statute
-
-Text.
-
-## Related VT Statutes
-
-[19 V.S.A. § 44 Statewide Property Parcel Mapping Program](https://legislature.vermont.gov/statutes/section/19/001/00044)
-
-[10 V.S.A. § 123 Geographic Information - Powers and Duties](https://legislature.vermont.gov/statutes/section/10/008/00123)
-
-# Recommendation 11: Coordinate With Concurrent Efforts to Digitize Land Records
-
-Text.
-
-## Related VT Statutes and Bills
-
-[H.512 (Act 171) of 2022 - An act relating to modernizing land records and notarial acts law](https://legislature.vermont.gov/bill/status/2022/H.512)
-
-# Responsibilities and Implementation
-
-# Cost Estimates and Potential Funding Sources
-
-# Appendices
 
 ## Current State of Mapped Inactive Parcels
 
