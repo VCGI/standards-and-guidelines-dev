@@ -11,7 +11,7 @@ This document outlines all recommendations related to parcel mapping and data ma
 | [1. Update Parcel Definition in VT Statute from "Contiguous" to Separate and Sellable Lots or Pieces of Real Property](#recommendation-1-update-parcel-definition-in-vt-statute)                                              | X                  |             |                        |                    |
 | [2. Reward Standardized Digital Parcel Data Submittal to SoV via Per Parcel Payment](#recommendation-2-reward-digital-parcel-submittal-to-sov-via-per-parcel-payment)          | X                  | X           |                        |                    |
 | [3. Implement VT CAMA Data Standard and Require Submittal to SoV](#recommendation-3-implement-vt-cama-data-standard-and-require-submittal-to-sov)                       | X                |             | X                      |                    |
-| 4. Clarify Right-of-Way Mapping for Tax Purposes                         | X                  |             |                        |                    |
+| 4. Clarify Right-of-Way Mapping for Tax Purposes                         |                   |             | X                       |                    |
 | 5. Clarify Grand List vs. GIS Acreage Guidance                                          |                    |             | X                      |                    |
 | 6. Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract |                    |             | X                      | X                  |
 | 7. Offer Updated Statewide Parcel Contract Guidance for Municipalities                  |                    |             | X                      | X                  |
