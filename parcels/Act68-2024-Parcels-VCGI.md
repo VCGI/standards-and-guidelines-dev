@@ -343,9 +343,6 @@ Any combination of the examples above.
 
 
 
-
-
-
 ### 3.2 Standardized CAMA schema
 ### 3.3 Mapping of Unlanded Structures
 **Background** 
