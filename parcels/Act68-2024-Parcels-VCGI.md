@@ -146,20 +146,17 @@ Text.
 
 # Recommendation 4: Clarify Right-of-Way Mapping for Tax Purposes in VT Statute
 
-Text.
+## 4.1 Summary
+- Promote mapping guidedance specifying that parcels should be mapped to the edge of the right-of-way, not the road centerline.
 
-## Related VT Statutes
+In Vermont there is no formally defined practice or requirement for the handling of public rights-of-way from a taxation perspective and with bearing on parcel mapping. Common, practical experience is that public rights-of-way such as roads and highways are just that—areas not to be obstructed by abutting private property owners. State highways, for example, involve the State purchasing lands between the road centerline and abutting parcel, whereas Towns may not. These differences contribute to a lack of clarity about the area that is within a right-of-way and between an abutting private parcel and road centerline and have occasionally led to differences in their depiction and resulting acreage calculations. 
+
+## 4.2 Related VT Statutes
 [19 V.S.A. § 32 Assumed width of right-of-way](https://legislature.vermont.gov/statutes/section/19/001/00032)
 
 [19 V.S.A. § 1111 Permitted use of the right-of-way relocation or adjustment orders](https://legislature.vermont.gov/statutes/section/19/011/01111)
 
-## Example Statutes in Other States
 
-Washington
-[RCW 84.36.210 Public right-of-way easements](https://app.leg.wa.gov/rcw/default.aspx?cite=84.36.210)
-
-New Jersey
-[N.J. Admin. Code § 18:23A-1.16 Rights-of-way and easements](https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-18-23A-1-16)
 
 # Recommendation 5: Clarify Grand List vs. GIS Acreage Guidance
 
@@ -205,7 +202,10 @@ Text.
 
 # Appendices
 
-## Parcel Definition Alternatives
+## Appendix 1: Parcel Definition Alternatives
+### Current State of Mapped Inactive Parcels
+
+![image](https://github.com/user-attachments/assets/c6b5cfef-b9e9-4056-8162-ad42b71a659a)
 
 ### Aggregate Mapped Unit Defined by Ownership (Contiguous)
 
@@ -246,9 +246,108 @@ There is no statewide subdivision requirement in Vermont, and not all municipali
 
 Any combination of the examples above.
 
-## Land Use Codes
-## Standardized CAMA schema
-## Mapping of Unlanded Structures
+## Appendix 2: Per Parcel Payments
+
+## Appendix 3: CAMA Data Standard
+
+### 3.1 Land Use Codes
+ Vermont Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) (bold indicates category code):
+
+ **PCCODE**          | **PCLASS**      |**PCCODE**    | **PCLASS**|
+|:-------------------|:----------------|:-------------|:----------|
+|0	| Unknown|413	|VT Elect Power Co
+|**100**	|**Primary Year Round Residence**|414	|New Eng Power Co
+|101	|Single Family|415	|VT Electric Co-Op
+|102	|Two Unit|416	|Other
+|103	|Three Unit|420	|Mining/Quarries
+|104	|Four Unit|421	|Granite
+|130	|Condo/Co-Op|422	|Marble
+|131	|Condo < 6 ac|423	|Limestone
+|132	|Condo > 6 ac|424	|Sand/Gravel
+|135	|Co-op Apt|425	|Magnesium/Talc
+|150	|Mobile Home|426	|Asbestos
+|**200**	|**Secondary Residence**|427	|Other
+|201	|Single Family|430	|Wood Manufacturer
+|202	|Two Family|431	|Pulp/Paper Mills
+|203	|Three Family|432	|Plywood/Veneer Mills
+|204	|Four Family|433	|Sawmills/Finish Mill
+|230	|Condo/Co-Op|434	|Wood Consm Prod
+|231	|Common Land > 6 ac|440	|Creameries/Dairies
+|232	|Secondary|450	|Other Industry
+|235	|Co-op Apt|451	|Heavy Industry
+|250	|Mobile Home|454	|Medium Industry
+|**300**	|**Commercial**|455	|Light Industry
+|310	|Auto Sales/Related|**500**	|**Operating Farm/Ag**
+|311	|Auto/Truck/Bus Sales|511	|Dairy Farm/Prod
+|312	|Gas Station/Garage|512	|Beef/Dairy Replace
+|313	|Auto Repair|513	|Horses/Ponies
+|314	|Car Wash|514	|Sheep/Wool
+|315	|Auto/Truck Rental|515	|Hogs
+|316	|Truck Terminals|519	|Animals Over 100#
+|320	|Trans/Comm|520	|Birds/Assoc Prod
+|321	|Apts/Bldg/Sales/Ser|521	|Chickens/Eggs
+|322	|Railroad/Assoc.Fac|522	|Turkeys/Eggs
+|323	|Ferry/Barges/Docks|523	|Aquatic Fowl
+|324	|Marinas/Boat Sales|524	|Game/Show Birds
+|325	|TV Studio/Broadcast|530	|Ag Ent/Living Cre
+|326	|Radio Studio/Broadcast|531	|Rabbits meat/fur
+|327	|Cable TV|532	|Fur Farm
+|328	|Telephone/Telegraph|533	|Bees/Products
+|330	|Rentals|534	|Aquatic Fowl
+|331	|Business Blocks|540	|Field Crops
+|332	|Office Buildings|550	|Truck Crops
+|333	|Year Round Residence|560	|Orchards
+|334	|Bank Building|561	|Apple
+|335	|Shopping Centers|563	|Sugar Bush
+|336	|Buildings|565	|Other Fruits/Nuts
+|337	|Mobile Home Parks|570	|Fruits/Berries
+|340	|Warehouses/ Distribution|580	|Nursery/Greenhouse
+|341	|Beverage Warehouse|590	|Wildlife Preserves
+|342	|Grocery Warehouse|**600**	|**Timberland**
+|343	|Gas/Diesel/Heating|**700**	|**Government Use**
+|344	|Auto Parts Distribution|710	|Federal
+|347	|General Warehouse|720	|State
+|348	|Boat Storage|730	|County
+|350	|Travel Accommodation/Rest|740	|Local
+|351	|Hotel|750	|School District
+|352	|Motel|**800**	|**Open Land/Misc**
+|353	|Inn/Overnight Cabins|810	|Year Round Residence
+|354	|Lodges|811	|Rural
+|355	|Snack Bars/Fast Food|812	|Urban
+|356	|Restaurants|820	|Development
+|360	|Service/Health|821	|Rural
+|361	|Hospitals|822	|Urban
+|362	|Nursing Home/Clinic|830	|Recreation
+|363	|Funeral Home/Morgue|831	|Rural
+|364	|Cemeteries|832	|Urban
+|365	|Laundry/Dry Cleaning|840	|Industrial
+|380	|Sales|841	|Rural
+|381	|Small Retail Shop/Store|842	|Urban
+|382	|Supermarkets|850	|Commercial
+|383	|Building Supplies/Lumber Yard|851	|Rural
+|384	|Propane/Heating Oil|852	|Urban
+|385	|Feed/Grain/Seed|856	|Parking Lot
+|386	|Farm Machinery/Equipment|860	|Farm Use
+|387	|Small Grocery Stores|870	|Governmental
+|390	|Miscellaneous/Multi use|880	|Vacation
+|391	|Office Building/Apartments|890	|Other
+|392	|Motel/Restaurant|891	|Right of Way
+|393	|Store/Apartments|892	|Establish Bound Line
+|395	|Lodge/Restaurant|894	|Water Rights
+|**400**	|**Industrial**|**900**	|**Other**
+|402	|Gas/Oil Pipe/Prod|910	|Religious
+|405	|Other Energy Production|920	|Fraternal
+|410	|Electric|930	|Non-Profit Org
+|411	|CVPS|940	|Mineral Rights
+|412	|Green Mtn Power
+
+
+
+
+
+
+### 3.2 Standardized CAMA schema
+### 3.3 Mapping of Unlanded Structures
 **Background** 
 
 Statewide standardized parcel data in Vermont is currently comprised of parcel geometry, the approximate parcel boundary lines drawn as closed multi-sided shapes (parcel polygons) as sourced from municipalities, and parcel attribution from the annual Grand List collected and published by the Tax Department. These two components are joined together by a matching School Property Account Number (SPAN) in the attribute table of the parcel polygons layer and in the Grand List. In most cases, each polygon is joined to one Grand List record but it’s not uncommon for more than one Grand List record to be joined to the same polygon. This happens most often with condominiums as they are typically described by their percentage of undivided interest in the common area and facilities rather than discrete boundaries that can be easily represented by polygons. While VCGI has provided some guidance on mapping condominiums per the Vermont GIS Parcel Data Standard, a more comprehensive recommendation for mapping all types of unlanded structures is necessary to improve data quality, clarity, and ease of use.
@@ -313,12 +412,17 @@ Pros
 Cons
 - Requires the creation and maintenance of separate geometry layer
 
-## Example Statutes in Other States
+### 3.4 Example CAMA Submittal Statutes in Other States
 
 Connecticut
 [Sec. 7-100l. Transmission of digital parcel file. Annual report.](https://www.cga.ct.gov/current/pub/chap_096a.htm#sec_7-100l)
 
+## Appendix 4: Example ROW Statutes in Other States
 
-## Current State of Mapped Inactive Parcels
+Washington
+[RCW 84.36.210 Public right-of-way easements](https://app.leg.wa.gov/rcw/default.aspx?cite=84.36.210)
 
-![image](https://github.com/user-attachments/assets/c6b5cfef-b9e9-4056-8162-ad42b71a659a)
+New Jersey
+[N.J. Admin. Code § 18:23A-1.16 Rights-of-way and easements](https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-18-23A-1-16)
+
+
