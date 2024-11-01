@@ -43,8 +43,6 @@ These changes in parcel definition and mapping practices would increase the curr
 ## 1.2 Example Statute Update
 > 32 V.S.A. § 4152 (a)(3) A brief description of each parcel of taxable real estate in the town. “Parcel” means a separate and sellable lot or piece of real estate. ~~all contiguous land in the same ownership, together with all improvements thereon~~
 
-
-
 ## 1.3 Related VT Statutes
 
 [32 V.S.A. § 4152](https://legislature.vermont.gov/statutes/section/32/129/04152) - Taxation and Finance / Grand Tax Lists / Grand List of Town
@@ -74,7 +72,6 @@ Descriptive text.
 -	In addition to submittal compliance criteria, will need a timeframe component when assessing a town's eligibility for a per parcel payment (annual?). Some towns are technically “compliant” and are working with a vendor but have not submitted an update to VCGI since before 2020. For small towns that may not have any changes from year to year (and therefore do not submit an update), VCGI should still receive an annual confirmation that no changes/updates are needed to the existing data.
 -	Tiered system for payments? Fully compliant or minor edit towns receive full amount, major edit town receive 50%, and non-compliant towns receive none?
 -	Based on vendor discussions, it is not necessarily practical or feasible for vendors to directly use parcel data published by VCGI (e.g., vendors are not downloading the latest data for a town from VCGI prior to making their next round of edits). Often vendors are maintaining additional fields and formats beyond what is submitted and used by VCGI. Likely a factor in repeat edits. Is there a way to summarize/communicate edits we do make so vendors are aware without creating significant extra work for either end?
-
 
 ## 2.4 Submittal Quality Criteria
 
@@ -125,11 +122,14 @@ To improve the functionality of this method, the following recommendations shoul
 1. While condominiums represent a vast majority of unlanded structures reflected in statewide parcel data, it is necessary to create a comprehensive list of different types of unlanded structures to be uniformly attributed in CAMA and subsequent Grand List records. The Vermont GIS Parcel Data Standard defines an unlanded building as a “condominium unit, mobile home, camp, or other building that is a unit of real estate which is separate from the underlying land surface.”
    
 2. This list can be used to differentiate between unlanded structures in the parcel polygons layer, and if uniformly applied in CAMA and Grand List attribution, can be easily filtered for each record. Each unlanded structure can be represented as a prefix of two or three letters:
-  * CO for condominiums
-  * CA for camps
-  * MH for mobile homes
-  * SA for solar arrays
-  * WT for wind turbines
+
+| Prefix Code | Applies To                |
+|-------------|---------------------------|
+| CO          | Condominiums              |
+| CA          | Camps                     |
+| MH          | Mobile Homes              |
+| SA          | Ground-Mount Solar Arrays |
+| WT          | Wind Turbines             |
 
 3. While not the intended purpose, the SOURCENAME field in the parcel polygon layer can also be used to track this information.
 
@@ -137,12 +137,9 @@ To improve the functionality of this method, the following recommendations shoul
 
 5. Tax Department guidance on attribution of unlanded structures should be updated and made uniform to reflect the above prefixes and mapping practices (e.g., in the Listers and Assessors Handbook).
 
-
 ## 3.3 Require Standardized CAMA Data Submittal to SoV
 
 Text.
-
-
 
 # Recommendation 4: Clarify Right-of-Way Mapping for Tax Purposes in VT Statute
 
