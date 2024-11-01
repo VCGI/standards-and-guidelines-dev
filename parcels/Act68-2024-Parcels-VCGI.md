@@ -53,7 +53,7 @@ These changes in parcel definition and mapping practices would increase the curr
 ## 2.1 Summary
 
 - Institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance.
-- Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum once per yer per town.
+- Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per yer per town.
 - Per parcel payment is to be X, funded by Y, with estimated annual cost of Z.
 
 Descriptive text.
@@ -339,7 +339,19 @@ Any combination of the examples above.
 |411	|CVPS|940	|Mineral Rights
 |412	|Green Mtn Power
 
-
+**Vermont Department of Tax Categories**
+| Category Code | Category                     |
+|---------------|------------------------------|
+| 0             | Unknown                      |
+| 100           | Primary Year Round Residence |
+| 200           | Secondary Residence          |
+| 300           | Commercial                   |
+| 400           | Industrial                   |
+| 500           | Operating Farm/Ag            |
+| 600           | Timberland                   |
+| 700           | Government Use               |
+| 800           | Open Land/Misc               |
+| 900           | Other                        |
 
 ### A3.2 Standardized CAMA schema
 Proposed standardized CAMA schema, based on example data from CAMA vendors in Vermont as well as a similar schema being developed in Connecticut, can be viewed [here](https://vermontgov.sharepoint.com/:x:/t/ADS.VCGIGroup/EZEBDpDNLNNHk_dhFOhtNW8BiiuDlzcCbWzOrxTXDUgO_g?e=3QqTMj).
