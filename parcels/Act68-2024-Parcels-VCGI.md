@@ -156,6 +156,10 @@ In Vermont there is no formally defined practice or requirement for the handling
 
 Text.
 
+![image](https://github.com/user-attachments/assets/c19bbe86-0fa1-4fe1-ada6-df77229d5a97)
+![image](https://github.com/user-attachments/assets/d723529b-89de-43e8-915a-312fdfe6d9b6)
+
+
 # Recommendation 6: Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract
 
 Text.
