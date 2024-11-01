@@ -201,11 +201,11 @@ Text.
 # Appendices
 
 ## Appendix 1: Parcel Definition Alternatives
-### Current State of Mapped Inactive Parcels
+### A1.1 Current State of Mapped Inactive Parcels
 
 ![image](https://github.com/user-attachments/assets/c6b5cfef-b9e9-4056-8162-ad42b71a659a)
 
-### Aggregate Mapped Unit Defined by Ownership (Contiguous)
+### A1.2 Aggregate Mapped Unit Defined by Ownership (Contiguous)
 
 Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.gov/statutes/section/32/129/04152) defined parcel. This is a "contiguous" parcel definition. Separate parcels are grouped together by ownership for administrative purposes, primarily the sending of a single tax bill per owner per "parcel".
 
@@ -215,16 +215,16 @@ Depicted visually, a contiguous parcel definition means that the two parcels bel
 
 Each of the two individual parts are considered "inactive" parcels, by practice only, and not uniformly across towns.
 
-### Separate Mapped Unit, Defined by Practice
+### A1.3 Separate Mapped Unit, Defined by Practice
 
 Example:
 > A separately assessed lot or piece of real property - *New York State Property tax and assessment administration definitions / [guidance](https://www.tax.ny.gov/research/property/equal/assessrpt/b_define.htm)*
 
-### Separate Mapped Unit, Defined by Unique Identifier
+### A1.4 Separate Mapped Unit, Defined by Unique Identifier
 
 > "Parcel" means a separate plot of land as identified by the municipality tax map and lot number. - *[New Hampshire Admin. Code § Cub 301.15](https://casetext.com/regulation/new-hampshire-administrative-code/title-cub-chairman-current-use-board/chapter-cub-300-criteria-for-open-space-current-use-assessment/part-cub-301-definitions/section-cub-30115-parcel)*
 
-### Separate Mapped Unit, Defined by Legal Document
+### A1.5 Separate Mapped Unit, Defined by Legal Document
 
 > "Legal parcel" means any parcel of real property that may be separately sold in compliance with the Subdivision Map Act (Division 2 (commencing with Section 66410) of Title 7 of the Government Code). - *[California, Sierra County](http://sierracounty.ca.gov/AgendaCenter/ViewFile/Agenda/05052014-115). In Compliance with State Subdivision Law.*
 
@@ -240,7 +240,7 @@ This example is notable in that any **one** of the following must be met to defi
 
 There is no statewide subdivision requirement in Vermont, and not all municipalities require subdivisions. Thus, several instruments may be relied upon to help define a parcel (deed, sudvision plat where required by municipality, or property transfer / sale).
 
-### Separate Mapped Unit, Defined by Combination
+### A1.6 Separate Mapped Unit, Defined by Combination
 
 Any combination of the examples above.
 
@@ -248,7 +248,7 @@ Any combination of the examples above.
 
 ## Appendix 3: CAMA Data Standard
 
-### 3.1 Land Use Codes
+### A3.1 Land Use Codes
  Vermont Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) (bold indicates category code):
 
  **PCCODE**          | **PCLASS**      |**PCCODE**    | **PCLASS**|
@@ -341,18 +341,17 @@ Any combination of the examples above.
 
 
 
-### 3.2 Standardized CAMA schema
+### A3.2 Standardized CAMA schema
 Proposed standardized CAMA schema, based on example data from CAMA vendors in Vermont as well as a similar schema being developed in Connecticut, can be viewed [here](https://vermontgov.sharepoint.com/:x:/t/ADS.VCGIGroup/EZEBDpDNLNNHk_dhFOhtNW8BiiuDlzcCbWzOrxTXDUgO_g?e=3QqTMj).
 
-### 3.3 Mapping of Unlanded Structures
+### A3.3 Mapping of Unlanded Structures
 **Background** 
 
 Statewide standardized parcel data in Vermont is currently comprised of parcel geometry, the approximate parcel boundary lines drawn as closed multi-sided shapes (parcel polygons) as sourced from municipalities, and parcel attribution from the annual Grand List collected and published by the Tax Department. These two components are joined together by a matching School Property Account Number (SPAN) in the attribute table of the parcel polygons layer and in the Grand List. In most cases, each polygon is joined to one Grand List record but it is not uncommon for more than one Grand List record to be joined to the same polygon. This happens most often with condominiums as they are typically described by their percentage of undivided interest in the common area and facilities rather than discrete boundaries that can be easily represented by polygons. While VCGI has provided some guidance on mapping condominiums per the Vermont GIS Parcel Data Standard, a more comprehensive recommendation for mapping all types of unlanded structures is necessary to improve data quality, clarity, and ease of use.
 
-**Current Unlanded Structure Mapping Practices in Vermont**
+#### A.3.3.1 Current Unlanded Structure Mapping Practices in Vermont
 
-***
-#### Discrete and Distributed Methods
+**Discrete and Distributed Methods**
 
 Building footprints  are often used to visually distinguish between unlanded structures and the common land, particularly as a paper tax map convention. The difference between the “Distributed” and “Discrete” building footprint methods is whether or not the common land has a SPAN. Per the Vermont GIS Parcel Data Standard, “in some instances, a deed specifies a percentage of common land ownership to each condominium unit and the common land does not have a SPAN number. In other instances, a deed does not allocate the common land, and the common land does have a SPAN number.”
 
@@ -372,7 +371,7 @@ Cons
 - Time intensive to create/maintain individual building footprints geometry
 
 ***
-#### Stacked Method - Recommended
+**Stacked Method - Recommended**
 
 Stacked polygons use a standalone Intersection Table to relate multiple SPANs from the Grand List to the same “placeholder” SPAN assigned to a polygon in the parcel data. 
 
@@ -394,7 +393,7 @@ Cons
 - Requires the creation and maintenance of GIS SPANs in the Intersection Table
 
 ***
-**Other Unlanded Structures Mapping Practices from Other States**
+#### A.3.3.2 Other Unlanded Structures Mapping Practices from Other States
 
 Parcel points are maintained by Dakota County in the State of Minnesota. This data layer is a compilation of tax parcel information, containing one record for each real estate/tax parcel identification number (PIN) within the county. Condominiums are included in this dataset (whereas they are not in the polygons).
 
