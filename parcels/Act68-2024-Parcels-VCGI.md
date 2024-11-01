@@ -82,8 +82,6 @@ Descriptive text.
 |Compliant with Major Edits  |•	Unmatched parcels (as received) are > 2%<br>•	Topology errors resulting in gaps/overlaps among parcels<br>•	Incorrect or missing attribution of condos/multi-SPAN parcels in the intersection table<br>•	ROWs are missing or incomplete (e.g., parcels are mapped to road centerlines)<br>•	Repeated edits from prior submission during VCGI review<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard to the extent that it can be incorporated into the statewide parcel dataset following revisions. May require significant edits to address topology errors, missing or invalid SPANs, missing or incomplete ROWs, and/or missing or incomplete multi-SPAN parcel representation in the intersection table. Requires editing to address unmatched parcels (>2% of town’s total parcels) that should have SPANs and a match in the annual Grand List. May include >10 edits that were made in the prior submission and/or to account for multi-SPAN parcels in the intersection table.
 |Not Compliant               |•	Includes all towns that are updated by VCGI/have no vendor or capacity to submit their own updates<br>•	Submission does not include SPANs or Parcel/Map IDs that can be linked to the Grand List<br>•	Submission is in an unusable format (e.g., CAD) that cannot be converted to a geodatabase<br>•	Usable format (i.e., GIS files) but missing or invalid fields that do not allow conversion to usable schema/dataset, or require significant effort to update using existing data and external sources/map viewers (e.g., loading existing attribution into new geometry; using E911, AxisGIS, or other to validate/verify SPANs; merging/splitting active and inactive parcels, etc.)<br><br>Summary: submission does not meet format and/or content allowing for inclusion in the statewide parcel dataset. Data format may be unusable/unable to convert to GIS, and/or attribution does not include valid SPANs or Parcel/Map IDs for linking to Grand List. May sometimes include a workable data format that requires significant geometry (e.g., active and inactive parcels) and/or attribute manipulation using internal and external data sources (e.g., AxisGIS sites, surveys, E911 data, etc.) to create dataset with valid schema and attribution. Also includes towns that do not have a vendor or the capacity to make their own edits and are updated by VCGI using data available in the VT Land Survey Library.
 
-
-
 # Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
 ## 3.1 Summary
 - Create standardized CAMA schema and domains based on fields from current CAMA software providers (MicroSolve/NEMRC, ProVal/Aumentum, Vision, and AssessPro/Catalis). Require standardized land use codes and descriptions matching VT Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf), either directly from each vendor or via a crosswalk table, and normalize recording of other fields including actual year built, effective year built, and unit counts.
@@ -141,7 +139,7 @@ To improve the functionality of this method, the following recommendations shoul
 
 Text.
 
-# Recommendation 4: Clarify Right-of-Way Mapping for Tax Purposes in VT Statute
+# Recommendation 4: Clarify Right-of-Way Mapping for Tax Purposes
 
 ## 4.1 Summary
 - Promote mapping guidedance specifying that parcels should be mapped to the edge of the right-of-way, not the road centerline.
@@ -152,7 +150,6 @@ In Vermont there is no formally defined practice or requirement for the handling
 [19 V.S.A. § 32 Assumed width of right-of-way](https://legislature.vermont.gov/statutes/section/19/001/00032)
 
 [19 V.S.A. § 1111 Permitted use of the right-of-way relocation or adjustment orders](https://legislature.vermont.gov/statutes/section/19/011/01111)
-
 
 
 # Recommendation 5: Clarify Grand List vs. GIS Acreage Guidance
