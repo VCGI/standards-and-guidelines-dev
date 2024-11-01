@@ -137,7 +137,7 @@ To improve the functionality of this method, the following recommendations shoul
 
 ## 3.3 Require Standardized CAMA Data Submittal to SoV
 
-Text.
+Standardized statewide CAMA data, particularly when combined with existing parcel data, will aid the pace and accuracy of appraisals, provide spatial context, facilitate data visualization and trend analysis, inform housing policy, and improve data accessibility. To remain complete and current, however, the submission of standardized CAMA data to SoV must be required. VCGI's Parcel Program, for example, is a voluntary program with data ranging from less than six months to over six years old, despite the widespread visibility, utility, and value of parcel data. Without a submittal requirement for CAMA data it is likely the dataset will become fragmented, incomplete, or stale over time. 
 
 # Recommendation 4: Clarify Right-of-Way Mapping for Tax Purposes
 
@@ -342,6 +342,8 @@ Any combination of the examples above.
 
 
 ### 3.2 Standardized CAMA schema
+Proposed standardized CAMA schema, based on example data from CAMA vendors in Vermont as well as a similar schema being developed in Connecticut, can be viewed [here](https://vermontgov.sharepoint.com/:x:/t/ADS.VCGIGroup/EZEBDpDNLNNHk_dhFOhtNW8BiiuDlzcCbWzOrxTXDUgO_g?e=3QqTMj).
+
 ### 3.3 Mapping of Unlanded Structures
 **Background** 
 
