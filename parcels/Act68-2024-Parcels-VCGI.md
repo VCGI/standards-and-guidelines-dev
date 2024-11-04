@@ -165,6 +165,8 @@ Text.
 ![image](https://github.com/user-attachments/assets/c19bbe86-0fa1-4fe1-ada6-df77229d5a97)
 ![image](https://github.com/user-attachments/assets/d723529b-89de-43e8-915a-312fdfe6d9b6)
 
+*Figures X and Y: Visualized differences in listed acreage and GIS (drawn) acreage in Northfield. The amount of percent difference is shown in five ranges and colors, as well as described in text on each parcel. [See an interactive map of these differences here.](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=e452fa5505644e12b1bf8b6308f7b2e8)*
+
 
 # Recommendation 6: Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract
 
