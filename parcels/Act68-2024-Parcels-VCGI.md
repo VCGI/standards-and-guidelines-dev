@@ -165,7 +165,8 @@ In Vermont there is no formally defined practice or requirement for the handling
 # Recommendation 5: Clarify Grand List vs. GIS Acreage Guidance
 
 ## 5.1 Summary
-- 
+- Develop criteria for when review of underlying legal property descriptions is needed given differences in listed and map acreage for the same parcel
+- Specify actions to be taken in the Listers and Assessors handbook based on best available documentation for acreage discrepancies
 
 In addition to acreage and resulting taxation associated with areas of property in road rights-of-way, acreage discrepancies between listed and mapped values are common. It is currently technically possible to easily display and compare differences between listed and mapped acreage. 
 
