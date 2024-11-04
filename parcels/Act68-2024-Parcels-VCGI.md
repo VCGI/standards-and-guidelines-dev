@@ -1,6 +1,6 @@
 # Purpose
 
-This document outlines all recommendations for to parcel mapping and data maintenance as related to [Act 68 of 2023](https://legislature.vermont.gov/bill/status/2024/H.480). It is authored by the Vermont Center for Geographic Information (VCGI), state stewards of the [Statewide Property Parcel Mapping Program](https://vcgi.vermont.gov/data-and-programs/parcel-program) since 2020, established via [19 V.S.A. § 44](https://legislature.vermont.gov/statutes/section/19/001/00044). The recommendations aim to improve parcel data quality to support timely, fair, accurate, and modern property valuation and reappraisals as sought by Act 68, which [asks the Tax Department to](https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT068/ACT068%20Act%20Summary.pdf):
+This document outlines all recommendations for parcel mapping and data maintenance as related to [Act 68 of 2023](https://legislature.vermont.gov/bill/status/2024/H.480). It is authored by the Vermont Center for Geographic Information (VCGI), state stewards of the [Statewide Property Parcel Mapping Program](https://vcgi.vermont.gov/data-and-programs/parcel-program) since 2020, established via [19 V.S.A. § 44](https://legislature.vermont.gov/statutes/section/19/001/00044). The recommendations aim to improve parcel data quality to support timely, fair, accurate, and modern property valuation and reappraisals as sought by Act 68, which [asks the Tax Department to](https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT068/ACT068%20Act%20Summary.pdf):
 
 > [create] recommendations and considerations for distinguishing between different types and characteristics of property and their uses, and how different property data could be used to make policy decisions.
 
@@ -23,20 +23,20 @@ This document outlines all recommendations for to parcel mapping and data mainte
 # Recommendation 1: Update Parcel Definition in VT Statute
 ## 1.1 Summary
 - Change the current parcel definition from a "contiguous" parcel defintition to one that requries tracking of separate and sellable pieces of real estate.
-- This will replace the practice of mapping and tracking "inactive" parcels on a separate data layer and instead require towns to map and track all separate parcels individually, regardless of common ownership.
+- This definition will replace the practice of mapping and tracking "inactive" parcels on a separate data layer and instead require towns to map and track all separate parcels individually, regardless of common ownership.
 - "Contigous" parcels aggregated by common ownership may still be created for the purposes of tax billing, but they remain solely administrative.
 
 Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.gov/statutes/section/32/129/04152) defines a parcel as:
 > (3) A brief description of each parcel of taxable real estate in the town. “Parcel” means all contiguous land in the same ownership, together with all improvements thereon.
 
-This is a "contiguous" parcel definition, depicted in figure 1 as type 1. Separate lots are grouped together by ownership for administrative purposes, primarily the sending of a single tax bill per owner per "parcel". Separate lots are sometimes managed as "inactive" parcels, although that term is not defined outside of the [parcel data standard](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) and their upkeep by towns is not uniform. The marketability of individual lots for sale is not clear, and neither is it for how towns should map and track lots within a combined parcel. Aggregate parcel deliniation further complicates assignment of highest and best use valuation as assesors may have to generalize across several different lot types. Data management and downstream analysis are also negatively impacted by an aggregate, contiguous parcel definition.
+This is a "contiguous" parcel definition, depicted in figure 1 as option 1. Separate lots are grouped together by ownership for administrative purposes, primarily the sending of a single tax bill per owner per "parcel". Separate lots are sometimes managed as "inactive" parcels, although that term is not defined outside of the [parcel data standard](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) and their upkeep by towns is not uniform. The marketability of individual lots for sale is not clear, nor is how towns should map and track lots within a combined parcel. Aggregate parcel deliniation further complicates assignment of highest and best use valuation as assesors may have to generalize across several different lot types. Data management and downstream analysis are also negatively impacted by an aggregate, contiguous parcel definition.
 
 ![image](https://github.com/user-attachments/assets/6855b335-1e09-41fa-99d5-b4df4066b416)
 *Figure 1: Existing contiguous parcel definition, depicted as option 1 on the left, and the proposed separate parcel defintion, depicted as option 2 on the right. The proposed separate parcel definition removes the need for tracking "inactive" parcels.*
 
-Alternatively, defining parcel as a separate and sellable lot or piece of real property would bring parcel identification in line with their common understanding as "lots" while also reducing the need to generalize highest and best use across several different lots combined by owner (not use) during valution. This change would enable improved parcel documentation, ease highest and best use valuation, faciliatate data maintenance and analysis, and continue to allow aggregation by owner for tax billing. 
+Alternatively, defining parcel as a separate and sellable lot or piece of real property would bring parcel identification in line with their common understanding as "lots" while also reducing the need to generalize highest and best use across several different lots combined by owner (not use) during valuation. This change would enable improved parcel documentation, ease highest and best use valuation, faciliatate data maintenance and analysis, and continue to allow aggregation by owner for tax billing. 
 
-As there are several variations in the timing of when a separate lot or piece of real property is created, an updated parcel defintion could be written so as to allow a legal document (deed or title), subdivision plats, or sale to help define the bounds of the separate mapped and tracked area. Existing "inactive" parcels, where they exist and are maintained, may be added to the "active" parcel layer and be attributed, maintain their unique SPAN and be attributed as completely as possible. Once added, maintenance of inactive parcels as separate entities on a separate data layer should cease.
+As there are several variations in the timing of when a separate lot or piece of real property is created, an updated parcel defintion could be written so as to allow a legal document (deed or title), subdivision plats, or sale to help define the bounds of the separate mapped and tracked area. Existing "inactive" parcels, where they exist and are maintained, may be added to the "active" parcel layer with their unique SPAN and as much additional attribution as possible. Once added, maintenance of inactive parcels as separate entities on a separate data layer should cease.
 
 These changes in parcel definition and mapping practices would increase the current count of parcels statewide from roughly 340,000 to at least 380,000. "At least" is stated as currently only 70% of towns (178 total) have submitted their inactive parcels as digital parcel data to VCGI. It remains unknown how many of the other 30% of towns actively track inactive parcels digitally.
 
@@ -53,7 +53,7 @@ These changes in parcel definition and mapping practices would increase the curr
 ## 2.1 Summary
 
 - Institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance.
-- Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per yer per town.
+- Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town.
 - Per parcel payment is to be X, funded by Y, with estimated annual cost of Z.
 
 Descriptive text.
@@ -69,9 +69,9 @@ Descriptive text.
 -	12% of submissions are/have been reviewed by towns prior to submittal; 64% have not, and 24% are unknown. Some vendors are already working quite closely with towns as edits are being made (or edits are only being made at the direction of a town official), however, which may negate the need for a more formal review of the data prior to submission.
 
 ## 2.3 Considerations:
--	In addition to submittal compliance criteria, will need a timeframe component when assessing a town's eligibility for a per parcel payment (annual?). Some towns are technically “compliant” and are working with a vendor but have not submitted an update to VCGI since before 2020. For small towns that may not have any changes from year to year (and therefore do not submit an update), VCGI should still receive an annual confirmation that no changes/updates are needed to the existing data.
--	Tiered system for payments? Fully compliant or minor edit towns receive full amount, major edit town receive 50%, and non-compliant towns receive none?
--	Based on vendor discussions, it is not necessarily practical or feasible for vendors to directly use parcel data published by VCGI (e.g., vendors are not downloading the latest data for a town from VCGI prior to making their next round of edits). Often vendors are maintaining additional fields and formats beyond what is submitted and used by VCGI. Likely a factor in repeat edits. Is there a way to summarize/communicate edits we do make so vendors are aware without creating significant extra work for either end?
+-	In addition to submittal compliance criteria, will need a timeframe component when assessing a town's eligibility for a per parcel payment (likely annual). Some towns are technically “compliant” and are working with a vendor but have not submitted an update to VCGI since before 2020. For small towns that may not have any changes from year to year (and therefore do not submit an update), VCGI should still receive an annual confirmation that no changes or updates are needed to the existing data.
+-	Consider possible tiered system for payments to encourage compliance. E.g.: Fully compliant or minor edit towns receive full amount, major edit town receive 50%, and non-compliant towns receive none.
+-	Based on vendor discussions, it is not necessarily practical or feasible for vendors to directly use parcel data published by VCGI (e.g., vendors are not downloading the latest data for a town from VCGI prior to making their next round of edits). Often vendors are maintaining additional fields and formats beyond what is submitted and used by VCGI. This is likely a factor leading to repeated edits with each submission. Consider a way to summarize/communicate submission issues or edits that VCGI makes so vendors are aware and can correct for their subsequent submission, ideally without creating significant extra work for either VCGI or vendor. 
 
 ## 2.4 Submittal Quality Criteria
 
@@ -100,7 +100,7 @@ Four CAMA software providers [operate in Vermont](https://tax.vermont.gov/munici
 - Vision Government Solutions CAMA
 - AssessPro (Catalis, Formerly Patriot)
 
-Based on sample data and documentation, all providers differ in how they collect, format, and organize CAMA data. VCGI recommends devising a standardized template and schema, including domains for applicable fields, with input and agreement from each vendor. In most cases, vendors should be able to perform an extract of fields they are already collecting with little or no modification (or, ideally, provide a source or service that VCGI can read automatically). Some fields, particularly land use codes, will need to be standardized to a single set of codes and descriptions (see below).
+Based on sample data and documentation, all providers differ in how they collect, format, and organize CAMA data. VCGI recommends devising a standardized template and schema, including domains for applicable fields, with input and agreement from each vendor. In most cases, vendors should be able to perform an extract of fields they are already collecting with little or no modification (or, ideally, provide VCGI with a read-only API). Some fields, particularly land use codes, will need to be standardized to a single set of codes and descriptions (see below).
 
 ### 3.2.2 Implement Changes to Parcel Definition in CAMA Data
 
@@ -108,7 +108,7 @@ Existing CAMA data software solutions offer advanced data maintenance capabiliti
 
 ### 3.2.3 Normalize Land Use Classification Codes
 
-Standardized land use classification codes and descriptions are essential for integrating a statewide CAMA system. Currently, all four CAMA software providers use different coding systems for land use. Based on sample data, NEMRC appears to be the only vendor using codes conforming to the [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) published by the VT Department of Tax. VCGI recommends that these codes be used by all vendors. These codes provide a relatively high level of specificity for different land use types, and are grouped by broader category codes at the '100 level' (e.g., all codes between 300 and 399 have a commercial use) which helps to quickly identify and group more general land use types. If a vendor chooses not to adopt the VT Department of Tax Property Class Codes, a crosswalk table should be created to allow standardization when VCGI reads and integrates CAMA data into the statewide dataset.
+Standardized land use classification codes and descriptions are essential for integrating a statewide CAMA system. Currently, all four CAMA software providers use different coding systems for land use. Based on sample data, NEMRC appears to be the only vendor using codes conforming to the [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) published by the VT Department of Tax. VCGI recommends that these codes be used by all vendors. These codes provide a relatively high level of specificity for different land use types, and are grouped by broader category codes at the '100 level' (e.g., all codes between 300 and 399 have a commercial use), which helps to quickly identify and group more general land use types. If a vendor chooses not to adopt the VT Department of Tax Property Class Codes, a crosswalk table should be created to allow standardization when VCGI reads and integrates CAMA data into the statewide dataset.
 
 ### 3.2.4 Normalize Actual Year Built, Effective Year Built, and Unit Count Information
 
@@ -122,7 +122,7 @@ To improve the functionality of this method, the following recommendations shoul
 
 1. While condominiums represent a vast majority of unlanded structures reflected in statewide parcel data, it is necessary to create a comprehensive list of different types of unlanded structures to be uniformly attributed in CAMA and subsequent Grand List records. The Vermont GIS Parcel Data Standard defines an unlanded building as a “condominium unit, mobile home, camp, or other building that is a unit of real estate which is separate from the underlying land surface.”
    
-2. This list can be used to differentiate between unlanded structures in the parcel polygons layer, and if uniformly applied in CAMA and Grand List attribution, can be easily filtered for each record. Each unlanded structure can be represented as a prefix of two or three letters:
+2. The list below can be used to differentiate between unlanded structures in the parcel polygons layer, and if uniformly applied in CAMA and Grand List attribution, can be easily filtered for each record. Each unlanded structure can be represented as a prefix of two or three letters:
 
 | Prefix Code | Applies To                |
 |-------------|---------------------------|
@@ -140,7 +140,11 @@ To improve the functionality of this method, the following recommendations shoul
 
 ## 3.3 Require Standardized CAMA Data Submittal to SoV
 
+<<<<<<< Updated upstream
 CAMA data is the best source of information for detailed and current property descriptions statewide. Standardizing these data and requiring their submittal to the State of Vermont for regular and uniform public publication, particularly when combined with existing parcel data, will aid improved pace and accuracy of appraisals, provide spatial context, facilitate data visualization and trend analysis, and improve data accessibility. To remain complete and current, however, the submission of standardized CAMA data to SoV should be required. VCGI's Parcel Program, for example, is a voluntary program with data ranging from less than six months to over six years old, despite the widespread visibility, utility, and value of parcel data. Without a submittal requirement for CAMA data it is likely the dataset will become fragmented, incomplete, or stale over time.
+=======
+CAMA data are the best source of information for detailed and current property descriptions statewide. Standardizing these data and requiring their submittal to the State of Vermont for normalized public publication, particularly when combined with existing parcel data, will aid improved pace and accuracy of appraisals, provide spatial context, facilitate data visualization and trend analysis, and improve data accessibility. To remain complete and current, however, the submission of standardized CAMA data to SoV should be required. VCGI's Parcel Program, for example, is a voluntary program with data ranging from less than six months to over six years old depending on the town, despite the widespread visibility, utility, and value of parcel data. Without a submittal requirement for CAMA data it is likely the dataset will become fragmented, incomplete, or stale over time.
+>>>>>>> Stashed changes
 
 ## 3.4 Example Statute Updates
 >[Section] "Assessor database" means the database of property information maintained by a municipalities' lister(s) or assessor(s); it is also referred to as a Computer Aided Mass Appraisal (CAMA) system or Computer Aided Mass Appraisal database
@@ -151,11 +155,15 @@ CAMA data is the best source of information for detailed and current property de
 
 ## 4.1 Summary
 - Create guidance for treatment of the area between road centerline and edge of right-of-way for taxation purposes
-- Promote mapping guidance specifying that parcels should be mapped to the edge of the right-of-way, not the road centerline.
+- Promote mapping guidance specifying that parcels should be mapped to the edge of the right-of-way, not the road centerline
 
+<<<<<<< Updated upstream
 In Vermont there is no formally defined practice or requirement for the handling of public rights-of-way from a taxation perspective and its relation with parcel mapping. Common, practical experience is that public rights-of-way such as roads and highways are just that—areas not to be obstructed by abutting private property owners--be they owned in fee or easements. State highways, for example, often involve the State purchasing lands between the road centerline and abutting parcel, whereas towns may not. These differences contribute to a lack of clarity about how to account for the area that is within a right-of-way and between an abutting private parcel and road centerline and have occasionally led to differences in their depiction and resulting acreage calculations. The Tax Department, with aid of partners, should develop and offer guidance for considering these areas with regard to taxation and related acreage calcuations.
 
 [DIAGRAMS of Right-of-Way Conditions]
+=======
+In Vermont there is no formally defined practice or requirement for the handling of public rights-of-way from a taxation perspective and with bearing on parcel mapping. Common, practical experience is that public rights-of-way such as roads and highways are just that—areas not to be obstructed by abutting private property owners, be they owned in fee or as easements. State highways, for example, often involve the State purchasing lands between the road centerline and abutting parcel, whereas towns may not. These differences contribute to a lack of clarity about how to account for the area that is within a right-of-way and between an abutting private parcel and road centerlin,e and have occasionally led to differences in their depiction and resulting acreage calculations. The Tax Department, with aid of partners, should develop and offer guidance for considering these areas with regard to taxation and related acreage calculations.
+>>>>>>> Stashed changes
 
 ## 4.2 Related VT Statutes
 [19 V.S.A. § 32 Assumed width of right-of-way](https://legislature.vermont.gov/statutes/section/19/001/00032)
