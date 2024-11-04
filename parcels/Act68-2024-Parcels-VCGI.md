@@ -54,11 +54,39 @@ These changes in parcel definition and mapping practices would increase the curr
 
 - Institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance.
 - Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per yer per town.
-- Per parcel payment is to be X, funded by Y, with estimated annual cost of Z.
 
-Descriptive text.
+## 2.2 Proposed Financial Incentive Model
+- Consider each municipality on four key attributes:
+   - **Desire to participate in Parcel Program** - At least one municipality has explicited refused to participate in the Parcel Program. Municipalities that elect to not particpate should be marked as "non-participatory" and will likely continue to recieve irregular updates by VCGI using the Vermont Land Survey Library. Non-participatory municipalities may opt-in to the Parcel Program at anytime.
+   - **Estimated frequency of parcel geometry updates** - Most municipalities should update their parcel geometry annually (especially large towns and cities). Some smaller municipalies may be able to update every 2-3 years. 
+   - **Ability to perform parcel geometry updates** - While a majority of municipalities are currently being updated by a mapping vendor or internally, a distinction should be made between GIS vendors and municipalities with "high confidence" in their ability to conduct parcel geometry updates internally; and non-GIS vendors (such as CAD vendors) and municipalities with "low confidence" in their ability to conduct parcel geometry updates internally
+   - **Size of municipality (parcel count)**
 
-## 2.2 Digital Parcel Submittals as of October 24, 2024
+- Indentify municipalities that may be good candidates for VCGI to assist in updating parcel geometry based on the four key attributes detailed above:
+   - Municipalities that can be updated every 2-3 years
+   - Municipalities not currently updating their parcel geometry, contracting with a non-GIS vendor, or having "low confidence" in their ability to conduct parcel geometry updated inernally
+   - Municipalities under 500 parcels  
+
+- Consider a per parcel fee between $5.00 and $7.00 based on the cost per parcel for a sample of municipalities completed during the first year of the Parcel Project. In *National Land Parcel Data: A Vision for the Future* (2007), the National Research Council found the average cost per parcel nationwide was $5.20 based on samples accross the country.
+
+- Regardless of update frequency, for municipalities demostrating the ability to regularly update their parcel geometry (with a GIS vendor or internally with "high confidence") consider offering a "flat fee" bonus or rebate rather than a per parcel fee.
+
+## 2.3 Assessment of Current Practices
+### 2.3.1 Voluntary Participation
+The ongoing effort to publish parcel data (joined to the annual Grand List) in a uniform, digital format relies on municipalities voluntarily sharing updated parcel geometry with VCGI. While this approach has worked for the Parcel Program for nearly half a decade, the need to create a financial incentive to increase participation has always been considered as referenced in the 2015 Vermont Statewide Digital Parcel Lifecycle & Maintenance Plan:
+
+> As implementation shifts into a maintenance stage, Vermont will want to pay close attention to challenges to compliance. While some impediments may be more attitudinal than logistical or economic, the state may want to consider creating incentives to comply.
+
+As parcel data continues to be one of the most used statewide datasets in Vermont, creating a financial incentive is likely necessary not only to increase participation but also to improve data quality. To encourage participation from as many municipalities as possible, VCGI has largely been accepting parcel geometry "as-is" which often requirese significant edits before publishing to meet the existing data standard.
+
+### 2.3.2 Shared Responsibility Model
+The notable success of the Parcel Program as a voluntary-based initiative is due to the collaboration between municipalities, state government, and mapping vendors in the private sector. This "Shared Responsibility" model relies on all collaborators contributing resources to maintain statewide parcel data.
+
+[IMAGE]
+
+This graphic repersentation of the Shared Responsibility model indentifies one attribute: a municipality's ability to preform parcel geometry updates by contracting with a mapping vendor or doing updates internally. Municipalities unable to preform parcel geometry updates currently recieve irregular updates by VCGI as land surveys that can be used to update a municipality's parcel geometry are submitted to the [Vermont Land Survey Library](https://landsurvey.vermont.gov/). While this has been a sufficient approach to date, with the creation of the City of Essex Junction in 2022, Vermont now has 256 municipalities: 237 towns, 10 cities, 5 unincorporated towns, and 4 gores. With so many collaborators at the municipal level, the shared responsibility of each municipality should based upon more than one attribute.
+
+### 2.3.3 Digital Parcel Submittals as of October 24, 2024
 -	90% of towns are edited/updated by vendors or the town. 10% are edited/updated by VCGI (these are considered “not compliant”). 
 -	10% of submissions require edits to parcel topology (i.e., geometry) to address gaps and/or overlaps among parcels.
 -	50% of submissions required edits that were already made for the previous submission  (i.e., repeated revisions).
@@ -68,12 +96,12 @@ Descriptive text.
 -	11% of towns have a mapping vendor (to the best of VCGI's knowledge) but have not submitted an update since the original Parcel Project data (prior to 2020). These towns are currently classed as “fully compliant”, despite having stale data. 
 -	12% of submissions are/have been reviewed by towns prior to submittal; 64% have not, and 24% are unknown. Some vendors are already working quite closely with towns as edits are being made (or edits are only being made at the direction of a town official), however, which may negate the need for a more formal review of the data prior to submission.
 
-## 2.3 Considerations:
+## 2.4 Considerations
 -	In addition to submittal compliance criteria, will need a timeframe component when assessing a town's eligibility for a per parcel payment (annual?). Some towns are technically “compliant” and are working with a vendor but have not submitted an update to VCGI since before 2020. For small towns that may not have any changes from year to year (and therefore do not submit an update), VCGI should still receive an annual confirmation that no changes/updates are needed to the existing data.
 -	Tiered system for payments? Fully compliant or minor edit towns receive full amount, major edit town receive 50%, and non-compliant towns receive none?
 -	Based on vendor discussions, it is not necessarily practical or feasible for vendors to directly use parcel data published by VCGI (e.g., vendors are not downloading the latest data for a town from VCGI prior to making their next round of edits). Often vendors are maintaining additional fields and formats beyond what is submitted and used by VCGI. Likely a factor in repeat edits. Is there a way to summarize/communicate edits we do make so vendors are aware without creating significant extra work for either end?
 
-## 2.4 Submittal Quality Criteria
+## 2.5 Submittal Quality Criteria
 
  **Criteria**                | **Description/Examples**|
 |:---------------------------|:------------------------|
@@ -81,6 +109,11 @@ Descriptive text.
 |Compliant with Minor Edits  |•	Unmatched parcels (as received) are < 2%<br>•	ROWs included and mapped correctly<br>•	No/minimal repeated edits from prior submission during VCGI review<br>•	No/minimal (<10) edits to intersection table to account for multi-SPAN parcels<br>•	No topology errors<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard. Includes valid topology, SPANs, and ROWs that are mapped correctly. Requires minor editing to address unmatched parcels (<2% of town’s total parcels) that should have SPANs and a match in the annual Grand List. May include <10 edits that were made in the prior submission and/or to account for multi-SPAN parcels in the intersection table.
 |Compliant with Major Edits  |•	Unmatched parcels (as received) are > 2%<br>•	Topology errors resulting in gaps/overlaps among parcels<br>•	Incorrect or missing attribution of condos/multi-SPAN parcels in the intersection table<br>•	ROWs are missing or incomplete (e.g., parcels are mapped to road centerlines)<br>•	Repeated edits from prior submission during VCGI review<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard to the extent that it can be incorporated into the statewide parcel dataset following revisions. May require significant edits to address topology errors, missing or invalid SPANs, missing or incomplete ROWs, and/or missing or incomplete multi-SPAN parcel representation in the intersection table. Requires editing to address unmatched parcels (>2% of town’s total parcels) that should have SPANs and a match in the annual Grand List. May include >10 edits that were made in the prior submission and/or to account for multi-SPAN parcels in the intersection table.
 |Not Compliant               |•	Includes all towns that are updated by VCGI/have no vendor or capacity to submit their own updates<br>•	Submission does not include SPANs or Parcel/Map IDs that can be linked to the Grand List<br>•	Submission is in an unusable format (e.g., CAD) that cannot be converted to a geodatabase<br>•	Usable format (i.e., GIS files) but missing or invalid fields that do not allow conversion to usable schema/dataset, or require significant effort to update using existing data and external sources/map viewers (e.g., loading existing attribution into new geometry; using E911, AxisGIS, or other to validate/verify SPANs; merging/splitting active and inactive parcels, etc.)<br><br>Summary: submission does not meet format and/or content allowing for inclusion in the statewide parcel dataset. Data format may be unusable/unable to convert to GIS, and/or attribution does not include valid SPANs or Parcel/Map IDs for linking to Grand List. May sometimes include a workable data format that requires significant geometry (e.g., active and inactive parcels) and/or attribute manipulation using internal and external data sources (e.g., AxisGIS sites, surveys, E911 data, etc.) to create dataset with valid schema and attribution. Also includes towns that do not have a vendor or the capacity to make their own edits and are updated by VCGI using data available in the VT Land Survey Library.
+
+## 2.6 Funding during the Parcel Project
+The Parcel  Project (2017-2019) leveraged both state and federal funds with 80 percent coming from the Federal Highway Administration and the remaining 20 percent from several state agencies and departments. The Vermont Agency of Transporation contracted with several mapping vendor to update or create digital parcel data for each Vermont municipality over a three-year period. Each mapping vendor was assigned to a municipality through a competitive bid process. The cost per parcel for a sample of municipalities completed during the first year of the Parcel Project is depicted below.
+
+[IMAGE]
 
 # Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
 ## 3.1 Summary
