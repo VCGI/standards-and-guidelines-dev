@@ -84,9 +84,12 @@ Descriptive text.
 
 # Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
 ## 3.1 Summary
-- Create standardized Computer Assisted Mass Appraisal (CAMA) schema and domains based on fields from current CAMA software providers, with applicability to current and any future CAMA providers operating in Vermont. Require standardized land use codes and descriptions matching VT Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf), either directly from each vendor or via a crosswalk table, and normalize recording of other fields including actual year built, effective year built, and unit counts.
+- Create standardized Computer Assisted Mass Appraisal (CAMA) schema and domains based on fields from current CAMA software providers, with applicability to current and future CAMA providers operating in Vermont.
+- Require standardized land use codes and descriptions matching VT Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf), either directly from each vendor via read-only API, file extract, or via a crosswalk table
+- Normalize recording of other fields including actual year built, effective year built, and unit counts
 - Use stacked polygons for representing and accounting for unlanded structures, including attribution and mapping. 
-- Require submittal of CAMA data adherent to the CAMA data standard to the State of Vermont. This requirement is in order to provide as much useful property description information as possible to aid timely and accurate reappraisals, provide data to also aid key public policy concerns (e.g., housing) that are best served by CAMA data, and ease access to and use of this public information for data analysis and visualization by making it publicly avalable. Standardized CAMA data and integration with existing GIS data will have widespread utility, including aiding appraisals and housing policy while providing greater spatial context. 
+- Require submittal of CAMA data adherent to the CAMA data standard to the State of Vermont. 
+- These recommondations are intended to provide as much useful property description information as possible to aid timely and accurate reappraisals, provide data to also aid key public policy concerns (e.g., housing) that are best served by CAMA data, and ease access to and use of this public information for data analysis and visualization by making it publicly avalable. Standardized CAMA data and integration with existing GIS data will have widespread utility, including aiding appraisals and housing policy while providing greater spatial context. 
 
 ## 3.2 CAMA Data Components
 
