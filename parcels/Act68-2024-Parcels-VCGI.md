@@ -56,7 +56,21 @@ These changes in parcel definition and mapping practices would increase the curr
 - Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town.
 - Per parcel payment is to be X, funded by Y, with estimated annual cost of Z.
 
-Descriptive text.
+## 2.2 Proposed Financial Incentive Model
+- Consider each municipality on four key attributes:
+   - **Desire to participate in Parcel Program** - At least one municipality has explicited refused to participate in the Parcel Program. Municipalities that elect to not particpate should be marked as "non-participatory" and will likely continue to recieve irregular updates by VCGI using the Vermont Land Survey Library. Non-participatory municipalities may opt-in to the Parcel Program at anytime.
+   - **Estimated frequency of parcel geometry updates** - Most municipalities should update their parcel geometry annually (especially large towns and cities). Some smaller municipalies may be able to update every 2-3 years. 
+   - **Ability to perform parcel geometry updates** - While a majority of municipalities are currently being updated by a mapping vendor or internally, a distinction should be made between GIS vendors and municipalities with "high confidence" in their ability to conduct parcel geometry updates internally; and non-GIS vendors (such as CAD vendors) and municipalities with "low confidence" in their ability to conduct parcel geometry updates internally
+   - **Size of municipality (parcel count)**
+
+- Indentify municipalities that may be good candidates for VCGI to assist in updating parcel geometry based on the four key attributes detailed above:
+   - Municipalities that can be updated every 2-3 years
+   - Municipalities not currently updating their parcel geometry, contracting with a non-GIS vendor, or having "low confidence" in their ability to conduct parcel geometry updated inernally
+   - Municipalities under 500 parcels  
+
+- Consider a per parcel fee between $5.00 and $7.00 based on the cost per parcel for a sample of municipalities completed during the first year of the Parcel Project. In *National Land Parcel Data: A Vision for the Future* (2007), the National Research Council found the average cost per parcel nationwide was $5.20 based on samples accross the country.
+
+- Regardless of update frequency, for municipalities demostrating the ability to regularly update their parcel geometry (with a GIS vendor or internally with "high confidence") consider offering a "flat fee" bonus or rebate rather than a per parcel fee.
 
 ## 2.2 Digital Parcel Submittals as of October 24, 2024
 -	90% of towns are edited/updated by vendors or the town. 10% are edited/updated by VCGI (these are considered “not compliant”). 
@@ -140,11 +154,7 @@ To improve the functionality of this method, the following recommendations shoul
 
 ## 3.3 Require Standardized CAMA Data Submittal to SoV
 
-<<<<<<< Updated upstream
 CAMA data is the best source of information for detailed and current property descriptions statewide. Standardizing these data and requiring their submittal to the State of Vermont for regular and uniform public publication, particularly when combined with existing parcel data, will aid improved pace and accuracy of appraisals, provide spatial context, facilitate data visualization and trend analysis, and improve data accessibility. To remain complete and current, however, the submission of standardized CAMA data to SoV should be required. VCGI's Parcel Program, for example, is a voluntary program with data ranging from less than six months to over six years old, despite the widespread visibility, utility, and value of parcel data. Without a submittal requirement for CAMA data it is likely the dataset will become fragmented, incomplete, or stale over time.
-=======
-CAMA data are the best source of information for detailed and current property descriptions statewide. Standardizing these data and requiring their submittal to the State of Vermont for normalized public publication, particularly when combined with existing parcel data, will aid improved pace and accuracy of appraisals, provide spatial context, facilitate data visualization and trend analysis, and improve data accessibility. To remain complete and current, however, the submission of standardized CAMA data to SoV should be required. VCGI's Parcel Program, for example, is a voluntary program with data ranging from less than six months to over six years old depending on the town, despite the widespread visibility, utility, and value of parcel data. Without a submittal requirement for CAMA data it is likely the dataset will become fragmented, incomplete, or stale over time.
->>>>>>> Stashed changes
 
 ## 3.4 Example Statute Updates
 >[Section] "Assessor database" means the database of property information maintained by a municipalities' lister(s) or assessor(s); it is also referred to as a Computer Aided Mass Appraisal (CAMA) system or Computer Aided Mass Appraisal database
@@ -157,13 +167,9 @@ CAMA data are the best source of information for detailed and current property d
 - Create guidance for treatment of the area between road centerline and edge of right-of-way for taxation purposes
 - Promote mapping guidance specifying that parcels should be mapped to the edge of the right-of-way, not the road centerline
 
-<<<<<<< Updated upstream
 In Vermont there is no formally defined practice or requirement for the handling of public rights-of-way from a taxation perspective and its relation with parcel mapping. Common, practical experience is that public rights-of-way such as roads and highways are just that—areas not to be obstructed by abutting private property owners--be they owned in fee or easements. State highways, for example, often involve the State purchasing lands between the road centerline and abutting parcel, whereas towns may not. These differences contribute to a lack of clarity about how to account for the area that is within a right-of-way and between an abutting private parcel and road centerline and have occasionally led to differences in their depiction and resulting acreage calculations. The Tax Department, with aid of partners, should develop and offer guidance for considering these areas with regard to taxation and related acreage calcuations.
 
 [DIAGRAMS of Right-of-Way Conditions]
-=======
-In Vermont there is no formally defined practice or requirement for the handling of public rights-of-way from a taxation perspective and with bearing on parcel mapping. Common, practical experience is that public rights-of-way such as roads and highways are just that—areas not to be obstructed by abutting private property owners, be they owned in fee or as easements. State highways, for example, often involve the State purchasing lands between the road centerline and abutting parcel, whereas towns may not. These differences contribute to a lack of clarity about how to account for the area that is within a right-of-way and between an abutting private parcel and road centerlin,e and have occasionally led to differences in their depiction and resulting acreage calculations. The Tax Department, with aid of partners, should develop and offer guidance for considering these areas with regard to taxation and related acreage calculations.
->>>>>>> Stashed changes
 
 ## 4.2 Related VT Statutes
 [19 V.S.A. § 32 Assumed width of right-of-way](https://legislature.vermont.gov/statutes/section/19/001/00032)
