@@ -140,7 +140,7 @@ To improve the functionality of this method, the following recommendations shoul
 
 ## 3.3 Require Standardized CAMA Data Submittal to SoV
 
-CAMA data is the best source of information for detailed and current property descriptions statewide. Standardizing these data and requiring their submittal to the State of Vermont for normalized public publication, particularly when combined with existing parcel data, will aid improved pace and accuracy of appraisals, provide spatial context, facilitate data visualization and trend analysis, and improve data accessibility. To remain complete and current, however, the submission of standardized CAMA data to SoV should be required. VCGI's Parcel Program, for example, is a voluntary program with data ranging from less than six months to over six years old, despite the widespread visibility, utility, and value of parcel data. Without a submittal requirement for CAMA data it is likely the dataset will become fragmented, incomplete, or stale over time.
+CAMA data is the best source of information for detailed and current property descriptions statewide. Standardizing these data and requiring their submittal to the State of Vermont for regular and uniform public publication, particularly when combined with existing parcel data, will aid improved pace and accuracy of appraisals, provide spatial context, facilitate data visualization and trend analysis, and improve data accessibility. To remain complete and current, however, the submission of standardized CAMA data to SoV should be required. VCGI's Parcel Program, for example, is a voluntary program with data ranging from less than six months to over six years old, despite the widespread visibility, utility, and value of parcel data. Without a submittal requirement for CAMA data it is likely the dataset will become fragmented, incomplete, or stale over time.
 
 ## 3.4 Example Statute Updates
 >[Section] "Assessor database" means the database of property information maintained by a municipalities' lister(s) or assessor(s); it is also referred to as a Computer Aided Mass Appraisal (CAMA) system or Computer Aided Mass Appraisal database
@@ -153,17 +153,19 @@ CAMA data is the best source of information for detailed and current property de
 - Create guidance for treatment of the area between road centerline and edge of right-of-way for taxation purposes
 - Promote mapping guidance specifying that parcels should be mapped to the edge of the right-of-way, not the road centerline.
 
-In Vermont there is no formally defined practice or requirement for the handling of public rights-of-way from a taxation perspective and with bearing on parcel mapping. Common, practical experience is that public rights-of-way such as roads and highways are just that—areas not to be obstructed by abutting private property owners, be they owned in fee or as easements. State highways, for example, often involve the State purchasing lands between the road centerline and abutting parcel, whereas towns may not. These differences contribute to a lack of clarity about how to account for the area that is within a right-of-way and between an abutting private parcel and road centerline and have occasionally led to differences in their depiction and resulting acreage calculations. The Tax Department, with aid of partners, should develop and offer guidance for considering these areas with regard to taxation and related acreage calcuations.
+In Vermont there is no formally defined practice or requirement for the handling of public rights-of-way from a taxation perspective and its relation with parcel mapping. Common, practical experience is that public rights-of-way such as roads and highways are just that—areas not to be obstructed by abutting private property owners--be they owned in fee or easements. State highways, for example, often involve the State purchasing lands between the road centerline and abutting parcel, whereas towns may not. These differences contribute to a lack of clarity about how to account for the area that is within a right-of-way and between an abutting private parcel and road centerline and have occasionally led to differences in their depiction and resulting acreage calculations. The Tax Department, with aid of partners, should develop and offer guidance for considering these areas with regard to taxation and related acreage calcuations.
 
 ## 4.2 Related VT Statutes
 [19 V.S.A. § 32 Assumed width of right-of-way](https://legislature.vermont.gov/statutes/section/19/001/00032)
 
 [19 V.S.A. § 1111 Permitted use of the right-of-way relocation or adjustment orders](https://legislature.vermont.gov/statutes/section/19/011/01111)
 
-
 # Recommendation 5: Clarify Grand List vs. GIS Acreage Guidance
 
-Text.
+## 5.1 Summary
+- 
+
+In addition to acreage and resulting taxation associated with areas of property in road rights-of-way, acreage discrepancies between listed and mapped values are common 
 
 ![image](https://github.com/user-attachments/assets/c19bbe86-0fa1-4fe1-ada6-df77229d5a97)
 ![image](https://github.com/user-attachments/assets/d723529b-89de-43e8-915a-312fdfe6d9b6)
