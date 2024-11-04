@@ -288,7 +288,7 @@ As parcel data continues to be one of the most used statewide datasets in Vermon
 ### A2.1.2 Shared Responsibility Model
 The notable success of the Parcel Program as a voluntary-based initiative is due to the collaboration between municipalities, state government, and mapping vendors in the private sector. This "Shared Responsibility" model relies on all collaborators contributing resources to maintain statewide parcel data.
 
-[IMAGE]
+![image](https://github.com/user-attachments/assets/57368cfe-eb6c-47b7-99ad-66c17cb00e3d)
 
 This graphic repersentation of the Shared Responsibility model indentifies one attribute: a municipality's ability to preform parcel geometry updates by contracting with a mapping vendor or doing updates internally. Municipalities unable to preform parcel geometry updates currently recieve irregular updates by VCGI as land surveys that can be used to update a municipality's parcel geometry are submitted to the [Vermont Land Survey Library](https://landsurvey.vermont.gov/). While this has been a sufficient approach to date, with the creation of the City of Essex Junction in 2022, Vermont now has 256 municipalities: 237 towns, 10 cities, 5 unincorporated towns, and 4 gores. With so many collaborators at the municipal level, the shared responsibility of each municipality should based upon more than one attribute.
 
