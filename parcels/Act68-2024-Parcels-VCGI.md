@@ -58,7 +58,7 @@ These changes in parcel definition and mapping practices would increase the curr
 
 Descriptive text.
 
-## 2.2 Digital Parcel Submittals as of October 24, 2024:
+## 2.2 Digital Parcel Submittals as of October 24, 2024
 -	90% of towns are edited/updated by vendors or the town. 10% are edited/updated by VCGI (these are considered “not compliant”). 
 -	10% of submissions require edits to parcel topology (i.e., geometry) to address gaps and/or overlaps among parcels.
 -	50% of submissions required edits that were already made for the previous submission  (i.e., repeated revisions).
