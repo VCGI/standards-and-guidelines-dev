@@ -295,7 +295,7 @@ This graphic repersentation of the Shared Responsibility model indentifies one a
 ## A2.2 Funding during the Parcel Project
 The Parcel  Project (2017-2019) leveraged both state and federal funds with 80 percent coming from the Federal Highway Administration and the remaining 20 percent from several state agencies and departments. The Vermont Agency of Transporation contracted with several mapping vendor to update or create digital parcel data for each Vermont municipality over a three-year period. Each mapping vendor was assigned to a municipality through a competitive bid process. The cost per parcel for a sample of municipalities completed during the first year of the Parcel Project is depicted below.
 
-![image](https://github.com/user-attachments/assets/c5168781-128a-43b0-be1f-e446215899c2)
+![image](https://github.com/user-attachments/assets/0a2f0a02-5f07-41cb-b18a-78f785ca1d86)
 
 ## Appendix 3: CAMA Data Standard
 
