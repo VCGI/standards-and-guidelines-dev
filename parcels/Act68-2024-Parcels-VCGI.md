@@ -560,6 +560,19 @@ New Jersey
 
 #### State Boundary
 
+| Geography | Total Area |         |            | Land Area |         |            | Water Area |         |         |
+|-----------|------------|---------|------------|-----------|---------|------------|------------|---------|---------|
+|           | Sq. Mi.    | Sq. Km. | Acres      | Sq. Mi.   | Sq. Km. | Acres      | Sq.Mi.     | Sq. Km. | Acres   |
+| Vermont   | 9,615      | 24,903  | 6,153,746  | 9,217     | 23,873  | 5,899,041  | 398        | 1,031   | 254,705 |
+|           |            |         | 100%       |           |         | 96%        |            |         | 4%      |
+
+Table 1. Source: [2022 TIGER/Line Geodatabase File.](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-geodatabase-file.2022.html) U.S. Census Bureau.
+
+Notes:
+1. The [NIST standard](http://www.nist.gov/system/files/documents/2023/01/30/appc-23-HB44.pdf) for converting square meters into square miles was used (1 square mile = 2,589,988.110336 square meters).
+2. Acres were calculated by multiplying square miles by 640, per conversion factors in the [NIST Handbook 44 (2023)](https://www.nist.gov/system/files/documents/2023/01/30/appc-23-HB44.pdf), Appendix C: General Tables of Units of Measurement.
+3. Area measurements are from the Census Bureau's master TIGER database. Land and water classifications reflect updates made to the TIGER database through August 2022. Values reflect the ALAND and AWATER fields. Water measurements include only perennial water. All other water (intermittent, glacier, marsh/swamp) is included in the table as part of land area calculations.
+
 ![image](https://github.com/user-attachments/assets/c61cb466-6e03-46d7-83e9-ebda6adfc6c9)
 
 ### X.X Estimated Percent Change in Parcel Counts
