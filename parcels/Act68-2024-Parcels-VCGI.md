@@ -380,6 +380,16 @@ See references to parcel defined by common ownership.
 >
 > (d) Municipalities shall include, on all property tax bills, the parcel identification number prescribed in subsection (b) of this section.
 
+[32 V.S.A. § 5404a - Taxation and Finance / Education Property Tax](https://legislature.vermont.gov/statutes/section/32/135/05404a)
+> **§ 5404a. Tax stabilization agreements; tax increment financing districts.** (6) An exemption of a portion of the value of a qualified rental unit parcel. An owner of a qualified rental unit parcel shall be entitled to an exemption on the education property tax grand list of 10 percent of the grand list value of the parcel, multiplied by the ratio of square footage of improvements used for or related to residential rental purposes to total square footage of all improvements, multiplied by the ratio of qualified rental units to total residential rental units on the parcel. “Qualified rental units” means residential rental units that are subject to rent restriction under provisions of State or federal law but excluding units subject to rent restrictions under only one of the following programs: Section 8 moderate rehabilitation, Section 8 housing choice vouchers, or Section 236 or Section 515 rural development rental housing.
+
+[32 V.S.A. § 5405 - Taxation and Finance / Education Property Tax](https://legislature.vermont.gov/statutes/section/32/135/05405)
+> **§ 5405. Determination of equalized education property tax grand list and coefficient of dispersion.** (f) Within the limits of the resources available for that purpose, the Commissioner may employ such individuals, whether on a permanent, temporary, or contractual basis, as shall be necessary, in the judgment of the Commissioner, to aid in the performance of duties under this section. The Commissioner shall pay each municipality the sum of $1.00 per grand list parcel in the municipality for services provided to the Commissioner in connection with the performance of duties under this section. Each municipality shall deposit payments received under this subsection into a special fund that shall be used to support the preparation of the education property tax grand list.
+
+[32 V.S.A. § 5412 - Taxation and Finance / Education Property Tax](https://legislature.vermont.gov/statutes/section/32/135/05412)
+> **§ 5412. Reduction of listed value and recalculation of education tax liability.** (A) The reduction in valuation is the result of an appeal under chapter 131 of this title to the Director of Property Valuation and Review or to a court, with no further appeal available with regard to that valuation, or any judicial decision with no further right of appeal, or a settlement of either an appeal or court action if the Director determines that the settlement value is the fair market value of the parcel.
+
+##### Chapter 154: Homestead Property Tax Credit and Renter Credit
 
 ## Appendix 2: Per Parcel Payments
 
