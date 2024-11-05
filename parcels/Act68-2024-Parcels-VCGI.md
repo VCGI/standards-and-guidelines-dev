@@ -277,6 +277,11 @@ There is no statewide subdivision requirement in Vermont, and not all municipali
 
 Any combination of the examples above.
 
+### A1.7 Related Parcel Definitions and Interpretations in Existing VT Statute
+
+[10 V.S.A. § 1442 - Conservation and Development / Lake Shoreland Protection Standards](https://legislature.vermont.gov/statutes/section/10/049A/01442)
+> § 1442(13) “Parcel” means a portion of land or a tract of land with defined boundaries created by dividing the land by sale, gift, lease, mortgage foreclosure, court-ordered partition or decree, or filing of a plat, plan, or deed in the records of the municipality where the act of division occurred. 
+
 ## Appendix 2: Per Parcel Payments
 
 ## A2.1 Assessment of Current Practices
