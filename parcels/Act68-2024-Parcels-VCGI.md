@@ -49,6 +49,8 @@ These changes in parcel definition and mapping practices would increase the curr
 
 [27 V.S.A. § 601](https://legislature.vermont.gov/statutes/section/27/005/00601) - Title 27: Property / Chapter 5: Conveyance of Real Estate / Subchapter 007 : Marketable Record Title 
 
+## 1.4 Practical Implications
+
 # Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Payment
 ## 2.1 Summary
 
