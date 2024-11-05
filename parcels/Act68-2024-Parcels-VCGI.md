@@ -574,5 +574,6 @@ Notes:
 3. Area measurements are from the Census Bureau's master TIGER database. Land and water classifications reflect updates made to the TIGER database through August 2022. Values reflect the ALAND and AWATER fields. Water measurements include only perennial water. All other water (intermittent, glacier, marsh/swamp) is included in the table as part of land area calculations.
 
 ![image](https://github.com/user-attachments/assets/c61cb466-6e03-46d7-83e9-ebda6adfc6c9)
+Figure X. Vermont land and water areas as depicted using BNDHASH and NHDPlus HR input layers.
 
 ### X.X Estimated Percent Change in Parcel Counts
