@@ -317,10 +317,10 @@ This section lists existing Vermont statutes that define or interpret a definiti
 >(B) cite the volume and page in the land records that indicates where the new parcel boundaries have previously been recorded. 
 
 [27 V.S.A. § 1322 - Property / Condominium Ownership Act](https://legislature.vermont.gov/statutes/section/27/015/01322)
-> § 1322. Separate taxation. Each apartment or site and its percentage of undivided interest in the common areas and facilities shall be considered to be a parcel and shall be subject to separate assessment and taxation by each assessing unit and special district for all types of taxes authorized by law, including special ad valorem levies and special assessments, except that parcels held in identical ownership may be combined and treated as one parcel for purposes of assessment and taxation at the discretion of the listers. Neither the building, the property, nor any of the common areas and facilities shall be deemed to be a parcel.
+> **§ 1322. Separate taxation.** Each apartment or site and its percentage of undivided interest in the common areas and facilities shall be considered to be a parcel and shall be subject to separate assessment and taxation by each assessing unit and special district for all types of taxes authorized by law, including special ad valorem levies and special assessments, except that parcels held in identical ownership may be combined and treated as one parcel for purposes of assessment and taxation at the discretion of the listers. Neither the building, the property, nor any of the common areas and facilities shall be deemed to be a parcel.
 
 [27 V.S.A. § 1401 - Property / Filing of Land Plats](https://legislature.vermont.gov/statutes/section/27/017/01401)
-> § 1401. Acceptance of survey plats; definition. (b) As used in this chapter: (1) “Survey plat” means a map or plan drawn to scale of one or more parcels, tracts, or subdivisions of land, showing, but not limited to, boundaries, corners, markers, monuments, easements, and other rights. (2) “Center” means the Vermont Center for Geographic Information. (c)(1) Whenever a survey plat that maps the subdivision of a parcel or a change in a parcel boundary is filed for record with a town clerk, the surveyor who created the survey plat shall submit a digital copy of the plat to the Center. The Center shall maintain digital copies of survey plats in a statewide digital repository and make them available to the public. 
+> **§ 1401. Acceptance of survey plats; definition.** (b) As used in this chapter: (1) “Survey plat” means a map or plan drawn to scale of one or more parcels, tracts, or subdivisions of land, showing, but not limited to, boundaries, corners, markers, monuments, easements, and other rights. (2) “Center” means the Vermont Center for Geographic Information. (c)(1) Whenever a survey plat that maps the subdivision of a parcel or a change in a parcel boundary is filed for record with a town clerk, the surveyor who created the survey plat shall submit a digital copy of the plat to the Center. The Center shall maintain digital copies of survey plats in a statewide digital repository and make them available to the public. 
 
 [27A V.S.A. § 1-105 - Uniform Common Interest Ownership Act (1994) / General Provisions](https://legislature.vermont.gov/statutes/section/27A/001/00105)
 > (a) In a condominium or planned community: (1) if there is any unit owner other than a declarant, each unit that has been created, together with its interest in the common elements, constitutes for all purposes a separate parcel of real estate; and (2) if there is any unit owner other than a declarant, each unit shall be separately taxed and assessed, and no separate tax or assessment may be rendered against any common elements for which a declarant has reserved no development rights; provided, however, that if a portion of the common elements is located in a town other than the town in which the unit is located, the town in which the common elements are located may designate that portion of the common elements within its boundaries as a parcel for property tax assessment purposes and may tax each unit owner at an appraisal value pursuant to 32 V.S.A. § 3481.
@@ -330,7 +330,7 @@ This section lists existing Vermont statutes that define or interpret a definiti
 ##### Use Value Appraisal Program
 
 [32 V.S.A. § 3752 - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03752)
-> § 3752. Definitions. (1)"Agricultural land" means any land, exclusive of any housesite, in active use to grow hay or cultivated crops, pasture livestock, cultivate trees bearing edible fruit, or produce an annual maple product, and that is 25 acres or more in size, except as provided in this subdivision (1).
+> **§ 3752. Definitions.** (1)"Agricultural land" means any land, exclusive of any housesite, in active use to grow hay or cultivated crops, pasture livestock, cultivate trees bearing edible fruit, or produce an annual maple product, and that is 25 acres or more in size, except as provided in this subdivision (1).
 > 
 > (C) it has produced an annual gross income from the sale of farm crops in one of two, or three of the five, calendar years preceding of at least: (i) $2,000.00 for parcels of up to 25 acres; and (ii) $75.00 per acre for each acre over 25, with the total income required not to exceed $5,000.00. 
 > 
@@ -339,27 +339,38 @@ This section lists existing Vermont statutes that define or interpret a definiti
 > (17) “Reserve forestland” means land that is managed for the purpose of attaining old forest values and functions in accordance with minimum acceptable standards for forest management and as approved by the Commissioner of Forests, Parks and Recreation. On parcels of up to 100 acres, 50 percent or more of the enrolled parcel acres shall be composed of significant and sensitive conditions in accordance with the minimum acceptable standards established by the Commissioner. On parcels of 100 acres or more, 30 percent of the enrolled parcel acres shall be composed of significant and sensitive conditions in accordance with the minimum acceptable standards established by the Commissioner.
 
 [32 V.S.A. § 3755 - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03755)
-> § 3755. Eligibility for use value appraisals. See references to parcel defined by common ownership.
+> **§ 3755. Eligibility for use value appraisals.** See references to parcel defined by common ownership.
 
 [32 V.S.A. § 3756 - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03756)
-> § 3756. Qualification for use value appraisal. See references to parcel defined by common ownership.
+> § **3756. Qualification for use value appraisal.** See references to parcel defined by common ownership.
 
 [32 V.S.A. § 3757 - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03757)
-> § 3757. Land use change tax. See references to parcel defined by common ownership.
+> **§ 3757. Land use change tax.** See references to parcel defined by common ownership.
 
 [32 V.S.A. § 3760a - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03760a)
-> § 3760a. Valuation audits. See references to parcel defined by common ownership.
+> **§ 3760a. Valuation audits.** See references to parcel defined by common ownership.
 
 ##### Grand Tax Lists
 
 [32 V.S.A. § 4041a - Taxation and Finance / Grand Tax Lists / Appraisals](https://legislature.vermont.gov/statutes/section/32/129/04041a)
-> § 4041a. Reappraisal. (a) A municipality shall be paid $8.50 per grand list parcel per year from the Education Fund to be used only for reappraisal and costs related to reappraisal of its grand list properties and for maintenance of the grand list.
+> **§ 4041a. Reappraisal.** (a) A municipality shall be paid $8.50 per grand list parcel per year from the Education Fund to be used only for reappraisal and costs related to reappraisal of its grand list properties and for maintenance of the grand list.
 
 [32 V.S.A. § 4152 - Taxation and Finance / Grand Tax Lists / Grand List of Town](https://legislature.vermont.gov/statutes/section/32/129/04152)
-> § 4152. Contents. (a) When completed, the grand list of a town shall be in such form as the Director prescribes and shall contain such information as the Director prescribes, including:... (3) A brief description of each parcel of taxable real estate in the town. “Parcel” means all contiguous land in the same ownership, together with all improvements thereon.
+> **§ 4152. Contents.** (a) When completed, the grand list of a town shall be in such form as the Director prescribes and shall contain such information as the Director prescribes, including:... (3) A brief description of each parcel of taxable real estate in the town. “Parcel” means all contiguous land in the same ownership, together with all improvements thereon.
 
-##### Education Property Tax
+##### Chapter 135: Education Property Tax
 
+[32 V.S.A. § 5401 - Taxation and Finance / Education Property Tax](https://legislature.vermont.gov/statutes/section/32/135/05401)
+> **§ 5401. Definitions.** (7) “Homestead”: (A) “Homestead” means the principal dwelling and parcel of land surrounding the dwelling, owned and occupied by a resident individual as the individual’s domicile or owned and fully leased on April 1, provided the property is not leased for more than 182 days out of the calendar year or, for purposes of the renter credit under subsection 6066(b) of this title, is rented and occupied by a resident individual as the individual’s domicile.
+>
+> (B) The parcel of land surrounding the dwelling shall be determined without regard to any road that intersects the land. If the parcel of land surrounding the dwelling is owned by a cooperative housing corporation incorporated under 11 V.S.A. chapter 14 or owned by a nonprofit land conservation corporation or community land trust with exempt status under 26 U.S.C § 501(c)(3), the homestead includes a pro rata part of the land upon which the dwelling is built, as determined by the cooperative corporation, nonprofit corporation, or land trust.
+
+[32 V.S.A. § 5404 - Taxation and Finance / Education Property Tax](https://legislature.vermont.gov/statutes/section/32/135/05404)
+> **§ 5404. Determination of education property tax grand list.** (a)...f a homestead is located on a parcel of greater than two acres, the entire parcel shall be appraised at fair market value; the housesite shall then be appraised as if it were situated on a separate parcel, and the value of the housesite shall be subtracted from the value of the total parcel to determine the value of the remainder of the parcel.
+>
+> (b)...The data transmitted shall identify each parcel by a parcel identification number assigned under a numbering system prescribed by the Director. Municipalities may continue to use existing numbering systems in addition to, but not in substitution for, the parcel identification system prescribed by the Director.
+>
+> (d) Municipalities shall include, on all property tax bills, the parcel identification number prescribed in subsection (b) of this section.
 
 
 ## Appendix 2: Per Parcel Payments
