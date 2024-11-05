@@ -285,7 +285,7 @@ Any combination of the examples above.
 
 ### A1.7 Parcel Definitions and Interpretations in Existing Vermont Statute
 
-This section lists existing Vermont statutes that define or interpret a definition of a parcel. It does not list those statutes that use the term "parcel" as an identifier to clarify an idea being discussed.
+This section lists existing Vermont statutes that define or interpret a definition of a parcel. It does not list those statutes that use the term "parcel" as an identifier to clarify an idea or specify the location of what is being discussed.
 
 [10 V.S.A. § 1442 - Conservation and Development / Lake Shoreland Protection Standards](https://legislature.vermont.gov/statutes/section/10/049A/01442)
 > § 1442 (13) “Parcel” means a portion of land or a tract of land with defined boundaries created by dividing the land by sale, gift, lease, mortgage foreclosure, court-ordered partition or decree, or filing of a plat, plan, or deed in the records of the municipality where the act of division occurred. 
@@ -312,6 +312,8 @@ This section lists existing Vermont statutes that define or interpret a definiti
 
 [27A V.S.A. § 1-105 - Uniform Common Interest Ownership Act (1994) / General Provisions](https://legislature.vermont.gov/statutes/section/27A/001/00105)
 > (a) In a condominium or planned community: (1) if there is any unit owner other than a declarant, each unit that has been created, together with its interest in the common elements, constitutes for all purposes a separate parcel of real estate; and (2) if there is any unit owner other than a declarant, each unit shall be separately taxed and assessed, and no separate tax or assessment may be rendered against any common elements for which a declarant has reserved no development rights; provided, however, that if a portion of the common elements is located in a town other than the town in which the unit is located, the town in which the common elements are located may designate that portion of the common elements within its boundaries as a parcel for property tax assessment purposes and may tax each unit owner at an appraisal value pursuant to 32 V.S.A. § 3481.
+
+[]()
 
 ## Appendix 2: Per Parcel Payments
 
