@@ -233,6 +233,10 @@ Text.
 
 [H.512 (Act 171) of 2022 - An act relating to modernizing land records and notarial acts law](https://legislature.vermont.gov/bill/status/2022/H.512)
 
+# Future Improvements 
+## Surveying Municipal Boundaries
+## Submittals of Land Surveys
+
 # Responsibilities and Implementation
 
 # Cost Estimates and Potential Funding Sources
@@ -549,5 +553,11 @@ New Jersey
 ### X.X Acreage in Common Ownership
 
 ### X.X Discrepancies in Listed and Mapped Acreage
+
+#### Sum of Listed Acreage
+
+#### Sum of Mapped Acreage
+
+#### State Boundary
 
 ### X.X Estimated Percent Change in Parcel Counts
