@@ -302,6 +302,8 @@ Any combination of the examples above.
 >(A) be accompanied by a survey plat that depicts the new parcel boundaries; or
 >(B) cite the volume and page in the land records that indicates where the new parcel boundaries have previously been recorded. 
 
+[27 V.S.A. § 1322 - Property / Condominium Ownership Act](https://legislature.vermont.gov/statutes/section/27/015/01322)
+> § 1322. Separate taxation. Each apartment or site and its percentage of undivided interest in the common areas and facilities shall be considered to be a parcel and shall be subject to separate assessment and taxation by each assessing unit and special district for all types of taxes authorized by law, including special ad valorem levies and special assessments, except that parcels held in identical ownership may be combined and treated as one parcel for purposes of assessment and taxation at the discretion of the listers. Neither the building, the property, nor any of the common areas and facilities shall be deemed to be a parcel. 
 
 ## Appendix 2: Per Parcel Payments
 
