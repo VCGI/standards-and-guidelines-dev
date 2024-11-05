@@ -560,4 +560,4 @@ New Jersey
 
 #### State Boundary
 
-### X.X Estimated Percent Change in Parcel Counts
+### X.X Estimated Percent Change in Parcel Count
