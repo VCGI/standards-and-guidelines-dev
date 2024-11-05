@@ -316,7 +316,9 @@ This section lists existing Vermont statutes that define or interpret a definiti
 [32 V.S.A. § 3752 - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03752)
 > § 3752. Definitions. [(1)"Agricultural land" means] (C) it has produced an annual gross income from the sale of farm crops in one of two, or three of the five, calendar years preceding of at least: (i) $2,000.00 for parcels of up to 25 acres; and...
 > 
-> (5)(B) “Development” also means the subdivision of a parcel of land into two or more parcels, regardless of whether a change in use actually occurs, where one or more of the resulting parcels contains less than 25 acres each; but if subdivision is solely the result of a transfer to one or more of a spouse, ex-spouse in a divorce settlement, parent, grandparent, child, grandchild, niece, nephew, or sibling of the transferor, or to the surviving spouse of any of the foregoing, then “development” shall not apply to any portion of the newly created parcel or parcels that qualify for enrollment and for which, within 30 days following the transfer, each transferee or transferor applies for reenrollment in the Use Value Appraisal Program. 
+> (5)(B) “Development” also means the subdivision of a parcel of land into two or more parcels, regardless of whether a change in use actually occurs, where one or more of the resulting parcels contains less than 25 acres each; but if subdivision is solely the result of a transfer to one or more of a spouse, ex-spouse in a divorce settlement, parent, grandparent, child, grandchild, niece, nephew, or sibling of the transferor, or to the surviving spouse of any of the foregoing, then “development” shall not apply to any portion of the newly created parcel or parcels that qualify for enrollment and for which, within 30 days following the transfer, each transferee or transferor applies for reenrollment in the Use Value Appraisal Program.
+>
+> (17) “Reserve forestland” means land that is managed for the purpose of attaining old forest values and functions in accordance with minimum acceptable standards for forest management and as approved by the Commissioner of Forests, Parks and Recreation. On parcels of up to 100 acres, 50 percent or more of the enrolled parcel acres shall be composed of significant and sensitive conditions in accordance with the minimum acceptable standards established by the Commissioner. On parcels of 100 acres or more, 30 percent of the enrolled parcel acres shall be composed of significant and sensitive conditions in accordance with the minimum acceptable standards established by the Commissioner.
 
 ## Appendix 2: Per Parcel Payments
 
@@ -530,3 +532,18 @@ New Jersey
 [N.J. Admin. Code § 18:23A-1.16 Rights-of-way and easements](https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-18-23A-1-16)
 
 
+# Appendix X: Maps and Tables
+
+
+
+## X.X Existing Lands in Current Use
+
+## X.X Existing Lands in Current Use Needing Administrative Definition for Acreage
+
+## X.X Existing Acreage in Right-of-Way
+
+## X.X Existing Acreage Duplicately Counted
+
+## X.X Existing Acreage Not Counted (Gaps)
+
+## X.X Existing Acreage in Common Ownership
