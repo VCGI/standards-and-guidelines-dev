@@ -339,16 +339,24 @@ This section lists existing Vermont statutes that define or interpret a definiti
 > (17) “Reserve forestland” means land that is managed for the purpose of attaining old forest values and functions in accordance with minimum acceptable standards for forest management and as approved by the Commissioner of Forests, Parks and Recreation. On parcels of up to 100 acres, 50 percent or more of the enrolled parcel acres shall be composed of significant and sensitive conditions in accordance with the minimum acceptable standards established by the Commissioner. On parcels of 100 acres or more, 30 percent of the enrolled parcel acres shall be composed of significant and sensitive conditions in accordance with the minimum acceptable standards established by the Commissioner.
 
 [32 V.S.A. § 3755 - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03755)
-> **§ 3755. Eligibility for use value appraisals.** See references to parcel defined by common ownership.
+> **§ 3755. Eligibility for use value appraisals.** 
+
+See references to parcel defined by common ownership.
 
 [32 V.S.A. § 3756 - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03756)
-> § **3756. Qualification for use value appraisal.** See references to parcel defined by common ownership.
+> § **3756. Qualification for use value appraisal.**
+
+See references to parcel defined by common ownership.
 
 [32 V.S.A. § 3757 - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03757)
-> **§ 3757. Land use change tax.** See references to parcel defined by common ownership.
+> **§ 3757. Land use change tax.**
+
+See references to parcel defined by common ownership.
 
 [32 V.S.A. § 3760a - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03760a)
-> **§ 3760a. Valuation audits.** See references to parcel defined by common ownership.
+> **§ 3760a. Valuation audits.**
+
+See references to parcel defined by common ownership.
 
 ##### Grand Tax Lists
 
