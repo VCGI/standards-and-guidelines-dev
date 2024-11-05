@@ -297,6 +297,10 @@ Any combination of the examples above.
 [24 V.S.A. § 4303 - Municipal and County Government / Municipal and Regional Planning and Development](https://legislature.vermont.gov/statutes/section/24/117/04303)
 > § 4303 (10) “Land development” means the division of a parcel into two or more parcels, the construction, reconstruction, conversion, structural alteration, relocation, or enlargement of any building or other structure, or of any mining, excavation, or landfill, and any change in the use of any building or other structure, or land, or extension of use of land.
 
+[27 V.S.A. § 341 - Property / Conveyance of Real Estate](https://legislature.vermont.gov/statutes/section/27/005/00341)
+> § 341 (b)(2) If the conveyance of land results in the subdivision of a parcel or a change in the boundaries of a parcel after January 1, 2020, the deed shall:
+>(A) be accompanied by a survey plat that depicts the new parcel boundaries; or
+>(B) cite the volume and page in the land records that indicates where the new parcel boundaries have previously been recorded. 
 
 
 ## Appendix 2: Per Parcel Payments
