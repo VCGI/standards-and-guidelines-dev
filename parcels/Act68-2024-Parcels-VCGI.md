@@ -532,20 +532,20 @@ New Jersey
 [N.J. Admin. Code § 18:23A-1.16 Rights-of-way and easements](https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-18-23A-1-16)
 
 
-# Appendix X: Maps and Tables
+## Appendix X: Maps and Tables
 
 
 
-## X.X Lands in Current Use
+### X.X Lands in Current Use
 
-## X.X Lands in Current Use Needing Administrative Definition for Acreage
+### X.X Lands in Current Use Needing Administrative Definition for Acreage
 
-## X.X Acreage in Right-of-Way
+### X.X Acreage in Right-of-Way
 
-## X.X Acreage Duplicately Counted
+### X.X Acreage Duplicately Counted
 
-## X.X Acreage Not Counted (Gaps)
+### X.X Acreage Not Counted (Gaps)
 
-## X.X Acreage in Common Ownership
+### X.X Acreage in Common Ownership
 
-## X.X Discrepancies in Listed and Mapped Acreage
+### X.X Discrepancies in Listed and Mapped Acreage
