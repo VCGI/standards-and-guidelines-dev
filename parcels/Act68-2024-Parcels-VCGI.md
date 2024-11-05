@@ -560,4 +560,6 @@ New Jersey
 
 #### State Boundary
 
+![image](https://github.com/user-attachments/assets/c61cb466-6e03-46d7-83e9-ebda6adfc6c9)
+
 ### X.X Estimated Percent Change in Parcel Count
