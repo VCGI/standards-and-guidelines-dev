@@ -291,17 +291,25 @@ Any combination of the examples above.
 
 This section lists existing Vermont statutes that define or interpret a definition of a parcel. It does not list those statutes that use the term "parcel" as an identifier to clarify an idea or specify the location or applicability of what is being discussed, unless otherwise noted.
 
+#### 10 V.S.A. Conservation and Development
+
 [10 V.S.A. § 1442 - Conservation and Development / Lake Shoreland Protection Standards](https://legislature.vermont.gov/statutes/section/10/049A/01442)
 > § 1442 (13) “Parcel” means a portion of land or a tract of land with defined boundaries created by dividing the land by sale, gift, lease, mortgage foreclosure, court-ordered partition or decree, or filing of a plat, plan, or deed in the records of the municipality where the act of division occurred. 
 
 [10 V.S.A. § 6201 - Conservation and Development / Mobile Home Parks](https://legislature.vermont.gov/statutes/section/10/153/06201)
 > § 6201 (2)  “Mobile home park” means any parcel of land under single or common ownership or control that contains, or is designed, laid out, or adapted to accommodate, more than two mobile homes.
 
+#### 11 V.S.A. Corporations, Partnerships and Associations
+
 [11 V.S.A. § 1610 - Corporations, Partnerships and Associations / Cooperative Housing Ownership Act](https://legislature.vermont.gov/statutes/section/11/014/01610)
 > Each unit in a mobile home limited equity cooperative under proprietary lease, together with any improvements thereon and together with the proprietary lessee’s cooperative interest in the common areas and facilities owned by the cooperative, shall be considered to be a parcel, and shall be subject to separate assessment and taxation as real property by each assessing unit and special district for all types of taxes authorized by law, including special ad valorem levies and special assessments.
 
+#### 24 V.S.A. Municipal and County Government
+
 [24 V.S.A. § 4303 - Municipal and County Government / Municipal and Regional Planning and Development](https://legislature.vermont.gov/statutes/section/24/117/04303)
 > § 4303 (10) “Land development” means the division of a parcel into two or more parcels, the construction, reconstruction, conversion, structural alteration, relocation, or enlargement of any building or other structure, or of any mining, excavation, or landfill, and any change in the use of any building or other structure, or land, or extension of use of land.
+
+#### 27 V.S.A. Property
 
 [27 V.S.A. § 341 - Property / Conveyance of Real Estate](https://legislature.vermont.gov/statutes/section/27/005/00341)
 > § 341 (b)(2) If the conveyance of land results in the subdivision of a parcel or a change in the boundaries of a parcel after January 1, 2020, the deed shall:
@@ -317,8 +325,12 @@ This section lists existing Vermont statutes that define or interpret a definiti
 [27A V.S.A. § 1-105 - Uniform Common Interest Ownership Act (1994) / General Provisions](https://legislature.vermont.gov/statutes/section/27A/001/00105)
 > (a) In a condominium or planned community: (1) if there is any unit owner other than a declarant, each unit that has been created, together with its interest in the common elements, constitutes for all purposes a separate parcel of real estate; and (2) if there is any unit owner other than a declarant, each unit shall be separately taxed and assessed, and no separate tax or assessment may be rendered against any common elements for which a declarant has reserved no development rights; provided, however, that if a portion of the common elements is located in a town other than the town in which the unit is located, the town in which the common elements are located may designate that portion of the common elements within its boundaries as a parcel for property tax assessment purposes and may tax each unit owner at an appraisal value pursuant to 32 V.S.A. § 3481.
 
+#### 32 V.S.A. Taxation and Finance
+
 [32 V.S.A. § 3752 - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03752)
-> § 3752. Definitions. [(1)"Agricultural land" means] (C) it has produced an annual gross income from the sale of farm crops in one of two, or three of the five, calendar years preceding of at least: (i) $2,000.00 for parcels of up to 25 acres; and...
+> § 3752. Definitions. (1)"Agricultural land" means any land, exclusive of any housesite, in active use to grow hay or cultivated crops, pasture livestock, cultivate trees bearing edible fruit, or produce an annual maple product, and that is 25 acres or more in size, except as provided in this subdivision (1).
+> 
+> (C) it has produced an annual gross income from the sale of farm crops in one of two, or three of the five, calendar years preceding of at least: (i) $2,000.00 for parcels of up to 25 acres; and (ii) $75.00 per acre for each acre over 25, with the total income required not to exceed $5,000.00. 
 > 
 > (5)(B) “Development” also means the subdivision of a parcel of land into two or more parcels, regardless of whether a change in use actually occurs, where one or more of the resulting parcels contains less than 25 acres each; but if subdivision is solely the result of a transfer to one or more of a spouse, ex-spouse in a divorce settlement, parent, grandparent, child, grandchild, niece, nephew, or sibling of the transferor, or to the surviving spouse of any of the foregoing, then “development” shall not apply to any portion of the newly created parcel or parcels that qualify for enrollment and for which, within 30 days following the transfer, each transferee or transferor applies for reenrollment in the Use Value Appraisal Program.
 >
@@ -329,6 +341,12 @@ This section lists existing Vermont statutes that define or interpret a definiti
 
 [32 V.S.A. § 3756 - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03756)
 > § 3756. Qualification for use value appraisal. See references to parcel defined by common ownership.
+
+[32 V.S.A. § 3757 - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03757)
+> § 3757. Land use change tax. See references to parcel defined by common ownership.
+
+[32 V.S.A. § 3760a - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03760a)
+> § 3760a. Valuation audits. See references to parcel defined by common ownership.
 
 ## Appendix 2: Per Parcel Payments
 
