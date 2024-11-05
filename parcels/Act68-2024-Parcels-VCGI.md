@@ -536,14 +536,16 @@ New Jersey
 
 
 
-## X.X Existing Lands in Current Use
+## X.X Lands in Current Use
 
-## X.X Existing Lands in Current Use Needing Administrative Definition for Acreage
+## X.X Lands in Current Use Needing Administrative Definition for Acreage
 
-## X.X Existing Acreage in Right-of-Way
+## X.X Acreage in Right-of-Way
 
-## X.X Existing Acreage Duplicately Counted
+## X.X Acreage Duplicately Counted
 
-## X.X Existing Acreage Not Counted (Gaps)
+## X.X Acreage Not Counted (Gaps)
 
-## X.X Existing Acreage in Common Ownership
+## X.X Acreage in Common Ownership
+
+## X.X Discrepancies in Listed and Mapped Acreage
