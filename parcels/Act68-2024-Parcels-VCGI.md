@@ -327,6 +327,8 @@ This section lists existing Vermont statutes that define or interpret a definiti
 
 #### 32 V.S.A. Taxation and Finance
 
+##### Use Value Appraisal Program
+
 [32 V.S.A. § 3752 - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03752)
 > § 3752. Definitions. (1)"Agricultural land" means any land, exclusive of any housesite, in active use to grow hay or cultivated crops, pasture livestock, cultivate trees bearing edible fruit, or produce an annual maple product, and that is 25 acres or more in size, except as provided in this subdivision (1).
 > 
@@ -347,6 +349,18 @@ This section lists existing Vermont statutes that define or interpret a definiti
 
 [32 V.S.A. § 3760a - Taxation and Finance / Agricultural Land and Managed Forestland Use Value Appraisal Program](https://legislature.vermont.gov/statutes/section/32/124/03760a)
 > § 3760a. Valuation audits. See references to parcel defined by common ownership.
+
+##### Grand Tax Lists
+
+[32 V.S.A. § 4041a - Taxation and Finance / Grand Tax Lists / Appraisals](https://legislature.vermont.gov/statutes/section/32/129/04041a)
+> § 4041a. Reappraisal. (a) A municipality shall be paid $8.50 per grand list parcel per year from the Education Fund to be used only for reappraisal and costs related to reappraisal of its grand list properties and for maintenance of the grand list.
+
+[32 V.S.A. § 4152 - Taxation and Finance / Grand Tax Lists / Grand List of Town](https://legislature.vermont.gov/statutes/section/32/129/04152)
+> § 4152. Contents. (a) When completed, the grand list of a town shall be in such form as the Director prescribes and shall contain such information as the Director prescribes, including:... (3) A brief description of each parcel of taxable real estate in the town. “Parcel” means all contiguous land in the same ownership, together with all improvements thereon.
+
+##### Education Property Tax
+
+
 
 ## Appendix 2: Per Parcel Payments
 
