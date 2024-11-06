@@ -398,7 +398,8 @@ See references to parcel defined by common ownership.
 >
 > (16) “Unadjusted property tax” means the amount of education and municipal property taxes on the homestead parcel before any reduction for a property tax credit under section 6066a of this chapter.
 
-
+[32 V.S.A. § 6066 - Taxation and Finance / Homestead Property Tax Credit and Renter Credit](https://legislature.vermont.gov/statutes/section/32/154/06066)
+> **§ 6066. Computation of property tax credit and renter credit.** (g) Notwithstanding subsection (d) of this section, if the land surrounding a homestead is owned by a nonprofit corporation or community land trust with tax exempt status under 26 U.S.C. § 501(c)(3), the homeowner may include an allocated amount as property tax paid on the land with the amount of property taxes paid by the homeowner on the home for the purposes of computation of the credit under this section. The allocated amount shall be determined by the nonprofit corporation or community land trust on a proportional basis. The nonprofit corporation or community land trust shall provide to that homeowner, by January 31, a certificate specifying the allocated amount. The certificate shall indicate the proportion of total property tax on the parcel that was assessed for municipal property tax and for statewide property tax. 
 
 ## Appendix 2: Per Parcel Payments
 
