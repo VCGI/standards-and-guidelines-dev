@@ -289,7 +289,7 @@ Any combination of the examples above.
 
 ### A1.7 Parcel Definitions and Interpretations in Existing Vermont Statute
 
-This section lists existing Vermont statutes that define or interpret a definition of a parcel. It does not list those statutes that use the term "parcel" as an identifier to clarify an idea or specify the location or applicability of what is being discussed, unless otherwise noted.
+This section lists existing Vermont statutes that define or interpret a definition of a parcel and/or have eligibilty requirements dependent on such definition. It does not list those statutes that use the term "parcel" as an identifier to clarify an idea or specify the location or applicability of what is being discussed without area requirements, unless otherwise noted.
 
 #### 6 V.S.A. Agriculture
 [6 V.S.A. § 564 - Agriculture / Hemp](https://legislature.vermont.gov/statutes/section/06/034/00564)
