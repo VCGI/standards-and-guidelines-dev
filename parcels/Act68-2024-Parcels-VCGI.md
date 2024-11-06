@@ -288,7 +288,7 @@ This example is notable in that any **one** of the following must be met to defi
 
 There is no statewide subdivision requirement in Vermont, and not all municipalities require subdivisions. Thus, several instruments may be relied upon to help define a parcel (deed, sudvision plat where required by municipality, or property transfer / sale).
 
-### A1.6 Separate Mapped Unit, Defined by Combination
+### A1.6 Separate Mapped Unit, Defined by Combination 
 
 Any combination of the examples above.
 
