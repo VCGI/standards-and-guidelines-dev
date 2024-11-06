@@ -291,6 +291,10 @@ Any combination of the examples above.
 
 This section lists existing Vermont statutes that define or interpret a definition of a parcel. It does not list those statutes that use the term "parcel" as an identifier to clarify an idea or specify the location or applicability of what is being discussed, unless otherwise noted.
 
+#### 6 V.S.A. Agriculture
+[6 V.S.A. § 564 - Agriculture / Hemp / State hemp program; registration; application; administration](https://legislature.vermont.gov/statutes/section/06/034/00564)
+> **§ 564. State hemp program; registration; application; administration.** (i) the location and acreage of all parcels where hemp will be grown;
+
 #### 10 V.S.A. Conservation and Development
 
 [10 V.S.A. § 1442 - Conservation and Development / Lake Shoreland Protection Standards](https://legislature.vermont.gov/statutes/section/10/049A/01442)
@@ -400,6 +404,23 @@ See references to parcel defined by common ownership.
 
 [32 V.S.A. § 6066 - Taxation and Finance / Homestead Property Tax Credit and Renter Credit](https://legislature.vermont.gov/statutes/section/32/154/06066)
 > **§ 6066. Computation of property tax credit and renter credit.** (g) Notwithstanding subsection (d) of this section, if the land surrounding a homestead is owned by a nonprofit corporation or community land trust with tax exempt status under 26 U.S.C. § 501(c)(3), the homeowner may include an allocated amount as property tax paid on the land with the amount of property taxes paid by the homeowner on the home for the purposes of computation of the credit under this section. The allocated amount shall be determined by the nonprofit corporation or community land trust on a proportional basis. The nonprofit corporation or community land trust shall provide to that homeowner, by January 31, a certificate specifying the allocated amount. The certificate shall indicate the proportion of total property tax on the parcel that was assessed for municipal property tax and for statewide property tax. 
+
+[32 V.S.A. § 6066a - Taxation and Finance / Homestead Property Tax Credit and Renter Credit](https://legislature.vermont.gov/statutes/section/32/154/06066a)
+> **§ 6066a. Determination of property tax credit.** (3) The property tax credit amount determined for the taxpayer shall be allocated first to current year property tax on the homestead parcel, next to current-year homestead parcel penalties and interest, next to any prior year homestead parcel penalties and interest, and last to any prior year property tax on the homestead parcel. No credit shall be allocated to a property tax liability for any year after the year for which the claim or refund allocation was filed. No municipal tax-reduction incentive for early payment of taxes shall apply to any amount allocated to the property tax bill under this chapter.
+
+[32 V.S.A. § 6069 - Taxation and Finance / Homestead Property Tax Credit and Renter Credit](https://legislature.vermont.gov/statutes/section/32/154/06069)
+> **§ 6069. Landlord certificate.** (a) On or before January 31 of each year, the owner of land rented as a portion of a homestead in the prior calendar year shall furnish a certificate of rent to the Department of Taxes and to each claimant who owned a portion of the homestead and rented that land as a portion of a homestead in the prior calendar year. The certificate shall indicate the proportion of total property tax on that parcel that was assessed for municipal property tax and for statewide property tax.
+
+##### Chapter 236: Tax on Gains from the Sale or Exchange of Land 
+
+[32 V.S.A. § 10002 - Taxation and Finance / Tax on Gains from the Sale or Exchange of Land](https://legislature.vermont.gov/statutes/section/32/236/10002)
+> **§ 10002. Land and residences** (a) “Land” means all land, whether or not improved, that has been purchased and subdivided by the transferor within the six years prior to the sale or exchange of the land, but does not include land not exceeding 10 acres, necessary for the use of a dwelling used by the seller of such land as his or her principal residence. Buildings or other structures are not included in this definition of “land.” “Land” also means timber or rights to timber when that timber or those timber rights are sold within six years of their purchase, provided the underlying land is also sold within six years. “Underlying land” means the land from which timber or timber rights have been separated, whether subdivided or not. As used in this subsection, the term “subdivision” means a tract or tracts of land, owned or controlled by a person, that the person has partitioned or divided for the purpose of sale or transfer. Subdivision shall be deemed to have occurred on the conveyance of the first lot or the filing of a plat, plan, or deed in the town records, whichever first occurs. A subdivision shall not include a boundary adjustment between adjacent parcels.
+>
+> (f) Also excluded from the definition of “land” is any land up to 10 acres, with the modification permitted by subsection (c) of this section, acquired by a person who will build on that land a house that, by the next succeeding sale, will be the principal residence of the occupant when the person purchases from the person who built the house. The person acquiring such land must certify to the Commissioner of Taxes that the person will begin building within one year of date of purchase, complete the building within two years from the date of purchase, and sell it within three years from date of purchase to a person who qualifies under subsection (b) of this section. If the land is sold as more than one parcel by the builder who acquired it, only those parcels on which a dwelling has been completed in accordance with the requirements of this subsection shall be excluded from the definition of “land.” The deed for the property shall recite the fact that there is running with the land a lien equal to the amount of land gains tax exempted by this subsection until the time as all conditions of this subsection have been met.
+>
+> (m) Also excluded from the definition of “land” is a parcel of land 25 acres or less, purchased by a farmer, as defined in section 3752 of this title, for active and direct use by that farmer, and that, upon transfer, but for the acreage, meets the definition of “agricultural land” or “managed forestland” in section 3752 of this title, and continues to meet that definition for at least six years after the transfer.
+>
+> 
 
 ## Appendix 2: Per Parcel Payments
 
