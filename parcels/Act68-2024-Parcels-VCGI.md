@@ -391,6 +391,15 @@ See references to parcel defined by common ownership.
 
 ##### Chapter 154: Homestead Property Tax Credit and Renter Credit
 
+[32 V.S.A. § 6061 - Taxation and Finance / Homestead Property Tax Credit and Renter Credit](https://legislature.vermont.gov/statutes/section/32/154/06061)
+> **§ 6061. Definitions.** As used in this chapter unless the context requires otherwise:...(11) “Housesite” means that portion of a homestead, as defined under subdivision 5401(7) of this title but not under subdivision 5401(7)(G) of this title, that includes as much of the land owned by the claimant surrounding the dwelling as is reasonably necessary for use of the dwelling as a home, but in no event more than two acres per dwelling unit, and, in the case of multiple dwelling units, not more than two acres per dwelling unit up to a maximum of 10 acres per parcel. 
+>
+> (15) “Adjusted property tax” means the amount of education and municipal property taxes on the homestead parcel after reduction for any property tax credit under section 6066a of this chapter. 
+>
+> (16) “Unadjusted property tax” means the amount of education and municipal property taxes on the homestead parcel before any reduction for a property tax credit under section 6066a of this chapter.
+
+
+
 ## Appendix 2: Per Parcel Payments
 
 ## A2.1 Assessment of Current Practices
@@ -604,8 +613,6 @@ New Jersey
 
 
 ## Appendix X: Maps and Tables
-
-
 
 ### X.X Lands in Current Use
 
