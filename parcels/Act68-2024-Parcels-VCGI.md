@@ -292,8 +292,11 @@ Any combination of the examples above.
 This section lists existing Vermont statutes that define or interpret a definition of a parcel. It does not list those statutes that use the term "parcel" as an identifier to clarify an idea or specify the location or applicability of what is being discussed, unless otherwise noted.
 
 #### 6 V.S.A. Agriculture
-[6 V.S.A. § 564 - Agriculture / Hemp / State hemp program; registration; application; administration](https://legislature.vermont.gov/statutes/section/06/034/00564)
+[6 V.S.A. § 564 - Agriculture / Hemp](https://legislature.vermont.gov/statutes/section/06/034/00564)
 > **§ 564. State hemp program; registration; application; administration.** (i) the location and acreage of all parcels where hemp will be grown;
+
+[6 V.S.A. § 4871 - Agriculture / Agriculture Water Quality / Small Farm Certification](https://legislature.vermont.gov/statutes/section/06/215/04871)
+> **§ 4871. Small farm certification.** (a) Small farm definition. As used in this section, “small farm” means a parcel or parcels of land: (1) on which 10 or more acres are used for farming;
 
 #### 10 V.S.A. Conservation and Development
 
