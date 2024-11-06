@@ -644,3 +644,7 @@ Notes:
 Figure X. Vermont land and water areas as depicted using BNDHASH and NHDPlus HR input layers.
 
 ### X.X Estimated Percent Change in Parcel Counts
+
+### X.X Age of Parcel Geometry by Town
+
+### X.X Maintenance of Parcel Geometry by Town
