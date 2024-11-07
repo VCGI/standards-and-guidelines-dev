@@ -427,8 +427,13 @@ See references to parcel defined by common ownership.
 > (f) Also excluded from the definition of “land” is any land up to 10 acres, with the modification permitted by subsection (c) of this section, acquired by a person who will build on that land a house that, by the next succeeding sale, will be the principal residence of the occupant when the person purchases from the person who built the house. The person acquiring such land must certify to the Commissioner of Taxes that the person will begin building within one year of date of purchase, complete the building within two years from the date of purchase, and sell it within three years from date of purchase to a person who qualifies under subsection (b) of this section. If the land is sold as more than one parcel by the builder who acquired it, only those parcels on which a dwelling has been completed in accordance with the requirements of this subsection shall be excluded from the definition of “land.” The deed for the property shall recite the fact that there is running with the land a lien equal to the amount of land gains tax exempted by this subsection until the time as all conditions of this subsection have been met.
 >
 > (m) Also excluded from the definition of “land” is a parcel of land 25 acres or less, purchased by a farmer, as defined in section 3752 of this title, for active and direct use by that farmer, and that, upon transfer, but for the acreage, meets the definition of “agricultural land” or “managed forestland” in section 3752 of this title, and continues to meet that definition for at least six years after the transfer.
->
-> 
+
+#### Existing Legislation Overview
+
+| Statute         | Title       | Chapter | Subchapter               | Section                                                       | Acreage Dependency | Acreage Amount | Eligibility   |
+|-----------------|-------------|---------|--------------------------|---------------------------------------------------------------|--------------------|----------------|---------------|
+| 6 V.S.A. § 564  | Agriculture | Hemp    |                          | State hemp program; registration; application; administration | No                 |                |               |
+| 6 V.S.A. § 4871 | Agriculture | Hemp    | Small Farm Certification | Small farm certification                                      | Yes                | 10             | Certification |
 
 ## Appendix 2: Per Parcel Payments
 
