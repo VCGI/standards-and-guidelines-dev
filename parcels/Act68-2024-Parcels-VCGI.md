@@ -105,8 +105,8 @@ The Parcel  Project (2017-2019) leveraged both state and federal funds with 80 p
 
 # Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
 ## 3.1 Summary
-- Create standardized Computer Assisted Mass Appraisal (CAMA) schema and domains based on fields from current CAMA software providers, with applicability to current and future CAMA providers operating in Vermont
-- Require standardized land use codes and descriptions matching VT Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf)
+- Create standardized Computer Assisted Mass Appraisal (CAMA) schema and domains based on fields from current CAMA software providers and input from VT Department of Tax, with applicability to current and future CAMA providers operating in Vermont. Select 'priority fields' for initial standardization, with goal of expanding to additional fields over time (phased approach)
+- Require standardized land use categories and descriptions matching VT Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf)
 - Normalize recording of other fields including actual year built, effective year built, and unit counts
 - Use stacked polygons for representing and accounting for unlanded structures, including attribution and mapping
 - Require submittal of CAMA data adherent to the CAMA data standard to the State of Vermont. Submittals are to come directly from each vendor via read-only API or file extract, with preference for API
@@ -123,17 +123,38 @@ Four CAMA software providers [operate in Vermont](https://tax.vermont.gov/munici
 
 Based on sample data and documentation, all providers differ in how they collect, format, and organize CAMA data. VCGI recommends devising a standardized template and schema, including domains for applicable fields, with input and agreement from each vendor. In most cases, vendors should be able to perform an extract of fields they are already collecting with little or no modification (or, ideally, provide VCGI with a read-only API). Some fields, particularly land use codes, will need to be standardized to a single set of codes and descriptions (see below).
 
+Following discussion with the VT Department of Tax, a phased approach for standardizing fields is likely the most feasible and realistic. The following fields comprise the first phase of standardization:
+ - SPAN
+ - Actual Year Built
+ - Total Finished Square Feet
+ - Heat IDs
+ - Heat/Cool 
+ - Heat/Cool %
+ - Total Rooms 
+ - Bedrooms
+ - Full Baths
+ - Half Baths
+ - Kitchens
+ - Effective Year Built
+ - % Complete 
+ - Unit Count
+ - Story Count
+
+All or most of these fields are present in the sample data/schema provided by three of the four CAMA vendors. 
+
 ### 3.2.2 Implement Changes to Parcel Definition in CAMA Data
 
 Existing CAMA data software solutions offer advanced data maintenance capabilities and should accomodate a parcel definition change to separate and sellable pieces of real estate. Data entry and maintenance practices will need to adjust to reflect the se changes.
 
 ### 3.2.3 Normalize Land Use Classification Codes
 
-Standardized land use classification codes and descriptions are essential for integrating a statewide CAMA system. Currently, all four CAMA software providers use different coding systems for land use. Based on sample data, NEMRC appears to be the only vendor using codes conforming to the [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) published by the VT Department of Tax. VCGI recommends that these codes be used by all vendors. These codes provide a relatively high level of specificity for different land use types, and are grouped by broader category codes at the '100 level' (e.g., all codes between 300 and 399 have a commercial use), which helps to quickly identify and group more general land use types. If a vendor chooses not to adopt the VT Department of Tax Property Class Codes, a crosswalk table should be created to allow standardization when VCGI reads and integrates CAMA data into the statewide dataset.
+Currently, all four CAMA software providers use different coding systems for land use. VCGI recommends that the category ('100 level') codes found in the VT Department of Tax's [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) be used by all vendors. Using the broader category codes will help to quickly identify and group more general land use types without becoming overly granular and potentially less accurate. If a vendor chooses not to adopt the VT Department of Tax Property Category Codes, a crosswalk table should be created to allow standardization when VCGI reads and integrates CAMA data into the statewide dataset. 
+
+If this particular set of category codes are not used, VCGI recommends using or creating another set of codes with a comparable level of detail (e.g., primary residence, commercial, agricultural, open land, etc.). 
 
 ### 3.2.4 Normalize Actual Year Built, Effective Year Built, and Unit Count Information
 
-Similar to Land Use Codes, consistent definitions and formatting for actual year built, effective year built, and unit count should be established for all CAMA vendors. While each of these fields appear to exist within the current schema for each vendor, it is essential that all are evaluated using the same methodology and definition.
+Similar to land use codes and categories, consistent definitions and formatting for actual year built, effective year built, and unit count should be established for all CAMA vendors. While each of these fields appear to exist within the current schema for each vendor, it is essential that all are evaluated using the same methodology and definition.
 
 ### 3.2.5 Normalize Attribution and Mapping of Unlanded Structures
 
@@ -458,95 +479,7 @@ The Parcel  Project (2017-2019) leveraged both state and federal funds with 80 p
 ## Appendix 3: CAMA Data Standard
 
 ### A3.1 Land Use Codes
- Vermont Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) (bold indicates category code):
-
- **PCCODE**          | **PCLASS**      |**PCCODE**    | **PCLASS**|
-|:-------------------|:----------------|:-------------|:----------|
-|0	| Unknown|413	|VT Elect Power Co
-|**100**	|**Primary Year Round Residence**|414	|New Eng Power Co
-|101	|Single Family|415	|VT Electric Co-Op
-|102	|Two Unit|416	|Other
-|103	|Three Unit|420	|Mining/Quarries
-|104	|Four Unit|421	|Granite
-|130	|Condo/Co-Op|422	|Marble
-|131	|Condo < 6 ac|423	|Limestone
-|132	|Condo > 6 ac|424	|Sand/Gravel
-|135	|Co-op Apt|425	|Magnesium/Talc
-|150	|Mobile Home|426	|Asbestos
-|**200**	|**Secondary Residence**|427	|Other
-|201	|Single Family|430	|Wood Manufacturer
-|202	|Two Family|431	|Pulp/Paper Mills
-|203	|Three Family|432	|Plywood/Veneer Mills
-|204	|Four Family|433	|Sawmills/Finish Mill
-|230	|Condo/Co-Op|434	|Wood Consm Prod
-|231	|Common Land > 6 ac|440	|Creameries/Dairies
-|232	|Secondary|450	|Other Industry
-|235	|Co-op Apt|451	|Heavy Industry
-|250	|Mobile Home|454	|Medium Industry
-|**300**	|**Commercial**|455	|Light Industry
-|310	|Auto Sales/Related|**500**	|**Operating Farm/Ag**
-|311	|Auto/Truck/Bus Sales|511	|Dairy Farm/Prod
-|312	|Gas Station/Garage|512	|Beef/Dairy Replace
-|313	|Auto Repair|513	|Horses/Ponies
-|314	|Car Wash|514	|Sheep/Wool
-|315	|Auto/Truck Rental|515	|Hogs
-|316	|Truck Terminals|519	|Animals Over 100#
-|320	|Trans/Comm|520	|Birds/Assoc Prod
-|321	|Apts/Bldg/Sales/Ser|521	|Chickens/Eggs
-|322	|Railroad/Assoc.Fac|522	|Turkeys/Eggs
-|323	|Ferry/Barges/Docks|523	|Aquatic Fowl
-|324	|Marinas/Boat Sales|524	|Game/Show Birds
-|325	|TV Studio/Broadcast|530	|Ag Ent/Living Cre
-|326	|Radio Studio/Broadcast|531	|Rabbits meat/fur
-|327	|Cable TV|532	|Fur Farm
-|328	|Telephone/Telegraph|533	|Bees/Products
-|330	|Rentals|534	|Aquatic Fowl
-|331	|Business Blocks|540	|Field Crops
-|332	|Office Buildings|550	|Truck Crops
-|333	|Year Round Residence|560	|Orchards
-|334	|Bank Building|561	|Apple
-|335	|Shopping Centers|563	|Sugar Bush
-|336	|Buildings|565	|Other Fruits/Nuts
-|337	|Mobile Home Parks|570	|Fruits/Berries
-|340	|Warehouses/ Distribution|580	|Nursery/Greenhouse
-|341	|Beverage Warehouse|590	|Wildlife Preserves
-|342	|Grocery Warehouse|**600**	|**Timberland**
-|343	|Gas/Diesel/Heating|**700**	|**Government Use**
-|344	|Auto Parts Distribution|710	|Federal
-|347	|General Warehouse|720	|State
-|348	|Boat Storage|730	|County
-|350	|Travel Accommodation/Rest|740	|Local
-|351	|Hotel|750	|School District
-|352	|Motel|**800**	|**Open Land/Misc**
-|353	|Inn/Overnight Cabins|810	|Year Round Residence
-|354	|Lodges|811	|Rural
-|355	|Snack Bars/Fast Food|812	|Urban
-|356	|Restaurants|820	|Development
-|360	|Service/Health|821	|Rural
-|361	|Hospitals|822	|Urban
-|362	|Nursing Home/Clinic|830	|Recreation
-|363	|Funeral Home/Morgue|831	|Rural
-|364	|Cemeteries|832	|Urban
-|365	|Laundry/Dry Cleaning|840	|Industrial
-|380	|Sales|841	|Rural
-|381	|Small Retail Shop/Store|842	|Urban
-|382	|Supermarkets|850	|Commercial
-|383	|Building Supplies/Lumber Yard|851	|Rural
-|384	|Propane/Heating Oil|852	|Urban
-|385	|Feed/Grain/Seed|856	|Parking Lot
-|386	|Farm Machinery/Equipment|860	|Farm Use
-|387	|Small Grocery Stores|870	|Governmental
-|390	|Miscellaneous/Multi use|880	|Vacation
-|391	|Office Building/Apartments|890	|Other
-|392	|Motel/Restaurant|891	|Right of Way
-|393	|Store/Apartments|892	|Establish Bound Line
-|395	|Lodge/Restaurant|894	|Water Rights
-|**400**	|**Industrial**|**900**	|**Other**
-|402	|Gas/Oil Pipe/Prod|910	|Religious
-|405	|Other Energy Production|920	|Fraternal
-|410	|Electric|930	|Non-Profit Org
-|411	|CVPS|940	|Mineral Rights
-|412	|Green Mtn Power
+ Vermont Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) (category level only):
 
 **Vermont Department of Tax Categories**
 | Category Code | Category                     |
@@ -563,7 +496,7 @@ The Parcel  Project (2017-2019) leveraged both state and federal funds with 80 p
 | 900           | Other                        |
 
 ### A3.2 Standardized CAMA schema
-Proposed standardized CAMA schema, based on example data from CAMA vendors in Vermont as well as a similar schema being developed in Connecticut, can be viewed [here](https://vermontgov.sharepoint.com/:x:/t/ADS.VCGIGroup/EZEBDpDNLNNHk_dhFOhtNW8BiiuDlzcCbWzOrxTXDUgO_g?e=3QqTMj).
+Proposed standardized CAMA schema, based on example data from CAMA vendors in Vermont as well as a similar schema being developed in Connecticut, can be viewed [here](https://vermontgov.sharepoint.com/:x:/t/ADS.VCGIGroup/EZEBDpDNLNNHk_dhFOhtNW8BiiuDlzcCbWzOrxTXDUgO_g?e=3QqTMj). See 'PriorityFields_v1' for fields to standardize first following agreement between VT Department of Tax and all CAMA vendors.
 
 ### A3.3 Mapping of Unlanded Structures
 **Background** 
