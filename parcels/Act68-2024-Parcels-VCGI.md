@@ -443,15 +443,7 @@ See references to parcel defined by common ownership.
 
 ## Appendix 2: Per Parcel Payments
 
-## A2.1 Assessment of Current Practices
-### A2.1.1 Voluntary Participation
-The ongoing effort to publish parcel data (joined to the annual Grand List) in a uniform, digital format relies on municipalities voluntarily sharing updated parcel geometry with VCGI. While this approach has worked for the Parcel Program for nearly half a decade, the need to create a financial incentive to increase participation has always been considered as referenced in the 2015 Vermont Statewide Digital Parcel Lifecycle & Maintenance Plan:
-
-> As implementation shifts into a maintenance stage, Vermont will want to pay close attention to challenges to compliance. While some impediments may be more attitudinal than logistical or economic, the state may want to consider creating incentives to comply.
-
-As parcel data continues to be one of the most used statewide datasets in Vermont, creating a financial incentive is likely necessary not only to increase participation but also to improve data quality. To encourage participation from as many municipalities as possible, VCGI has largely been accepting parcel geometry "as-is" which often requirese significant edits before publishing to meet the existing data standard.
-
-### A2.1.2 Shared Responsibility Model
+### A2.1 Shared Responsibility Model
 The notable success of the Parcel Program as a voluntary-based initiative is due to the collaboration between municipalities, state government, and mapping vendors in the private sector. This "Shared Responsibility" model relies on all collaborators contributing resources to maintain statewide parcel data.
 
 ![image](https://github.com/user-attachments/assets/57368cfe-eb6c-47b7-99ad-66c17cb00e3d)
