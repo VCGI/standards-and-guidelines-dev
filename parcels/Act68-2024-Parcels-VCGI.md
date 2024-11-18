@@ -603,6 +603,8 @@ New Jersey
 ### X.X Lands in Current Use
 
 ### X.X Lands in Current Use Needing Administrative Definition for Acreage
+![Inactives_CU](https://github.com/user-attachments/assets/82857b3e-d2b7-4d65-97e4-f02e71695d78)
+
 
 ### X.X Acreage in Right-of-Way
 
