@@ -467,9 +467,9 @@ The notable success of the Parcel Program as a voluntary-based initiative is due
 This graphic repersentation of the Shared Responsibility model indentifies one attribute: a municipality's ability to preform parcel geometry updates by contracting with a mapping vendor or doing updates internally. Municipalities unable to preform parcel geometry updates currently recieve irregular updates by VCGI as land surveys that can be used to update a municipality's parcel geometry are submitted to the [Vermont Land Survey Library](https://landsurvey.vermont.gov/).
 
 ### A2.2 Funding during the Parcel Project
-The Parcel  Project (2017-2019) leveraged both state and federal funds with 80 percent coming from the Federal Highway Administration and the remaining 20 percent from several state agencies and departments. The Vermont Agency of Transporation contracted with several mapping vendor to update or create digital parcel data for each Vermont municipality over a three-year period. Each mapping vendor was assigned to a municipality through a competitive bid process. The cost per parcel for a sample of municipalities completed during the first year of the Parcel Project is depicted below.
+The Parcel  Project (2017-2019) leveraged both state and federal funds with 80 percent coming from the Federal Highway Administration and the remaining 20 percent from several state agencies and departments. The Vermont Agency of Transporation contracted with several mapping vendor to update or create digital parcel data for each Vermont municipality over a three-year period. Each mapping vendor was assigned to a municipality through a competitive bid process. 
 
-![image](https://github.com/user-attachments/assets/0a2f0a02-5f07-41cb-b18a-78f785ca1d86)
+The average cost per parcel for the 67 municipalities completed during the first year of the Parcel Project in 2017 (excluding unincorporated towns and gores) was $6.85 which is slightly more than the national average of $5.20 reported 10 years prior by the National Research Council in *National Land Parcel Data: A Vision for the Future* (2007). The cost per parcel for municipalities completed during the first year of the Parcel Project (excluding unincorporated towns and gores) is depicted below.
 
 ## Appendix 3: CAMA Data Standard
 
