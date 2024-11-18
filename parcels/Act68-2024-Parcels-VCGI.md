@@ -71,6 +71,8 @@ This proposed financial incentive model draws some inspiration from the Incentiv
 
 VCGI organized a focus group of 12 municipalities selected based on size (parcel count), location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much they currently spend on parcel mapping.
 
+![Map of selected towns](https://github.com/user-attachments/assets/94b6756a-af37-44da-b8b6-fe906d9b0967)
+
 While sample size is a major limiting factor, based on the information provided by the 5 municipalities that responded, the following statements can be made:
 
  - The initial cost for each municipality during the Parcel Project is greater than the cost of ongoing maintenance even for the 3 municipalities no longer contracting with the same mapping vendor.
@@ -489,6 +491,8 @@ This graphic repersentation of the Shared Responsibility model indentifies one a
 The Parcel  Project (2017-2019) leveraged both state and federal funds with 80 percent coming from the Federal Highway Administration and the remaining 20 percent from several state agencies and departments. The Vermont Agency of Transporation contracted with several mapping vendor to update or create digital parcel data for each Vermont municipality over a three-year period. Each mapping vendor was assigned to a municipality through a competitive bid process. 
 
 The average cost per parcel for the 67 municipalities completed during the first year of the Parcel Project in 2017 (excluding unincorporated towns and gores) was $6.85 which is slightly more than the national average of $5.20 reported 10 years prior by the National Research Council in *National Land Parcel Data: A Vision for the Future* (2007). The cost per parcel for municipalities completed during the first year of the Parcel Project (excluding unincorporated towns and gores) is depicted below.
+
+![Parcel Project Year 1 Table](https://github.com/user-attachments/assets/cb114846-6a1b-45c1-89b4-f7a8833b9981)
 
 ## Appendix 3: CAMA Data Standard
 
