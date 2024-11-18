@@ -67,8 +67,6 @@ This proposed financial incentive model draws some inspiration from the Incentiv
 
 > This eligibility requirement exists because standardized parcel mapping updates are an important source of information for maintaining the addresses, address point locations, and emergency service zones on which routing 9- 1-1 calls to the correct dispatch center relies.
 
-[More information](https://www.mass.gov/info-details/comply-with-parcel-map-and-address-updates-requirements-from-state-911) about Massachusetts parcel map and address updates.
-
 ### 2.2.1 Funding
 
 VCGI organized a focus group of 12 municipalities selected based on size (parcel count), location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much they currently spend on parcel mapping.
