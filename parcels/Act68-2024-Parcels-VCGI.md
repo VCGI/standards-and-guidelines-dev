@@ -71,7 +71,7 @@ This proposed financial incentive model draws some inspiration from the Incentiv
 
 VCGI organized a focus group of 12 municipalities selected based on size (parcel count), location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much they currently spend on parcel mapping.
 
-![Map of selected towns](https://github.com/user-attachments/assets/94b6756a-af37-44da-b8b6-fe906d9b0967)
+![SelectedTowns_map](https://github.com/user-attachments/assets/5b931e08-2953-489f-8177-e747f3746859)
 
 While sample size is a major limiting factor, based on the information provided by the 5 municipalities that responded, the following statements can be made:
 
