@@ -63,7 +63,7 @@ With the creation of the City of Essex Junction in 2022, Vermont now has 256 mun
 
 > As implementation shifts into a maintenance stage, Vermont will want to pay close attention to challenges to compliance. While some impediments may be more attitudinal than logistical or economic, the state may want to consider creating incentives to comply.
 
-This proposed financial incentive model draws some inspiration from the Incentive Grant in Massachusetts where parcel mapping is strongly coupled with addressing to support the Next Generation 911 (NG911) Emergency Call System. Eligibility for grant funding is contingent on providing updated standardized parcel mapping to the Burear of Geographic Information (MassGIS). Per the [2022 MassGIS Standard for Digital Assessor Parcel Files](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download):
+This proposed financial incentive model draws some inspiration from the Support and Incentive Grant in Massachusetts where parcel mapping is coupled with addressing to support the Next Generation 911 (NG911) Emergency Call System. Eligibility for grant funding is contingent on providing updated standardized parcel mapping to the Bureau of Geographic Information (MassGIS). Per the [2022 MassGIS Standard for Digital Assessor Parcel Files](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download):
 
 > This eligibility requirement exists because standardized parcel mapping updates are an important source of information for maintaining the addresses, address point locations, and emergency service zones on which routing 9- 1-1 calls to the correct dispatch center relies.
 
@@ -75,17 +75,19 @@ VCGI organized a focus group of 12 municipalities selected based on size (parcel
 
 While sample size is a major limiting factor, based on the information provided by the 5 municipalities that responded, the following statements can be made:
 
- - The initial cost for each municipality during the Parcel Project is greater than the cost of ongoing maintenance even for the 3 municipalities no longer contracting with the same mapping vendor.
+ - The initial cost for each municipality during the Parcel Project was greater than the cost of ongoing maintenance even for the 3 municipalities no longer contracting with their Parcel Project mapping vendor.
 
 - The current cost per parcel (using the total number of parcels in the 2023 Grand List) ranged from $0.87-$2.65 compared to $0.95-$6.44 during the Parcel Project (with an average cost per parcel of $1.51 compared to $3.78). 
 
-- In the context of statewide parcel data, there are 339,610 active parcel polygon and 40,845 inactive parcel polygons (380,455 parcel polygons in total). Multiplying the total number of parcel polygons by the current low and high cost per parcel, **funding for a financial incentive would need to range from about $330,000 to $1,000,000 annually**. However, it can be assumed that more municipalities would be closer to the average cost per parcel rather than towards the low end.
+- In the context of statewide parcel data, there are 339,610 active parcel polygons and 40,845 inactive parcel polygons (380,455 parcel polygons in total). Multiplying the total number of parcel polygons by the current low and high cost per parcel, **funding for a financial incentive would need to range from about $330,000 to $1,000,000 annually**. However, it can be assumed that more municipalities would be closer to the average cost per parcel rather than towards the low end.
 
 ### 2.2.2 Eligibility and Application Process
 
 - VCGI will continue to accept and review parcel geometry updates on a rolling basis. A municipal official (or a contact from a municipality’s mapping vendor) must send a standard-compliant parcel geometry update to VCGI by October 1st of a calendar year to be eligible to receive a financial incentive the following year.
 
-- Parcel geometry updates will continued to be submitted to VCGI using an updated version of the [Share Map Data](https://vcgi.vermont.gov/data-and-programs/share-map-data) form.
+- No more than one standard-compliant parcel geometry update per municipality will be accepted each calendar year.
+
+- Parcel geometry updates will continued to be submitted to VCGI using the [Share Map Data](https://vcgi.vermont.gov/data-and-programs/share-map-data) form.
 
 - VCGI should be notified if a municipality has no changes to report. A municipality that reports no changes will not be eligible to receive a financial incentive.
 
