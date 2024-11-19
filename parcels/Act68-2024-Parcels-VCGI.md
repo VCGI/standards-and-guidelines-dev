@@ -131,7 +131,7 @@ While sample size is a major limiting factor, based on the information provided 
 - Require submittal of CAMA data adherent to the VT CAMA data standard to the State of Vermont
 - CAMA submittals are to come directly from each vendor via read-only API or file extract, with preference for API
 
-These recommondations are intended to provide as much useful property description information as possible to aid timely and accurate reappraisals, provide data to also aid key public policy concerns (e.g., housing) that are best served by CAMA data, and ease access to and use of this public information for data analysis and visualization by making it publicly avalable. Standardized CAMA data and integration with existing GIS data will have widespread utility, including aiding appraisals and housing policy while providing greater spatial context. 
+These recommendations are intended to provide as much useful property description information as possible to aid timely and accurate reappraisals, provide data to also aid key public policy concerns (e.g., housing) that are best served by CAMA data, and ease access to and use of this public information for data analysis and visualization by making it publicly avalable. Standardized CAMA data and integration with existing GIS data will have widespread utility, including aiding appraisals and housing policy while providing greater spatial context. 
 
 ## 3.2 CAMA Data Components
 
