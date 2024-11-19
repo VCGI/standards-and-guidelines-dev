@@ -56,10 +56,10 @@ These changes in parcel definition and mapping practices would increase the curr
 # Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Payment
 ## 2.1 Summary
 
-- Institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance.
+- Institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance
 - Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town.
 - Per parcel payments may be administered and normalized by proposed Regional Appraisal Districts
-- Per parcel payment is to be X, funded by Y, with estimated annual cost of Z.
+- Per parcel payment is to be X, funded by Y, with estimated annual cost of Z
 
 ## 2.2 Proposed Financial Incentive Model
 With the creation of the City of Essex Junction in 2022, Vermont now has 256 municipalities: 237 towns, 10 cities, 5 unincorporated towns, and 4 gores. The ongoing effort to publish parcel data (joined to the annual Grand List) in a uniform, digital format relies on municipalities voluntarily sharing updated parcel geometry with VCGI. About 60% of municipalities have submitted updated parcel geometry to VCGI within the last year. By contrast, about 16% of municipalities have not submitted updated parcel geometry to VCGI in over three years, signifying a divide in participation in the Parcel Program. A financial incentive to assist municipalities with the cost of parcel mapping, contingent upon parcel geometry submissions to VCGI aims to close this “participation gap” while improving data quality. The potential need to create a financial incentive to increase participation has previously been a consideration as referenced in the 2015 Vermont Statewide Digital Parcel Lifecycle & Maintenance Plan:
