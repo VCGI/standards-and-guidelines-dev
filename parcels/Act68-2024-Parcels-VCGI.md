@@ -74,6 +74,21 @@ This proposed financial incentive model draws some inspiration from the Support 
 
 VCGI organized a focus group of 12 municipalities selected based on size (parcel count), location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much they currently spend on parcel mapping.
 
+|Municipality|2023 GL Parcel Count|Active Polygpns|Inactive Polygons|Current Vendor    | Parcel Project Vendor|
+|------------|--------------------|---------------|-----------------|------------------|----------------------|
+|Bakersfield |739                 |778            |0                |CTI               |CTI                   |
+|Belvidere   |290                 |317            |0                |Chris Chamberlain |CAI                   |
+|Ferrisburgh |1625                |1719           |0                |Chris Chamberlain |VHB                   |
+|Grand Isle  |1345                |1374           |154              |CAI               |Russell Graphics      |
+|Huntington* |944                 |983            |0                |Chris Chamberlain |Atlas Geographic      |
+|Landgrove   |226                 |249            |5                |CAI               |CAI                   |
+|Londonderry*|1575                |1528           |277              |CAI               |CAI                   |
+|Maidstone   |376                 |384            |53               |CAI               |CAI                   |
+|Montpelier  |3280                |3065           |46               |CAI               |Russell Graphics      |
+|Pownal      |1764                |1772           |162              |CTI               |CTI                   |
+|Randolph    |2154                |2219           |65               |CAI               |CAI                   |
+|Stratton    |1621                |1630           |325              |CTI               |CTI                   |
+
 While sample size is a major limiting factor, based on the information provided by the 5 municipalities that responded, the following statements can be made:
 
  - The initial cost for each municipality during the Parcel Project was greater than the cost of ongoing maintenance even for the 3 municipalities no longer contracting with their Parcel Project mapping vendor.
