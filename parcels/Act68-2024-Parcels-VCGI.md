@@ -42,7 +42,7 @@ As there are several variations in the timing of when a separate lot or piece of
 These changes in parcel definition and mapping practices would increase the current count of parcels statewide from roughly 340,000 to at least 380,000. "At least" is stated as currently only 70% of towns (178 total) have submitted their inactive parcels as digital parcel data to VCGI. It remains unknown how many of the other 30% of towns map inactive parcels digitally.
 
 ## 1.2 Example Statute Update
-> 32 V.S.A. § 4152 (a)(3) A brief description of each parcel of taxable real estate in the town. “Parcel” means a separate and sellable lot or piece of real estate. Parcels are to be combined to represent *all contiguous land in the same ownership, together with all improvements thereon* for tax billing and administration.
+> 32 V.S.A. § 4152 (a)(3) A brief description of each parcel of taxable real estate in the town. “Parcel” means a separate and sellable lot or piece of real estate. Parcels are to be combined to represent *all contiguous land in the same ownership, together with all improvements thereon* for tax administration.
 
 ## 1.3 Related VT Statutes
 
