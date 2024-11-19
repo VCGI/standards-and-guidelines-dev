@@ -57,7 +57,7 @@ These changes in parcel definition and mapping practices would increase the curr
 
 - Institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance.
 - Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town.
-- Per parcel payment may be administered and normalized by proposed regional appraisal districts
+- Per parcel payments may be administered and normalized by proposed Regional Appraisal Districts
 - Per parcel payment is to be X, funded by Y, with estimated annual cost of Z.
 
 ## 2.2 Proposed Financial Incentive Model
@@ -125,12 +125,13 @@ While sample size is a major limiting factor, based on the information provided 
 
 # Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
 ## 3.1 Summary
-- Create standardized Computer Assisted Mass Appraisal (CAMA) schema and domains based on fields from current CAMA software providers and input from VT Department of Tax, with applicability to current and future CAMA providers operating in Vermont. Select 'priority fields' for initial standardization, with goal of expanding to additional fields over time (phased approach)
-- Require standardized land use categories and descriptions matching VT Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf)
-- Normalize recording of other fields including actual year built, effective year built, and unit counts
-- Use stacked polygons for representing and accounting for unlanded structures, including attribution and mapping
-- Require submittal of CAMA data adherent to the CAMA data standard to the State of Vermont. Submittals are to come directly from each vendor via read-only API or file extract, with preference for API
-- These recommondations are intended to provide as much useful property description information as possible to aid timely and accurate reappraisals, provide data to also aid key public policy concerns (e.g., housing) that are best served by CAMA data, and ease access to and use of this public information for data analysis and visualization by making it publicly avalable. Standardized CAMA data and integration with existing GIS data will have widespread utility, including aiding appraisals and housing policy while providing greater spatial context. 
+- Create standardized Computer Assisted Mass Appraisal (CAMA) schema and domains based on fields from current CAMA software providers and input from the Tax Department, with applicability to current and future CAMA providers operating in Vermont
+- Normalize 'priority fields' in initial standardization, expanding to additional fields in future phases
+- Use stacked polygons for representing and accounting for unlanded structures and common interest parcels
+- Require submittal of CAMA data adherent to the VT CAMA data standard to the State of Vermont
+- CAMA submittals are to come directly from each vendor via read-only API or file extract, with preference for API
+
+These recommondations are intended to provide as much useful property description information as possible to aid timely and accurate reappraisals, provide data to also aid key public policy concerns (e.g., housing) that are best served by CAMA data, and ease access to and use of this public information for data analysis and visualization by making it publicly avalable. Standardized CAMA data and integration with existing GIS data will have widespread utility, including aiding appraisals and housing policy while providing greater spatial context. 
 
 ## 3.2 CAMA Data Components
 
