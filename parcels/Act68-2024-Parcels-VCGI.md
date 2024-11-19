@@ -12,7 +12,7 @@ This document outlines all recommendations for parcel mapping and data maintenan
 | [2. Reward Standardized Digital Parcel Data Submittal to SoV via Per Parcel Payment](#recommendation-2-reward-digital-parcel-submittal-to-sov-via-per-parcel-payment)          | X                  | X           |                        |                    |
 | [3. Implement VT CAMA Data Standard and Require Submittal to SoV](#recommendation-3-implement-vt-cama-data-standard-and-require-submittal-to-sov)                       | X                |             | X                      |                    |
 | [4. Clarify Right-of-Way Mapping for Tax Purposes](#recommendation-4-clarify-right-of-way-mapping-for-tax-purposes)                         |                   |             | X                       |                    |
-| 5. Clarify Grand List vs. GIS Acreage Guidance                                          |                    |             | X                      |                    |
+| [5. Clarify Grand List vs. GIS Acreage Guidance](#recommendation-5-clarify-grand-list-vs-gis-acreage-guidance)                                          |                    |             | X                      |                    |
 | 6. Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract |                    |             | X                      | X                  |
 | 7. Offer Updated Statewide Parcel Contract Guidance for Municipalities                  |                    |             | X                      | X                  |
 | 8. Pilot Remotely-Sensed Tools to Support Appraisals                                    |                    |             |                        | X                  |
