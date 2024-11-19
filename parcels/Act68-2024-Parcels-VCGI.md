@@ -74,8 +74,6 @@ This proposed financial incentive model draws some inspiration from the Support 
 
 VCGI organized a focus group of 12 municipalities selected based on size (parcel count), location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much they currently spend on parcel mapping.
 
-![SelectedTowns_table](https://github.com/user-attachments/assets/82e7f0c3-04e0-46cf-b75b-40a7840dee22)
-
 While sample size is a major limiting factor, based on the information provided by the 5 municipalities that responded, the following statements can be made:
 
  - The initial cost for each municipality during the Parcel Project was greater than the cost of ongoing maintenance even for the 3 municipalities no longer contracting with their Parcel Project mapping vendor.
