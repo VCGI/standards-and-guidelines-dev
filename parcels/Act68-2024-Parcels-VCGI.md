@@ -19,6 +19,7 @@ This document outlines all recommendations for parcel mapping and data maintenan
 | 9. Modernize Current Use Map Standards and Submittals                                   |                    |             |                        | X                  |
 | 10. Consider Updating and Moving Parcel Program in VT Statute                           | X                  |             |                        |                    |
 | 11. Coordinate With Concurrent Efforts to Digitize Land Records                         |                   |             |                        | X                   |
+| 12. Make Proposed Assessment Districts Consistent and Compatible with Existing Administrative Boundaries                         |                   |             | X                        |                    |
 
 # Recommendation 1: Update Parcel Definition in VT Statute
 ## 1.1 Summary
