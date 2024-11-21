@@ -134,7 +134,7 @@ While sample size is a major limiting factor, based on the information provided 
 |:---------------------------|:------------------------|
 |Fully Compliant             | •	Includes all towns that have not been updated since the Parcel Project (i.e., prior to 2020).<br>•	Valid topology; no gaps or overlaps among parcels<br>•	ROWs included and mapped correctly<br>•	Unmatched parcels only comprised of land expected to have no SPAN (common land, town/state/federally-owned land, etc.)<br>•	Multi-SPAN parcels (e.g., condos) are attributed correctly through the intersection table, if applicable<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard. Includes valid topology, SPANs, and ROWs that are mapped correctly; does not require edits that were made in the previous submission; any unmatched parcels are expected to be unmatched given their status as common land, government-owned land, etc.; any multi-SPAN parcels are accounted for correctly in the intersection table. Includes towns that are working with a vendor to maintain parcels but have not submitted updates to VCGI since January 1, 2020.
 |Compliant with Minor Edits  |•	Unmatched parcels (as received) are < 2%<br>•	ROWs included and mapped correctly<br>•	No/minimal repeated edits from prior submission during VCGI review<br>•	No/minimal (<10) edits to intersection table to account for multi-SPAN parcels<br>•	No topology errors<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard. Includes valid topology, SPANs, and ROWs that are mapped correctly. Requires minor editing to address unmatched parcels (<2% of town’s total parcels) that should have SPANs and a match in the annual Grand List. May include <10 edits that were made in the prior submission and/or to account for multi-SPAN parcels in the intersection table.
-|Compliant with Major Edits  |•	Unmatched parcels (as received) are > 2%<br>•	Topology errors resulting in gaps/overlaps among parcels<br>•	Incorrect or missing attribution of condos/multi-SPAN parcels in the intersection table<br>•	ROWs are missing or incomplete (e.g., parcels are mapped to road centerlines)<br>•	Repeated edits from prior submission during VCGI review<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard to the extent that it can be incorporated into the statewide parcel dataset following revisions. May require significant edits to address topology errors, missing or invalid SPANs, missing or incomplete ROWs, and/or missing or incomplete multi-SPAN parcel representation in the intersection table. Requires editing to address unmatched parcels (>2% of town’s total parcels) that should have SPANs and a match in the annual Grand List. May include >10 edits that were made in the prior submission and/or to account for multi-SPAN parcels in the intersection table.
+|Compliant with Major Edits  |•	Unmatched parcels (as received) are > 2%<br>•	Topology errors resulting in gaps/overlaps among parcels<br>•	Incorrect or missing attribution of condos/multi-SPAN parcels in the intersection table<br>•	ROWs are missing or incomplete (e.g., parcels are mapped to road centerlines)<br>•	Repeated edits from prior submission during VCGI review<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard to the extent that it can be incorporated into the statewide parcel dataset following revisions. May require significant edits to address topology errors, missing or invalid SPANs, missing or incomplete ROWs, and/or missing or incomplete multi-SPAN parcel representation in the intersection table. Requires editing to address unmatched parcels (>2% of town's total parcels) that should have SPANs and a match in the annual Grand List. May include >10 edits that were made in the prior submission and/or to account for multi-SPAN parcels in the intersection table.
 |Not Compliant               |•	Includes all towns that are updated by VCGI/have no vendor or capacity to submit their own updates<br>•	Submission does not include SPANs or Parcel/Map IDs that can be linked to the Grand List<br>•	Submission is in an unusable format (e.g., CAD) that cannot be converted to a geodatabase<br>•	Usable format (i.e., GIS files) but missing or invalid fields that do not allow conversion to usable schema/dataset, or require significant effort to update using existing data and external sources/map viewers (e.g., loading existing attribution into new geometry; using E911, AxisGIS, or other to validate/verify SPANs; merging/splitting active and inactive parcels, etc.)<br><br>Summary: submission does not meet format and/or content allowing for inclusion in the statewide parcel dataset. Data format may be unusable/unable to convert to GIS, and/or attribution does not include valid SPANs or Parcel/Map IDs for linking to Grand List. May sometimes include a workable data format that requires significant geometry (e.g., active and inactive parcels) and/or attribute manipulation using internal and external data sources (e.g., AxisGIS sites, surveys, E911 data, etc.) to create dataset with valid schema and attribution. Also includes towns that do not have a vendor or the capacity to make their own edits and are updated by VCGI using data available in the VT Land Survey Library.
 
 # Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
@@ -159,22 +159,35 @@ Four CAMA software providers [operate in Vermont](https://tax.vermont.gov/munici
 
 Based on sample data and documentation, all providers differ in how they collect, format, and organize CAMA data. VCGI recommends devising a standardized template and schema, including domains for applicable fields, with input and agreement from each vendor. In most cases, vendors should be able to perform an extract of fields they are already collecting with little or no modification (or, ideally, provide VCGI with a read-only API). Some fields, particularly land use codes, will need to be standardized to a single set of codes and descriptions (see below).
 
-Following discussion with the VT Department of Tax, a phased approach for standardizing fields is likely the most feasible and realistic. The following fields comprise the first phase of standardization:
- - SPAN
- - Actual Year Built
- - Total Finished Square Feet
- - Heat IDs
- - Heat/Cool 
- - Heat/Cool %
- - Total Rooms 
- - Bedrooms
- - Full Baths
- - Half Baths
- - Kitchens
- - Effective Year Built
- - % Complete 
- - Unit Count
- - Story Count
+Following discussion with the VT Department of Tax, a phased approach for standardizing fields is likely the most feasible and realistic. The following fields comprise the first phase of standardization (all fields allow Null values):
+
+|Type           |Field   |Alias   |Description                             |Field Type |Length |
+|---------------|--------|--------|----------------------------------------|-----------|-------|
+|Indentification|SPAN    |SPAN    |Unique identifier for record, with dashes |String     |13     |
+|History        |YearBuilt|Actual Year Built|Actual year built    |Integer |4 |
+|History        |YearReno|Year Renovated|Year of most recent renovation|Integer|4|
+|Building|TotFinSqFt|Total Finished Square Feet|Total finished square footage of building|Decimal|20|
+Building|Heat1ID|Primary Heat/Cool Source|Primary heat/cool source, corresponding with following field|String (domain) |30|
+|Building|Heat1Pct|Primary Heat/Cool Source Percent|Percentage of usage of primary source for heating/cooling the structure|Percent (integer)|3|
+Building|Heat2ID|Secondary Heat/Cool Source|Secondary heat/cool source, corresponding with following field|String (domain) |30|
+|Building|Heat2Pct|Secondary Heat/Cool Source Percent|Percentage of usage of secondary source for heating/cooling the structure|Percent (integer)|3|
+|Building|TotRooms|Total Rooms|Total count of rooms|Integer|5|
+|Building|Bdrms|Bedrooms|Total count of bedrooms|Integer|5|
+|Building|FullBths|Full Baths|Total count of bathrooms|Integer|5|
+|Building|ThrQtBths|Three Quarter Baths|Total count of three quarter bathrooms|Integer|5|
+|Building|HalfBths|Half Baths|Total count of half bathrooms|Integer|5|
+|Building|Ktchns|Kitchens|Total count of kitchens|Integer|5
+|Building|PctCmplt|Percent Complete|Percent of structure that is complete|Integer|3|
+|Building|UnitCnt|Unit Count|Count of inhabitable units within structure|Integer|5|
+|Building|StoryCnt|Story Count|Total count of stories within structure|Integer|3|
+|Building|UnlndCode|Unlanded Code|Prefix for unlanded structure type if applicable|String (domain)|2|
+
+
+
+*Revisions to proposed schema: used "Heat1ID" as combination of HeatID and Heat/Cool fields as originally proposed; added Heat2ID and Heat2Pct in case of multiple heat sources. Added Three Quarter Baths field.
+
+Heat source domains, per NEMRC (verify, potentially revise): Forced Air, Air Oil, Space Heater, Electric Radiator, Electric Baseboard, Hot Water Baseboard, WrmCool(?), Heat Pump, Exp Cool(?), Air Exchange, Gravity Furnace, Individual Unit, Hot Water Radiator
+Unlanded code domains: CO (condominium), CA (camp), MH (landed or unlanded mobile home), SA (ground mount solar array), WT (wind turbine)
 
 All or most of these fields are present in the sample data/schema provided by three of the four CAMA vendors. 
 
@@ -192,15 +205,15 @@ If this particular set of category codes are not used, VCGI recommends using or 
 
 Similar to land use codes and categories, consistent definitions and formatting for actual year built, effective year built, and unit count should be established for all CAMA vendors. While each of these fields appear to exist within the current schema for each vendor, it is essential that all are evaluated using the same methodology and definition.
 
-### 3.2.5 Normalize Attribution and Mapping of Unlanded Structures
+### 3.2.5 Normalize Attribution and Mapping of Unlanded Structures and Common Interest Parcels
 
-The [stacked polygons method](#stacked-method---recommended) is the current recommendation per the Vermont GIS Parcel Data Standard and continues to be recommended after considering the pros and cons of all methods detailed below. 
+The [stacked polygons method](#stacked-method---recommended) is the current recommendation for representing unlanded structures and common interest parcels, per the Vermont GIS Parcel Data Standard. This method continues to be recommended after considering the pros and cons of all methods detailed in Appendix 3.3. 
 
 To improve the functionality of this method, the following recommendations should be considered: 
 
-1. While condominiums represent a vast majority of unlanded structures reflected in statewide parcel data, it is necessary to create a comprehensive list of different types of unlanded structures to be uniformly attributed in CAMA and subsequent Grand List records. The Vermont GIS Parcel Data Standard defines an unlanded building as a “condominium unit, mobile home, camp, or other building that is a unit of real estate which is separate from the underlying land surface.”
+1. While condominiums represent a vast majority of unlanded structures reflected in statewide parcel data, it is necessary to create a comprehensive list of different types of unlanded structures and common interest parcels to be uniformly attributed in CAMA and subsequent Grand List records. The Vermont GIS Parcel Data Standard defines an unlanded building as a “condominium unit, mobile home, camp, or other building that is a unit of real estate which is separate from the underlying land surface.”
    
-2. The list below can be used to differentiate between unlanded structures in the parcel polygons layer, and if uniformly applied in CAMA and Grand List attribution, can be easily filtered for each record. Each unlanded structure can be represented as a prefix of two or three letters:
+2. The list below can be used to differentiate between unlanded structures and common interest parcels in the parcel polygons layer, and if uniformly applied in CAMA and Grand List attribution, can be easily filtered for each record. Each unlanded structure or common interest parcel can be represented as a prefix of two letters:
 
 | Prefix Code | Applies To                |
 |-------------|---------------------------|
@@ -212,7 +225,7 @@ To improve the functionality of this method, the following recommendations shoul
 
 3. While not the intended purpose, the SOURCENAME field in the parcel polygon layer can also be used to track this information.
 
-4. This list can also be used to create GIS SPANs in the Intersection Table based on the type of unlanded structure. The same two-letter system described above can be implemented followed by the town code (first three digits of the town SPAN) and a four-digit numeric count.
+4. This list can also be used to create GIS SPANs in the Intersection Table based on the type of unlanded structure or common interest parcel. The same two-letter system described above can be implemented followed by the town code (first three digits of the town SPAN) and a four-digit numeric count.
 
 5. Tax Department guidance on attribution of unlanded structures should be updated and made uniform to reflect the above prefixes and mapping practices (e.g., in the Listers and Assessors Handbook).
 
@@ -536,12 +549,12 @@ The average cost per parcel for the 67 municipalities completed during the first
 ### A3.2 Standardized CAMA schema
 Proposed standardized CAMA schema, based on example data from CAMA vendors in Vermont as well as a similar schema being developed in Connecticut, can be viewed [here](https://vermontgov.sharepoint.com/:x:/t/ADS.VCGIGroup/EZEBDpDNLNNHk_dhFOhtNW8BiiuDlzcCbWzOrxTXDUgO_g?e=3QqTMj). See 'PriorityFields_v1' for fields to standardize first following agreement between VT Department of Tax and all CAMA vendors.
 
-### A3.3 Mapping of Unlanded Structures
+### A3.3 Mapping of Unlanded Structures and Common Interest Parcels
 **Background** 
 
 Statewide standardized parcel data in Vermont is currently comprised of parcel geometry, the approximate parcel boundary lines drawn as closed multi-sided shapes (parcel polygons) as sourced from municipalities, and parcel attribution from the annual Grand List collected and published by the Tax Department. These two components are joined together by a matching School Property Account Number (SPAN) in the attribute table of the parcel polygons layer and in the Grand List. In most cases, each polygon is joined to one Grand List record but it is not uncommon for more than one Grand List record to be joined to the same polygon. This happens most often with condominiums as they are typically described by their percentage of undivided interest in the common area and facilities rather than discrete boundaries that can be easily represented by polygons. While VCGI has provided some guidance on mapping condominiums per the Vermont GIS Parcel Data Standard, a more comprehensive recommendation for mapping all types of unlanded structures is necessary to improve data quality, clarity, and ease of use.
 
-#### A.3.3.1 Current Unlanded Structure Mapping Practices in Vermont
+#### A.3.3.1 Current Unlanded Structure and Common Interest Parcel Mapping Practices in Vermont
 
 **Discrete and Distributed Methods**
 
