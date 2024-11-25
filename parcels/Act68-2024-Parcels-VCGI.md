@@ -147,7 +147,7 @@ While sample size is a major limiting factor, based on the information provided 
 - Require monthly submittal of CAMA data, or provide read-only source, adherent to the VT CAMA data standard to the State of Vermont
 - Make submitted CAMA data publicly available and relatable with parcel map data
 
-These recommendations are intended to provide as much useful property description information as possible to aid timely and accurate reappraisals, provide data to also aid key public policy concerns (e.g., housing) that are best served by CAMA data, and ease access to and use of this public information for data analysis and visualization by making it publicly avalable. Standardized CAMA data and integration with existing GIS data will have widespread utility, including aiding appraisals and housing policy while providing greater spatial context. 
+These recommendations are intended to provide useful property description information to aid timely and accurate reappraisals, while also supporting key public policy concerns (e.g., housing) that are best served by CAMA data. The recommendations are also intended to improve access to and use of public information for data analysis and visualization. Linking standardized CAMA information with existing GIS data, namely parcels, will further enhance visual and spatial data analysis and accessibility.
 
 ## 3.2 CAMA Data Components
 
@@ -158,61 +158,56 @@ Four CAMA software providers [operate in Vermont](https://tax.vermont.gov/munici
 - Vision Government Solutions CAMA
 - AssessPro (Catalis, Formerly Patriot)
 
-Based on sample data and documentation, all providers differ in how they collect, format, and organize CAMA data. VCGI recommends devising a standardized template and schema, including domains for applicable fields, with input and agreement from each vendor. In most cases, vendors should be able to perform an extract of fields they are already collecting with little or no modification (or, ideally, provide VCGI with a read-only API). Some fields, particularly land use codes, will need to be standardized to a single set of codes and descriptions (see below).
+Based on sample data and documentation, all providers differ in how they collect, format, and organize CAMA data. VCGI recommends developing a standardized template and schema, including domains for applicable fields, with input and agreement from each vendor. In most cases, vendors should be able extract fields they are already collecting with little or no modification (or, ideally, provide VCGI with a read-only API). 
 
-Following discussion with the VT Department of Tax, a phased approach for standardizing fields is likely the most feasible and realistic. The following fields comprise the first phase of standardization (all fields allow Null values):
+Following discussion with the VT Department of Tax, a phased approach for standardizing fields is the most feasible and realistic. The following fields comprise the first phase of standardization. All fields except 'SPAN' allow Null values.
 
-|Type           |Field   |Alias   |Description                             |Field Type |Length |
-|---------------|--------|--------|----------------------------------------|-----------|-------|
-|Indentification|SPAN    |SPAN    |Unique identifier for record, with dashes |String     |13     |
-|History        |YearBuilt|Actual Year Built|Actual year built    |Integer |4 |
-|History        |YearReno|Year Renovated|Year of most recent renovation|Integer|4|
-|Building|TotFinSqFt|Total Finished Square Feet|Total finished square footage of building|Decimal|20|
-Building|Heat1ID|Primary Heat/Cool Source|Primary heat/cool source, corresponding with following field|String (domain) |30|
-|Building|Heat1Pct|Primary Heat/Cool Source Percent|Percentage of usage of primary source for heating/cooling the structure|Percent (integer)|3|
-Building|Heat2ID|Secondary Heat/Cool Source|Secondary heat/cool source, corresponding with following field|String (domain) |30|
-|Building|Heat2Pct|Secondary Heat/Cool Source Percent|Percentage of usage of secondary source for heating/cooling the structure|Percent (integer)|3|
-|Building|TotRooms|Total Rooms|Total count of rooms|Integer|5|
-|Building|Bdrms|Bedrooms|Total count of bedrooms|Integer|5|
-|Building|FullBths|Full Baths|Total count of bathrooms|Integer|5|
-|Building|ThrQtBths|Three Quarter Baths|Total count of three quarter bathrooms|Integer|5|
-|Building|HalfBths|Half Baths|Total count of half bathrooms|Integer|5|
-|Building|Ktchns|Kitchens|Total count of kitchens|Integer|5
-|Building|PctCmplt|Percent Complete|Percent of structure that is complete|Integer|3|
-|Building|UnitCnt|Unit Count|Count of inhabitable units within structure|Integer|5|
-|Building|StoryCnt|Story Count|Total count of stories within structure|Integer|3|
-|Building|UnlndCode|Unlanded Code|Prefix for unlanded structure type if applicable|String (domain)|2|
+|Type           |Field   |Alias   |Description                             |Field Type |Length |Example  |
+|---------------|--------|--------|----------------------------------------|-----------|-------|---------|
+|Indentification|SPAN    |SPAN    |Unique identifier for record, with dashes |String     |13     |001-002-12345|
+|History        |YearBuilt|Actual Year Built|Actual year built    |Integer |4 |1950|
+|History        |YearReno|Year Renovated|Year of most recent renovation|Integer|4|2003|
+|Building|TotFinSqFt|Total Finished Square Feet|Total finished square footage of building|Decimal|10|4500|
+Building|Heat1ID|Primary Heat/Cool Source|Primary heat/cool source, corresponding with following field|String (domain) |30|Heat Pump|
+|Building|Heat1Pct|Primary Heat/Cool Source Percent|Percentage of usage of primary source for heating/cooling the structure|Percent (integer)|3|75|
+Building|Heat2ID|Secondary Heat/Cool Source|Secondary heat/cool source, corresponding with following fields|String (domain) |30|Forced Air|
+|Building|Heat2Pct|Secondary Heat/Cool Source Percent|Percentage of usage of secondary source for heating/cooling the structure|Percent (integer)|3|25|
+|Building|TotRooms|Total Rooms|Total count of rooms|Integer|5|10|
+|Building|Bdrms|Bedrooms|Total count of bedrooms|Integer|5|3|
+|Building|FullBths|Full Baths|Total count of bathrooms|Integer|5|1|
+|Building|ThrQtBths|Three Quarter Baths|Total count of three quarter bathrooms|Integer|5|0|
+|Building|HalfBths|Half Baths|Total count of half bathrooms|Integer|5|1
+|Building|Ktchns|Kitchens|Total count of kitchens|Integer|5|1|
+|Building|PctCmplt|Percent Complete|Percent of structure that is complete|Integer|3|100|
+|Building|UnitCnt|Unit Count|Count of inhabitable units within structure|Integer|5|1|
+|Building|StoryCnt|Story Count|Total count of stories within structure|Integer|3|2|
+|Building|UnlndCode|Unlanded Code|Prefix for unlanded structure type if applicable|String (domain)|2|Null|
 
 
 
-*Revisions to proposed schema: used "Heat1ID" as combination of HeatID and Heat/Cool fields as originally proposed; added Heat2ID and Heat2Pct in case of multiple heat sources. Added Three Quarter Baths field.
+*Revisions to proposed schema: used 'Heat1ID' as combination of HeatID and Heat/Cool fields as originally proposed; added 'Heat2ID' and 'Heat2Pct' in case of multiple heat sources. Added 'Three Quarter Baths' field. Used 'Year Renovated' in place of 'Effective Year Built' or similar.
 
-Heat source domains, per NEMRC (verify, potentially revise): Forced Air, Air Oil, Space Heater, Electric Radiator, Electric Baseboard, Hot Water Baseboard, WrmCool(?), Heat Pump, Exp Cool(?), Air Exchange, Gravity Furnace, Individual Unit, Hot Water Radiator
-Unlanded code domains: CO (condominium), CA (camp), MH (landed or unlanded mobile home), SA (ground mount solar array), WT (wind turbine)
+**Heat source domains, per NEMRC (verify, potentially revise)**: Forced Air, Air Oil, Space Heater, Electric Radiator, Electric Baseboard, Hot Water Baseboard, WrmCool(?), Heat Pump, Exp Cool(?), Air Exchange, Gravity Furnace, Individual Unit, Hot Water Radiator.
+
+**Unlanded code domains**: CO (condominium), CA (camp), MH (landed or unlanded mobile home), SA (ground mount solar array), WT (wind turbine)
 
 All or most of these fields are present in the sample data/schema provided by three of the four CAMA vendors. 
 
 ### 3.2.2 Implement Changes to Parcel Definition in CAMA Data
 
-Existing CAMA data software solutions offer advanced data maintenance capabilities and should accomodate a parcel definition change to separate and sellable pieces of real estate. Data entry and maintenance practices will need to adjust to reflect the se changes.
+Existing CAMA data software solutions offer advanced data maintenance capabilities and should accomodate a parcel definition change to separate and sellable pieces of real estate. Data entry and maintenance practices will need to adjust to reflect these changes.
 
-### 3.2.3 Normalize Land Use Classification Codes
+### 3.2.3 Normalize Actual Year Built, Effective Year Built, and Unit Count Information
 
-Currently, all four CAMA software providers use different coding systems for land use. VCGI recommends that the category ('100 level') codes found in the VT Department of Tax's [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) be used by all vendors. Using the broader category codes will help to quickly identify and group more general land use types without becoming overly granular and potentially less accurate. If a vendor chooses not to adopt the VT Department of Tax Property Category Codes, a crosswalk table should be created to allow standardization when VCGI reads and integrates CAMA data into the statewide dataset. 
+Consistent definitions and formatting for actual year built, year renovated, unit count, and story count should be established for all CAMA vendors. While each of these fields appear to exist within the current schema for each vendor, it is essential that all are evaluated using the same methodology and definition.
 
-If this particular set of category codes are not used, VCGI recommends using or creating another set of codes with a comparable level of detail (e.g., primary residence, commercial, agricultural, open land, etc.). 
-
-### 3.2.4 Normalize Actual Year Built, Effective Year Built, and Unit Count Information
-
-Similar to land use codes and categories, consistent definitions and formatting for actual year built, effective year built, and unit count should be established for all CAMA vendors. While each of these fields appear to exist within the current schema for each vendor, it is essential that all are evaluated using the same methodology and definition.
-
-### 3.2.5 Normalize Attribution and Mapping of Unlanded Structures and Common Interest Parcels
+### 3.2.4 Normalize Attribution and Mapping of Unlanded Structures and Common Interest Parcels
 
 The [stacked polygons method](#stacked-method---recommended) is the current and continuing recommendation for representing unlanded structures and common interest parcels, per the Vermont GIS Parcel Data Standard. Alternative methods are described in Appendix 3.3. 
 
 To improve the functionality of using stacked polygons to represent unlanded structures and common interest parcels, the following recommendations should be considered: 
 
-1. The Vermont GIS Parcel Data Standard defines an unlanded building as a “condominium unit, mobile home, camp, or other building that is a unit of real estate which is separate from the underlying land surface.” Condominiums represent a vast majority of unlanded structures reflected in statewide parcel data, but a comprehensive list of different types of unlanded structures and common interest parcels should be developed for uniform attribution in CAMA and Grand List records. 
+1. The Vermont GIS Parcel Data Standard defines an unlanded structure as a “condominium unit, mobile home, camp, or other building that is a unit of real estate which is separate from the underlying land surface.” Condominiums represent the vast majority of unlanded structures reflected in statewide parcel data, but a comprehensive list of different types of unlanded structures and common interest parcels should be developed for uniform attribution in CAMA and Grand List records. 
    
 2. The list below can be used to differentiate between unlanded structures and common interest parcels in the parcel polygons layer, and if uniformly applied in CAMA and Grand List attribution, can be filtered for each record. Each unlanded structure or common interest parcel can be represented as a prefix of two letters:
 
@@ -228,11 +223,15 @@ To improve the functionality of using stacked polygons to represent unlanded str
 
 4. Prefix codes can also be used to create GIS SPANs in the Intersection Table based on the type of unlanded structure or common interest parcel. The same two-letter system described above can be implemented followed by the town code (first three digits of the town SPAN) and a four-digit sequential numeric count (e.g., CO-003-0001, MH-003-0002, CO-003-0003, CO-003-0004, etc.).
 
-5. Tax Department guidance on attribution of unlanded structures should be updated and made uniform to reflect the prefix codes and mapping practices (e.g., in the Listers and Assessors Handbook).
+5. Tax Department guidance on attribution of unlanded structures should be updated and made uniform to reflect the prefix codes and mapping practices (e.g., in the [Lister and Assessor Handbook](https://tax.vermont.gov/sites/tax/files/documents/GB-1143.pdf)).
 
-## 3.3 Require Standardized CAMA Data Submittal to SoV
+## 3.3 Require Standardized CAMA Data Access/Submittal to the State of Vermont
 
-The monthly submission of standardized CAMA data to the State of Vermont, or the ability to access a read-only API source on a regular basis, should be required for the dataset to remain complete and current. CAMA data are the best source of information for detailed and current property descriptions statewide. Standardizing these data and requiring their submittal to the State of Vermont for regular and uniform publication, particularly when combined with existing parcel data, will aid improved pace and accuracy of appraisals, provide spatial context, facilitate data visualization and trend analysis, and increase data accessibility. Without a submittal requirement for CAMA data it is likely the dataset will become fragmented, incomplete, or stale over time. VCGI's Parcel Program, for example, is a voluntary program with data ranging from less than six months to over six years old, despite the widespread visibility, utility, and value of parcel data. 
+CAMA data are the best source of information for detailed and current property descriptions statewide. Standardizing these data and requiring their submittal to the State of Vermont for regular and uniform publication, particularly when combined with existing parcel data, will aid improved pace and accuracy of appraisals, facilitate data visualization and trend analysis, and increase data accessibility. Without a submittal requirement for CAMA data it is likely the dataset will become fragmented, incomplete, or stale over time. VCGI's Parcel Program, for example, is a voluntary program with data ranging from less than six months to over six years old, despite the widespread visibility, utility, and value of parcel data. 
+
+Ideally, CAMA vendors will provide VCGI with access to a read-only, credentialized API service endpoint for the transfer and extraction of CAMA data. VCGI will work with CAMA vendors to ensure compatability with the data standard and schema. In the absence of a service endpoint, vendors should submit standardized CAMA directly to VCGI. In either case, updated data should be made available and/or submitted on a monthly basis for the dataset to remain complete and current. 
+
+Following receipt of the updated CAMA data each month, VCGI will work to incorporate the fields listed in Section 3.2.1 in the [Parcel Viewer](https://experience.arcgis.com/experience/b5a5cc7663c84761a305f70b913e1a60) and [Geodata Portal](https://geodata.vermont.gov/). In the Parcel Viewer, users will be able to access CAMA data easily and in relation to existing parcel, Grand List, and Property Transfer data. The comprehensive, tabular CAMA dataset will be available publicly for download through the Geodata Portal. 
 
 ## 3.4 Example Statute Updates
 >[Section] "Assessor database" means the database of property information maintained by a municipalities' lister(s) or assessor(s); it is also referred to as a Computer Aided Mass Appraisal (CAMA) system or Computer Aided Mass Appraisal database
