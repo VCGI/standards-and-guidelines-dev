@@ -164,17 +164,17 @@ Following discussion with the VT Department of Tax, a phased approach for standa
 
 |Type           |Field   |Alias   |Description                             |Field Type |Length |Example  |
 |---------------|--------|--------|----------------------------------------|-----------|-------|---------|
-|Indentification|SPAN    |SPAN    |Unique identifier for record, with dashes |String     |13     |001-002-12345|
+|Identification|SPAN    |SPAN    |Unique identifier for record, with dashes |String     |13     |001-002-12345|
 |History        |YearBuilt|Actual Year Built|Actual year built    |Integer |4 |1950|
 |History        |YearReno|Year Renovated|Year of most recent renovation|Integer|4|2003|
-|Building|TotFinSqFt|Total Finished Square Feet|Total finished square footage of building|Decimal|10|4500|
+|Building|TotFinSqFt|Total Finished Square Feet|Total finished square footage of structure|Decimal|10|4500|
 Building|Heat1ID|Primary Heat/Cool Source|Primary heat/cool source, corresponding with following field|String (domain) |30|Heat Pump|
 |Building|Heat1Pct|Primary Heat/Cool Source Percent|Percentage of usage of primary source for heating/cooling the structure|Percent (integer)|3|75|
-Building|Heat2ID|Secondary Heat/Cool Source|Secondary heat/cool source, corresponding with following fields|String (domain) |30|Forced Air|
+Building|Heat2ID|Secondary Heat/Cool Source|Secondary heat/cool source, corresponding with following field|String (domain) |30|Forced Air|
 |Building|Heat2Pct|Secondary Heat/Cool Source Percent|Percentage of usage of secondary source for heating/cooling the structure|Percent (integer)|3|25|
 |Building|TotRooms|Total Rooms|Total count of rooms|Integer|5|10|
 |Building|Bdrms|Bedrooms|Total count of bedrooms|Integer|5|3|
-|Building|FullBths|Full Baths|Total count of bathrooms|Integer|5|1|
+|Building|FullBths|Full Baths|Total count of full bathrooms|Integer|5|1|
 |Building|ThrQtBths|Three Quarter Baths|Total count of three quarter bathrooms|Integer|5|0|
 |Building|HalfBths|Half Baths|Total count of half bathrooms|Integer|5|1
 |Building|Ktchns|Kitchens|Total count of kitchens|Integer|5|1|
@@ -584,7 +584,7 @@ Image 3: Relationship of Grand List SPANs and GIS (drawing) SPANs in Vermont Par
 
 ![image](https://github.com/user-attachments/assets/959a5b13-4dd0-484c-b064-758ae657ee00)
 
-This creates identical polygons "stacked" on top of each other, which can be “flattened” to remove all but one polygon for each parcel for analytical purposes. Unlike the building footprints methods, there is no visual distinction between unlanded structures and the common land. Because to this, parcel geometry is simpler to maintain.
+This creates identical polygons "stacked" on top of each other, which can be “flattened” to remove all but one polygon for each parcel for analytical purposes. Unlike the building footprints methods, there is no visual distinction between unlanded structures and the common land. Because of this, parcel geometry is simpler to maintain.
 
 Image 4: Stacked Method Mapping of Condos | *Source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)*
 
