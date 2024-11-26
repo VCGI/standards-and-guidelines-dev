@@ -48,9 +48,7 @@ These changes in parcel definition and mapping practices would increase the curr
 
 ## 1.3 Related VT Statutes
 
-[32 V.S.A. § 4152](https://legislature.vermont.gov/statutes/section/32/129/04152) - Taxation and Finance / Grand Tax Lists / Grand List of Town
-
-[27 V.S.A. § 601](https://legislature.vermont.gov/statutes/section/27/005/00601) - Title 27: Property / Chapter 5: Conveyance of Real Estate / Subchapter 007 : Marketable Record Title 
+See [Appendix A1.7 Parcel Definitions and Interpretations in Existing State Statute](#a17-parcel-definitions-and-interpretations-in-existing-vermont-statute). 
 
 ## 1.4 Practical Implications
 
