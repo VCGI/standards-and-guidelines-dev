@@ -28,6 +28,7 @@ This document outlines all recommendations for parcel mapping and data maintenan
 - "Contigous" parcels aggregated by common ownership are still to be created for the purposes of tax administration
 - Two parcel map layers will continue to be published via the Statewide Parcel Program: one for tax administration (formerly known as "active parcels"), and one for tracking all parcels separately (formerly known as "inactive parcels")
 
+## 1.2 Justification
 Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.gov/statutes/section/32/129/04152) defines a parcel as:
 > (3) A brief description of each parcel of taxable real estate in the town. “Parcel” means all contiguous land in the same ownership, together with all improvements thereon.
 
@@ -42,15 +43,15 @@ As there are several variations in the timing of when a separate lot or piece of
 
 These changes in parcel definition and mapping practices would increase the current count of parcels statewide from roughly 340,000 to at least 380,000. "At least" is stated as currently only 70% of towns (178 total) have submitted their inactive parcels as digital parcel data to VCGI. It remains unknown how many of the other 30% of towns map inactive parcels digitally.
 
-## 1.2 Example Statute Update
+## 1.3 Example Statute Update
 
 > 32 V.S.A. § 4152 (a)(3) A brief description of each parcel of taxable real estate in the town. “Parcel” means <ins>a separate and sellable lot or piece of real estate. Parcels are to be combined to represent</ins> *all contiguous land in the same ownership, together with all improvements thereon* <ins>for tax administration.</ins>
 
-## 1.3 Related VT Statutes
+## 1.4 Related VT Statutes
 
 See [Appendix A1.7 Parcel Definitions and Interpretations in Existing State Statute](#a17-parcel-definitions-and-interpretations-in-existing-vermont-statute). 
 
-## 1.4 Practical Implications
+## 1.5 Practical Implications
 
 Vermont municipalities would be expected to continue to aggregate parcels by common ownership and map them as they do currently. This aggregate, "contiguous" map layer would continue to be submitted by towns to the Statewide Property Parcel Program overseen by VCGI, and remain adherent to the VT GIS Parcel Data Standard. The layer will be renamed from "active" parcels to "administrative" parcels by VCGI.
 
