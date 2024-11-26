@@ -36,7 +36,7 @@ This is a "contiguous" parcel definition, depicted in figure 1 as option 1. Sepa
 ![image](https://github.com/user-attachments/assets/6855b335-1e09-41fa-99d5-b4df4066b416)
 *Figure 1: Existing contiguous parcel definition, depicted as option 1 on the left, and the proposed separate parcel defintion, depicted as option 2 on the right. The proposed separate parcel definition removes the need for tracking "inactive" parcels.*
 
-Alternatively, defining parcel as a separate and sellable lot or piece of real property would bring parcel identification in line with their common understanding as "lots" while also reducing the need to generalize highest and best use across several different lots combined by owner--not use--during valuation. This change would enable improved parcel documentation, ease highest and best use valuation, faciliatate data maintenance and analysis, and continue to allow aggregation by owner for tax administration. 
+Alternatively, defining parcel as a separate and sellable lot or piece of real property would bring parcel identification in line with their common understanding as "lots" while also reducing the need to generalize highest and best use across several different lots combined by owner during valuation. This change would enable improved parcel documentation, ease highest and best use valuation, faciliatate data maintenance and analysis, and continue to allow aggregation by owner for tax administration. 
 
 As there are several variations in the timing of when a separate lot or piece of real property is created, an updated parcel defintion could be written so as to allow a legal document (deed or title), subdivision plats, or sale to help define the bounds of the separate mapped and tracked area. Existing "inactive" parcels, where they exist and are maintained, should be tracked and mapped with their unique SPAN and attribution and ultimately added to the current "active" parcel layer to create a map layer of the smallest documented sellable area. A separate parcel layer with parcels combined on ownership should persist for tax administration use. Two statewide parcel map layers would result, one that reflects the smallest documented sellable pieces of real estate, and the other that represents contiguous parcels combined on ownership. Both layers would continue to be published and made publicly available by the Statewide Parcel Property Program.
 
@@ -51,6 +51,11 @@ These changes in parcel definition and mapping practices would increase the curr
 See [Appendix A1.7 Parcel Definitions and Interpretations in Existing State Statute](#a17-parcel-definitions-and-interpretations-in-existing-vermont-statute). 
 
 ## 1.4 Practical Implications
+
+Vermont municipalities would be expected to continue to aggregate parcels by common ownership and map them as they do currently. This aggregate, "contiguous" map layer would continue to be submitted by towns to the Statewide Property Parcel Program overseen by VCGI, and remain adherent to the VT GIS Parcel Data Standard. The layer will be renamed from "active" parcels to "administrative" parcels by VCGI.
+
+Municipalities would also be expected to track and map what are currently called "inactive" parcels, however, these parcels would reflect the updated parcel definition and depict separately sellable pieces of real estate given their best available documentation, and regardless of common ownership. Data are to remain adherent to the VT GIS Parcel Data Standard, albeit "inactive" parcels are to be renamed to simply "parcels". They are also to continue to be submitted to the State Property Parcel Program overseen by VCGI. It is expected that mapping and tracking of these parcels 
+Advance notice of these changes will be sent by VCGI to the VT GIS community.
 
 # Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Payment
 ## 2.1 Summary
