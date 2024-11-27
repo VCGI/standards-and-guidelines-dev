@@ -136,7 +136,7 @@ While sample size is a major limiting factor, based on the information provided 
 
 ## 2.5 Submittal Quality Criteria
 
- **Criteria**                | **Description/Examples**|
+|**Criteria**                | **Description/Examples**|
 |:---------------------------|:------------------------|
 |Fully Compliant             | •	Includes all towns that have not been updated since the Parcel Project (i.e., prior to 2020).<br>•	Valid topology; no gaps or overlaps among parcels<br>•	ROWs included and mapped correctly<br>•	Unmatched parcels only comprised of land expected to have no SPAN (common land, town/state/federally-owned land, etc.)<br>•	Multi-SPAN parcels (e.g., condos) are attributed correctly through the intersection table, if applicable<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard. Includes valid topology, SPANs, and ROWs that are mapped correctly; does not require edits that were made in the previous submission; any unmatched parcels are expected to be unmatched given their status as common land, government-owned land, etc.; any multi-SPAN parcels are accounted for correctly in the intersection table. Includes towns that are working with a vendor to maintain parcels but have not submitted updates to VCGI since January 1, 2020.
 |Compliant with Minor Edits  |•	Unmatched parcels (as received) are < 2%<br>•	ROWs included and mapped correctly<br>•	No/minimal repeated edits from prior submission during VCGI review<br>•	No/minimal (<10) edits to intersection table to account for multi-SPAN parcels<br>•	No topology errors<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard. Includes valid topology, SPANs, and ROWs that are mapped correctly. Requires minor editing to address unmatched parcels (<2% of town's total parcels) that should have SPANs and a match in the annual Grand List. May include <10 edits that were made in the prior submission and/or to account for multi-SPAN parcels in the intersection table.
@@ -367,7 +367,32 @@ There is no statewide subdivision requirement in Vermont, and not all municipali
 
 Any combination of the examples above.
 
-### A1.7 Parcel Definitions and Interpretations in Existing Vermont Statute
+### A1.7 Proposed Parcel Layers and VT GIS Data Standard Schema, per Updated Parcel Definition
+
+VCGI currently publishes and maintains two statewide parcel layers: Actives Parcels and Inactive Parcels (as available). Following a change to the parcel definition, VCGI will continue to publish and maintain two layers, but with slightly modified purpose, content, and schema. The following describes the existing and proposed statewide parcel data layers:
+
+#### Active Parcels
+
+|Criteria  |Existing                    |Proposed                       |
+|:---------|:---------------------------|:------------------------------|
+|Name      |Active Parcels              |Administrative Parcels         |
+|Purpose   |Primary statewide parcel layer. Groups contiguous separate lots by common ownership to single parcel polygon. Included for all municipalities. |Secondary statewide parcel layer. Continues to group separate lots by common ownership to facilitate tax administration, but does not represent new parcel definition of separate and sellable lots. Included for all municipalities. |
+|Schema|- SPAN<br>- MAPID<br>- PROPTYPE<br>- YEAR<br>- TOWN<br>- SOURCENAME<br>- SOURCETYPE<br>- SOURCEDATE<br>- EDITMETHOD<br>- EDITOR<br>- EDITDATE<br>- MATCHSTAT<br>- EDITNOTE<br>- SHAPE_Length<br>- SHAPE_Area<br>|- ADMINSPAN<br>- MAPID<br>- PROPTYPE<br>- YEAR<br>- TOWN<br>- SOURCENAME<br>- SOURCETYPE<br>- SOURCEDATE<br>- EDITMETHOD<br>- EDITOR<br>- EDITDATE<br>- MATCHSTAT<br>- EDITNOTE<br>- SHAPE_Length<br>- SHAPE_Area|
+
+Schema change for the Administrative Parcels layer is renaming "SPAN" to "ADMINSPAN". The ADMINSPAN is the common identifier for all contiguous lots with the same ownership. SPANs for other individual lots within an Administrative Parcel are not included in this layer.
+
+#### Inactive Parcels
+
+|Criteria  |Existing                    |Proposed                       |
+|:---------|:---------------------------|:------------------------------|
+|Name      |Inactive Parcels            |Parcels         |
+|Purpose   |Secondary statewide parcel layer. Splits contiguous active parcels with common ownership into individual lots where applicable. Included for approximately two-thirds of municipalities. |Primary statewide parcel layer. Depicts parcels as separate and sellable lots or pieces of real property, regardless of contiguous ownership. Included for all municipalities. |
+|Schema|- STATUS<br> - PARENTSPAN<br>- SPAN<br>- MAPID<br>- PROPTYPE<br>- YEAR<br>- TOWN<br>- SOURCENAME<br>- SOURCETYPE<br>- SOURCEDATE<br>- EDITMETHOD<br>- EDITOR<br>- EDITDATE<br>- MATCHSTAT<br>- EDITNOTE<br>- SHAPE_Length<br>- SHAPE_Area<br>|- ADMINSPAN<br>- SPAN<br>- MAPID<br>- PROPTYPE<br>- YEAR<br>- TOWN<br>- SOURCENAME<br>- SOURCETYPE<br>- SOURCEDATE<br>- EDITMETHOD<br>- EDITOR<br>- EDITDATE<br>- MATCHSTAT<br>- EDITNOTE<br>- SHAPE_Length<br>- SHAPE_Area|
+
+Schema changes for the Parcels layer are removing the "STATUS" field and renaming "PARENTSPAN" to "ADMINSPAN". The ADMINSPAN is the common identifer for all contiguous parcels under the same ownership; this field can contain duplicates and can be used to aggregate parcels to the Administrative Parcel layer. The SPAN is the unique identifer for each separate and sellable lot (parcel); this field should not contain duplicates. In many cases, and all instances where a parcel has no neighbors with the same owner/tax bill, the ADMINSPAN and SPAN fields will be the same. 
+
+
+### A1.8 Parcel Definitions and Interpretations in Existing Vermont Statute
 
 This section lists existing Vermont statutes that define or interpret a definition of a parcel and/or have eligibilty requirements dependent on such definition. It does not list those statutes that use the term "parcel" as an identifier to clarify an idea or specify the location or applicability of what is being discussed without area requirements, unless otherwise noted.
 
