@@ -391,6 +391,8 @@ Schema change for the Administrative Parcels layer is renaming "SPAN" to "ADMINS
 
 Schema changes for the Parcels layer are removing the "STATUS" field and renaming "PARENTSPAN" to "ADMINSPAN". The ADMINSPAN is the common identifer for all contiguous parcels under the same ownership; this field can contain duplicates and can be used to aggregate parcels to the Administrative Parcel layer. The SPAN is the unique identifer for each separate and sellable lot (parcel); this field should not contain duplicates. In many cases, and all instances where a parcel has no neighbors with the same owner/tax bill, the ADMINSPAN and SPAN fields will be the same. 
 
+![AdminSPANs_SPANs](https://github.com/user-attachments/assets/8877f783-3c98-46a7-bbfb-ee15cbf293f4)
+
 
 ### A1.8 Parcel Definitions and Interpretations in Existing Vermont Statute
 
