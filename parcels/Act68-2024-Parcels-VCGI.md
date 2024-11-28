@@ -68,40 +68,112 @@ Advance notice of these changes will be sent by VCGI to the VT GIS community.
 - Per parcel payment is to be X, funded by Y, with estimated annual cost of Z
 
 ## 2.2 Proposed Financial Incentive Model
-With the creation of the City of Essex Junction in 2022, Vermont now has 256 municipalities: 237 towns, 10 cities, 5 unincorporated towns, and 4 gores. The ongoing effort to publish parcel data (joined to the annual Grand List) in a uniform, digital format relies on municipalities voluntarily sharing updated parcel geometry with VCGI. About 60% of municipalities have submitted updated parcel geometry to VCGI within the last year. By contrast, about 16% of municipalities have not submitted updated parcel geometry to VCGI in over three years, signifying a divide in participation in the Parcel Program. A financial incentive to assist municipalities with the cost of parcel mapping, contingent upon parcel geometry submissions to VCGI aims to close this “participation gap” while improving data quality. The potential need to create a financial incentive to increase participation has previously been a consideration as referenced in the 2015 Vermont Statewide Digital Parcel Lifecycle & Maintenance Plan:
+
+With the creation of the City of Essex Junction in 2022, Vermont now has 256 municipalities: 237 towns, 10 cities, 5 unincorporated towns, and 4 gores. The ongoing effort to publish parcel data (joined to the annual Grand List) in a uniform, digital format relies on municipalities voluntarily sharing updated parcel geometry with VCGI. About 60% of municipalities have submitted updated parcel geometry to VCGI within the last year. By contrast, about 16% of municipalities have not submitted updated parcel geometry to VCGI in over three years, indicating a divide in participation in the Parcel Program. A financial incentive to assist municipalities with the cost of parcel mapping, contingent upon parcel geometry submissions to VCGI aims to close this “participation gap” while improving data quality. The potential need to create a financial incentive to increase participation has previously been a consideration as referenced in the 2015 Vermont Statewide Digital Parcel Lifecycle & Maintenance Plan:
 
 > As implementation shifts into a maintenance stage, Vermont will want to pay close attention to challenges to compliance. While some impediments may be more attitudinal than logistical or economic, the state may want to consider creating incentives to comply.
 
-This proposed financial incentive model draws some inspiration from the Support and Incentive Grant in Massachusetts where parcel mapping is coupled with addressing to support the Next Generation 911 (NG911) Emergency Call System. Eligibility for grant funding is contingent on providing updated standardized parcel mapping to the Bureau of Geographic Information (MassGIS). Per the [2022 MassGIS Standard for Digital Assessor Parcel Files](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download):
-
-> This eligibility requirement exists because standardized parcel mapping updates are an important source of information for maintaining the addresses, address point locations, and emergency service zones on which routing 9- 1-1 calls to the correct dispatch center relies.
+Aspects of this proposed financial incentive model takes inspiration from the Incentive Grant in Massachusetts where parcel mapping is strongly coupled with addressing to support the Next Generation 911 (NG911) Emergency Call System. [Eligibility for grant funding is contingent on providing updated standardized parcel mapping to the Bureau of Geographic Information](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download) (MassGIS).
 
 ### 2.2.1 Funding
 
-VCGI organized a focus group of 12 municipalities selected based on size (parcel count), location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much they currently spend on parcel mapping.
+VCGI organized a focus group of 12 municipalities selected based on size (parcel count), location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much the municipality currently spends on parcel mapping. While sample size is a major limiting factor, based on the information provided by the 6 municipalities that responded, the cost of ongoing parcel data maintenance is less than the initial cost during the Parcel Project. This is true even for municipalities that are no longer contracting with their Parcel Project mapping vendor. The current cost per parcel averaged $2.52 compared to $4.91 during the Parcel Project (49% cost reduction).
 
-|Municipality    |2023 GL Parcel Count|Active Polygpns|Inactive Polygons|Current Vendor    | Parcel Project Vendor|
-|----------------|--------------------|---------------|-----------------|------------------|----------------------|
-|Bakersfield     |739                 |778            |0                |CTI               |CTI                   |
-|Belvidere       |290                 |317            |0                |Chris Chamberlain |CAI                   |
-|Ferrisburgh     |1625                |1719           |0                |Chris Chamberlain |VHB                   |
-|Grand Isle      |1345                |1374           |154              |CAI               |Russell Graphics      |
-|**Huntington**  |944                 |983            |0                |Chris Chamberlain |Atlas Geographic      |
-|Landgrove       |226                 |249            |5                |CAI               |CAI                   |
-|**Londonderry** |1575                |1528           |277              |CAI               |CAI                   |
-|Maidstone       |376                 |384            |53               |CAI               |CAI                   |
-|**Montpelier**  |3280                |3065           |46               |CAI               |Russell Graphics      |
-|**Pownal**      |1764                |1772           |162              |CTI               |CTI                   |
-|**Randolph**    |2154                |2219           |65               |CAI               |CAI                   |
-|Stratton        |1621                |1630           |325              |CTI               |CTI                   |
+|Municipality    |2023 Grand List Parcel Count|Active Polygpns|Inactive Polygons|Current Vendor        | Parcel Project Vendor|
+|----------------|----------------------------|---------------|-----------------|----------------------|----------------------|
+|Bakersfield     |739                         |778            |0                |CTI                   |CTI                   |
+|**Belvidere**   |**290**                     |**317**        |**0**            |**Chris Chamberlain** |**CAI**               |
+|Ferrisburgh     |1625                        |1719           |0                |Chris Chamberlain     |VHB                   |
+|Grand Isle      |1345                        |1374           |154              |CAI                   |Russell Graphics      |
+|**Huntington**  |**944**                     |**983**        |**0**            |**Chris Chamberlain** |**Atlas Geographic**  |
+|Landgrove       |226                         |249            |5                |CAI                   |CAI                   |
+|**Londonderry** |1575                        |1528           |277              |CAI                   |CAI                   |
+|Maidstone       |376                         |384            |53               |CAI                   |CAI                   |
+|**Montpelier**  |**3280**                    |**3065**       |**46**           |**CAI**               |**Russell Graphics**  |
+|**Pownal**      |**1764**                    |**1772**       |**162**          |**CTI**               |**CTI**               |
+|**Randolph**    |**2154**                    |**2219**       |**65**           |**CAI**               |**CAI**               |
+|Stratton        |1621                        |1630           |325              |CTI                   |CTI                   |
 
-While sample size is a major limiting factor, based on the information provided by the 5 municipalities that responded, the following statements can be made:
+While VCGI would continue to receive parcel data updates from municipalities, funding could be allocated by the proposed "Assessment Districts" which could help account for any geographic variance between municipalities with respect to parcel mapping. Using counties as an example, there is a significant range between cost per parcel during the Parcel Project:
 
- - The initial cost for each municipality during the Parcel Project was greater than the cost of ongoing maintenance even for the 3 municipalities no longer contracting with their Parcel Project mapping vendor.
+|County     |2024 Grand List parcel count (perliminary)|Parcel Project cost|Parcel Project cost per parcel|
+|-----------|------------------------------------------|-------------------|------------------------------|
+|Addison    |18,733                                    |$116,084           |$6.20                         |         
+|Bennington |22,178                                    |$117,199           |$5.28                         |
+|Caledonia  |17,901                                    |$89,378            |$4.99                         |
+|Chittenden |61,096                                    |$117,333           |$1.92                         |
+|Essex      |6,431                                     |$67,634            |$10.52                        |
+|Frankin    |24,657                                    |$109,960           |$4.46                         |
+|Grand Isle |6,446                                     |$38,191            |$5.92                         |
+|Lamoille   |15,107                                    |$65,354            |$4.33                         |
+|Orange     |17,297                                    |$92,272            |$5.33                         |
+|Orleans    |18,832                                    |$109,721           |$5.83                         |
+|Rutland    |35,781                                    |$212,839           |$5.95                         |
+|Washington |31,613                                    |$137,526           |$4.35                         |
+|Windham    |31,727                                    |$119,424           |$3.76                         |
+|Windsor    |36,289                                    |$148,672           |$4.10                         |
 
-- The current cost per parcel (using the total number of parcels in the 2023 Grand List) ranged from $0.87-$2.65 compared to $0.95-$6.44 during the Parcel Project (with an average cost per parcel of $1.51 compared to $3.78). 
+At the county-level, the average cost per parcel during the Parcel Project was $5.21 which is slighly above the average cost per parcel of the focus group during the Parcel Project. If the estimated 49% cost reduction was applied to the cost per parcel for each county during the Parcel Project, **funding for a proposed financial incentive would need to be about $800,000 annually for the state**:
 
-- In the context of statewide parcel data, there are 339,610 active parcel polygons and 40,845 inactive parcel polygons (380,455 parcel polygons in total). Multiplying the total number of parcel polygons by the current low and high cost per parcel, **funding for a financial incentive would need to range from about $330,000 to $1,000,000 annually**. However, it can be assumed that more municipalities would be closer to the average cost per parcel rather than towards the low end.
+|County     |Estimated cost reduction per parcel|Estimated funding|
+|-----------|-----------------------------------|-----------------|
+|Addison    |$3.16                              |$59,203          |  
+|Bennington |$2.70                              |$59,771          |
+|Caledonia  |$2.55                              |$45,583          |
+|Chittenden |$0.98                              |$59,840          |
+|Essex      |$5.36                              |$34,493          |
+|Frankin    |$2.27                              |$56,080          |
+|Grand Isle |$3.02                              |$19,477          |
+|Lamoille   |$2.21                              |$33,331          |
+|Orange     |$2.72                              |$47,059          |
+|Orleans    |$2.97                              |$55,958          |
+|Rutland    |$3.03                              |$108,548         |
+|Washington |$2.22                              |$70,138          |
+|Windham    |$1.92                              |$60,906          |
+|Windsor    |$2.09                              |$75,823          |
+|**Total**  |                                   |**$786,209**     |
+
+Each county could be assigned its own per parcel fee or a single per parcel fee could be established for the state with some counties receiving an additional percentage above the per parcel fee based on financial capacity. While there are likely multiple ways to determine financial capacity, two methods using the Real Listed Value field from the 2023 Grand List are shown below. For both methods, any county that is **below** the average value would receive an adjusted per parcel fee. The remaining counties would receive the standard per parcel fee.
+
+**Real Listed Value per Capita**
+
+|County       |2020 Census Population|Total Real Listed Value|Real Listed Value per capita|Percent difference|Per parcel multiplier|
+|-------------|----------------------|-----------------------|----------------------------|------------------|---------------------|
+|Addison      |37,363                |$5,988,167,654         |*$160,270*                  |7%                |1.07                 |
+|Bennington   |37,347                |$6,826,419,057         |$182,784                    |                  |                     |
+|Caledonia    |30,233                |$3,890,741,398         |*$128,692*                  |29%               |1.29                 |
+|Chittenden   |168,323               |$29,382,064,381        |$174,558                    |                  |                     |          
+|Essex        |5,920                 |$1,053,422,600         |$177,943                    |                  |                     |
+|Frankin      |49,946                |$6,618,293,728         |*$132,509*                  |26%               |1.26                 |
+|Grand Isle   |7,293                 |$1,836,562,678         |$251,825                    |                  |                     |
+|Lamoille     |25,945                |$5,794,509,702         |$223,338                    |                  |                     |
+|Orange       |29,277                |$4,074,229,888         |*$139,161*                  |21%               |1.21                 |
+|Orleans      |27,393                |$3,906,839,150         |*$142,622*                  |19%               |1.19                 |
+|Rutland      |60,572                |$8,280,781,106         |*$136,710*                  |23%               |1.23                 |
+|Washington   |59,807                |$9,733,853,072         |*$162,754*                  |6%                |1.06                 |
+|Windham      |45,905                |$9,476,204,580         |$206,431                    |                  |                     |
+|Windsor      |57,753                |$10,979,699,045        |$190,115                    |                  |                     |
+|**Average**  |                      |                       |**$172,122**                |                  |                     |
+
+**Real Listed Value per Acre**
+
+|County       |Total Acres (parcels only)|Total Real Listed Value|Real Listed Value per acre|Percent difference|Per parcel multiplier|
+|-------------|--------------------------|-----------------------|--------------------------|------------------|---------------------|
+|Addison      |485,308                   |$5,988,167,654         |*$12,339*                 |52%               |1.52                 |
+|Bennington   |423,954                   |$6,826,419,057         |*$16,102*                 |26%               |1.26                 |
+|Caledonia    |405,042                   |$3,890,741,398         |*$9,606*                  |74%               |1.74                 |
+|Chittenden   |333,079                   |$29,382,064,381        |$88,214                   |                  |                     |
+|Essex        |421,257                   |$1,053,422,600         |*$2,501*                  |157%              |2.57                 |
+|Frankin      |396,210                   |$6,618,293,728         |*$16,704*                 |23%               |1.23                 |
+|Grand Isle   |51,370                    |$1,836,562,678         |$35,752                   |                  |                     |
+|Lamoille     |291,881                   |$5,794,509,702         |*$19,852*                 |6%                |1.06                 |
+|Orange       |428,914                   |$4,074,229,888         |*$9,499*                  |75%               |1.75                 |
+|Orleans      |435,479                   |$3,906,839,150         |*$8,971*                  |80%               |1.80                 |
+|Rutland      |585,673                   |$8,280,781,106         |*$14,139*                 |39%               |1.39                 |
+|Washington   |430,387                   |$9,733,853,072         |$22,617                   |                  |                     |
+|Windham      |493,362                   |$9,476,204,580         |*$19,207*                 |9%                |1.09                 |
+|Windsor      |604,359                   |$10,979,699,045        |*$18,168*                 |14%               |1.14                 |
+|**Average**  |                          |                       |**$20,976**               |                  |                     |
 
 ### 2.2.2 Eligibility and Application Process
 
