@@ -133,7 +133,7 @@ At the county-level, the average cost per parcel during the Parcel Project was $
 |Windsor    |$2.09                              |$75,823          |
 |**Total**  |                                   |**$786,209**     |
 
-Each county could be assigned its own per parcel fee or a single per parcel fee could be established for the state with some counties receiving an additional percentage above the per parcel fee based on financial capacity. While there are likely multiple ways to determine financial capacity, two methods using the Real Listed Value field from the 2023 Grand List are shown below. For both methods, any county that is **below** the average value would receive an adjusted per parcel fee. The remaining counties would receive the standard per parcel fee.
+Each county could be assigned its own per parcel fee or a single per parcel fee could be established for the state with some counties receiving an additional percentage above the per parcel fee based on financial capacity. While there are multiple ways to determine financial capacity, two methods using the Real Listed Value field from the 2023 Grand List are shown below. For both methods, any county that is **below** the average value would receive an adjusted per parcel fee. The remaining counties would receive the standard per parcel fee.
 
 **Real Listed Value per Capita**
 
