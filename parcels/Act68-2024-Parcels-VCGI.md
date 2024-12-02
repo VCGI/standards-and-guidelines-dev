@@ -191,7 +191,8 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
 
     - Municipalities with a relatively small parcel count or relatively few parcel geometry updates.
 
-## 2.3 Digital Parcel Submittals as of October 24, 2024
+## 2.2.3 Status of Digital Parcel Submittals
+As of October 24, 2024:
 -	90% of towns are edited/updated by vendors or the town. 10% are edited/updated by VCGI (these are considered “not compliant”). 
 -	10% of submissions require edits to parcel topology (i.e., geometry) to address gaps and/or overlaps among parcels.
 -	50% of submissions required edits that were already made for the previous submission  (i.e., repeated revisions).
@@ -201,12 +202,12 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
 -	11% of towns have a mapping vendor (to the best of VCGI's knowledge) but have not submitted an update since the original Parcel Project data (prior to 2020). These towns are currently classed as “fully compliant”, despite having stale data. 
 -	12% of submissions are/have been reviewed by towns prior to submittal; 64% have not, and 24% are unknown. Some vendors are already working quite closely with towns as edits are being made (or edits are only being made at the direction of a town official), however, which may negate the need for a more formal review of the data prior to submission.
 
-## 2.4 Considerations:
+## 2.3 Considerations
 -	In addition to submittal compliance criteria, will need a timeframe component when assessing a town's eligibility for a per parcel payment (likely annual). Some towns are technically “compliant” and are working with a vendor but have not submitted an update to VCGI since before 2020. For small towns that may not have any changes from year to year (and therefore do not submit an update), VCGI should still receive an annual confirmation that no changes or updates are needed to the existing data.
 -	Consider possible tiered system for payments to encourage compliance. E.g.: Fully compliant or minor edit towns receive full amount, major edit town receive 50%, and non-compliant towns receive none.
 -	Based on vendor discussions, it is not necessarily practical or feasible for vendors to directly use parcel data published by VCGI (e.g., vendors are not downloading the latest data for a town from VCGI prior to making their next round of edits). Often vendors are maintaining additional fields and formats beyond what is submitted and used by VCGI. This is likely a factor leading to repeated edits with each submission. Consider a way to summarize/communicate submission issues or edits that VCGI makes so vendors are aware and can correct for their subsequent submission, ideally without creating significant extra work for either VCGI or vendor. 
 
-## 2.5 Submittal Quality Criteria
+## 2.4 Submittal Quality Criteria
 
 |**Criteria**                | **Description/Examples**|
 |:---------------------------|:------------------------|
