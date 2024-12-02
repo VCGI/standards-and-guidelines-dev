@@ -175,7 +175,7 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
 |Windsor      |604,359                   |$10,979,699,045        |*$18,168*                 |14%               |1.14                 |
 |**Average**  |                          |                       |**$20,976**               |                  |                     |
 
-### 2.2.2 Eligibility and Application Process
+### 2.2.2 Eligibility
 
 - VCGI will continue to accept and review parcel geometry updates on a rolling basis. A municipal official (or a contact from a municipality’s mapping vendor) must send a standard-compliant parcel geometry update to VCGI by October 1st of a calendar year to be eligible to receive a financial incentive the following year.
 
@@ -191,7 +191,7 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
 
     - Municipalities with a relatively small parcel count or relatively few parcel geometry updates.
 
-### 2.2.3 Status of Digital Parcel Submittals
+### 2.2.3 Parcel Data Submittal Status
 As of October 24, 2024:
 -	90% of towns are edited/updated by vendors or the town. 10% are edited/updated by VCGI (these are considered “not compliant”). 
 -	10% of submissions require edits to parcel topology (i.e., geometry) to address gaps and/or overlaps among parcels.
@@ -225,11 +225,13 @@ As of October 24, 2024:
 - Require monthly submittal of CAMA data, or provide read-only source, adherent to the VT CAMA data standard to the State of Vermont
 - Make submitted CAMA data publicly available and relatable with parcel map data
 
+
+## 3.2 Justification
 These recommendations are intended to provide useful property description information to aid timely and accurate reappraisals, while also supporting key public policy concerns (e.g., housing) that are best served by CAMA data. The recommendations are also intended to improve access to and use of public information for data analysis and visualization. Linking standardized CAMA information with existing GIS data, namely parcels, will further enhance visual and spatial data analysis and accessibility.
 
-## 3.2 CAMA Data Components
+## 3.3 CAMA Data Components
 
-### 3.2.1 Design and Implement VT CAMA Data Standard
+### 3.3.1 Design and Implement VT CAMA Data Standard
 Four CAMA software providers [operate in Vermont](https://tax.vermont.gov/municipal-officials/listers-and-assessors/district-advisors) as of October 2024:
 - MicroSolve (NEMRC)
 - ProVal (Aumentum)
@@ -261,8 +263,6 @@ Building|Heat2ID|Secondary Heat/Cool Source|Secondary heat/cool source, correspo
 |Building|StoryCnt|Story Count|Total count of stories within structure|Integer|3|2|
 |Building|UnlndCode|Unlanded Code|Prefix for unlanded structure type if applicable|String (domain)|2|Null|
 
-
-
 *Revisions to proposed schema: used 'Heat1ID' as combination of HeatID and Heat/Cool fields as originally proposed; added 'Heat2ID' and 'Heat2Pct' in case of multiple heat sources. Added 'Three Quarter Baths' field. Used 'Year Renovated' in place of 'Effective Year Built' or similar.
 
 **Heat source domains, per NEMRC (verify, potentially revise)**: Forced Air, Air Oil, Space Heater, Electric Radiator, Electric Baseboard, Hot Water Baseboard, WrmCool(?), Heat Pump, Exp Cool(?), Air Exchange, Gravity Furnace, Individual Unit, Hot Water Radiator.
@@ -271,15 +271,15 @@ Building|Heat2ID|Secondary Heat/Cool Source|Secondary heat/cool source, correspo
 
 All or most of these fields are present in the sample data/schema provided by three of the four CAMA vendors. 
 
-### 3.2.2 Implement Changes to Parcel Definition in CAMA Data
+### 3.3.2 Implement Changes to Parcel Definition in CAMA Data
 
 Existing CAMA data software solutions offer advanced data maintenance capabilities and should accomodate a parcel definition change to separate and sellable pieces of real estate. Data entry and maintenance practices will need to adjust to reflect these changes.
 
-### 3.2.3 Normalize Actual Year Built, Effective Year Built, and Unit Count Information
+### 3.3.3 Normalize Actual Year Built, Effective Year Built, and Unit Count Information
 
 Consistent definitions and formatting for actual year built, year renovated, unit count, and story count should be established for all CAMA vendors. While each of these fields appear to exist within the current schema for each vendor, it is essential that all are evaluated using the same methodology and definition.
 
-### 3.2.4 Normalize Attribution and Mapping of Unlanded Structures and Common Interest Parcels
+### 3.3.4 Normalize Attribution and Mapping of Unlanded Structures and Common Interest Parcels
 
 The [stacked polygons method](#stacked-method---recommended) is the current and continuing recommendation for representing unlanded structures and common interest parcels, per the Vermont GIS Parcel Data Standard. Alternative methods are described in Appendix 3.3. 
 
@@ -303,7 +303,7 @@ To improve the functionality of using stacked polygons to represent unlanded str
 
 5. Tax Department guidance on attribution of unlanded structures should be updated and made uniform to reflect the prefix codes and mapping practices (e.g., in the [Lister and Assessor Handbook](https://tax.vermont.gov/sites/tax/files/documents/GB-1143.pdf)).
 
-## 3.3 Require Standardized CAMA Data Access/Submittal to the State of Vermont
+## 3.4 Require Standardized CAMA Data Access/Submittal to the State of Vermont
 
 CAMA data are the best source of information for detailed and current property descriptions statewide. Standardizing these data and requiring their submittal to the State of Vermont for regular and uniform publication, particularly when combined with existing parcel data, will aid improved pace and accuracy of appraisals, facilitate data visualization and trend analysis, and increase data accessibility. Without a submittal requirement for CAMA data it is likely the dataset will become fragmented, incomplete, or stale over time. VCGI's Parcel Program, for example, is a voluntary program with data ranging from less than six months to over six years old, despite the widespread visibility, utility, and value of parcel data. 
 
@@ -311,7 +311,7 @@ Ideally, CAMA vendors will provide VCGI with access to a read-only, credentializ
 
 Following receipt of the updated CAMA data each month, VCGI will work to incorporate the fields listed in Section 3.2.1 in the [Parcel Viewer](https://experience.arcgis.com/experience/b5a5cc7663c84761a305f70b913e1a60) and [Geodata Portal](https://geodata.vermont.gov/). In the Parcel Viewer, users will be able to access CAMA data easily and in relation to existing parcel, Grand List, and Property Transfer data. The comprehensive, tabular CAMA dataset will be available publicly for download through the Geodata Portal. 
 
-## 3.4 Example Statute Updates
+## 3.5 Example Statute Update
 >[Section] "Assessor database" means the database of property information maintained by a municipalities' lister(s) or assessor(s); it is also referred to as a Computer Aided Mass Appraisal (CAMA) system or Computer Aided Mass Appraisal database
 
 >[Section] On or before [initial date], and not less than monthly thereafter, each municipality that possesses or contracts for services for the creation or maintenance of an assessor database shall transmit an extract of the database to [the State of Vermont]. The submitted database shall include, but need not be limited to information that uniquely identifies each property in the municipality, the description of each property, the size of each property, the year in which buildings were constructed on each property, and other fields described in the Vermont CAMA data standard.
