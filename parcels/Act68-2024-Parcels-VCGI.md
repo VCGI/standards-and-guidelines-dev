@@ -49,7 +49,7 @@ These changes in parcel definition and mapping practices would increase the curr
 
 ## 1.4 Related Statutes
 
-See [Appendix A1.7 Parcel Definitions and Interpretations in Existing State Statute](#a17-parcel-definitions-and-interpretations-in-existing-vermont-statute). 
+See [Appendix A1.8 Parcel Definitions and Interpretations in Existing State Statute](#a18-parcel-definitions-and-interpretations-in-existing-vermont-statute). 
 
 ## 1.5 Practical Implications
 
