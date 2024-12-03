@@ -63,7 +63,7 @@ Advance notice of these changes will be sent by VCGI to the VT GIS community.
 ## 2.1 Summary
 
 - Institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance
-- Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town.
+- Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town
 - Per parcel payments may be administered and normalized by proposed Regional Appraisal Districts
 
 ## 2.2 Justification
@@ -74,7 +74,7 @@ About 60% of municipalities have submitted updated parcel geometry to VCGI withi
 
 > As implementation shifts into a maintenance stage, Vermont will want to pay close attention to challenges to compliance. While some impediments may be more attitudinal than logistical or economic, the state may want to consider creating incentives to comply.
 
-Other states have implemented similar incentives to maintain foundational spatial data (Massachusetts, for example, [with their 911 data](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download)), and it is time to consider supporting Vermont municipalities in the upkeep of parcel data on which many State programs now depend. 
+Other states have implemented similar incentives to maintain foundational spatial data (Massachusetts, for example, [with their 911 data](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download)). It is time to consider supporting Vermont municipalities in the upkeep of parcel data on which many State programs now depend. 
 
 ### 2.2.1 Funding
 
