@@ -388,6 +388,10 @@ Text.
 
 [H.512 (Act 171) of 2022 - An act relating to modernizing land records and notarial acts law](https://legislature.vermont.gov/bill/status/2022/H.512)
 
+# Recommendation 12: Make Proposed Assessment Districts Consistent and Compatible with Existing Administrative Boundaries
+
+Text.
+
 # Future Improvements 
 ## Surveying Municipal Boundaries
 ## Submittals of Land Surveys
@@ -467,8 +471,6 @@ Schema change for the Administrative Parcels layer is renaming "SPAN" to "ADMINS
 Schema changes for the Parcels layer are removing the "STATUS" field and renaming "PARENTSPAN" to "ADMINSPAN". The ADMINSPAN is the common identifer for all contiguous parcels under the same ownership; this field can contain duplicates and can be used to aggregate parcels to the Administrative Parcel layer. The SPAN is the unique identifer for each separate and sellable lot (i.e., a parcel under the proposed new definition); this field should not contain duplicates. In many cases, and all instances where a parcel has no neighbors with the same owner/tax bill, the ADMINSPAN and SPAN fields will be the same. 
 
 ![AdminSPANs_SPANs](https://github.com/user-attachments/assets/cbb220fb-17ba-4a2a-bafb-6918cb4d5024)
-
-
 
 ### A1.8 Parcel Definitions and Interpretations in Existing Vermont Statute
 
