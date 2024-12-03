@@ -74,7 +74,7 @@ About 60% of municipalities have submitted updated parcel geometry to VCGI withi
 
 > As implementation shifts into a maintenance stage, Vermont will want to pay close attention to challenges to compliance. While some impediments may be more attitudinal than logistical or economic, the state may want to consider creating incentives to comply.
 
-Other states have implemented similar incentives to maintain foundational spatial data (Massachusetts, for example, [with their 911 data]((https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download))), and it is time to consider supporting Vermont municipalities in the upkeep of parcel data on which many State programs now depend. 
+Other states have implemented similar incentives to maintain foundational spatial data (Massachusetts, for example, [with their 911 data](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download)), and it is time to consider supporting Vermont municipalities in the upkeep of parcel data on which many State programs now depend. 
 
 ### 2.2.1 Funding
 
