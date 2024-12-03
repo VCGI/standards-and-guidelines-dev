@@ -79,7 +79,7 @@ About 60% of municipalities have submitted updated parcel geometry to VCGI withi
 Other states have implemented similar contingent financial incentives to maintain foundational spatial data (Massachusetts, for example, [with their 911 data](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download)). It is time to consider supporting Vermont municipalities in the upkeep of parcel data on which many State programs now depend.
 
 ### 2.2.1 Submittal Status
-VCGI tracks voluntary municipal parcel data submittals on a weekly basis and presents this information via the [Parcel Program's Town Mapping Status application](https://maps.vcgi.vermont.gov/parcelstatus/).
+VCGI tracks voluntary municipal parcel data submittals and presents this information via the [Parcel Program's Town Mapping Status application](https://maps.vcgi.vermont.gov/parcelstatus/), updated weekly.
 
 As of October 24, 2024:
 -	90% of towns are edited/updated by vendors or the town. 10% are edited/updated by VCGI (these are considered “not compliant”). 
