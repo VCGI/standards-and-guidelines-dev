@@ -35,7 +35,7 @@ Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.g
 This is a "contiguous" parcel definition, depicted in figure 1. Separate lots are grouped together by ownership for administrative purposes, including the sending of a single tax bill per owner per "parcel". Separate lots are sometimes managed as "inactive" parcels, although that term is not defined outside of the [parcel data standard](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) and their upkeep by towns is not uniform. The marketability of individual lots for sale is not clear, nor is it clear is how towns should map and track lots within a combined parcel. Aggregate parcel delineation further complicates assignment of highest and best use valuation as assessors may have to generalize across several different lot types. Data management and downstream analysis are also negatively impacted by an aggregate, contiguous parcel definition.
 
 ![Parcel Types Diagram For Statute Change_v4d-01](https://github.com/user-attachments/assets/6f5e420e-9a2f-45b7-8fe7-40772bb5a618)
-*Figure 1: Existing contiguous parcel definition, depicted as in the current column on the left, and the proposed separate parcel definition, depicted as the proposed column on the right. The proposed separate parcel definition removes the need for tracking "inactive" parcels.*
+**Figure 1:** *Existing contiguous parcel definition, depicted as in the current column on the left, and the proposed separate parcel definition, depicted as the proposed column on the right. The proposed separate parcel definition removes the need for tracking "inactive" parcels.*
 
 Alternatively, defining parcel as a separate and sellable lot or piece of real property would bring parcel identification in line with their common understanding as "lots" while also reducing the need to generalize highest and best use across several different parcels combined by owner during valuation. This change would enable improved parcel documentation by ensuring that no parcel in full or in part goes unidentified, while also easing highest and best use valuation, improving data maintenance and analysis, and continuing to allow aggregation by owner for tax administration. 
 
@@ -99,7 +99,7 @@ In November 2024 VCGI organized a focus group of 12 municipalities selected base
 |**Randolph**    |**2154**                    |**2219**       |**65**           |**CAI**               |**CAI**               |
 |Stratton        |1621                        |1630           |325              |CTI                   |CTI                   |
 
-** *Table X:** Municipalities contacted for current parcel data maintenance cost information. Bold text denotes towns that responded with current maintenance costs.*
+**Table X:** *Municipalities contacted for current parcel data maintenance cost information. Bold text denotes towns that responded with current maintenance costs.*
 
 While VCGI would continue to receive parcel data updates from municipalities, funding could be allocated by the proposed "Assessment Districts" which could help account for any geographic variance between municipalities with respect to parcel mapping. Using counties as an example, there is a significant range between cost per parcel during the Parcel Project:
 
