@@ -99,6 +99,8 @@ In November 2024 VCGI organized a focus group of 12 municipalities selected base
 |**Randolph**    |**2154**                    |**2219**       |**65**           |**CAI**               |**CAI**               |
 |Stratton        |1621                        |1630           |325              |CTI                   |CTI                   |
 
+*Table X: Municipalities contacted for current parcel data maintenance cost information. Bold text denotes towns that responded with current maintenance costs.*
+
 While VCGI would continue to receive parcel data updates from municipalities, funding could be allocated by the proposed "Assessment Districts" which could help account for any geographic variance between municipalities with respect to parcel mapping. Using counties as an example, there is a significant range between cost per parcel during the Parcel Project:
 
 |County     |2024 Grand List parcel count (perliminary)|Parcel Project cost|Parcel Project cost per parcel|
