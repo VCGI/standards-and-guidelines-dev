@@ -80,7 +80,7 @@ Other states have implemented similar contingent financial incentives to maintai
 
 ### 2.2.1 Funding
 
-The design of a financial incentive to reward parcel data upkeep and improvements should consider past and current maintenance costs, and potentially, ways of accounting for differences by location and/or situation.
+The design of a financial incentive to reward parcel data upkeep and improvements should consider maintenance costs, and potentially, ways of accounting for differences by location and/or situation.
 
 In November 2024 VCGI organized a focus group of 12 municipalities selected based on parcel count, location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much the municipality currently spends on parcel mapping. While sample size is a limiting factor, based on the information provided by the 6 municipalities that responded, the cost of ongoing parcel data maintenance is less than the initial cost during the Parcel Project. This is true even for municipalities that are no longer contracting with their Parcel Project mapping vendor. The current cost per parcel averaged $2.52 compared to $4.91 during the Parcel Project (49% cost reduction).
 
