@@ -53,11 +53,13 @@ See [Appendix A1.8 Parcel Definitions and Interpretations in Existing State Stat
 
 ## 1.5 Practical Implications
 
-Vermont municipalities would be expected to continue to aggregate parcels by common ownership and map them as they do currently. This aggregate, "contiguous" map layer would continue to be submitted by towns to the Statewide Property Parcel Program overseen by VCGI, and remain adherent to the VT GIS Parcel Data Standard. The layer will be renamed from "active" parcels to "administrative" parcels by VCGI. SPAN numbers for administrative parcels would be maintained in a field called ADMINSPAN, and mirror the source ADMINSPAN of its constituent parts that have the same ownership (see Figure 1). When a parcel has only one bounded area in common ownership, its ADMINSPAN would be the same value as its SPAN.
+Vermont municipalities would be expected to continue to aggregate parcels by common ownership and map them as they do currently. This aggregate, "contiguous" map layer would continue to be submitted by towns to the Statewide Property Parcel Program overseen by VCGI, and remain adherent to the VT GIS Parcel Data Standard. The layer will be renamed from "active" parcels to "administrative" parcels by VCGI. SPAN numbers for administrative parcels would be maintained in a field called ADMINSPAN, and mirror the source ADMINSPAN of its constituent parts that have the same ownership (see Figure 1 and [Appendix 1.7](#a17-proposed-parcel-layers-and-vt-gis-data-standard-schema-per-updated-parcel-definition)). When a parcel has only one bounded area in common ownership, its ADMINSPAN would be the same value as its SPAN.
 
 Municipalities would also be expected to track and map what are currently called "inactive" parcels, however, these parcels would reflect the updated parcel definition and depict separately sellable pieces of real estate given their best available documentation, and regardless of common ownership. Data are to remain adherent to the VT GIS Parcel Data Standard, albeit "inactive" parcels are to be renamed to simply "parcels". They are also to continue to be submitted to the State Property Parcel Program overseen by VCGI, who will rename the current "inactive" parcels layer as "parcels". It is expected that mapping and tracking of these parcels reflective of an updated parcel definition by municipalities will take time and improve with continued maintenance.
 
 Advance notice of these changes will be sent by VCGI to the VT GIS community.
+
+A full description of proposed changes is within [Appendix 1.7: Proposed Parcel Layers and VT GIS Data Standard Schema, per Updated Parcel Definition](#a17-proposed-parcel-layers-and-vt-gis-data-standard-schema-per-updated-parcel-definition).
 
 # Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Payment
 ## 2.1 Summary
