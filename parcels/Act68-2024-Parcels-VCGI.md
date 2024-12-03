@@ -14,8 +14,8 @@ This document outlines all recommendations for parcel mapping and data maintenan
 | [4. Clarify Right-of-Way Mapping for Tax Purposes](#recommendation-4-clarify-right-of-way-mapping-for-tax-purposes)                         |                   |             | X                       |                    |
 | [5. Clarify Grand List vs. GIS Acreage Guidance](#recommendation-5-clarify-grand-list-vs-gis-acreage-guidance)                                          |                    |             | X                      |                    |
 | 6. Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract |                    |             | X                      | X                  |
-| 7. Offer Updated Parcel Contract Guidance for Municipalities                  |                    |             | X                      | X                  |
-| 8. Pilot Remotely-Sensed Tools to Support Appraisals                                    |                    |             |                        | X                  |
+| 7. Pilot Remotely-Sensed Tools to Support Appraisals                                    |                    |             |                        | X                  |
+| 8. Offer Updated Parcel Contract Guidance for Municipalities                  |                    |             | X                      | X                  |
 | 9. Modernize Current Use Map Standards and Submittals                                   |                    |             |                        | X                  |
 | 10. Consider Updating and Moving Parcel Program in VT Statute                           | X                  |             |                        |                    |
 | 11. Coordinate With Concurrent Efforts to Digitize Land Records                         |                   |             |                        | X                   |
