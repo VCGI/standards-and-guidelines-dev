@@ -65,7 +65,6 @@ Advance notice of these changes will be sent by VCGI to the VT GIS community.
 - Institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance
 - Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town.
 - Per parcel payments may be administered and normalized by proposed Regional Appraisal Districts
-- Per parcel payment is to be X, funded by Y, with estimated annual cost of Z
 
 ## 2.2 Justification
 
