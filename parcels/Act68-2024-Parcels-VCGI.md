@@ -76,11 +76,22 @@ About 60% of municipalities have submitted updated parcel geometry to VCGI withi
 
 > As implementation shifts into a maintenance stage, Vermont will want to pay close attention to challenges to compliance. While some impediments may be more attitudinal than logistical or economic, the state may want to consider creating incentives to comply.
 
-Other states have implemented similar contingent financial incentives to maintain foundational spatial data (Massachusetts, for example, [with their 911 data](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download)). It is time to consider supporting Vermont municipalities in the upkeep of parcel data on which many State programs now depend. 
+Other states have implemented similar contingent financial incentives to maintain foundational spatial data (Massachusetts, for example, [with their 911 data](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download)). It is time to consider supporting Vermont municipalities in the upkeep of parcel data on which many State programs now depend.
+
+### 2.2.1 Submittal Status
+As of October 24, 2024:
+-	90% of towns are edited/updated by vendors or the town. 10% are edited/updated by VCGI (these are considered “not compliant”). 
+-	10% of submissions require edits to parcel topology (i.e., geometry) to address gaps and/or overlaps among parcels.
+-	50% of submissions required edits that were already made for the previous submission  (i.e., repeated revisions).
+-	70% of submissions contain inactive parcels. Inactives exist for at least some towns that do not include them in their submissions.
+-	96% of towns include and correctly represent rights-of-way. For those that do not, some map parcels to road centerlines, others only include main ROWs or those in the town/village center, and others have gaps in the parcel data where roads should be.
+-	24% of submissions are fully compliant with the current parcel data standard. 26% are compliant with minor edits. 37% are compliant with major edits. 13% are not compliant (see criteria below).
+-	11% of towns have a mapping vendor (to the best of VCGI's knowledge) but have not submitted an update since the original Parcel Project data (prior to 2020). These towns are currently classed as “fully compliant”, despite having stale data. 
+-	12% of submissions are/have been reviewed by towns prior to submittal; 64% have not, and 24% are unknown. Some vendors are already working quite closely with towns as edits are being made (or edits are only being made at the direction of a town official), however, which may negate the need for a more formal review of the data prior to submission.
 
 ## 2.3 Design
 
-The design of a financial incentive to reward parcel data upkeep and improvements should consider maintenance costs, and potentially, ways of accounting for differences by location and/or situation.
+The design of a financial incentive to reward parcel data upkeep and improvements that is contingent on data submittal to the State should consider Municipal maintenance costs, and potentially, ways of accounting for differences by location and/or situation.
 
 ### 2.3.1 Funding
 
@@ -199,17 +210,6 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
     - Municipalities not currently updating their parcel geometry, contracting with a non-GIS vendor, or having "low confidence" in their ability to conduct parcel geometry updated internally.
 
     - Municipalities with a relatively small parcel count or relatively few parcel geometry updates.
-
-### 2.3.3 Submittal Status
-As of October 24, 2024:
--	90% of towns are edited/updated by vendors or the town. 10% are edited/updated by VCGI (these are considered “not compliant”). 
--	10% of submissions require edits to parcel topology (i.e., geometry) to address gaps and/or overlaps among parcels.
--	50% of submissions required edits that were already made for the previous submission  (i.e., repeated revisions).
--	70% of submissions contain inactive parcels. Inactives exist for at least some towns that do not include them in their submissions.
--	96% of towns include and correctly represent rights-of-way. For those that do not, some map parcels to road centerlines, others only include main ROWs or those in the town/village center, and others have gaps in the parcel data where roads should be.
--	24% of submissions are fully compliant with the current parcel data standard. 26% are compliant with minor edits. 37% are compliant with major edits. 13% are not compliant (see criteria below).
--	11% of towns have a mapping vendor (to the best of VCGI's knowledge) but have not submitted an update since the original Parcel Project data (prior to 2020). These towns are currently classed as “fully compliant”, despite having stale data. 
--	12% of submissions are/have been reviewed by towns prior to submittal; 64% have not, and 24% are unknown. Some vendors are already working quite closely with towns as edits are being made (or edits are only being made at the direction of a town official), however, which may negate the need for a more formal review of the data prior to submission.
 
 ### 2.3.4 Considerations
 -	In addition to submittal compliance criteria, will need a timeframe component when assessing a town's eligibility for a per parcel payment (likely annual). Some towns are technically “compliant” and are working with a vendor but have not submitted an update to VCGI since before 2020. For small towns that may not have any changes from year to year (and therefore do not submit an update), VCGI should still receive an annual confirmation that no changes or updates are needed to the existing data.
