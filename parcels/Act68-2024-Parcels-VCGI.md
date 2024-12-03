@@ -80,7 +80,7 @@ Other states have implemented similar incentives to maintain foundational spatia
 
 ### 2.2.1 Funding
 
-In November 2024 VCGI organized a focus group of 12 municipalities selected based on size (parcel count), location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much the municipality currently spends on parcel mapping. While sample size is a limiting factor, based on the information provided by the 6 municipalities that responded, the cost of ongoing parcel data maintenance is less than the initial cost during the Parcel Project. This is true even for municipalities that are no longer contracting with their Parcel Project mapping vendor. The current cost per parcel averaged $2.52 compared to $4.91 during the Parcel Project (49% cost reduction).
+In November 2024 VCGI organized a focus group of 12 municipalities selected based on parcel count, location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much the municipality currently spends on parcel mapping. While sample size is a limiting factor, based on the information provided by the 6 municipalities that responded, the cost of ongoing parcel data maintenance is less than the initial cost during the Parcel Project. This is true even for municipalities that are no longer contracting with their Parcel Project mapping vendor. The current cost per parcel averaged $2.52 compared to $4.91 during the Parcel Project (49% cost reduction).
 
 |Municipality    |2023 Grand List Parcel Count|Active Polygons|Inactive Polygons|Current Vendor        | Parcel Project Vendor|
 |----------------|----------------------------|---------------|-----------------|----------------------|----------------------|
@@ -116,7 +116,7 @@ While VCGI would continue to receive parcel data updates from municipalities, fu
 |Windham    |31,727                                    |$119,424           |$3.76                         |
 |Windsor    |36,289                                    |$148,672           |$4.10                         |
 
-At the county-level, the average cost per parcel during the Parcel Project was $5.21 which is slighly above the average cost per parcel of the focus group during the Parcel Project. If the estimated 49% cost reduction was applied to the cost per parcel for each county during the Parcel Project, **funding for a proposed financial incentive would need to be about $800,000 annually for the state**:
+At the county-level, the average cost per parcel during the Parcel Project was $5.21 which is slightly above the average cost per parcel of the focus group during the Parcel Project. If the estimated 49% cost reduction was applied to the cost per parcel for each county during the Parcel Project, **funding for a proposed financial incentive would need to be about $800,000 annually for the state**:
 
 |County     |Estimated cost reduction per parcel|Estimated funding|
 |-----------|-----------------------------------|-----------------|
@@ -227,7 +227,6 @@ As of October 24, 2024:
 - Improve attribution of unlanded structures and common interest parcels via prefix codes
 - Require monthly submittal of CAMA data, or provide read-only source, adherent to the VT CAMA data standard to the State of Vermont
 - Make submitted CAMA data publicly available and relatable with parcel map data
-
 
 ## 3.2 Justification
 These recommendations are intended to provide useful property description information to aid timely and accurate reappraisals, while also supporting key public policy concerns (e.g., housing) that are best served by CAMA data. The recommendations are also intended to improve access to and use of public information for data analysis and visualization. Linking standardized CAMA information with existing GIS data, namely parcels, will further enhance visual and spatial data analysis and accessibility.
