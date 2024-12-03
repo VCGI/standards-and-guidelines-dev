@@ -78,9 +78,9 @@ Other states have implemented similar incentives to maintain foundational spatia
 
 ### 2.2.1 Funding
 
-VCGI organized a focus group of 12 municipalities selected based on size (parcel count), location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much the municipality currently spends on parcel mapping. While sample size is a major limiting factor, based on the information provided by the 6 municipalities that responded, the cost of ongoing parcel data maintenance is less than the initial cost during the Parcel Project. This is true even for municipalities that are no longer contracting with their Parcel Project mapping vendor. The current cost per parcel averaged $2.52 compared to $4.91 during the Parcel Project (49% cost reduction).
+In November 2024 VCGI organized a focus group of 12 municipalities selected based on size (parcel count), location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much the municipality currently spends on parcel mapping. While sample size is a limiting factor, based on the information provided by the 6 municipalities that responded, the cost of ongoing parcel data maintenance is less than the initial cost during the Parcel Project. This is true even for municipalities that are no longer contracting with their Parcel Project mapping vendor. The current cost per parcel averaged $2.52 compared to $4.91 during the Parcel Project (49% cost reduction).
 
-|Municipality    |2023 Grand List Parcel Count|Active Polygpns|Inactive Polygons|Current Vendor        | Parcel Project Vendor|
+|Municipality    |2023 Grand List Parcel Count|Active Polygons|Inactive Polygons|Current Vendor        | Parcel Project Vendor|
 |----------------|----------------------------|---------------|-----------------|----------------------|----------------------|
 |Bakersfield     |739                         |778            |0                |CTI                   |CTI                   |
 |**Belvidere**   |**290**                     |**317**        |**0**            |**Chris Chamberlain** |**CAI**               |
