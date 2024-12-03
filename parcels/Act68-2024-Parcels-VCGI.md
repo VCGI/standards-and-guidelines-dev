@@ -98,17 +98,11 @@ The design of a financial incentive to reward parcel data upkeep and improvement
 ### 2.3.1 Eligibility
 
 - VCGI will continue to accept and review parcel geometry updates on a rolling basis. A municipal official (or a contact from a municipality’s mapping vendor) must send a standard-compliant parcel geometry update to VCGI by October 1st of a calendar year to be eligible to receive a financial incentive the following year.
-
 - No more than one standard-compliant parcel geometry update per municipality will be accepted each calendar year.
-
 - Parcel geometry updates will continued to be submitted to VCGI using the [Share Map Data](https://vcgi.vermont.gov/data-and-programs/share-map-data) form.
-
 - VCGI should be notified if a municipality has no changes to report. A municipality that reports no changes will not be eligible to receive a financial incentive.
-
 - Some municipalities may choose to “opt-out,” forgoing their eligibility in exchange for VCGI assisting in their parcel geometry update. Municipalities that may be good candidates to opt-out include:
-
     - Municipalities not currently updating their parcel geometry, contracting with a non-GIS vendor, or having "low confidence" in their ability to conduct parcel geometry updated internally.
-
     - Municipalities with a relatively small parcel count or relatively few parcel geometry updates.
 
 ### 2.3.2 Submittal Quality Criteria
