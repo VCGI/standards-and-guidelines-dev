@@ -192,7 +192,7 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
 
     - Municipalities with a relatively small parcel count or relatively few parcel geometry updates.
 
-### 2.2.3 Parcel Data Submittal Status
+### 2.2.3 Submittal Status
 As of October 24, 2024:
 -	90% of towns are edited/updated by vendors or the town. 10% are edited/updated by VCGI (these are considered “not compliant”). 
 -	10% of submissions require edits to parcel topology (i.e., geometry) to address gaps and/or overlaps among parcels.
