@@ -406,13 +406,13 @@ Text.
 
 ### A1.2 Aggregate Mapped Unit Defined by Ownership (Contiguous)
 
-Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.gov/statutes/section/32/129/04152) defined parcel. This is a "contiguous" parcel definition. Separate parcels are grouped together by ownership for administrative purposes, primarily the sending of a single tax bill per owner per "parcel".
+Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.gov/statutes/section/32/129/04152) defined parcel. This is a "contiguous" parcel definition. Separate parcels are grouped together by ownership for administrative purposes.
 
-Depicted visually, a contiguous parcel definition means that the two parcels below, shown split with a dotted green line and both of which have the same owner, are drawn as the single outer rectangle. This results as one "parcel" in the spatial data layer.
+Depicted visually, a contiguous parcel definition means that the two abutting parcels below, shown split with a dotted green line and both of which have the same owner, are drawn as the single outer rectangle. This results as one "parcel" in the spatial data layer.
 
 ![image](https://github.com/user-attachments/assets/239c3a7e-e6f5-44cd-bb89-e8768e81a1da)
 
-Each of the two individual parts are considered "inactive" parcels, by practice only, and not uniformly across towns.
+One of the individual parts is to be considered an "inactive" parcel, but this is not uniformly tracked across towns. The other part is to be considered "active", but its status is also not tracked uniformly across towns. These result in data incompleteness that impact analysis as well as long-term change tracking.
 
 ### A1.3 Separate Mapped Unit, Defined by Practice
 
