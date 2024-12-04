@@ -8,9 +8,9 @@ This document outlines all recommendations for parcel mapping and data maintenan
 
 | **Recommendation**                                                                      | **Statute Change** | **Payment to Towns** | **Technical Guidance** | **New Technology** |
 |:---------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------:|:------------------:|
-| [1. Update Parcel Definition in VT Statute from "Contiguous" to Separate and Sellable Lots or Pieces of Real Property](#recommendation-1-update-parcel-definition-in-vt-statute)                                              | X                  |             |                        |                    |
-| [2. Reward Standardized Digital Parcel Data Submittal to SoV via Per Parcel Payment](#recommendation-2-reward-digital-parcel-submittal-to-sov-via-per-parcel-payment)          | X                  | X           |                        |                    |
-| [3. Implement VT CAMA Data Standard and Require Submittal to SoV](#recommendation-3-implement-vt-cama-data-standard-and-require-submittal-to-sov)                       | X                |             | X                      |                    |
+| [1. Update Parcel Definition in VT Statute from "Contiguous" to Separate and Sellable Lots or Pieces of Real Property](#recommendation-1-update-parcel-definition-in-vermont-statute)                                              | X                  |             |                        |                    |
+| [2. Reward Standardized Digital Parcel Data Submittal to SoV via Per Parcel Payment](#recommendation-2-reward-digital-parcel-submittal-to-state-of-vermont-via-per-parcel-payment)          | X                  | X           |                        |                    |
+| [3. Implement VT CAMA Data Standard and Require Submittal to SoV](#recommendation-3-implement-vermont-cama-data-standard-and-require-submittal-to-state)                       | X                |             | X                      |                    |
 | [4. Clarify Right-of-Way Mapping for Tax Purposes](#recommendation-4-clarify-right-of-way-mapping-for-tax-purposes)                         |                   |             | X                       |                    |
 | [5. Clarify Grand List vs. GIS Acreage Guidance](#recommendation-5-clarify-grand-list-vs-gis-acreage-guidance)                                          |                    |             | X                      |                    |
 | 6. Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract |                    |             | X                      | X                  |
@@ -21,7 +21,7 @@ This document outlines all recommendations for parcel mapping and data maintenan
 | 11. Coordinate With Concurrent Efforts to Digitize Land Records                         |                   |             |                        | X                   |
 | 12. Make Proposed Assessment Districts Consistent and Compatible with Existing Administrative Boundaries                         |                   |             | X                        |                    |
 
-# Recommendation 1: Update Parcel Definition in VT Statute
+# Recommendation 1: Update Parcel Definition in Vermont Statute
 ## 1.1 Summary
 - Change the current parcel definition from solely a "contiguous" parcel definition to one that also requires tracking of separate and sellable pieces of real estate
 - This definition will replace the undefined practice of mapping and tracking "inactive" parcels and instead require towns to map and track all separate parcels individually, regardless of common ownership
@@ -61,7 +61,7 @@ Advance notice of these changes will be sent by VCGI to the VT GIS community.
 
 A full description of proposed changes is within [Appendix 1.7: Proposed Parcel Layers and VT GIS Data Standard Schema, per Updated Parcel Definition](#a17-proposed-parcel-layers-and-vt-gis-data-standard-schema-per-updated-parcel-definition).
 
-# Recommendation 2: Reward Digital Parcel Submittal to SoV via Per Parcel Payment
+# Recommendation 2: Reward Digital Parcel Submittal to State of Vermont via Per Parcel Payment
 ## 2.1 Summary
 
 - Institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance
@@ -233,7 +233,7 @@ Text.
 
 Text.
 
-# Recommendation 3: Implement VT CAMA Data Standard and Require Submittal to SoV
+# Recommendation 3: Implement Vermont CAMA Data Standard and Require Submittal to State
 ## 3.1 Summary
 - Create Computer Assisted Mass Appraisal (CAMA) data standard based on fields from current CAMA software providers and input from the Tax Department, with applicability to current and future CAMA providers operating in Vermont
 - Normalize 'priority fields' in initial standardization, expanding to additional fields in future phases
