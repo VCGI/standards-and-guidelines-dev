@@ -771,6 +771,12 @@ Total bar count represents parcels per town enrolled in current use and with at 
 
 ### X.X Acreage in Right-of-Way
 
+![ROW_acreage](https://github.com/user-attachments/assets/cd87c576-58a5-443e-8a3b-a31288008565)
+
+
+![ROW_zoom](https://github.com/user-attachments/assets/ea872342-a1fd-4c4d-bd17-d9053e077bd7)
+
+
 
 [Explore ROW Acreage](https://arcg.is/1qLPXv1) 
 
