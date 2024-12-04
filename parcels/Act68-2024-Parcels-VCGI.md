@@ -95,7 +95,7 @@ As of October 24, 2024:
 
 ## 2.3 Design
 
-The design of a financial incentive to reward parcel data upkeep and quality improvements that is contingent on data submittal to the State should consider Municipal maintenance costs, be reflective of only those parcels that are changed since the last update, and potentially, express ways of accounting for differences by location and/or situation.
+The design of a financial incentive to reward parcel data upkeep and quality improvements that is contingent on data submittal to the State should consider Municipal maintenance costs, be reflective of only those parcels that are changed (and thus need maintenance) since the last update, and potentially, account for cost differences by regional location and/or situation.
 
 ### 2.3.1 Eligibility
 
