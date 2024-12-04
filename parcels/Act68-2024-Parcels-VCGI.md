@@ -787,10 +787,7 @@ In addition, ROWs for the following municipalities are typically missing or inco
 
 ![ROW_acreage](https://github.com/user-attachments/assets/cd87c576-58a5-443e-8a3b-a31288008565)
 
-
-![ROW_zoom](https://github.com/user-attachments/assets/ea872342-a1fd-4c4d-bd17-d9053e077bd7)
-
-
+![ROW_zoom](https://github.com/user-attachments/assets/6c4da9a4-2798-4ad9-89b9-ee3a0a5ff5e4)
 
 
 
