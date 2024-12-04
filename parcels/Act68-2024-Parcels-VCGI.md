@@ -81,7 +81,7 @@ While relatively successful, there are improvements that are needed in this curr
 Other states have implemented similar contingent financial incentives to maintain foundational spatial data (Massachusetts, for example, [with their 911 data](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download)). It is time to consider supporting Vermont municipalities in the upkeep of parcel data on which many State programs now depend.
 
 ### 2.2.1 Submittal Status
-VCGI tracks voluntary municipal parcel data submittals and presents this information via the [Parcel Program's Town Mapping Status application](https://maps.vcgi.vermont.gov/parcelstatus/), updated weekly. These statistics represent five years (2020 - 2024) of oversight of the Statewide Property Parcel Program by VCGI. They highlight the need for improvements to the current data maintenance model.
+VCGI tracks voluntary municipal parcel data submittals and presents this information via the [Parcel Program's Town Mapping Status application](https://maps.vcgi.vermont.gov/parcelstatus/), updated weekly. These statistics represent five years (2020 - 2024) of oversight of the Statewide Property Parcel Program. They highlight the need for improvements to the current data maintenance model.
 
 As of October 24, 2024:
 -	90% of towns are edited/updated by vendors or the town. 10% are edited/updated by VCGI (these are considered “not VT GIS Parcel Data Standard compliant”) 
