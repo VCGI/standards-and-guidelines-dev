@@ -771,8 +771,7 @@ Total bar count represents parcels per town enrolled in current use and with at 
 
 ### X.X Acreage in Right-of-Way
 
-Correct mapping of Rights-of-Way has important implications for taxation purposes.
-[Explore ROW Acreage by Town here](https://arcg.is/1qLPXv1) and in the images below. Acreage is based on the sum of parcels by town where the Property Type is classified as "ROW_ROAD", "ROW_RAIL", or "ROW_TRAIL". The second image provides an example of each ROW.
+Correct mapping of Rights-of-Way has important implications for taxation purposes. Based on the parcel data, over 133,000 acres in Vermont are classified as a Right-of-Way. [Explore ROW Acreage by Town here](https://arcg.is/1qLPXv1) and in the images below. Acreage is based on the sum of parcels by town where the Property Type is classified as "ROW_ROAD", "ROW_RAIL", or "ROW_TRAIL". The second image provides an example of each ROW.  
 
 Note: while the majority (96%) of municipalities include ROWs, a small number do not. Parcels in these towns are generally mapped to centerlines where ROWs are missing. These municipalities include:
 
@@ -787,8 +786,11 @@ In addition, ROWs for the following municipalities are typically missing or inco
 
 ![ROW_acreage](https://github.com/user-attachments/assets/cd87c576-58a5-443e-8a3b-a31288008565)
 
+*Figure X: ROW acreage displayed by town, as summed for all parcels with a Property Type of ROW_Road, ROW_Rail, or ROW_Trail. Total statewide ROW acreage is 133,150 acres, average per town is 522 acres, maximum is 1,883 acres (Randolph), and minimum is 16 acres (Avery's Gore).*
+
 ![ROW_zoom](https://github.com/user-attachments/assets/6c4da9a4-2798-4ad9-89b9-ee3a0a5ff5e4)
 
+*Figure X: Example of parcels with Property Type of ROW_Road (grey), ROW_Rail (red), and ROW_Trail (green) in Ferrisburgh.*
 
 
 ### X.X Acreage Duplicately Counted
