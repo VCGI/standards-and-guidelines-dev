@@ -828,10 +828,10 @@ In addition, ROWs for the following municipalities are typically missing or inco
 *Figure X: Example of parcels with Property Type of ROW_Road (grey), ROW_Rail (red), and ROW_Trail (green) in Ferrisburgh.*
 
 
-### X.X Acreage Duplicately Counted
+### X.X Acreage Not Counted (Gaps) and Duplicately Counted (Overlaps)
 ![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
 
-### X.X Acreage Not Counted (Gaps)
+*Figure X: Example of gaps and overlaps between parcel geometry at the municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester.*
 
 ### X.X Acreage in Common Ownership
 
