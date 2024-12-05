@@ -829,6 +829,7 @@ In addition, ROWs for the following municipalities are typically missing or inco
 
 
 ### X.X Acreage Duplicately Counted
+![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
 
 ### X.X Acreage Not Counted (Gaps)
 
