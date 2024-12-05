@@ -466,7 +466,7 @@ Any combination of the examples above.
 
 ### A1.7 Proposed Parcel Layers and VT GIS Data Standard Schema, per Updated Parcel Definition
 
-VCGI currently publishes and maintains two statewide parcel layers: Actives Parcels and Inactive Parcels (as available). Following a change to the parcel definition, VCGI will continue to publish and maintain two layers, but with slightly modified purpose, content, and schema. The following describes the existing and proposed statewide parcel data layers:
+VCGI currently publishes and maintains two statewide parcel layers: Active Parcels and Inactive Parcels (as available). Following a change to the parcel definition, VCGI will continue to publish and maintain two layers, but with slightly modified purpose, content, and schema. The following describes the existing and proposed statewide parcel data layers:
 
 #### 1. Active Parcels --> Administrative Parcels
 
@@ -764,7 +764,7 @@ New Jersey
 ### X.X Lands in Current Use Needing Administrative Definition for Acreage
 ![Inactives_CU](https://github.com/user-attachments/assets/16d095e6-ec20-405c-b295-f8a07145bd24)
 
-Total bar count represents parcels per town enrolled in current use and with at least one inactive. Green count represents parcels whose parent parcel is >25 acres, deeming the parcel still eligible for current use under the new parcel definition. Red count represents parcels whose parent parcel is <25 acres and therefor no longer eligible for current use under the new parcel definition (based on acreage). Note: inactive parcels are not managed consistently across towns; currently 178 towns (70%) submit inactives. In addition, attribution of the parcel status field (active/inactive) is not complete or reliable for all submitting towns. This analysis is based on a subset of 138 towns with inactives and a presumably accurate "STATUS" field. The parent parcel with an "ACTIVE" status for all corresponding SPANS in the inactive parcel dataset. 
+Total bar count represents parcels per town enrolled in current use and with at least one inactive. Green count represents parcels whose parent parcel is >25 acres, deeming the parcel still eligible for current use under the new parcel definition. Red count represents parcels whose parent parcel is <25 acres and therefore no longer eligible for current use under the new parcel definition based on acreage. Note: inactive parcels are not managed consistently across towns; currently 178 towns (70%) submit inactive parcels. In addition, attribution of the parcel status field (active/inactive) is not complete or consistent for all submitting towns. This analysis is based on a subset of 138 towns with inactives and a presumably accurate "STATUS" field. The parent parcel with an "ACTIVE" status for all corresponding SPANS in the inactive parcel dataset. 
 
 
 ![image](https://github.com/user-attachments/assets/0364e196-1b06-429d-8f6b-58178a1cd86c)
