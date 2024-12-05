@@ -761,7 +761,12 @@ New Jersey
 
 ### X.X Lands in Current Use
 
-In 2023 over 19,000 parcels were enrolled in Current Use, totaling over 2.5 million acres statewide. 
+In 2023 over 19,000 parcels were enrolled in Current Use, totaling over 2.5 million acres statewide.
+![CU](https://github.com/user-attachments/assets/c43d6573-861f-4f47-9e32-6099e8c4bf77)
+
+![CU_ActiveInactive](https://github.com/user-attachments/assets/5b8af80f-80aa-4dd3-811c-c13f350bfc14)
+
+
 
 ### X.X Lands in Current Use Needing Administrative Definition for Acreage
 ![Inactives_CU](https://github.com/user-attachments/assets/16d095e6-ec20-405c-b295-f8a07145bd24)
