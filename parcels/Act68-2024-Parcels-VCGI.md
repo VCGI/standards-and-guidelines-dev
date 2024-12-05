@@ -766,6 +766,7 @@ New Jersey
 
 Total bar count represents parcels per town enrolled in current use and with at least one inactive. Green count represents parcels whose parent parcel is >25 acres, deeming the parcel still eligible for current use under the new parcel definition. Red count represents parcels whose parent parcel is <25 acres and therefor no longer eligible for current use under the new parcel definition (based on acreage). Note: inactive parcels are not managed consistently across towns; currently 178 towns (70%) submit inactives. In addition, attribution of the parcel status field (active/inactive) is not complete or reliable for all submitting towns. This analysis is based on a subset of 138 towns with inactives and a presumably accurate "STATUS" field. The parent parcel with an "ACTIVE" status for all corresponding SPANS in the inactive parcel dataset. 
 
+![ActiveInactive](https://github.com/user-attachments/assets/9ebd72bc-9f34-4c54-aa2a-e930529b9803)
 
 ![image](https://github.com/user-attachments/assets/0364e196-1b06-429d-8f6b-58178a1cd86c)
 
