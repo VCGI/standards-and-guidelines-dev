@@ -761,14 +761,27 @@ New Jersey
 
 ### X.X Lands in Current Use
 
+In 2023 over 19,000 parcels were enrolled in Current Use, totaling over 2.5 million acres statewide. 
+
 ### X.X Lands in Current Use Needing Administrative Definition for Acreage
 ![Inactives_CU](https://github.com/user-attachments/assets/16d095e6-ec20-405c-b295-f8a07145bd24)
 
-Total bar count represents parcels per town enrolled in current use and with at least one inactive. Green count represents parcels whose parent parcel is >25 acres, deeming the parcel still eligible for current use under the new parcel definition. Red count represents parcels whose parent parcel is <25 acres and therefore no longer eligible for current use under the new parcel definition based on acreage. Note: inactive parcels are not managed consistently across towns; currently 178 towns (70%) submit inactive parcels. In addition, attribution of the parcel status field (active/inactive) is not complete or consistent for all submitting towns. This analysis is based on a subset of 138 towns with inactives and a presumably accurate "STATUS" field. The parent parcel with an "ACTIVE" status for all corresponding SPANS in the inactive parcel dataset. 
+*Figure X: Count of parcels with at least one inactive parcel and enrolled in current use (2023), by town.*
+
+Total bar count represents parcels per town enrolled in current use and with at least one inactive. Green count represents parcels whose parent parcel is >25 acres, deeming the parcel still eligible for current use under the new parcel definition. Red count represents parcels whose parent parcel is <25 acres and therefore no longer eligible for current use under the new parcel definition based on acreage. 
+
+
+![image](https://github.com/user-attachments/assets/0364e196-1b06-429d-8f6b-58178a1cd86c)
+
+*Table: Count and percentage of parcels with at least one inactive parcel and enrolled in current use, by town. Approximately 32% of parcels statewide would lose their eligibility for current use based on acreage following a change to the parcel definition.*
+
+
+Note: inactive parcels are not managed consistently across towns; currently 178 towns (70%) submit inactive parcels. In addition, attribution of the parcel status field (active/inactive) is not complete or consistent for all submitting towns. This analysis is based on a subset of 138 towns with inactives and a presumably accurate "STATUS" field. This means the parent parcel has an "ACTIVE" status and all associated "INACTIVE" status parcels have a PARENTSPAN matching the "ACTIVE" status SPAN. 
 
 ![ActiveInactive](https://github.com/user-attachments/assets/9ebd72bc-9f34-4c54-aa2a-e930529b9803)
 
-![image](https://github.com/user-attachments/assets/0364e196-1b06-429d-8f6b-58178a1cd86c)
+*Figure X: Example of correct attribution in the inactive parcel layer. The parcel with an "ACTIVE" status has a SPAN entry, followed by the associated "INACTIVE" status parcels with PARENTSPAN entries linking them to the "ACTIVE" parcel. In the Active Parcels layer, these five parcels would be merged to a single parcel. In some cases, "INACTIVE" status parcels may also include a unique SPAN entry. Typically these are placeholders used by town officials.*
+
 
 
 
