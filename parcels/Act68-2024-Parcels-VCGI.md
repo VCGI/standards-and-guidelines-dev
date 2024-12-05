@@ -831,7 +831,7 @@ In addition, ROWs for the following municipalities are typically missing or inco
 ### X.X Acreage Not Counted (Gaps) and Duplicately Counted (Overlaps)
 ![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
 
-*Figure X: Example of gaps and overlaps between parcel geometry at the municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester.*
+*Figure X: Example of gaps (red) and overlaps (blue) between parcel geometry at the municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI in black*
 
 ### X.X Acreage in Common Ownership
 
