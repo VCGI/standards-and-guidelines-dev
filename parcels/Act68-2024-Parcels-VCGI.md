@@ -129,7 +129,7 @@ Text.
 
 ### 2.3.4 Funding
 
-In November 2024 VCGI organized a focus group of 12 municipalities selected based on parcel count, location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much the municipality currently spends on parcel mapping. While sample size is a limiting factor, based on the information provided by the 6 municipalities that responded, the cost of ongoing parcel data maintenance is less than the initial cost during the Parcel Project. This is true even for municipalities that are no longer contracting with their Parcel Project mapping vendor. The current cost per parcel averaged $2.52 compared to $4.91 during the Parcel Project (49% cost reduction).
+In November 2024 VCGI organized a focus group of 12 municipalities selected based on parcel count, location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much the municipality currently spends on parcel mapping. While sample size is a limiting factor, based on the information provided by the 7 municipalities that responded, the cost of ongoing parcel data maintenance is less than the initial cost during the Parcel Project. This is true even for municipalities that are no longer contracting with their Parcel Project mapping vendor. The current cost per parcel averaged $2.66 compared to $5.87 during the Parcel Project (55% cost reduction).
 
 |Municipality    |2023 Grand List Parcel Count|Active Polygons|Inactive Polygons|Current Vendor        | Parcel Project Vendor|
 |----------------|----------------------------|---------------|-----------------|----------------------|----------------------|
@@ -138,7 +138,7 @@ In November 2024 VCGI organized a focus group of 12 municipalities selected base
 |Ferrisburgh     |1625                        |1719           |0                |Chris Chamberlain     |VHB                   |
 |Grand Isle      |1345                        |1374           |154              |CAI                   |Russell Graphics      |
 |**Huntington**  |**944**                     |**983**        |**0**            |**Chris Chamberlain** |**Atlas Geographic**  |
-|Landgrove       |226                         |249            |5                |CAI                   |CAI                   |
+|**Landgrove**   |**226**                     |**249**        |**5**            |**CAI**               |**CAI**               |
 |**Londonderry** |1575                        |1528           |277              |CAI                   |CAI                   |
 |Maidstone       |376                         |384            |53               |CAI                   |CAI                   |
 |**Montpelier**  |**3280**                    |**3065**       |**46**           |**CAI**               |**Russell Graphics**  |
@@ -167,25 +167,25 @@ While VCGI would continue to receive parcel data updates from municipalities, fu
 |Windham    |31,727                                    |$119,424           |$3.76                         |
 |Windsor    |36,289                                    |$148,672           |$4.10                         |
 
-At the county-level, the average cost per parcel during the Parcel Project was $5.21 which is slightly above the average cost per parcel of the focus group during the Parcel Project. If the estimated 49% cost reduction was applied to the cost per parcel for each county during the Parcel Project, **funding for a proposed financial incentive would need to be about $800,000 annually for the state**:
+At the county-level, the average cost per parcel during the Parcel Project was $5.21 which is slightly below the average cost per parcel of the focus group during the Parcel Project. If the estimated 55% cost reduction was applied to the cost per parcel for each county during the Parcel Project, **funding for a proposed financial incentive would need to be about $700,000 annually for the state**:
 
 |County     |Estimated cost reduction per parcel|Estimated funding|
 |-----------|-----------------------------------|-----------------|
-|Addison    |$3.16                              |$59,203          |  
-|Bennington |$2.70                              |$59,771          |
-|Caledonia  |$2.55                              |$45,583          |
-|Chittenden |$0.98                              |$59,840          |
-|Essex      |$5.36                              |$34,493          |
-|Frankin    |$2.27                              |$56,080          |
-|Grand Isle |$3.02                              |$19,477          |
-|Lamoille   |$2.21                              |$33,331          |
-|Orange     |$2.72                              |$47,059          |
-|Orleans    |$2.97                              |$55,958          |
-|Rutland    |$3.03                              |$108,548         |
-|Washington |$2.22                              |$70,138          |
-|Windham    |$1.92                              |$60,906          |
-|Windsor    |$2.09                              |$75,823          |
-|**Total**  |                                   |**$786,209**     |
+|Addison    |$2.79                              |$52,238          |  
+|Bennington |$2.38                              |$52,740          |
+|Caledonia  |$2.25                              |$40,220          |
+|Chittenden |$0.86                              |$52,800          |
+|Essex      |$4.73                              |$30,435          |
+|Frankin    |$2.01                              |$49,482          |
+|Grand Isle |$2.67                              |$17,186          |
+|Lamoille   |$1.95                              |$29,409          |
+|Orange     |$2.40                              |$41,552          |
+|Orleans    |$2.62                              |$49,374          |
+|Rutland    |$2.68                              |$95,778          |
+|Washington |$1.96                              |$61,887          |
+|Windham    |$1.69                              |$53,741          |
+|Windsor    |$1.84                              |$66,902          |
+|**Total**  |                                   |**$693,714**     |
 
 Each county could be assigned its own per parcel fee or a single per parcel fee could be established for the state with some counties receiving an additional percentage above the per parcel fee based on financial capacity. While there are multiple ways to determine financial capacity, two methods using the Real Listed Value field from the 2023 Grand List are shown below. For both methods, any county that is **below** the average value would receive an adjusted per parcel fee. The remaining counties would receive the standard per parcel fee.
 
@@ -829,9 +829,10 @@ In addition, ROWs for the following municipalities are typically missing or inco
 *Figure X: Example of parcels with Property Type of ROW_Road (grey), ROW_Rail (red), and ROW_Trail (green) in Ferrisburgh.*
 
 
-### X.X Acreage Duplicately Counted
+### X.X Acreage Not Counted (Gaps) and Duplicately Counted (Overlaps)
+![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
 
-### X.X Acreage Not Counted (Gaps)
+*Figure X: Example of gaps and overlaps between parcel geometry at the municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester.*
 
 ### X.X Acreage in Common Ownership
 
