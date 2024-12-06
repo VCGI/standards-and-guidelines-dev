@@ -6,7 +6,7 @@ This document outlines all recommendations for parcel mapping and data maintenan
 
 # Overview of All Recommendations
 
-| **Recommendation**                                                                      | **Statute Change** | **Incentive / Payment** | **Technical Guidance** | **New Technology** |
+| **Recommendation**                                                                      | **Statute Change** | **Incentive / Funding** | **Technical Guidance** | **New Technology** |
 |:---------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------:|:------------------:|
 | [1. Update Parcel Definition in Vermont Statute](#recommendation-1-update-parcel-definition-in-vermont-statute)                                              | X                  |             |                        |                    |
 | [2. Support Digital Parcel Maintenance and Submittal to the State](#recommendation-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont)          | X                  | X           |                        |                    |
