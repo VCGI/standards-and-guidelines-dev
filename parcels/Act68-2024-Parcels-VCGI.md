@@ -867,9 +867,9 @@ A stacked polygon is a group of identical parcel features (polygons) stacked on 
 |**Mapped Acreage** (statewide parcel dataset) |5,786,273 ac              |
 |                                              |*177,171 ac difference*   |
 
-- 42,162 grand list records had no acreage listed.
-- Mapped acreage was calculated only for parcels (based on PROPTYPE field).
-- A small subset of grand list records repersent railroad rights-of-way.  
+- 42,162 grand list records had no listed acreage.
+- Mapped acreage was calculated for parcels only based on property type (PROPTYPE) field.
+- A small subset of grand list records repersent railroad rights-of-way based on property description (DESCPROP) field.  
 
 #### State Boundary
 
