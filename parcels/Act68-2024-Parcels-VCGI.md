@@ -650,6 +650,20 @@ See references to parcel defined by common ownership.
 | 6 V.S.A. § 564  | Agriculture | Hemp    |                          | State hemp program; registration; application; administration | No                 |                |               |
 | 6 V.S.A. § 4871 | Agriculture | Hemp    | Small Farm Certification | Small farm certification                                      | Yes                | 10             | Certification |
 
+### A1.9 Comments on Maintaining Inactive Parcels at the Municipal Level
+
+**From a municipality in Windham County:**
+
+> As part of [the municipality’s] reappraisal, we will review parcels previously classified as "inactive" to determine their contributory value. We believe that our Grand List (similar to every town across the state) contains inactive parcels not represented in the Grand List or [in the parcel data]. Our goal is to identify and recreate these parcels through a thorough review of deeds, surveys, and historical grand lists.
+
+**From a mapping vendor working with Vermont municipalities:**
+
+> A property owner has to go through a subdivision process and approval with the town. Once approved, each lot becomes its own legal entity.  That is the point at which the inactive lots legally exist and should be shown in the [parcel] data and entered in the inactive grand list.  A 100 acre lot is a totally different situation than ten 10-acre lots. This info needs to be known.
+
+The mapping vendor notes that when an individual purchases an abutting piece of land, listers will often make the new piece an inactive parcel. But if an individual were to create a subdivision while maintaining ownership, listers may not represent this in the parcel data at all. 
+
+> The fallout from all this is that pieces of land get lost, revenue gets lost, and the picture of all the pieces of land is not accurate. We maintain one data layer of all parcels.  Each parcel has a parcel number, and what we call a link number. The link number is simply the parcel number of the active lot (if the parcel is active, the numbers are the same).
+
 ## Appendix 2: Per Parcel Payments
 
 ### A2.1 Shared Responsibility Model
