@@ -836,9 +836,13 @@ In addition, ROWs for the following municipalities are typically missing or inco
 *Figure X: Example of gaps (red) and overlaps (blue) between parcel geometry at municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Black lines repersent town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI.*
 
 ### X.X Acreage in Common Ownership
+A stacked polygon is a group of identical parcel features (polygons) stacked on top of each other with a different grand list record assigned to each. This occurs when more than one grand list record is assigned to the same parcel polygon. Stacked polygons often represent common ownership parcels like condominiums.
+
 ![CommonOwnership_statewide](https://github.com/user-attachments/assets/2eecb05d-b610-4d0c-97e0-ab4c7a197e55)
 
-*Figure X: Statewide distribution of common ownership or "stacked" parcels where more than one grand list record is assigned to the same parcel feature.*
+*Figure X: Common ownership parcels (stacked polygons) statewide.*
+
+There are 27,239 grand list records represented as 3,254 stacked polygons statewide. Stacked polygons account for 200,457 acres (about 3.5% of the total acres attributed to parcels).
 
 ![CommonOwnership_Brattleboro](https://github.com/user-attachments/assets/9580c23e-579e-41fe-aa55-b9fc13aa058b)
 
