@@ -23,7 +23,7 @@ This document outlines all recommendations for parcel mapping and data maintenan
 
 # Recommendation 1: Update Parcel Definition in Vermont Statute
 ## 1.1 Summary
-- While functional for tax administration, the current parcel definition has limitations for valuation, data management, documentation, and parcel-dependent analysis that informs policy
+- While functional for tax administration, the current parcel definition has limitations for valuation, data management, complete documentation, and parcel-dependent analysis that informs policy
 - Changing the current parcel definition from solely "contiguous" to one that also requires tracking of separate and sellable pieces of real estate should help overcome these issues
 - This definition would replace the undefined practice of mapping and tracking "inactive" parcels and instead require towns to map and track all separate parcels individually, regardless of common ownership
 - "Contiguous" parcels aggregated by common ownership are still to be created for the purposes of tax administration
