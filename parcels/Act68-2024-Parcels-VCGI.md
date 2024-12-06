@@ -6,7 +6,7 @@ This document outlines all recommendations for parcel mapping and data maintenan
 
 # Overview of All Recommendations
 
-| **Recommendation**                                                                      | **Statute Change** | **Payment to Towns** | **Technical Guidance** | **New Technology** |
+| **Recommendation**                                                                      | **Statute Change** | **Incentive / Payment** | **Technical Guidance** | **New Technology** |
 |:---------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------:|:------------------:|
 | [1. Update Parcel Definition in Vermont Statute from "Contiguous" to Separate and Sellable Lots or Pieces of Real Property](#recommendation-1-update-parcel-definition-in-vermont-statute)                                              | X                  |             |                        |                    |
 | [2. Reward Standardized Digital Parcel Data Submittal to State of Vermont via Per Parcel Payment](#recommendation-2-reward-digital-parcel-submittal-to-state-of-vermont-via-per-parcel-payment)          | X                  | X           |                        |                    |
