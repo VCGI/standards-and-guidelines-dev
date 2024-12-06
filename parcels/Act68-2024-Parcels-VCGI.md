@@ -775,14 +775,9 @@ In 2023 over 19,000 parcels were enrolled in Current Use, totaling over 2.5 mill
 
 *Figure X: Parcels enrolled in Current Use statewide.*
 
-<<<<<<< HEAD
 In addition, Current Use parcels may only have a percentage of their acreage enrolled. The statewide average enrollment is 92.5%, with 75% of parcels between 92-100%.
 
 ![CUenrolled](https://github.com/user-attachments/assets/761ac768-286c-44b2-9587-e25a507ea362)
-=======
-![CUenrolled](https://github.com/user-attachments/assets/50fe75ed-1dd6-4c61-bf5a-664dd4add866)
-
->>>>>>> f434046e17a5106a43bc80201442716a929ceeff
 
 *Figure X: Example of parcels enrolled in Current Use, with percent of acreage enrolled.*
 
