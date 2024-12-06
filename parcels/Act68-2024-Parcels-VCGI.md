@@ -861,11 +861,11 @@ A stacked polygon is a group of identical parcel features (polygons) stacked on 
 
 ### X.X Discrepancies in Listed and Mapped Acreage
 
-|               |Data Source             |Total Acreage                   |
-|---------------|------------------------|--------------------------------|
-|Listed Acreage |2023 Grand List         |5,609,102 acres                 |
-|Mapped Acreage |Statewide Parcel Dataset|5,786,273 acres                 |
-|               |                        |**difference of 177,171 acres** |
+|                                              |Total Acreage             |
+|----------------------------------------------|--------------------------|
+|**Listed Acreage** (2023 Grand List)          |5,609,102 ac              |
+|**Mapped Acreage** (statewide parcel dataset) |5,786,273 ac              |
+|                                              |*177,171 ac difference*   |
 
 - 42,162 grand list records had no acreage listed.
 - Mapped acreage was calculated only for parcels (based on PROPTYPE field).
