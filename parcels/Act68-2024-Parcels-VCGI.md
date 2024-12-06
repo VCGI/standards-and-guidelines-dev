@@ -8,18 +8,18 @@ This document outlines all recommendations for parcel mapping and data maintenan
 
 | **Recommendation**                                                                      | **Statute Change** | **Incentive / Payment** | **Technical Guidance** | **New Technology** |
 |:---------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------:|:------------------:|
-| [1. Update Parcel Definition in Vermont Statute from "Contiguous" to Separate and Sellable Lots or Pieces of Real Property](#recommendation-1-update-parcel-definition-in-vermont-statute)                                              | X                  |             |                        |                    |
-| [2. Reward Standardized Digital Parcel Data Submittal to State of Vermont via Per Parcel Payment](#recommendation-2-reward-digital-parcel-submittal-to-state-of-vermont-via-per-parcel-payment)          | X                  | X           |                        |                    |
+| [1. Update Parcel Definition in Vermont Statute](#recommendation-1-update-parcel-definition-in-vermont-statute)                                              | X                  |             |                        |                    |
+| [2. Support Digital Parcel Maintenance and Submittal to the State](#recommendation-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont)          | X                  | X           |                        |                    |
 | [3. Implement Vermont CAMA Data Standard and Require Submittal to State](#recommendation-3-implement-vermont-cama-data-standard-and-require-submittal-to-state)                       | X                |             | X                      |                    |
 | [4. Clarify Right-of-Way Mapping for Tax Purposes](#recommendation-4-clarify-right-of-way-mapping-for-tax-purposes)                         |                   |             | X                       |                    |
 | [5. Clarify Grand List vs. GIS Acreage Guidance](#recommendation-5-clarify-grand-list-vs-gis-acreage-guidance)                                          |                    |             | X                      |                    |
 | 6. Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract |                    |             | X                      | X                  |
 | 7. Pilot Remotely-Sensed Tools to Support Appraisals                                    |                    |             |                        | X                  |
-| 8. Offer Updated Parcel Contract Guidance for Municipalities                  |                    |             | X                      | X                  |
-| 9. Modernize Current Use Map Standards and Submittals                                   |                    |             |                        | X                  |
-| 10. Consider Updating and Moving Parcel Program in VT Statute                           | X                  |             |                        |                    |
-| 11. Coordinate With Concurrent Efforts to Digitize Land Records                         |                   |             |                        | X                   |
-| 12. Make Proposed Assessment Districts Consistent and Compatible with Existing Administrative Boundaries                         |                   |             | X                        |                    |
+| [8. Develop and Offer Updated Parcel Contract Guidance](#recommendation-8-develop-and-offer-updated-parcel-contract-guidance)                  |                    |             | X                      | X                  |
+| [9. Modernize Current Use Map Standards and Submittals](#recommendation-9-modernize-current-use-map-standards-and-submittals)                                   |                    |             |                        | X                  |
+| [10. Consider Updating and Moving Parcel Program in VT Statute](#recommendation-10-consider-updating-and-moving-parcel-program-in-vt-statute)                           | X                  |             |                        |                    |
+| [11. Coordinate With Concurrent Efforts to Digitize Land Records](#recommendation-11-coordinate-with-concurrent-efforts-to-digitize-land-records)                         |                   |             |                        | X                   |
+| [12. Make Proposed Assessment Districts Consistent and Compatible with Existing Administrative Boundaries](#recommendation-12-make-proposed-assessment-districts-consistent-and-compatible-with-existing-administrative-boundaries)                         |                   |             | X                        |                    |
 
 # Recommendation 1: Update Parcel Definition in Vermont Statute
 ## 1.1 Summary
@@ -69,7 +69,7 @@ A full description of proposed changes is within [Appendix 1.7: Proposed Parcel 
 - Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town
 - A payment should help compensate only for those parcels that are changed in geometry since the last update
 - Per parcel payments may be administered and normalized by proposed Regional Appraisal Districts
-- If region or state is to assume responsibility for parcel mapping, those institutions should be required to adhere to the state data standard, share with the state, and be funded accordingly
+- If Regional Appraisal District or state is to assume responsibility for parcel mapping, those practices should be required to adhere to the state data standard, maintain and share with the state on a normalized schedule, and be funded accordingly
 
 ## 2.2 Justification
 
@@ -378,11 +378,11 @@ The Tax Deparment, in collaboration with partners, should develop guidance for h
 
 Text.
 
-# Recommendation 7: Offer Updated Statewide Parcel Contract Guidance for Municipalities
+# Recommendation 7: Pilot Remotely-Sensed Tools to Support Appraisals
 
 Text.
 
-# Recommendation 8: Pilot Remotely-Sensed Tools to Support Appraisals
+# Recommendation 8: Develop and Offer Updated Parcel Contract Guidance
 
 Text.
 
@@ -836,8 +836,13 @@ In addition, ROWs for the following municipalities are typically missing or inco
 *Figure X: Example of gaps (red) and overlaps (blue) between parcel geometry at municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Black lines repersent town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI.*
 
 ### X.X Acreage in Common Ownership
-![CommonOwnership_Brattleboro](https://github.com/user-attachments/assets/9580c23e-579e-41fe-aa55-b9fc13aa058b)
 ![CommonOwnership_statewide](https://github.com/user-attachments/assets/2eecb05d-b610-4d0c-97e0-ab4c7a197e55)
+
+*Figure X: Statewide distribution of common ownership or "stacked" parcels where more than one grand list record is assigned to the same parcel feature.*
+
+![CommonOwnership_Brattleboro](https://github.com/user-attachments/assets/9580c23e-579e-41fe-aa55-b9fc13aa058b)
+
+*Figure X: Stacked parcels in Brattleboro repersenting a mobile home park.*
 
 ### X.X Discrepancies in Listed and Mapped Acreage
 
