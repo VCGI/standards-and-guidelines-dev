@@ -24,7 +24,7 @@ This document outlines all recommendations for parcel mapping and data maintenan
 # Recommendation 1: Update Parcel Definition in Vermont Statute
 ## 1.1 Summary
 - While functional for tax administration, the current parcel definition has limitations for valuation, data management, documentation, and parcel-dependent analysis that informs policy
-- Changing the current parcel definition from solely a "contiguous" parcel definition to one that also requires tracking of separate and sellable pieces of real estate could help overcome these issues
+- Changing the current parcel definition from solely "contiguous" to one that also requires tracking of separate and sellable pieces of real estate should help overcome these issues
 - This definition would replace the undefined practice of mapping and tracking "inactive" parcels and instead require towns to map and track all separate parcels individually, regardless of common ownership
 - "Contiguous" parcels aggregated by common ownership are still to be created for the purposes of tax administration
 - Two parcel map layers will continue to be published via the Statewide Parcel Program: one for tax administration (formerly known as "active parcels"), and one for tracking all parcels separately (formerly known as "inactive parcels")
