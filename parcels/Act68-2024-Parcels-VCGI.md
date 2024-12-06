@@ -23,8 +23,9 @@ This document outlines all recommendations for parcel mapping and data maintenan
 
 # Recommendation 1: Update Parcel Definition in Vermont Statute
 ## 1.1 Summary
+- While functional for tax administration, the current parcel definition has limitations for valuation, data management, documentation, and analysis that informs policy using parcels
 - Change the current parcel definition from solely a "contiguous" parcel definition to one that also requires tracking of separate and sellable pieces of real estate
-- This definition will replace the undefined practice of mapping and tracking "inactive" parcels and instead require towns to map and track all separate parcels individually, regardless of common ownership
+- This definition would replace the undefined practice of mapping and tracking "inactive" parcels and instead require towns to map and track all separate parcels individually, regardless of common ownership
 - "Contiguous" parcels aggregated by common ownership are still to be created for the purposes of tax administration
 - Two parcel map layers will continue to be published via the Statewide Parcel Program: one for tax administration (formerly known as "active parcels"), and one for tracking all parcels separately (formerly known as "inactive parcels")
 
@@ -37,7 +38,7 @@ This is a "contiguous" parcel definition, depicted in figure 1. Separate lots ar
 ![Parcel Types Diagram For Statute Change_v4d-01](https://github.com/user-attachments/assets/6f5e420e-9a2f-45b7-8fe7-40772bb5a618)
 **Figure 1: Current and Proposed Parcel Definition.** *The proposed separate parcel definition removes the need for tracking "inactive" parcels, while ensuring all component parts of parcels are assigned a unique identifier.*
 
-Alternatively, defining parcel as a separate and sellable lot or piece of real property would bring parcel identification in line with their common understanding as "lots" (as opposed to grouped areas) while also reducing the need to generalize highest and best use across several different parcels combined by owner during valuation. This change would enable improved parcel documentation by ensuring that no parcel in full or in part goes unidentified, ease highest and best use valuation, improve data maintenance, long-term record keeping, and analysis, and continue to allow aggregation by owner for tax administration. It could also have bearing on any parcel count-dependent fee or payment as what constitutes a "parcel" would need to be defined and confirmed should funds be contingent on their amount (see [recommendation 2](#recommendation-2-reward-digital-parcel-submittal-to-state-of-vermont-via-per-parcel-payment)).
+Alternatively, defining parcel as a separate and sellable lot or piece of real property would bring parcel identification in line with their common understanding as "lots" (as opposed to grouped areas) while also reducing the need to generalize highest and best use across several different parcels combined by owner during valuation. This change would enable improved parcel documentation by ensuring that no parcel in full or in part goes unidentified, ease highest and best use valuation, improve data maintenance, long-term record keeping, and analysis, and continue to allow aggregation by owner for tax administration. It could also have bearing on any parcel count-dependent fee or payment as what constitutes a "parcel" would need to be defined and confirmed should funds be contingent on their amount (see [recommendation 2](#recommendation-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont)).
 
 With variations in the timing of when a separate lot or piece of real property is created, an updated parcel definition could be written to allow a legal document (deed or title), subdivision plats, or sale to help define the bounds of the separate mapped and tracked area. Existing "inactive" parcels, where they exist and are maintained, should be tracked and mapped with their unique SPAN and attribution and ultimately incorporated with the current "active" parcel layer to create a map layer of the smallest, documented, bounded sellable areas. A separate parcel layer with parcels combined on ownership should persist for tax administration use. Two statewide parcel map layers would result, one that reflects documented, bounded, sellable pieces of real estate, and the other that represents contiguous parcels combined on ownership. Both layers would continue to be published and made publicly available by the Statewide Parcel Property Program.
 
@@ -64,14 +65,10 @@ A full description of proposed changes is within [Appendix 1.7: Proposed Parcel 
 # Recommendation 2: Support Digital Parcel Maintenance and Submittal to the State of Vermont
 ## 2.1 Summary
 
-- The current model of town-based parcel maintenance with voluntary submittal to the state has reached its limits in data quality and currentness, further improvements will need support
+- The current model of town-based parcel maintenance with voluntary submittal to the state has reached its limits in data quality and currentness, further improvements will need new support
 - The design of support for parcel data maintenance and submittal will depend on the jurisdiction ultimately responsible for mapping: town (current), region, or state
 - If municipalities are to remain responsible for mapping: institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance
-- Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town
-- A payment should help compensate only for those parcels that are changed in geometry since the last update
-- Per parcel payments may be administered and normalized by proposed Regional Appraisal Districts
 - If Regional Appraisal District or state is to assume responsibility for parcel mapping, those practices should be required to adhere to the state data standard, maintain and share with the state on a normalized schedule, and be funded accordingly
-
 
 ## 2.2 Justification
 
@@ -101,6 +98,10 @@ As of October 24, 2024:
 The design of a financial incentive to reward parcel data upkeep and quality improvements that is contingent on data submittal to the State should consider Municipal maintenance costs, be reflective of only those parcels that are changed (and thus need maintenance) since the last update, and potentially, account for cost differences by regional location and/or situation.
 
 ### 2.3.1 Support By Maintenance Type
+
+- Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town
+- A payment should help compensate only for those parcels that are changed in geometry since the last update
+- Per parcel payments may be administered and normalized by proposed Regional Appraisal Districts
 
 A financial incentive to assist [JURISDICTION] with the cost of parcel mapping that is contingent on data standard-compliant parcel geometry submissions to VCGI could be designed to close this “participation gap” while improving data quality. An incentive is preferable to a submittal requirement as the latter may not be possible to meet by some towns and challenging to enforce. An incentive, when combined with the fact that standardized GIS parcel data exist statewide (albeit they may not be up to date), may be enough to enable the remaining 10-15% of towns without GIS parcel data maintenance to begin upkeep and improvement. Creating incentives to increase data maintenance and sharing was also a recommended consideration in the [2015 Vermont Statewide Digital Parcel Lifecycle & Maintenance Plan](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/VT_Parcel%20Data%20Lifecycle%20and%20Maintenance%20Plan_2015_FINAL.pdf):
 
