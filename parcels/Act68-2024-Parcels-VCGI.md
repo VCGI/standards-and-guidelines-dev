@@ -773,6 +773,8 @@ In 2023 over 19,000 parcels were enrolled in Current Use, totaling over 2.5 mill
 
 *Figure X: Parcels enrolled in Current Use statewide.*
 
+![CUenrolled](https://github.com/user-attachments/assets/761ac768-286c-44b2-9587-e25a507ea362)
+
 
 ### X.X Lands in Current Use Needing Administrative Definition for Acreage
 
