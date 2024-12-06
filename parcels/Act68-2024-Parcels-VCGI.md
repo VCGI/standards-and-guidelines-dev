@@ -15,11 +15,11 @@ This document outlines all recommendations for parcel mapping and data maintenan
 | [5. Clarify Grand List vs. GIS Acreage Guidance](#recommendation-5-clarify-grand-list-vs-gis-acreage-guidance)                                          |                    |             | X                      |                    |
 | 6. Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract |                    |             | X                      | X                  |
 | 7. Pilot Remotely-Sensed Tools to Support Appraisals                                    |                    |             |                        | X                  |
-| 8. Offer Updated Parcel Contract Guidance for Municipalities                  |                    |             | X                      | X                  |
-| 9. Modernize Current Use Map Standards and Submittals                                   |                    |             |                        | X                  |
-| 10. Consider Updating and Moving Parcel Program in VT Statute                           | X                  |             |                        |                    |
-| 11. Coordinate With Concurrent Efforts to Digitize Land Records                         |                   |             |                        | X                   |
-| 12. Make Proposed Assessment Districts Consistent and Compatible with Existing Administrative Boundaries                         |                   |             | X                        |                    |
+| [8. Develop and Offer Updated Parcel Contract Guidance](#recommendation-8-develop-and-offer-updated-parcel-contract-guidance)                  |                    |             | X                      | X                  |
+| [9. Modernize Current Use Map Standards and Submittals](#recommendation-9-modernize-current-use-map-standards-and-submittals)                                   |                    |             |                        | X                  |
+| [10. Consider Updating and Moving Parcel Program in VT Statute](#recommendation-10-consider-updating-and-moving-parcel-program-in-vt-statute)                           | X                  |             |                        |                    |
+| [11. Coordinate With Concurrent Efforts to Digitize Land Records](#recommendation-11-coordinate-with-concurrent-efforts-to-digitize-land-records)                         |                   |             |                        | X                   |
+| [12. Make Proposed Assessment Districts Consistent and Compatible with Existing Administrative Boundaries](#recommendation-12-make-proposed-assessment-districts-consistent-and-compatible-with-existing-administrative-boundaries)                         |                   |             | X                        |                    |
 
 # Recommendation 1: Update Parcel Definition in Vermont Statute
 ## 1.1 Summary
@@ -378,11 +378,11 @@ The Tax Deparment, in collaboration with partners, should develop guidance for h
 
 Text.
 
-# Recommendation 7: Offer Updated Statewide Parcel Contract Guidance for Municipalities
+# Recommendation 7: Pilot Remotely-Sensed Tools to Support Appraisals
 
 Text.
 
-# Recommendation 8: Pilot Remotely-Sensed Tools to Support Appraisals
+# Recommendation 8: Develop and Offer Updated Parcel Contract Guidance
 
 Text.
 
