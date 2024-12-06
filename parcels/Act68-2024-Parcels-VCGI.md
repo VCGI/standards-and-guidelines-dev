@@ -6,7 +6,7 @@ This document outlines all recommendations for parcel mapping and data maintenan
 
 # Overview of All Recommendations
 
-| **Recommendation**                                                                      | **Statute Change** | **Incentive / Payment** | **Technical Guidance** | **New Technology** |
+| **Recommendation**                                                                      | **Statute Change** | **Incentive / Funding** | **Technical Guidance** | **New Technology** |
 |:---------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------:|:------------------:|
 | [1. Update Parcel Definition in Vermont Statute](#recommendation-1-update-parcel-definition-in-vermont-statute)                                              | X                  |             |                        |                    |
 | [2. Support Digital Parcel Maintenance and Submittal to the State](#recommendation-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont)          | X                  | X           |                        |                    |
@@ -25,7 +25,7 @@ This document outlines all recommendations for parcel mapping and data maintenan
 ## 1.1 Summary
 - While functional for tax administration, the current parcel definition has limitations for valuation, data management, complete documentation, and parcel-dependent analysis that informs policy
 - Changing the current parcel definition from solely "contiguous" to one that also requires tracking of separate and sellable pieces of real estate should help overcome these issues
-- This definition would replace the undefined practice of mapping and tracking "inactive" parcels and instead require towns to map and track all separate parcels individually, regardless of common ownership
+- This definition would replace the undefined practice of mapping and tracking "inactive" parcels and instead require mapping and tracking all separate parcels individually, regardless of common ownership
 - "Contiguous" parcels aggregated by common ownership are still to be created for the purposes of tax administration
 - Two parcel map layers will continue to be published via the Statewide Parcel Program: one for tax administration (formerly known as "active parcels"), and one for tracking all parcels separately (formerly known as "inactive parcels")
 
@@ -40,9 +40,9 @@ This is a "contiguous" parcel definition, depicted in figure 1. Separate lots ar
 
 Alternatively, defining parcel as a separate and sellable lot or piece of real property would bring parcel identification in line with their common understanding as "lots" as opposed to grouped areas. This definition would would improve parcel documentation by ensuring that no parcel in full or in part goes unidentified; ease highest and best use valuation by reducing the need to generalize across different parcels; improve data maintenance, long-term record keeping, and analysis; and continue to allow aggregation by owner for tax administration. In addition, the definition of a parcel has implications for any potential fee or payment related to a municipality's parcel count (see [Recommendation 2](#recommendation-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont)).
 
-With variations in the timing of when a separate lot or piece of real property is created, an updated parcel definition could be written to allow a legal document (deed or title), subdivision plats, or sale to help define the bounds of the separate mapped and tracked area. Existing "inactive" parcels, where they exist and are maintained, should be tracked and mapped with their unique SPAN and attribution. Subsequently, these parcels should be incorporated with the current "active" parcel layer to create a map layer of the smallest, documented, bounded sellable areas. A separate parcel layer with parcels combined on ownership should persist for tax administration use. Two statewide parcel map layers would result: one that reflects documented, bounded, sellable pieces of real estate, and the other that represents contiguous parcels combined on ownership. Both layers would continue to be published and made publicly available by the Statewide Property Parcel Program.
+With variations in the timing of when a separate lot or piece of real property is created, an updated parcel definition could be written to allow a legal document (deed or title), subdivision plats, or sale to help define the bounds of the separate mapped and tracked area. Existing "inactive" parcels, where they exist and are maintained, should be tracked and mapped with their unique SPAN and attribution and ultimately incorporated with the current "active" parcel layer to create a map layer of the smallest, documented, bounded sellable areas. A separate parcel layer with parcels combined on ownership should persist for tax administration use (such as Current Use enrollment). Two statewide parcel map layers would result, one that reflects documented, bounded, sellable pieces of real estate, and the other that represents contiguous parcels combined on ownership. Both layers would continue to be published and made publicly available by the Statewide Parcel Property Program.
 
-These changes in parcel definition and mapping practices would increase the current count of parcels statewide from roughly 340,000 to an estimated 380,000. This figure is estimated as currently only 70% of towns (178 total) have submitted their inactive parcels as digital parcel data to VCGI. It remains unknown how many of the other 30% of towns map inactive parcels digitally.
+These changes in parcel definition and mapping practices would increase the current count of parcels statewide from roughly 340,000 to an estimated 380,000. This figure is estimated as currently only 70% of towns (178 total) have submitted their inactive parcels as digital parcel data to VCGI. It remains unknown how many of the other 30% of towns map inactive parcels digitally. This definition change could be designed to require no changes to Current Use and other programs dependent on acreage thresholds that may only be met by aggregating lands in common ownership.
 
 ## 1.3 Example Statute Update
 
@@ -54,9 +54,9 @@ See [Appendix A1.8 Parcel Definitions and Interpretations in Existing State Stat
 
 ## 1.5 Implementation
 
-Vermont municipalities would be expected to continue to aggregate parcels by common ownership and map them as they do currently. This aggregate, "contiguous" map layer would continue to be submitted by towns to the Statewide Property Parcel Program overseen by VCGI, and remain adherent to an updated VT GIS Parcel Data Standard. The layer will be renamed from "active" parcels to "administrative" parcels by VCGI. SPANs for administrative parcels would be maintained in a field called ADMINSPAN, and mirror the source ADMINSPAN of the constituent parts with the same ownership (see Figure 1 and [Appendix 1.7](#a17-proposed-parcel-layers-and-vt-gis-data-standard-schema-per-updated-parcel-definition)). When a parcel has only one bounded area in common ownership, the ADMINSPAN would be the same as the SPAN.
+Vermont municipalities would be expected to continue to aggregate parcels by common ownership and account for them as they do currently. An aggregate, "contiguous" map layer reflecting this accounting would continue to be submitted to the Statewide Property Parcel Program overseen by VCGI, and remain adherent to an updated VT GIS Parcel Data Standard. The layer will be renamed from "active" parcels to "administrative" parcels by VCGI. SPAN numbers for administrative parcels would be maintained in a field called ADMINSPAN, and mirror the source ADMINSPAN of its constituent parts that have the same ownership (see Figure 1 and [Appendix 1.7](#a17-proposed-parcel-layers-and-vt-gis-data-standard-schema-per-updated-parcel-definition)). When a parcel has only one bounded area in common ownership, its ADMINSPAN would be the same value as its SPAN. CAMA providers would be engaged to reflect these changes in their accounting systems.
 
-Municipalities would also be expected to track and map what are currently called "inactive" parcels, however, these parcels would reflect the updated parcel definition and depict separately sellable pieces of real estate given their best available documentation, and regardless of common ownership. Data are to remain adherent to an updated VT GIS Parcel Data Standard, albeit "inactive" parcels are to be renamed to simply "parcels". They should continue to be submitted to the Statewide Property Parcel Program overseen by VCGI, who will rename the current "inactive" parcels layer as "parcels". It is expected that mapping and tracking parcels that reflect an updated parcel definition will take time and improve with continued maintenance and updates.
+Municipalities would also be expected to account for what are currently called "inactive" parcels, however, these parcels would reflect the updated parcel definition and depict separately sellable pieces of real estate given their best available documentation, and regardless of common ownership. Representative spatial data are to remain adherent to an updated VT GIS Parcel Data Standard, albeit "inactive" parcels are to be renamed to simply "parcels". They are also to continue to be submitted to the State Property Parcel Program overseen by VCGI, who will rename the current "inactive" parcels layer as "parcels". It is expected that mapping and tracking of these parcels reflective of an updated parcel definition by municipalities will take time and improve with continued maintenance.
 
 Advance notice of these changes will be sent by VCGI to the VT GIS community, municipalities, and their mapping vendors.
 
@@ -381,7 +381,27 @@ The Tax Deparment, in collaboration with partners, should develop guidance for h
 
 # Recommendation 6: Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract
 
-Text.
+## 6.1 Summary
+
+-	Increase the frequency of aerial imagery collection to statewide annually
+-	Make higher resolution (at least 15cm/6 inch), leaf-off, imagery available across entire state every other year
+-	Include buy-up options for oblique imagery and higher resolution (7.5cm/3 inch) imagery
+
+## 6.2 Justification
+
+Aerial imagery provides a comprehensive view of a property and its surroundings, which is invaluable for evaluating land use, property boundaries, and changes over time. Benefits of using aerial imagery in the assessments include: 
+
+### 6.2.1 Improved Property Valuation Accuracy and Transparency
+
+Annual access to aerial imagery provides up-to-date, high-resolution visuals of properties, allowing assessors to work with the most current information on structures, additions, and improvements, reducing reliance on outdated records. Increased Equity: By using accurate and consistent data, assessors ensure that taxpayers are charged fairly, with property values reflecting true market conditions, which builds trust in the process. Enhanced Identification: Imagery allows assessors to identify unreported property changes, such as new constructions or additions, ensuring all taxable improvements are included. Transparency: Access to updated imagery fosters public trust, as taxpayers can see the same data used for their assessments, demonstrating the fairness and objectivity of the process.
+
+### 6.2.2 Cost Efficiency
+
+Reduced Field Visits: High-quality aerial images allow assessors to conduct some of their work remotely, minimizing the need for costly and time-consuming on-site visits. Time Savings: Detailed imagery enables faster and more efficient property analysis, increasing productivity and allowing assessors to cover more properties in less time. Standardized Process: Using consistent statewide imagery reduces reliance on multiple data sources, streamlining workflows, minimizing errors, and lowering overall costs.
+
+Higher resolution (15cm) leaf-off imagery acquisition in the state has primarily been collected in targeted areas, such as Chittenden County, where additional funds have been contributed by municipalities. Imagery at this resolution should be made available statewide at least every two years, consistent with the recommendations of the International Association of Assessing Officers and with the needs identified in user surveys in Vermont and elsewhere. Lower resolution (30cm) imagery should be made available on alternating years to support change detection. Statewide collections benefit from economies of scale and promote equity across the state.
+
+Annual collections enable the discovery of undocumented structures and unreported real property helps ensure fair and equitable taxation across the state. An example highlighting this outside of Vermont is a case study of a county in Arizona that recently used imagery in their assessing process to identify 9000 porches, 1200 garages, 1100 pools and 1200 additions missing from existing assessments, adding over $95 million in market value.  Vermont’s grand list totals over $100 billion dollars, if imagery was used to find 0.1% in unaccounted for value it would result in $100 million in currently untaxed property added to the grand list.   
 
 # Recommendation 7: Pilot Remotely-Sensed Tools to Support Appraisals
 
@@ -649,6 +669,20 @@ See references to parcel defined by common ownership.
 |-----------------|-------------|---------|--------------------------|---------------------------------------------------------------|--------------------|----------------|---------------|
 | 6 V.S.A. § 564  | Agriculture | Hemp    |                          | State hemp program; registration; application; administration | No                 |                |               |
 | 6 V.S.A. § 4871 | Agriculture | Hemp    | Small Farm Certification | Small farm certification                                      | Yes                | 10             | Certification |
+
+### A1.9 Comments on Maintaining Inactive Parcels at the Municipal Level
+
+**From a municipality in Windham County:**
+
+> As part of [the municipality’s] reappraisal, we will review parcels previously classified as "inactive" to determine their contributory value. We believe that our Grand List (similar to every town across the state) contains inactive parcels not represented in the Grand List or [in the parcel data]. Our goal is to identify and recreate these parcels through a thorough review of deeds, surveys, and historical grand lists.
+
+**From a mapping vendor working with Vermont municipalities:**
+
+> A property owner has to go through a subdivision process and approval with the town. Once approved, each lot becomes its own legal entity.  That is the point at which the inactive lots legally exist and should be shown in the [parcel] data and entered in the inactive grand list.  A 100 acre lot is a totally different situation than ten 10-acre lots. This info needs to be known.
+
+The mapping vendor notes that when an individual purchases an abutting piece of land, listers will often make the new piece an inactive parcel. But if an individual were to create a subdivision while maintaining ownership, listers may not represent this in the parcel data at all. 
+
+> The fallout from all this is that pieces of land get lost, revenue gets lost, and the picture of all the pieces of land is not accurate. We maintain one data layer of all parcels.  Each parcel has a parcel number, and what we call a link number. The link number is simply the parcel number of the active lot (if the parcel is active, the numbers are the same).
 
 ## Appendix 2: Per Parcel Payments
 
