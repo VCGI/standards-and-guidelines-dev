@@ -64,7 +64,7 @@ A full description of proposed changes is within [Appendix 1.7: Proposed Parcel 
 # Recommendation 2: Support Digital Parcel Maintenance and Submittal to the State of Vermont
 ## 2.1 Summary
 
-- The current model of town-based parcel maintenance with voluntary submittal to the state has reached its limits in data quality and currentness, further improvements will need support
+- The current model of town-based parcel maintenance with voluntary submittal to the state has reached its limits in data quality and currentness, further improvements will need new support
 - The design of support for parcel data maintenance and submittal will depend on the jurisdiction ultimately responsible for mapping: town (current), region, or state
 - If municipalities are to remain responsible for mapping: institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance
 - If Regional Appraisal District or state is to assume responsibility for parcel mapping, those practices should be required to adhere to the state data standard, maintain and share with the state on a normalized schedule, and be funded accordingly
