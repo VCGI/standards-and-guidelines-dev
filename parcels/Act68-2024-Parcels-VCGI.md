@@ -69,7 +69,7 @@ A full description of proposed changes is within [Appendix 1.7: Proposed Parcel 
 - Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town
 - A payment should help compensate only for those parcels that are changed in geometry since the last update
 - Per parcel payments may be administered and normalized by proposed Regional Appraisal Districts
-- If Regional Appraisal District or state is to assume responsibility for parcel mapping, those institutions should be required to adhere to the state data standard, maintain and share with the state on a normalized schedule, and be funded accordingly
+- If Regional Appraisal District or state is to assume responsibility for parcel mapping, those practices should be required to adhere to the state data standard, maintain and share with the state on a normalized schedule, and be funded accordingly
 
 ## 2.2 Justification
 
