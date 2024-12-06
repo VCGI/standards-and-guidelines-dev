@@ -381,7 +381,23 @@ The Tax Deparment, in collaboration with partners, should develop guidance for h
 
 # Recommendation 6: Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract
 
-Text.
+## 6.1 Summary
+
+-	Increase the frequency of aerial imagery collection to statewide annually
+-	Make higher resolution (at least 15cm/6 inch), leaf-off, imagery available across entire state every other year
+-	Include buy-up options for oblique imagery and higher resolution (7.5cm/3 inch) imagery
+
+## 6.2 Justification
+
+Aerial imagery provides a comprehensive view of a property and its surroundings, which is invaluable for evaluating land use, property boundaries, and changes over time. Benefits of using aerial imagery in the assessments include: 
+
+### 6.2.1 Improved Property Valuation Accuracy and Transparency
+
+Annual access to aerial imagery provides up-to-date, high-resolution visuals of properties, allowing assessors to work with the most current information on structures, additions, and improvements, reducing reliance on outdated records. Increased Equity: By using accurate and consistent data, assessors ensure that taxpayers are charged fairly, with property values reflecting true market conditions, which builds trust in the process. Enhanced Identification: Imagery allows assessors to identify unreported property changes, such as new constructions or additions, ensuring all taxable improvements are included. Transparency: Access to updated imagery fosters public trust, as taxpayers can see the same data used for their assessments, demonstrating the fairness and objectivity of the process.
+
+### 6.2.2 Cost Efficiency
+
+Reduced Field Visits: High-quality aerial images allow assessors to conduct some of their work remotely, minimizing the need for costly and time-consuming on-site visits. Time Savings: Detailed imagery enables faster and more efficient property analysis, increasing productivity and allowing assessors to cover more properties in less time. Standardized Process: Using consistent statewide imagery reduces reliance on multiple data sources, streamlining workflows, minimizing errors, and lowering overall costs.
 
 # Recommendation 7: Pilot Remotely-Sensed Tools to Support Appraisals
 
