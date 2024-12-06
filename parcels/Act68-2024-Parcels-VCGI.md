@@ -64,12 +64,14 @@ A full description of proposed changes is within [Appendix 1.7: Proposed Parcel 
 # Recommendation 2: Support Digital Parcel Maintenance and Submittal to the State of Vermont
 ## 2.1 Summary
 
-- The need for and design of an incentive for parcel data submittal will depend on jurisdiction ultimately responsible for mapping: town (current), region, or state
+- The current model of town-based parcel maintenance with voluntary submittal to the state has reached its limits in data quality and currentness, further improvements will need support
+- The design of support for parcel data maintenance and submittal will depend on the jurisdiction ultimately responsible for mapping: town (current), region, or state
 - If municipalities are to remain responsible for mapping: institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance
 - Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town
 - A payment should help compensate only for those parcels that are changed in geometry since the last update
 - Per parcel payments may be administered and normalized by proposed Regional Appraisal Districts
 - If Regional Appraisal District or state is to assume responsibility for parcel mapping, those practices should be required to adhere to the state data standard, maintain and share with the state on a normalized schedule, and be funded accordingly
+
 
 ## 2.2 Justification
 
