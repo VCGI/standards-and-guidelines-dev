@@ -399,6 +399,10 @@ Annual access to aerial imagery provides up-to-date, high-resolution visuals of 
 
 Reduced Field Visits: High-quality aerial images allow assessors to conduct some of their work remotely, minimizing the need for costly and time-consuming on-site visits. Time Savings: Detailed imagery enables faster and more efficient property analysis, increasing productivity and allowing assessors to cover more properties in less time. Standardized Process: Using consistent statewide imagery reduces reliance on multiple data sources, streamlining workflows, minimizing errors, and lowering overall costs.
 
+Higher resolution (15cm) leaf-off imagery acquisition in the state has primarily been collected in targeted areas, such as Chittenden County, where additional funds have been contributed by municipalities. Imagery at this resolution should be made available statewide at least every two years, consistent with the recommendations of the International Association of Assessing Officers and with the needs identified in user surveys in Vermont and elsewhere. Lower resolution (30cm) imagery should be made available on alternating years to support change detection. Statewide collections benefit from economies of scale and promote equity across the state.
+
+Annual collections enable the discovery of undocumented structures and unreported real property helps ensure fair and equitable taxation across the state. An example highlighting this outside of Vermont is a case study of a county in Arizona that recently used imagery in their assessing process to identify 9000 porches, 1200 garages, 1100 pools and 1200 additions missing from existing assessments, adding over $95 million in market value.  Vermont’s grand list totals over $100 billion dollars, if imagery was used to find 0.1% in unaccounted for value it would result in $100 million in currently untaxed property added to the grand list.   
+
 # Recommendation 7: Pilot Remotely-Sensed Tools to Support Appraisals
 
 Text.
