@@ -405,7 +405,9 @@ Annual access to aerial imagery provides up-to-date, high-resolution visuals of 
 
 **Reduced Field Visits:** High-quality aerial images allow assessors to conduct some of their work remotely, minimizing the need for costly and time-consuming on-site visits.
 
-**Time Savings:** Detailed imagery enables faster and more efficient property analysis, increasing productivity and allowing assessors to cover more properties in less time. Standardized Process: Using consistent statewide imagery reduces reliance on multiple data sources, streamlining workflows, minimizing errors, and lowering overall costs.
+**Time Savings:** Detailed imagery enables faster and more efficient property analysis, increasing productivity and allowing assessors to cover more properties in less time. 
+
+**Standardized Process:** Using consistent statewide imagery reduces reliance on multiple data sources, streamlining workflows, minimizing errors, and lowering overall costs.
 
 ### 6.3.3 Resolution, Frequency, and Types that Speed the Process
 
