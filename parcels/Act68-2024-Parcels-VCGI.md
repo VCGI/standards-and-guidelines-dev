@@ -443,6 +443,8 @@ Key characteristics of oblique imagery include:
 ![Obliques_01a_KY_From_Above](https://github.com/user-attachments/assets/6bc4a26b-3984-4b4c-9538-72860a1953ba)
 ![Obliques_01b_KY_From_Above](https://github.com/user-attachments/assets/a6a2951d-62ef-4690-8d07-6204dd7c15bf)
 
+Image source: Color_6052_19796,Right_6053_24171,Fwd_6052_19790,Left_6050_12120,Bwd_6052_19804, [Link](https://explore.kyfromabove.ky.gov/?ll=36.738774,-83.737983)
+
 ## 6.3 Implementation
 
 The Vermont Mapping Program (VMP), was established in 1968 under the Department of Taxes to collect aerial imagery to support tax equity and operational efficiency. Over the years, the program evolved to transition to digital photography in the 1990s, color in the 2000s, as well as a move toward higher resolution and frequency. The program is now managed by the Vermont Center for Geographic Information, a part of the Agency of Digital Services (10 V.S.A. § 123), and Vermont’s aerial imagery is accessed in web applications by hundreds of thousands of individuals every year. 
