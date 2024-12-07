@@ -463,6 +463,8 @@ Recent advancements in technology have enabled:
 
 **Error Reduction:** Automated systems minimize human error and bias, ensuring consistent application of appraisal standards across properties.
 
+![Automated_Id_Examples_Vexcel](https://github.com/user-attachments/assets/5d8e1d54-0d44-42ee-afe2-532a7ef9cc25)
+
 ## 7.3 Implementation
 
 The Tax Department should partner with willing jurisdictions to test and evaluate the use of these methods and tools. The partnership should leverage the imagery program managed by ADS to access ‘buy-up’ products (see recommendation 6), such as oblique imagery, that could be utilized for various purposes by departments for uses beyond assessments.
