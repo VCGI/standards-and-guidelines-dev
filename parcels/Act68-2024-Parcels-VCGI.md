@@ -440,6 +440,9 @@ Key characteristics of oblique imagery include:
 -	Three-Dimensional Perspective: The angled view reveals details about the height, depth, and structure of objects.
 -	Rich Detail: It captures features not visible from directly above, such as facades, overhangs, or property boundaries hidden by tree cover in nadir imagery.
 
+![Obliques_01a_KY_From_Above](https://github.com/user-attachments/assets/6bc4a26b-3984-4b4c-9538-72860a1953ba)
+![Obliques_01b_KY_From_Above](https://github.com/user-attachments/assets/a6a2951d-62ef-4690-8d07-6204dd7c15bf)
+
 ## 6.3 Implementation
 
 The Vermont Mapping Program (VMP), was established in 1968 under the Department of Taxes to collect aerial imagery to support tax equity and operational efficiency. Over the years, the program evolved to transition to digital photography in the 1990s, color in the 2000s, as well as a move toward higher resolution and frequency. The program is now managed by the Vermont Center for Geographic Information, a part of the Agency of Digital Services (10 V.S.A. § 123), and Vermont’s aerial imagery is accessed in web applications by hundreds of thousands of individuals every year. 
