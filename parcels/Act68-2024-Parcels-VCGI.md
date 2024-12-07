@@ -302,6 +302,10 @@ Building|Heat2ID|Secondary Heat/Cool Source|Secondary heat/cool source, correspo
 
 All or most of these fields are present in the sample data/schema provided by three of the four CAMA vendors. 
 
+![CAMA_Example_Patriot_01](https://github.com/user-attachments/assets/29202d0a-44a5-4630-a220-b13f4a6bb563)
+
+![CAMA_Example_Patriot_02](https://github.com/user-attachments/assets/dfc4c324-d4d9-47f9-9d5d-73ad8f9e13ba)
+
 ### 3.3.2 Implement Changes to Parcel Definition in CAMA Data
 
 Existing CAMA data software solutions offer advanced data maintenance capabilities and should accommodate a parcel definition change to separate and sellable pieces of real estate. Data entry and maintenance practices will need to adjust to reflect these changes.
