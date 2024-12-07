@@ -389,11 +389,17 @@ The Tax Deparment, in collaboration with partners, should develop guidance for h
 
 ## 6.2 Justification
 
-Aerial imagery provides a comprehensive view of a property and its surroundings, which is invaluable for evaluating land use, property boundaries, and changes over time. Benefits of using aerial imagery in the assessments include: 
+Aerial imagery provides a comprehensive view of a property and its surroundings, which is invaluable for evaluating land use, property boundaries, and changes over time. Benefits of using aerial imagery in the assessments include the following:
 
 ### 6.2.1 Improved Property Valuation Accuracy and Transparency
 
-Annual access to aerial imagery provides up-to-date, high-resolution visuals of properties, allowing assessors to work with the most current information on structures, additions, and improvements, reducing reliance on outdated records. **Increased Equity:** By using accurate and consistent data, assessors ensure that taxpayers are charged fairly, with property values reflecting true market conditions, which builds trust in the process. **Enhanced Identification:** Imagery allows assessors to identify unreported property changes, such as new constructions or additions, ensuring all taxable improvements are included. **Transparency:** Access to updated imagery fosters public trust, as taxpayers can see the same data used for their assessments, demonstrating the fairness and objectivity of the process.
+Annual access to aerial imagery provides up-to-date, high-resolution visuals of properties, allowing assessors to work with the most current information on structures, additions, and improvements, reducing reliance on outdated records. 
+
+**Increased Equity:** By using accurate and consistent data, assessors ensure that taxpayers are charged fairly, with property values reflecting true market conditions, which builds trust in the process. 
+
+**Enhanced Identification:** Imagery allows assessors to identify unreported property changes, such as new constructions or additions, ensuring all taxable improvements are included. 
+
+**Transparency:** Access to updated imagery fosters public trust, as taxpayers can see the same data used for their assessments, demonstrating the fairness and objectivity of the process.
 
 ### 6.2.2 Cost Efficiency
 
@@ -401,7 +407,7 @@ Annual access to aerial imagery provides up-to-date, high-resolution visuals of 
 
 **Time Savings:** Detailed imagery enables faster and more efficient property analysis, increasing productivity and allowing assessors to cover more properties in less time. Standardized Process: Using consistent statewide imagery reduces reliance on multiple data sources, streamlining workflows, minimizing errors, and lowering overall costs.
 
-### 6.3.3 Improved Imagery Qualities, Resolution, and Frequency
+### 6.3.3 Resolution, Frequency, and Types that Speed the Process
 
 **Resolution:** Higher resolution (15cm) leaf-off imagery acquisition in the state has primarily been collected in targeted areas, such as Chittenden County, where additional funds have been contributed by municipalities. Imagery at this resolution should be made available statewide at least every two years, consistent with the recommendations of the International Association of Assessing Officers (IAAO) and with the needs identified in user surveys in Vermont and elsewhere. Lower resolution (30cm) imagery should be made available on alternating years to support change detection. Statewide collections benefit from economies of scale and promote equity across the state.
 
@@ -420,6 +426,7 @@ Key characteristics of oblique imagery include:
 ## 6.3 Implementation
 
 The Vermont Mapping Program (VMP), was established in 1968 under the Department of Taxes to collect aerial imagery to support tax equity and operational efficiency. Over the years, the program evolved to transition to digital photography in the 1990s, color in the 2000s, as well as a move toward higher resolution and frequency. The program is now managed by the Vermont Center for Geographic Information, a part of the Agency of Digital Services (10 V.S.A. § 123), and Vermont’s aerial imagery is accessed in web applications by hundreds of thousands of individuals every year. 
+
 The change to annual statewide collections and 15cm leaf-off imagery every two years is likely to be implemented by the state’s existing imagery program, managed by ADS, beginning in the Spring of 2026. A 2023 survey of users expressed a strong need and the interagency imagery advisory group has recommended these specifications. In terms of leaf-off imagery, the change would represent a four-fold increase in resolution and double the collection frequency. The cost of the resolution and frequency upgrade is estimated to be approximately double the existing base program budget, which has remained the same for over two decades at $125k a year.  
 
 # Recommendation 7: Pilot Remotely-Sensed Tools to Support Appraisals
