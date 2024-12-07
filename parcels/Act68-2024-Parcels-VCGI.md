@@ -350,14 +350,21 @@ Following receipt of the updated CAMA data each month, VCGI will work to incorpo
 # Recommendation 4: Clarify Right-of-Way Mapping for Tax Purposes
 
 ## 4.1 Summary
+
 - Create guidance for treatment of the area between road centerline and edge of right-of-way for taxation purposes
 - Promote mapping guidance specifying that parcels should be mapped to the edge of the right-of-way, not the road centerline
+
+## 4.2 Justification
 
 In Vermont there is no formally defined practice or requirement for the handling of public rights-of-way from a taxation perspective and its relation with parcel mapping. Common, practical experience is that public rights-of-way such as roads and highways are just that—areas not to be obstructed by abutting private property owners—be they owned in fee or easements. State highways, for example, often involve the State purchasing lands between the road centerline and abutting parcel, whereas towns may not. These differences contribute to a lack of clarity about how to account for the area that is within a right-of-way and between an abutting private parcel and road centerline and have occasionally led to differences in their depiction and resulting acreage calculations. The Tax Department, with aid of partners, should develop and offer guidance for considering these areas with regard to taxation and related acreage calculations.
 
 [DIAGRAMS of Right-of-Way Conditions]
 
-## 4.2 Related VT Statutes
+## 4.3 Implementation
+
+Text.
+
+## 4.4 Related VT Statutes
 [19 V.S.A. § 32 Assumed width of right-of-way](https://legislature.vermont.gov/statutes/section/19/001/00032)
 
 [19 V.S.A. § 1111 Permitted use of the right-of-way relocation or adjustment orders](https://legislature.vermont.gov/statutes/section/19/011/01111)
@@ -370,6 +377,8 @@ In Vermont there is no formally defined practice or requirement for the handling
 - Develop criteria for when review of underlying legal property descriptions is needed given differences in listed and map acreage for the same parcel
 - Specify actions to be taken in the Listers and Assessors handbook based on best available documentation for acreage discrepancies
 
+## 5.2 Justification
+
 In addition to acreage and resulting taxation associated with areas of property in road rights-of-way, acreage discrepancies between listed and mapped values are common. It is currently technically possible to easily display and compare differences between listed and mapped acreage. 
 
 ![image](https://github.com/user-attachments/assets/c19bbe86-0fa1-4fe1-ada6-df77229d5a97)
@@ -377,7 +386,11 @@ In addition to acreage and resulting taxation associated with areas of property 
 
 *Figures X and Y: Visualized differences in listed acreage and GIS (drawn) acreage in Northfield. The amount of percent difference is shown in five ranges and colors, as well as described in text on each parcel. [See an interactive map of these differences here.](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=e452fa5505644e12b1bf8b6308f7b2e8)*
 
-The Tax Deparment, in collaboration with partners, should develop guidance for handling of these acreage discrepancies. This may include specifying when the difference is large enough to trigger review of the parcel(s) underlying recorded legal descriptions, and when updating the listed and/or as-drawn acreage should result. These recommendations may be included in an updated Listers and Assessors handbook and ensuing training/guidance for municipalities.
+The Tax Department, in collaboration with partners, should develop guidance for handling of these acreage discrepancies. This may include specifying when the difference is large enough to trigger review of the parcel(s) underlying recorded legal descriptions, and when updating the listed and/or as-drawn acreage should result. These recommendations may be included in an updated Listers and Assessors handbook and ensuing training/guidance for municipalities.
+
+## 5.3 Implementation
+
+Text.
 
 # Recommendation 6: Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract
 
