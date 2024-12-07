@@ -433,7 +433,28 @@ The change to annual statewide collections and 15cm leaf-off imagery every two y
 
 # Recommendation 7: Pilot Remotely-Sensed Tools to Support Appraisals
 
-Text.
+## 7.1 Summary
+
+- Pilot the use of ortho and oblique imagery along with automated feature extraction and artificial intelligence to support appraisals for an area of the state
+- Assess and document results and viability for broader use, along with considerations for such use
+
+## 7.2 Justification
+
+The integration of ortho/oblique imagery and artificial intelligence (AI) in property appraisals represents a transformative approach to modernizing assessment practices. These tools have potential to accuracy, efficiency, and fairness while addressing limitations of traditional methods. 
+
+Recent advancements in technology have enabled:
+
+**Automated Change Detection:** AI algorithms can analyze imagery to identify changes in properties over time, such as new constructions, demolitions, or renovations, ensuring assessments remain current.
+
+**Property Classification:** Machine learning models can automatically and reliably classify property types, assess conditions, and detect features like pools, decks, or accessory buildings, improving valuation accuracy.
+
+**Scalability:** AI processes large datasets quickly, allowing jurisdictions to scale appraisal efforts to assist existing staff that may not have the capacity to meet existing demands.
+
+**Error Reduction:** Automated systems minimize human error and bias, ensuring consistent application of appraisal standards across properties.
+
+## 7.3 Implementation
+
+The Tax Department should partner with willing jurisdictions to test and evaluate the use of these methods and tools. The partnership should leverage the imagery program managed by ADS to access ‘buy-up’ products (see recommendation 6), such as oblique imagery, that could be utilized for various purposes by departments for uses beyond assessments.
 
 # Recommendation 8: Develop and Offer Updated Parcel Contract Guidance
 
