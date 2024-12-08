@@ -536,6 +536,9 @@ Text.
 
 Text.
 
+![ProtectedLands_Protection_Status_Jurisdiction_Access](https://github.com/user-attachments/assets/eb691607-3da6-4ed5-9057-e34acfbc0bcd)
+**Figure X:** *Caption text.*
+
 ## Related VT Statutes and Bills
 
 [H.512 (Act 171) of 2022 - An act relating to modernizing land records and notarial acts law](https://legislature.vermont.gov/bill/status/2022/H.512)
