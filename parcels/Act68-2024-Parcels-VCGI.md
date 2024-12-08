@@ -584,20 +584,20 @@ Text.
 
 ## 12.3 Implementation
 
-# Future Improvements 
-
-## Surveying Municipal Boundaries
-
-Text.
-
-![MuniLibrary_Survey_2](https://github.com/user-attachments/assets/6e6ad6d9-711e-4593-9c96-9109075fb448)
-**Figure X:** *Caption text.*
+# Additional Recommended Improvements
 
 ## Submittals of Land Surveys
 
 Text.
 
 ![SurveyLibraryStatus_Dec7_2024](https://github.com/user-attachments/assets/6f3e03ae-add5-4135-b70c-61bb4db4a356)
+**Figure X:** *Caption text.*
+
+## Surveying Municipal Boundaries
+
+Text.
+
+![MuniLibrary_Survey_2](https://github.com/user-attachments/assets/6e6ad6d9-711e-4593-9c96-9109075fb448)
 **Figure X:** *Caption text.*
 
 # Responsibilities and Implementation
