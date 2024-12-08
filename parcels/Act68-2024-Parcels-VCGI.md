@@ -604,7 +604,7 @@ Text.
 
 # Appendices
 
-## Appendix 1: Parcel Definition Alternatives
+## Appendix 1: Update Parcel Definition in Vermont Statute Considerations
 ### A1.1 Current State of Mapped Inactive Parcels
 
 ![image](https://github.com/user-attachments/assets/c6b5cfef-b9e9-4056-8162-ad42b71a659a)
@@ -837,7 +837,7 @@ The mapping vendor notes that when an individual purchases an abutting piece of 
 
 > The fallout from all this is that pieces of land get lost, revenue gets lost, and the picture of all the pieces of land is not accurate. We maintain one data layer of all parcels.  Each parcel has a parcel number, and what we call a link number. The link number is simply the parcel number of the active lot (if the parcel is active, the numbers are the same).
 
-## Appendix 2: Per Parcel Payments
+## Appendix 2: Support Digital Parcel Maintenance and Submittal to the State of Vermont Considerations
 
 ### A2.1 Shared Responsibility Model
 The notable success of the Parcel Program as a voluntary-based initiative is due to the collaboration between municipalities, state government, and mapping vendors in the private sector. This "Shared Responsibility" model relies on all collaborators contributing resources to maintain statewide parcel data.
@@ -853,7 +853,7 @@ The average cost per parcel for the 67 municipalities completed during the first
 
 ![Parcel Project Year 1 Table](https://github.com/user-attachments/assets/cb114846-6a1b-45c1-89b4-f7a8833b9981)
 
-## Appendix 3: CAMA Data Standard
+## Appendix 3: Implement Vermont CAMA Data Standard and Require Submittal to State Considerations
 
 ### A3.1 Land Use Codes
  Vermont Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) (category level only):
@@ -945,16 +945,15 @@ Cons
 Connecticut
 [Sec. 7-100l. Transmission of digital parcel file. Annual report.](https://www.cga.ct.gov/current/pub/chap_096a.htm#sec_7-100l)
 
-## Appendix 4: Rights-of-Way, Mapping, and Taxation
+## Appendix 4: Clarify Right-of-Way Mapping for Tax Purposes Considerations
 
-### A4.1 Example Statutes in Other States
+### A4.1 Example ROW Statutes in Other States
 
 Washington
 [RCW 84.36.210 Public right-of-way easements](https://app.leg.wa.gov/rcw/default.aspx?cite=84.36.210)
 
 New Jersey
 [N.J. Admin. Code § 18:23A-1.16 Rights-of-way and easements](https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-18-23A-1-16)
-
 
 ## Appendix X: Maps and Tables
 
