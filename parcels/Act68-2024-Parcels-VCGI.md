@@ -355,6 +355,9 @@ Following receipt of the updated CAMA data each month, VCGI will work to incorpo
 ![Spatialized_Property_Transfers_Dash](https://github.com/user-attachments/assets/b72f62e8-953a-4c61-b342-721c17ee9414)
 **Figure X:** *Caption text.*
 
+![PTTRs_Primary_and_Secondary_Sales_2020-2024](https://github.com/user-attachments/assets/238c43ac-68a4-4695-9c15-3e537942a790)
+**Figure X:** *Caption text.*
+
 ![ParcelViewer_Survey_Library_Animation](https://github.com/user-attachments/assets/968d8e9f-b5c0-4702-82e0-8a22db989969)
 **Figure X:** *Caption text.*
 
