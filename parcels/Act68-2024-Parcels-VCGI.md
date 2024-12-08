@@ -265,7 +265,7 @@ Text.
 ## 3.2 Justification
 These recommendations are intended to provide useful property description information to aid timely and accurate reappraisals, while also supporting key public policy concerns (e.g., housing) that are best served by CAMA data. The recommendations are also intended to improve access to and use of public information for data analysis and visualization. Linking standardized CAMA information with existing GIS data, namely parcels, will further enhance visual and spatial data analysis and accessibility.
 
-## 3.3 Data Management
+## 3.3 Components
 
 ### 3.3.1 Design and Implement VT CAMA Data Standard
 Four CAMA software providers [operate in Vermont](https://tax.vermont.gov/municipal-officials/listers-and-assessors/district-advisors) as of October 2024:
