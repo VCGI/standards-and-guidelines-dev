@@ -615,7 +615,23 @@ Inactive parcels are not managed consistently across towns; currently 178 towns 
 
 **Table X:** *Example of correct attribution in the inactive parcel layer. The parcel with an "ACTIVE" status has a SPAN entry, followed by the associated "INACTIVE" status parcels with PARENTSPAN entries linking them to the "ACTIVE" parcel. In the Active Parcels layer, these five parcels would be merged to a single parcel. In some cases, "INACTIVE" status parcels may also include a unique SPAN entry. Typically these are placeholders used by town officials.*
 
-### A1.2 Aggregate Mapped Unit Defined by Ownership (Contiguous)
+### A1.2 Comments on Maintaining Inactive Parcels at the Municipal Level
+
+**From a municipality in Windham County:**
+
+> As part of [the municipality’s] reappraisal, we will review parcels previously classified as "inactive" to determine their contributory value. We believe that our Grand List (similar to every town across the state) contains inactive parcels not represented in the Grand List or [in the parcel data]. Our goal is to identify and recreate these parcels through a thorough review of deeds, surveys, and historical grand lists.
+
+**From a mapping vendor working with Vermont municipalities:**
+
+> A property owner has to go through a subdivision process and approval with the town. Once approved, each lot becomes its own legal entity.  That is the point at which the inactive lots legally exist and should be shown in the [parcel] data and entered in the inactive grand list.  A 100 acre lot is a totally different situation than ten 10-acre lots. This info needs to be known.
+
+The mapping vendor notes that when an individual purchases an abutting piece of land, listers will often make the new piece an inactive parcel. But if an individual were to create a subdivision while maintaining ownership, listers may not represent this in the parcel data at all. 
+
+> The fallout from all this is that pieces of land get lost, revenue gets lost, and the picture of all the pieces of land is not accurate. We maintain one data layer of all parcels.  Each parcel has a parcel number, and what we call a link number. The link number is simply the parcel number of the active lot (if the parcel is active, the numbers are the same).
+
+### A1.3 Parcel Definition Alternatives
+
+#### A1.3.1 Aggregate Mapped Unit Defined by Ownership (Contiguous)
 
 Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.gov/statutes/section/32/129/04152) defined parcel. This is a "contiguous" parcel definition. Separate parcels are grouped together by ownership for administrative purposes.
 
@@ -625,16 +641,16 @@ Depicted visually, a contiguous parcel definition means that the two abutting pa
 
 One of the individual parts is to be considered an "inactive" parcel, but this is not uniformly tracked across towns. The other part is to be considered "active", but its status is also not tracked uniformly across towns. These result in data incompleteness that impact analysis as well as long-term change tracking.
 
-### A1.3 Separate Mapped Unit, Defined by Practice
+#### A1.3.2 Separate Mapped Unit, Defined by Practice
 
 Example:
 > A separately assessed lot or piece of real property - *New York State Property tax and assessment administration definitions / [guidance](https://www.tax.ny.gov/research/property/equal/assessrpt/b_define.htm)*
 
-### A1.4 Separate Mapped Unit, Defined by Unique Identifier
+#### A1.3.3 Separate Mapped Unit, Defined by Unique Identifier
 
 > "Parcel" means a separate plot of land as identified by the municipality tax map and lot number. - *[New Hampshire Admin. Code § Cub 301.15](https://casetext.com/regulation/new-hampshire-administrative-code/title-cub-chairman-current-use-board/chapter-cub-300-criteria-for-open-space-current-use-assessment/part-cub-301-definitions/section-cub-30115-parcel)*
 
-### A1.5 Separate Mapped Unit, Defined by Legal Document
+#### A1.3.4 Separate Mapped Unit, Defined by Legal Document
 
 > "Legal parcel" means any parcel of real property that may be separately sold in compliance with the Subdivision Map Act (Division 2 (commencing with Section 66410) of Title 7 of the Government Code). - *[California, Sierra County](http://sierracounty.ca.gov/AgendaCenter/ViewFile/Agenda/05052014-115). In Compliance with State Subdivision Law.*
 
@@ -650,11 +666,11 @@ This example is notable in that any **one** of the following must be met to defi
 
 There is no statewide subdivision requirement in Vermont, and not all municipalities require subdivisions. Thus, several instruments may be relied upon to help define a parcel (deed, subdivision plat where required by municipality, or property transfer / sale).
 
-### A1.6 Separate Mapped Unit, Defined by Combination 
+#### A1.3.5 Separate Mapped Unit, Defined by Combination 
 
 Any combination of the examples above.
 
-### A1.7 Proposed Parcel Layers and VT GIS Data Standard Schema, per Updated Parcel Definition
+### A1.4 Proposed Parcel Layers and VT GIS Data Standard Schema Per Updated Parcel Definition
 
 VCGI currently publishes and maintains two statewide parcel layers: Active Parcels and Inactive Parcels (as available). Following a change to the parcel definition, VCGI will continue to publish and maintain two layers, but with slightly modified purpose, content, and schema. The following describes the existing and proposed statewide parcel data layers:
 
@@ -680,7 +696,7 @@ Schema changes for the Parcels layer are removing the "STATUS" field and renamin
 
 ![AdminSPANs_SPANs](https://github.com/user-attachments/assets/cbb220fb-17ba-4a2a-bafb-6918cb4d5024)
 
-### A1.8 Parcel Definitions and Interpretations in Existing Vermont Statute
+### A1.5 Parcel Definitions and Interpretations in Existing Vermont Statute
 
 This section lists existing Vermont statutes that define or interpret a definition of a parcel and/or have eligibility requirements dependent on such definition. It does not list those statutes that use the term "parcel" as an identifier to clarify an idea or specify the location or applicability of what is being discussed without area requirements, unless otherwise noted.
 
@@ -821,27 +837,6 @@ See references to parcel defined by common ownership.
 > (f) Also excluded from the definition of “land” is any land up to 10 acres, with the modification permitted by subsection (c) of this section, acquired by a person who will build on that land a house that, by the next succeeding sale, will be the principal residence of the occupant when the person purchases from the person who built the house. The person acquiring such land must certify to the Commissioner of Taxes that the person will begin building within one year of date of purchase, complete the building within two years from the date of purchase, and sell it within three years from date of purchase to a person who qualifies under subsection (b) of this section. If the land is sold as more than one parcel by the builder who acquired it, only those parcels on which a dwelling has been completed in accordance with the requirements of this subsection shall be excluded from the definition of “land.” The deed for the property shall recite the fact that there is running with the land a lien equal to the amount of land gains tax exempted by this subsection until the time as all conditions of this subsection have been met.
 >
 > (m) Also excluded from the definition of “land” is a parcel of land 25 acres or less, purchased by a farmer, as defined in section 3752 of this title, for active and direct use by that farmer, and that, upon transfer, but for the acreage, meets the definition of “agricultural land” or “managed forestland” in section 3752 of this title, and continues to meet that definition for at least six years after the transfer.
-
-#### Existing Legislation Overview
-
-| Statute         | Title       | Chapter | Subchapter               | Section                                                       | Acreage Dependency | Acreage Amount | Eligibility   |
-|-----------------|-------------|---------|--------------------------|---------------------------------------------------------------|--------------------|----------------|---------------|
-| 6 V.S.A. § 564  | Agriculture | Hemp    |                          | State hemp program; registration; application; administration | No                 |                |               |
-| 6 V.S.A. § 4871 | Agriculture | Hemp    | Small Farm Certification | Small farm certification                                      | Yes                | 10             | Certification |
-
-### A1.9 Comments on Maintaining Inactive Parcels at the Municipal Level
-
-**From a municipality in Windham County:**
-
-> As part of [the municipality’s] reappraisal, we will review parcels previously classified as "inactive" to determine their contributory value. We believe that our Grand List (similar to every town across the state) contains inactive parcels not represented in the Grand List or [in the parcel data]. Our goal is to identify and recreate these parcels through a thorough review of deeds, surveys, and historical grand lists.
-
-**From a mapping vendor working with Vermont municipalities:**
-
-> A property owner has to go through a subdivision process and approval with the town. Once approved, each lot becomes its own legal entity.  That is the point at which the inactive lots legally exist and should be shown in the [parcel] data and entered in the inactive grand list.  A 100 acre lot is a totally different situation than ten 10-acre lots. This info needs to be known.
-
-The mapping vendor notes that when an individual purchases an abutting piece of land, listers will often make the new piece an inactive parcel. But if an individual were to create a subdivision while maintaining ownership, listers may not represent this in the parcel data at all. 
-
-> The fallout from all this is that pieces of land get lost, revenue gets lost, and the picture of all the pieces of land is not accurate. We maintain one data layer of all parcels.  Each parcel has a parcel number, and what we call a link number. The link number is simply the parcel number of the active lot (if the parcel is active, the numbers are the same).
 
 ## Appendix 2: Support Digital Parcel Maintenance and Submittal to the State of Vermont Considerations
 
