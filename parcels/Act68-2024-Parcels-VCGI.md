@@ -424,6 +424,9 @@ Annual access to aerial imagery provides up-to-date, high-resolution visuals of 
 
 **Standardized Process:** Using consistent statewide imagery reduces reliance on multiple data sources, streamlining workflows, minimizing errors, and lowering overall costs.
 
+![2023_15cm_SouthBurlingtonDev](https://github.com/user-attachments/assets/70409517-0235-4eb7-aad2-93cff860038b)
+*Figure X: Caption text.*
+
 ### 6.3.3 Resolution, Frequency, and Types that Speed the Process
 
 **Resolution:** Higher resolution (15cm) leaf-off imagery acquisition in the state has primarily been collected in targeted areas, such as Chittenden County, where additional funds have been contributed by municipalities. Imagery at this resolution should be made available statewide at least every two years, consistent with the recommendations of the International Association of Assessing Officers (IAAO) and with the needs identified in user surveys in Vermont and elsewhere. Lower resolution (30cm) imagery should be made available on alternating years to support change detection. Statewide collections benefit from economies of scale and promote equity across the state.
