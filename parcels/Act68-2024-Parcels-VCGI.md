@@ -489,6 +489,12 @@ Recent advancements in technology have enabled:
 
 **Error Reduction:** Automated systems minimize human error and bias, ensuring consistent application of appraisal standards across properties.
 
+![Automated_Detection_01_Vexcel](https://github.com/user-attachments/assets/1c037e71-e185-4eaf-a64f-e4319b09e023)
+**Figure X:** *Caption text.*
+
+![Automated_Attribute_01_Vexcel](https://github.com/user-attachments/assets/470fd5d9-8841-46fe-aef8-8be757c82d36)
+**Figure X:** *Caption text.*
+
 ![Automated_Id_Examples_Vexcel](https://github.com/user-attachments/assets/5d8e1d54-0d44-42ee-afe2-532a7ef9cc25)
 **Figure X:** *Caption text.*
 
