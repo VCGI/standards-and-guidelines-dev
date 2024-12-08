@@ -607,7 +607,13 @@ Text.
 ## Appendix 1: Update Parcel Definition in Vermont Statute Considerations
 ### A1.1 Current State of Mapped Inactive Parcels
 
-![image](https://github.com/user-attachments/assets/c6b5cfef-b9e9-4056-8162-ad42b71a659a)
+Status of submitted parcel geometry, including counts of inactives and submittals by town, are published and updated weekly at the Town Parcel Status dashboard maintained by VCGI: [https://maps.vcgi.vermont.gov/parcelstatus](https://maps.vcgi.vermont.gov/parcelstatus). See the tab a the bottom titled "Inactives" to view current status. Inactives are also viewable within the [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/parcelviewer) and as raw GIS data at the [Vermont Open Geodata Portal](https://geodata.vermont.gov/pages/parcels). Those data are also updated weekly.
+
+Inactive parcels are not managed consistently across towns; currently 178 towns (70%) submit inactive parcels. In addition, attribution of the parcel status field (active/inactive) is not complete or consistent for all submitting towns. As of November 2024, only 138 towns have submitted inactives with a populated and presumably accurate "STATUS" field. This means the parent parcel has an "ACTIVE" status and all associated "INACTIVE" status parcels have a PARENTSPAN matching the "ACTIVE" status SPAN. 
+
+![ActiveInactive](https://github.com/user-attachments/assets/9ebd72bc-9f34-4c54-aa2a-e930529b9803)
+
+**Table X:** *Example of correct attribution in the inactive parcel layer. The parcel with an "ACTIVE" status has a SPAN entry, followed by the associated "INACTIVE" status parcels with PARENTSPAN entries linking them to the "ACTIVE" parcel. In the Active Parcels layer, these five parcels would be merged to a single parcel. In some cases, "INACTIVE" status parcels may also include a unique SPAN entry. Typically these are placeholders used by town officials.*
 
 ### A1.2 Aggregate Mapped Unit Defined by Ownership (Contiguous)
 
