@@ -530,6 +530,9 @@ Text.
 
 ### 9.2.1 Lands in Current Use
 
+![2023_CurrentUse](https://github.com/user-attachments/assets/4a0bf7fd-a32d-4217-9f63-b23782bb5f56)
+**Figure X:** *Parcels enrolled in Current Use statewide.*
+
 In 2023 over 19,000 parcels were enrolled in Current Use, totaling over 2.5 million acres statewide. [Explore parcels enrolled in Current Use](https://arcg.is/1vXL4u1).
 
 ![CU](https://github.com/user-attachments/assets/c43d6573-861f-4f47-9e32-6099e8c4bf77)
