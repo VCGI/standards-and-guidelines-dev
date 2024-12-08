@@ -629,6 +629,8 @@ The mapping vendor notes that when an individual purchases an abutting piece of 
 
 > The fallout from all this is that pieces of land get lost, revenue gets lost, and the picture of all the pieces of land is not accurate. We maintain one data layer of all parcels.  Each parcel has a parcel number, and what we call a link number. The link number is simply the parcel number of the active lot (if the parcel is active, the numbers are the same).
 
+This last quote suggests that **at least one parcel map vendor working in Vermont is already maintaining parcels in a way that is compatible with the proposed changes in this report.**
+
 ### A1.3 Parcel Definition Alternatives
 
 #### A1.3.1 Aggregate Mapped Unit Defined by Ownership (Contiguous)
