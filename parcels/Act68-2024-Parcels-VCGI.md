@@ -409,7 +409,7 @@ If either Regional Appraisal Districts or the State assume ultimate responsibili
 
 In addition to acreage and resulting taxation associated with areas of property in road rights-of-way, acreage discrepancies between listed and mapped values are common. It is currently technically possible to easily display and compare differences between listed and mapped acreage. 
 
-![image](https://github.com/user-attachments/assets/c19bbe86-0fa1-4fe1-ada6-df77229d5a97)
+![Listed_Vs_Mapped_Acreage_Percent_Difference](https://github.com/user-attachments/assets/9af187d1-4f4f-4f22-b13a-8a84f47a2ed6)
 ![image](https://github.com/user-attachments/assets/d723529b-89de-43e8-915a-312fdfe6d9b6)
 
 **Figures X and Y:** *Visualized differences in listed acreage and GIS (drawn) acreage in Northfield, VT. The amount of percent difference is shown in five ranges and colors, as well as described in text on each parcel. [See an interactive map of these differences here.](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=e452fa5505644e12b1bf8b6308f7b2e8)*
