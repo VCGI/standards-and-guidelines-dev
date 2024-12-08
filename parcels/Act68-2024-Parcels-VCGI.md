@@ -62,6 +62,9 @@ Advance notice of these changes will be sent by VCGI to the VT GIS community, mu
 
 A full description of proposed changes is within [Appendix 1.7: Proposed Parcel Layers and VT GIS Data Standard Schema, per Updated Parcel Definition](#a17-proposed-parcel-layers-and-vt-gis-data-standard-schema-per-updated-parcel-definition).
 
+![Woodstock_Inactives](https://github.com/user-attachments/assets/7deb187f-1fb3-44e6-8fce-915d8c8f2cc2)
+*Figure X: Caption text.*
+
 # Recommendation 2: Support Digital Parcel Maintenance and Submittal to the State of Vermont
 ## 2.1 Summary
 
