@@ -355,6 +355,9 @@ Following receipt of the updated CAMA data each month, VCGI will work to incorpo
 ![Spatialized_Property_Transfers_Dash](https://github.com/user-attachments/assets/b72f62e8-953a-4c61-b342-721c17ee9414)
 **Figure X:** *Caption text.*
 
+![ParcelViewer_Survey_Library_Animation](https://github.com/user-attachments/assets/968d8e9f-b5c0-4702-82e0-8a22db989969)
+**Figure X:** *Caption text.*
+
 ## 3.5 Example Statute Update
 >[Section] "Assessor database" means the database of property information maintained by a municipalities' lister(s) or assessor(s); it is also referred to as a Computer Aided Mass Appraisal (CAMA) system or Computer Aided Mass Appraisal database
 
