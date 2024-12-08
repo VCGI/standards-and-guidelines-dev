@@ -374,7 +374,8 @@ Following receipt of the updated CAMA data each month, VCGI will work to incorpo
 
 In Vermont there is no formally defined practice or requirement for the handling of public rights-of-way from a taxation perspective and its relation with parcel mapping. Common, practical experience is that public rights-of-way such as roads and highways are just that—areas not to be obstructed by abutting private property owners—be they owned in fee or easements. State highways, for example, often involve the State purchasing lands between the road centerline and abutting parcel, whereas towns may not. These differences contribute to a lack of clarity about how to account for the area that is within a right-of-way and between an abutting private parcel and road centerline and have occasionally led to differences in their depiction and resulting acreage calculations. The Tax Department, with aid of partners, should develop and offer guidance for considering these areas with regard to taxation and related acreage calculations.
 
-[DIAGRAMS of Right-of-Way Conditions]
+![ROW_Zones_Diagram](https://github.com/user-attachments/assets/086078d4-7da8-496a-b4bb-3d380ca477f7)
+**Figure X:** *Caption text.*
 
 ## 4.3 Implementation
 
