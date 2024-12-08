@@ -674,7 +674,7 @@ Any combination of the examples above.
 
 VCGI currently publishes and maintains two statewide parcel layers: Active Parcels and Inactive Parcels (as available). Following a change to the parcel definition, VCGI will continue to publish and maintain two layers, but with slightly modified purpose, content, and schema. The following describes the existing and proposed statewide parcel data layers:
 
-#### 1. Active Parcels --> Administrative Parcels
+#### 1. From Active Parcels To Administrative Parcels
 
 |Criteria  |Existing                    |Proposed                       |
 |:---------|:---------------------------|:------------------------------|
@@ -684,7 +684,7 @@ VCGI currently publishes and maintains two statewide parcel layers: Active Parce
 
 Schema change for the Administrative Parcels layer is renaming "SPAN" to "ADMINSPAN". The ADMINSPAN is the common identifier for all contiguous lots with the same ownership. SPANs for other individual lots within an Administrative Parcel are not included in this layer.
 
-#### 2. Inactive Parcels --> Parcels
+#### 2. From Inactive Parcels To Parcels
 
 |Criteria  |Existing                    |Proposed                       |
 |:---------|:---------------------------|:------------------------------|
