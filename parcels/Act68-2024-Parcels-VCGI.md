@@ -65,7 +65,7 @@ Advance notice of these changes will be sent by VCGI to the VT GIS community, mu
 A full description of proposed changes is within [Appendix 1.7: Proposed Parcel Layers and VT GIS Data Standard Schema, per Updated Parcel Definition](#a17-proposed-parcel-layers-and-vt-gis-data-standard-schema-per-updated-parcel-definition).
 
 ![Woodstock_Inactives_Labels](https://github.com/user-attachments/assets/fd77e797-1a94-4419-9131-cc8536f4a266)
-*Figure X: Caption text.*
+**Figure X:** *Caption text.*
 
 # Recommendation 2: Support Digital Parcel Maintenance and Submittal to the State of Vermont
 ## 2.1 Summary
@@ -310,6 +310,7 @@ All or most of these fields are present in the sample data/schema provided by th
 ![CAMA_Example_Patriot_01](https://github.com/user-attachments/assets/29202d0a-44a5-4630-a220-b13f4a6bb563)
 
 ![CAMA_Example_Patriot_02](https://github.com/user-attachments/assets/dfc4c324-d4d9-47f9-9d5d-73ad8f9e13ba)
+**Figure X:** *Caption text.*
 
 ### 3.3.2 Implement Changes to Parcel Definition in CAMA Data
 
@@ -352,7 +353,7 @@ Ideally, CAMA vendors will provide VCGI with access to a read-only, credentialed
 Following receipt of the updated CAMA data each month, VCGI will work to incorporate the fields listed in Section 3.2.1 in the [Parcel Viewer](https://experience.arcgis.com/experience/b5a5cc7663c84761a305f70b913e1a60) and [Geodata Portal](https://geodata.vermont.gov/). In the Parcel Viewer, users will be able to access CAMA data easily and in relation to existing parcel, Grand List, and Property Transfer data. The comprehensive, tabular CAMA dataset will be available publicly for download through the Geodata Portal. 
 
 ![Spatialized_Property_Transfers_Dash](https://github.com/user-attachments/assets/b72f62e8-953a-4c61-b342-721c17ee9414)
-*Figure X: Caption text.*
+**Figure X:** *Caption text.*
 
 ## 3.5 Example Statute Update
 >[Section] "Assessor database" means the database of property information maintained by a municipalities' lister(s) or assessor(s); it is also referred to as a Computer Aided Mass Appraisal (CAMA) system or Computer Aided Mass Appraisal database
@@ -396,7 +397,7 @@ In addition to acreage and resulting taxation associated with areas of property 
 ![image](https://github.com/user-attachments/assets/c19bbe86-0fa1-4fe1-ada6-df77229d5a97)
 ![image](https://github.com/user-attachments/assets/d723529b-89de-43e8-915a-312fdfe6d9b6)
 
-*Figures X and Y: Visualized differences in listed acreage and GIS (drawn) acreage in Northfield. The amount of percent difference is shown in five ranges and colors, as well as described in text on each parcel. [See an interactive map of these differences here.](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=e452fa5505644e12b1bf8b6308f7b2e8)*
+**Figures X and Y:** *Visualized differences in listed acreage and GIS (drawn) acreage in Northfield, VT. The amount of percent difference is shown in five ranges and colors, as well as described in text on each parcel. [See an interactive map of these differences here.](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=e452fa5505644e12b1bf8b6308f7b2e8)*
 
 ## 5.3 Implementation
 
@@ -433,7 +434,7 @@ Annual access to aerial imagery provides up-to-date, high-resolution visuals of 
 **Standardized Process:** Using consistent statewide imagery reduces reliance on multiple data sources, streamlining workflows, minimizing errors, and lowering overall costs.
 
 ![2023_15cm_SouthBurlingtonDev_close](https://github.com/user-attachments/assets/7b92eefb-6e1c-4239-be4f-fbb9f1b72f5d)
-*Figure X: Caption text.*
+**Figure X:** *Caption text.*
 
 ### 6.3.3 Resolution, Frequency, and Types that Speed the Process
 
@@ -453,6 +454,7 @@ Key characteristics of oblique imagery include:
 
 ![Obliques_01a_KY_From_Above](https://github.com/user-attachments/assets/6bc4a26b-3984-4b4c-9538-72860a1953ba)
 ![Obliques_01b_KY_From_Above](https://github.com/user-attachments/assets/a6a2951d-62ef-4690-8d07-6204dd7c15bf)
+**Figure X:** *Caption text.*
 
 Image source: Color_6052_19796,Right_6053_24171,Fwd_6052_19790,Left_6050_12120,Bwd_6052_19804, [Link](https://explore.kyfromabove.ky.gov/?ll=36.738774,-83.737983)
 
@@ -484,6 +486,7 @@ Recent advancements in technology have enabled:
 **Error Reduction:** Automated systems minimize human error and bias, ensuring consistent application of appraisal standards across properties.
 
 ![Automated_Id_Examples_Vexcel](https://github.com/user-attachments/assets/5d8e1d54-0d44-42ee-afe2-532a7ef9cc25)
+**Figure X:** *Caption text.*
 
 ## 7.3 Implementation
 
