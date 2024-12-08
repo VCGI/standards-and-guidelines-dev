@@ -955,6 +955,8 @@ Washington
 New Jersey
 [N.J. Admin. Code § 18:23A-1.16 Rights-of-way and easements](https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-18-23A-1-16)
 
+## Appendix 5: Clarify Grand List vs. GIS Acreage Guidance Considerations
+
 ## Appendix X: Maps and Tables
 
 ### X.X Acreage in Right-of-Way
@@ -971,7 +973,6 @@ Note: while the majority (96%) of municipalities include ROWs, a small number do
 
 In addition, ROWs for the following municipalities are typically missing or incorrectly attributed when updated data are sent to VCGI: Canaan, Royalton, Saint Albans Town, West Windsor, and Wolcott. ROWs for these municipalities can often be restored, however, using the existing data. 
 
-
 ![ROW_acreage](https://github.com/user-attachments/assets/cd87c576-58a5-443e-8a3b-a31288008565)
 
 **Figure X:** *ROW acreage displayed by town, as summed for all parcels with a Property Type of ROW_Road, ROW_Rail, or ROW_Trail. Total statewide ROW acreage is 133,150 acres, average per town is 522 acres, maximum is 1,883 acres (Randolph), and minimum is 16 acres (Avery's Gore).*
@@ -979,7 +980,6 @@ In addition, ROWs for the following municipalities are typically missing or inco
 ![ROW_zoom](https://github.com/user-attachments/assets/6c4da9a4-2798-4ad9-89b9-ee3a0a5ff5e4)
 
 **Figure X:** *Example of parcels with Property Type of ROW_Road (grey), ROW_Rail (red), and ROW_Trail (green) in Ferrisburgh.*
-
 
 ### X.X Acreage Not Counted (Gaps) and Duplicately Counted (Overlaps)
 ![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
