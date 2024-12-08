@@ -424,7 +424,7 @@ Annual access to aerial imagery provides up-to-date, high-resolution visuals of 
 
 **Standardized Process:** Using consistent statewide imagery reduces reliance on multiple data sources, streamlining workflows, minimizing errors, and lowering overall costs.
 
-![2023_15cm_SouthBurlingtonDev](https://github.com/user-attachments/assets/70409517-0235-4eb7-aad2-93cff860038b)
+![2023_15cm_SouthBurlingtonDev_close](https://github.com/user-attachments/assets/7b92eefb-6e1c-4239-be4f-fbb9f1b72f5d)
 *Figure X: Caption text.*
 
 ### 6.3.3 Resolution, Frequency, and Types that Speed the Process
