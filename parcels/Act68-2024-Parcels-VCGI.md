@@ -263,7 +263,7 @@ Text.
 - Make submitted CAMA data publicly available and relatable with parcel map data
 
 ## 3.2 Justification
-These recommendations are intended to provide useful property description information to aid timely and accurate reappraisals, while also supporting key public policy concerns (e.g., housing) that are best served by CAMA data. The recommendations are also intended to improve access to and use of public information for data analysis and visualization. Linking standardized CAMA information with existing GIS data, namely parcels, will further enhance visual and spatial data analysis and accessibility.
+These recommendations are intended to provide useful property description information to aid timely and accurate reappraisals, while also supporting key public policy concerns (e.g., housing) that are best served by CAMA data. The recommendations are also intended to improve access to and use of public information for data analysis and visualization. Linking select standardized CAMA information with existing GIS data such as parcels and spatialized property transfers will further enhance data analysis and parcel-dependent policy decisions.
 
 ## 3.3 Components
 
@@ -365,6 +365,8 @@ Following receipt of the updated CAMA data each month, VCGI will work to incorpo
 >[Section] "Assessor database" means the database of property information maintained by a municipalities' lister(s) or assessor(s); it is also referred to as a Computer Aided Mass Appraisal (CAMA) system or Computer Aided Mass Appraisal database
 
 >[Section] On or before [initial date], and not less than monthly thereafter, each municipality that possesses or contracts for services for the creation or maintenance of an assessor database shall transmit an extract of the database to [the State of Vermont]. The submitted database shall include, but need not be limited to information that uniquely identifies each property in the municipality, the description of each property, the size of each property, the year in which buildings were constructed on each property, and other fields described in the Vermont CAMA data standard.
+
+## 3.6 Implementation
 
 # Recommendation 4: Clarify Right-of-Way Mapping for Tax Purposes
 
