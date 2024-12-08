@@ -515,17 +515,42 @@ The Tax Department should partner with willing jurisdictions to test and evaluat
 
 # Recommendation 8: Develop and Offer Updated Parcel Contract Guidance
 
+## 8.1 Summary
+
+## 8.2 Justification
 Text.
+
+## 8.3 Implementation
 
 # Recommendation 9: Modernize Current Use Map Standards and Submittals
 
-Text.
+## 9.1 Summary
+
+## 9.2 Justification
+
+### 9.2.1 Lands in Current Use
+
+In 2023 over 19,000 parcels were enrolled in Current Use, totaling over 2.5 million acres statewide. [Explore parcels enrolled in Current Use](https://arcg.is/1vXL4u1).
+
+![CU](https://github.com/user-attachments/assets/c43d6573-861f-4f47-9e32-6099e8c4bf77)
+**Figure X:** *Parcels enrolled in Current Use statewide.*
+
+In addition, Current Use parcels may only have a percentage of their acreage enrolled. The statewide average enrollment is 92.5%, with 75% of parcels between 92-100%.
+
+![CUenrolled](https://github.com/user-attachments/assets/996dcba9-2c36-42b0-bb1d-adc21e6fcc26)
+**Figure X:** *Example of parcels enrolled in Current Use, with percent of acreage enrolled.*
+
+## 9.3 Implementation
 
 # Recommendation 10: Consider Updating and Moving Parcel Program in VT Statute
 
-Text.
+## 10.1 Summary
 
-## Related VT Statutes
+## 10.2 Justification
+
+## 10.3 Implementation
+
+## 10.4 Related Statutes
 
 [19 V.S.A. § 10 Highways - State Highway Law; General Transportation Divisions](https://legislature.vermont.gov/statutes/section/19/001/00010)
 
@@ -537,18 +562,28 @@ Text.
 
 # Recommendation 11: Coordinate With Concurrent Efforts to Digitize Land Records
 
+## 11.1 Summary
+
+## 11.2 Justification
 Text.
 
 ![ProtectedLands_Protection_Status_Jurisdiction_Access](https://github.com/user-attachments/assets/eb691607-3da6-4ed5-9057-e34acfbc0bcd)
 **Figure X:** *Caption text.*
 
-## Related VT Statutes and Bills
+## 11.3 Implementation
+
+## 11.4 Related Statutes and Bills
 
 [H.512 (Act 171) of 2022 - An act relating to modernizing land records and notarial acts law](https://legislature.vermont.gov/bill/status/2022/H.512)
 
 # Recommendation 12: Make Proposed Assessment Districts Consistent and Compatible with Existing Administrative Boundaries
 
+## 12.1 Summary
+
+## 12.2 Justification
 Text.
+
+## 12.3 Implementation
 
 # Future Improvements 
 
@@ -567,8 +602,6 @@ Text.
 **Figure X:** *Caption text.*
 
 # Responsibilities and Implementation
-
-# Cost Estimates and Potential Funding Sources
 
 # Appendices
 
@@ -925,20 +958,6 @@ New Jersey
 
 
 ## Appendix X: Maps and Tables
-
-### X.X Lands in Current Use
-
-In 2023 over 19,000 parcels were enrolled in Current Use, totaling over 2.5 million acres statewide. [Explore parcels enrolled in Current Use](https://arcg.is/1vXL4u1).
-
-![CU](https://github.com/user-attachments/assets/c43d6573-861f-4f47-9e32-6099e8c4bf77)
-
-**Figure X:** *Parcels enrolled in Current Use statewide.*
-
-In addition, Current Use parcels may only have a percentage of their acreage enrolled. The statewide average enrollment is 92.5%, with 75% of parcels between 92-100%.
-
-![CUenrolled](https://github.com/user-attachments/assets/996dcba9-2c36-42b0-bb1d-adc21e6fcc26)
-
-**Figure X:** *Example of parcels enrolled in Current Use, with percent of acreage enrolled.*
 
 ### X.X Lands in Current Use Needing Administrative Definition for Acreage
 
