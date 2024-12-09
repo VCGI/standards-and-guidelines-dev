@@ -104,7 +104,7 @@ Additional support for parcel data upkeep and quality improvements should be con
 
 ### 2.3.1 Three Models of Map Maintenance
 
-There are three models of parcel map maintenance to consider that represent additional support, differing primarily in who is the responsible jurisdiction and/or institution for oversight and execution. They are in addition to the current, town-based, voluntary-state-submittal approach, which represents no change (see [appendix 2.1](#a21-current-shared-responsibility-model-town-maintenance)).
+There are three models of parcel map maintenance to consider that represent additional support, differing primarily in who is the responsible jurisdiction and/or institution for oversight and execution. They all represent support beyond the current, town-based, voluntary-state-submittal approach, which represents no change in practice (see [appendix 2.1](#a21-current-shared-responsibility-model-town-maintenance)).
 
 1. Enhanced Town-led Maintenance via Per Parcel Payment
 2. Regional Appraisal District-led Maintenance
