@@ -116,7 +116,17 @@ Pros
 
 Cons
 
-**Regional Appraisal District-led maintenance would be contingent on the creation of such districts as proposed in part 1 of this report and ideally, following existing county boundaries per [recommendation 12](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries).
+**Regional Appraisal District-led maintenance** would be contingent on the creation of such districts as proposed in part 1 of this report and ideally, follow existing county boundaries per [recommendation 12](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries).
+
+Pros
+
+Cons
+
+**State-led maintenance** would involve . Prerequisites (CAMA data, digital land records)
+
+Pros
+
+Cons
 
 /////
 - Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town
