@@ -933,7 +933,6 @@ Building footprints  are often used to visually distinguish between unlanded str
 
 **Figure X:** *Distributed Method of Mapping Condos | Source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)*
 
-
 Pros
 - Creates visual distinction between unlanded structures and common land
 - Avoids potential confusion caused by the use of different GIS and Grand List SPANs in the Intersection Table
@@ -979,7 +978,7 @@ Pros
 Cons
 - Requires the creation and maintenance of separate geometry layer
 
-### 3.4 Example CAMA Submittal Statutes in Other States
+### A3.4 Example CAMA Submittal Statutes in Other States
 
 Connecticut
 [Sec. 7-100l. Transmission of digital parcel file. Annual report.](https://www.cga.ct.gov/current/pub/chap_096a.htm#sec_7-100l)
