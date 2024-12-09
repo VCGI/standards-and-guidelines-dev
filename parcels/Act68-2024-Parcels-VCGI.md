@@ -579,7 +579,7 @@ Text.
 ## Appendix 1: Update Parcel Definition in Vermont Statute Considerations
 ### A1.1 Current State of Mapped Inactive Parcels
 
-Status of submitted parcel geometry, including counts of inactives and submittals by town, are published weekly at the Town Parcel Status dashboard maintained by VCGI: [https://maps.vcgi.vermont.gov/parcelstatus](https://maps.vcgi.vermont.gov/parcelstatus). See the tab a the bottom titled "Inactives" to view current status. Inactives are also viewable within the [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/parcelviewer) and as  GIS data at the [Vermont Open Geodata Portal](https://geodata.vermont.gov/pages/parcels). Those data are also updated weekly.
+Status of submitted parcel geometry, including counts of inactives and submittals by town, are published weekly at the [Town Parcel Status dashboard](https://maps.vcgi.vermont.gov/parcelstatus) maintained by VCGI. See the tab at the bottom titled "Inactives" to view current status. Inactives can also be found within the [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/parcelviewer) and as  GIS data at the [Vermont Open Geodata Portal](https://geodata.vermont.gov/pages/parcels). Those data are also updated weekly.
 
 Inactive parcels are not managed consistently across towns; currently 178 towns (70%) submit inactive parcels. In addition, attribution of the parcel status field (active/inactive) is not complete or consistent for all submitting towns. As of November 2024, only 138 towns (54%) have submitted inactives with a populated and presumably accurate "STATUS" field. This means the parent parcel has an "ACTIVE" status and all associated "INACTIVE" status parcels have a PARENTSPAN matching the "ACTIVE" status SPAN.
 
@@ -591,31 +591,31 @@ Inactive parcels are not managed consistently across towns; currently 178 towns 
 
 **From a municipality in Windham County:**
 
-> As part of [the municipality’s] reappraisal, we will review parcels previously classified as "inactive" to determine their contributory value. We believe that our Grand List (similar to every town across the state) contains inactive parcels not represented in the Grand List or [in the parcel data]. Our goal is to identify and recreate these parcels through a thorough review of deeds, surveys, and historical grand lists.
+> As part of [the municipality's] reappraisal, we will review parcels previously classified as "inactive" to determine their contributory value. We believe that our Grand List (similar to every town across the state) contains inactive parcels not represented in the Grand List or [in the parcel data]. Our goal is to identify and recreate these parcels through a thorough review of deeds, surveys, and historical grand lists.
 
 **From a mapping vendor working with Vermont municipalities:**
 
-> A property owner has to go through a subdivision process and approval with the town. Once approved, each lot becomes its own legal entity.  That is the point at which the inactive lots legally exist and should be shown in the [parcel] data and entered in the inactive grand list.  A 100 acre lot is a totally different situation than ten 10-acre lots. This info needs to be known.
+> A property owner has to go through a subdivision process and approval with the town. Once approved, each lot becomes its own legal entity. That is the point at which the inactive lots legally exist and should be shown in the [parcel] data and entered in the inactive grand list. A 100 acre lot is a totally different situation than ten 10-acre lots. This info needs to be known.
 
 The mapping vendor notes that when an individual purchases an abutting piece of land, listers will often make the new piece an inactive parcel. But if an individual were to create a subdivision while maintaining ownership, listers may not represent this in the parcel data at all. 
 
 > The fallout from all this is that pieces of land get lost, revenue gets lost, and the picture of all the pieces of land is not accurate. We maintain one data layer of all parcels.  Each parcel has a parcel number, and what we call a link number. The link number is simply the parcel number of the active lot (if the parcel is active, the numbers are the same).
 
-**This last quote suggests that at least one parcel map vendor working in Vermont is already maintaining parcels in a way that is compatible with the proposed changes in this report.**
+This last quote suggests that at least one parcel map vendor working in Vermont is already maintaining parcels in a way that is compatible with the proposed changes in this report.
 
 ### A1.3 Parcel Definition Alternatives
 
 #### A1.3.1 Aggregate Mapped Unit Defined by Ownership (Contiguous)
 
-Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.gov/statutes/section/32/129/04152) defined parcel. This is a "contiguous" parcel definition. Separate parcels are grouped together by ownership for administrative purposes.
+Current Vermont Statute [32 V.S.A. § 4152 (a)(3)](https://legislature.vermont.gov/statutes/section/32/129/04152) defines a parcel. This is a "contiguous" parcel definition. Separate parcels are grouped together by ownership for administrative purposes.
 
-Depicted visually, a contiguous parcel definition means that the two abutting parcels below, shown split with a dotted green line and both of which have the same owner, are drawn as the single outer rectangle. This results as one "parcel" in the spatial data layer.
+Depicted visually, a contiguous parcel definition means that the two abutting parcels below, which have the same owner and are shown split with a dotted green line, are drawn as the single outer rectangle. This results as one "parcel" in the spatial data layer.
 
 ![image](https://github.com/user-attachments/assets/239c3a7e-e6f5-44cd-bb89-e8768e81a1da)
 
 **Figure 21: Contiguous Parcel Schematic.** *In the current parcel dataset, abutting parcels with the same ownership are considered to be a single parcel.*
 
-One of the individual parts is to be considered an "inactive" parcel, but this is not uniformly tracked across towns. The other part is to be considered "active", but its status is also not tracked uniformly across towns. These result in data incompleteness that impact analysis as well as long-term change tracking.
+One of the individual parts is to be considered an "inactive" parcel, but this is not uniformly tracked across towns. The other part is to be considered "active", but its status is also not tracked uniformly across towns. These inconsistencies result in data incompleteness that impact analyses as well as long-term change tracking.
 
 #### A1.3.2 Separate Mapped Unit, Defined by Practice
 
@@ -640,7 +640,7 @@ This example is notable in that any **one** of the following must be met to defi
 > - A parcel shown on an approved Boundary Adjustment Plat.
 > - A parcel described in a Grant Deed or other bona fide conveyance document recorded prior to February 1, 1972. The deed/document does not have to be in the name of the present owner. However, it must describe the perimeter boundaries only of the subject property and no other contiguous property. The legal description and County Recorder’s information must be legible to County staff. The Deed need not be an original or certified copy.
 
-There is no statewide subdivision requirement in Vermont, and not all municipalities require subdivisions. Thus, several instruments may be relied upon to help define a parcel (deed, subdivision plat where required by municipality, or property transfer / sale).
+There is no statewide subdivision requirement in Vermont, and not all municipalities require subdivisions. Thus, several instruments may be relied upon to help define a parcel (deed, subdivision plat where required by municipality, or property transfer or sale).
 
 #### A1.3.5 Separate Mapped Unit, Defined by Combination 
 
@@ -674,7 +674,7 @@ VCGI currently publishes and maintains two statewide parcel layers: Active Parce
 
 ![AdminSPANs_SPANs](https://github.com/user-attachments/assets/cbb220fb-17ba-4a2a-bafb-6918cb4d5024)
 
-**Figure 22: Tabular and Spatial Representation of Proposed Parcel Layers.** *Under the new parcel definition, the Parcels layer will represent parcels as single sellable units, each with a unique SPAN. The ADMINSPAN field will include duplicates for any parcels with common ownership. The Administrative Parcels layer will combine any parcels with the same ADMINSPAN entries to a single geometry.*
+**Figure 22: Tabular and Spatial Representation of Proposed Parcel Layers.** *Under the new parcel definition, the Parcels layer will represent parcels as single sellable units, each with a unique SPAN. The ADMINSPAN field will include duplicates for any abutting parcels with common ownership. The Administrative Parcels layer will combine any parcels with the same ADMINSPAN entries to a single geometry.*
 
 ### A1.5 Parcel Definitions and Interpretations in Existing Vermont Statute
 
@@ -827,12 +827,12 @@ The success of the Parcel Program as a voluntary-based initiative is due to the 
 
 **Figure 23: Current Parcel Data Maintenance Practices.** *Depending on the needs and resources of a municipality, several types of parcel data maintenance practices exist.*
 
-The Shared Responsibility model identifies one attribute: a municipality's ability to preform parcel geometry updates by contracting with a mapping vendor or doing updates internally. Municipalities unable to perform parcel geometry updates currently receive irregular updates by VCGI as land surveys that can be used to update a municipality's parcel geometry are submitted to the [Vermont Land Survey Library](https://landsurvey.vermont.gov/). While successful, the limitations of this model are now apparent after five years of operation (2020-2024).
+The Shared Responsibility model identifies a municipality's ability to perform parcel geometry updates by contracting with a mapping vendor or completing updates internally. Municipalities unable to perform parcel geometry maintenance are updated by VCGI using any new land surveys available in the [Vermont Land Survey Library](https://landsurvey.vermont.gov/). This method does not typically capture all geometry changes do to the incomplete nature of the Land Stuvey Library, and updates do not happen on a regular schedule. While generally successful, the limitations of the Shared Responsibility model have emerged after five years of operation (2020-2024).
 
 ### A2.2 Funding During the Parcel Project (2017-2019)
-The Statewide Property Parcel Mapping Project leveraged both state and federal funds with 80 percent coming from the Federal Highway Administration and the remaining 20 percent from several state agencies and departments. The Vermont Agency of Transportation contracted with several mapping vendor to update or create digital parcel data for each Vermont municipality over a three-year period. Each mapping vendor was assigned to a municipality through a competitive bid process. 
+The Statewide Property Parcel Mapping Project leveraged both state and federal funds with 80% coming from the Federal Highway Administration and the remaining 20% from several state agencies and departments. The Vermont Agency of Transportation contracted with several mapping vendor to update or create digital parcel data for each Vermont municipality over a three-year period. Each municipality was assigned  mapping vendor through a competitive bid process. 
 
-The average cost per parcel for the 67 municipalities completed during the first year of the Parcel Project in 2017 (excluding unincorporated towns and gores) was $6.85 which is slightly more than the national average of $5.20 reported 10 years prior by the National Research Council in *National Land Parcel Data: A Vision for the Future* (2007). The cost per parcel for municipalities completed during the first year of the Parcel Project (excluding unincorporated towns and gores) is depicted below.
+The average cost per parcel for the 67 municipalities completed during the first year of the Parcel Project in 2017 (excluding unincorporated towns and gores) was $6.85, which is slightly more than the national average of $5.20 reported 10 years prior by the National Research Council in *National Land Parcel Data: A Vision for the Future* (2007). The cost per parcel for municipalities completed during the first year of the Parcel Project (excluding unincorporated towns and gores) is depicted below.
 
 ![Parcel Project Year 1 Table](https://github.com/user-attachments/assets/cb114846-6a1b-45c1-89b4-f7a8833b9981)
 
@@ -851,7 +851,7 @@ The average cost per parcel for the 67 municipalities completed during the first
 
 ### A2.4 Funding Estimates
 
-In November 2024 VCGI organized a focus group of 12 municipalities selected based on parcel count, location, and mapping vendor. A municipal official (Lister, Assessor, or Town Clerk) from each municipality was contacted by email and asked how much the municipality currently spends on parcel mapping. While sample size is a limiting factor, based on the information provided by the seven municipalities that responded, the cost of ongoing parcel data maintenance is less than the initial cost during the Parcel Project. This is true even for municipalities that are no longer contracting with their Parcel Project mapping vendor. The current cost per parcel averaged $2.66 compared to $5.87 during the Parcel Project (55% cost reduction).
+In November 2024 VCGI organized a focus group of 12 municipalities selected based on parcel count, location, and mapping vendor. A municipal official (lister, assessor, or clerk) from each municipality was contacted by email and asked how much the municipality currently spends on parcel mapping. While sample size is a limiting factor, based on the information provided by the seven municipalities that responded the cost of ongoing parcel data maintenance is less than the initial cost during the Parcel Project. This is true even for municipalities that are no longer contracting with their Parcel Project mapping vendor. The current cost per parcel averaged $2.66 compared to $5.87 during the Parcel Project (55% cost reduction).
 
 |Municipality    |2023 Grand List Parcel Count|Active Polygons|Inactive Polygons|Current Vendor        | Parcel Project Vendor|
 |----------------|----------------------------|---------------|-----------------|----------------------|----------------------|
@@ -913,7 +913,7 @@ At the county-level, the average cost per parcel during the Parcel Project was $
 
 **Table X: Estimated Statewide Financial Incentive Cost.** *Estimated funding needed to support a financial incentive is calculated by county, along with the estimated cost reduction compared to the cost of the Parcel Project.*
 
-Each county could be assigned its own per parcel fee or a single per parcel fee could be established for the state with some counties receiving an additional percentage above the per parcel fee based on financial capacity. While there are multiple ways to determine financial capacity, two methods using the Real Listed Value field from the 2023 Grand List are shown below. For both methods, any county that is **below** the average value would receive an adjusted per parcel fee. The remaining counties would receive the standard per parcel fee.
+Each county could be assigned its own per parcel fee, or a single per parcel fee could be established for the state with some counties receiving an additional percentage above the per parcel fee based on financial capacity. While there are multiple ways to determine financial capacity, two methods using the Real Listed Value field from the 2023 Grand List are shown below. For both methods, any county that is **below** the average value would receive an adjusted per parcel fee. The remaining counties would receive the standard per parcel fee.
 
 **Real Listed Value per Capita**
 
@@ -971,9 +971,9 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
 
 ### A2.6 Additional Considerations for Per Parcel Payment
 
--	In addition to submittal compliance criteria, a timeframe component is needed when assessing a town's eligibility for a per parcel payment (likely annual). Some towns are technically “compliant” and are working with a vendor but have not submitted an update to VCGI since before 2020. For small towns that may not have any changes from year to year (and therefore do not submit an update), VCGI should still receive an annual confirmation that no changes or updates are needed to the existing data
--	Consider possible tiered system for payments to encourage compliance. For example: fully compliant or minor edit towns receive full amount, major edit town receive 50%, and non-compliant towns receive none
--	Based on discussions with vendors in 2024, it is not necessarily practical or feasible for vendors to directly use parcel data published by VCGI (e.g., vendors are not downloading the latest data for a town from VCGI prior to making their next round of edits). Often vendors are maintaining additional fields and formats beyond what is submitted and used by VCGI following the existing VT GIS Parcel Data Standard. This is likely a factor leading to repeated edits with each submission. Consider a way to summarize and communicate submission issues or edits that VCGI makes so vendors are aware and can correct for their subsequent submission, ideally without creating significant extra work for either VCGI or vendor. In addition or alternatively, VCGI should work with vendors to potentially update the current VT GIS Parcel Data Standard to be compatible with existing workflows.
+-	In addition to submittal compliance criteria, a timeframe component is needed when assessing a town's eligibility for a per parcel payment (e.g., annually). Some towns are technically “compliant” and are working with a vendor but have not submitted an update to VCGI since before 2020. For small towns that may not have any changes from year to year, and therefore do not submit an update, VCGI should still receive an annual confirmation that no changes or updates are needed to the existing data
+-	Consider possible tiered system for payments to encourage compliance. For example: fully compliant or minor edit towns receive full payment amount, major edit town receive 50%, and non-compliant towns receive none
+-	Based on discussions with vendors in 2024, it is not necessarily practical or feasible for vendors to directly use parcel data published by VCGI (e.g., vendors are not downloading the latest data for a town from VCGI prior to making their next round of edits). Often vendors are maintaining additional fields and formats beyond what is submitted and used by VCGI following the existing VT GIS Parcel Data Standard. This is likely a factor leading to repeated edits with each submission. Consider avenues to summarize and communicate submission issues or edits made by VCGI makes so vendors are aware and can correct for their subsequent submission, ideally without creating significant extra work for either VCGI or vendor. In addition or alternatively, VCGI should work with vendors to potentially update the current VT GIS Parcel Data Standard to be compatible with existing workflows.
 
 ## Appendix 3: Implement Vermont CAMA Data Standard and Require Submittal to State Considerations
 
@@ -996,18 +996,18 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
 **Table X: Vermont Department of Tax Property Class Categories and Codes.** *Additional codes exist within each category; however, the category level could provide sufficient detail for information not currently or widely tracked in CAMA data.*
 
 ### A3.2 Standardized CAMA schema
-Proposed standardized CAMA schema, based on example data from CAMA vendors in Vermont as well as a similar schema being developed in Connecticut, can be viewed [here](https://vermontgov.sharepoint.com/:x:/t/ADS.VCGIGroup/EZEBDpDNLNNHk_dhFOhtNW8BiiuDlzcCbWzOrxTXDUgO_g?e=3QqTMj). See 'PriorityFields_v1' for fields to standardize first following agreement between VT Department of Tax and all CAMA vendors.
+The proposed standardized CAMA schema, based on example data from CAMA vendors in Vermont as well as a similar schema being developed in Connecticut, can be viewed [here](https://vermontgov.sharepoint.com/:x:/t/ADS.VCGIGroup/EZEBDpDNLNNHk_dhFOhtNW8BiiuDlzcCbWzOrxTXDUgO_g?e=3QqTMj). See 'PriorityFields_v1' for fields to standardize first following agreement between VT Department of Tax and all CAMA vendors.
 
 ### A3.3 Mapping of Unlanded Structures and Common Interest Parcels
 **Background** 
 
-Statewide standardized parcel data in Vermont is currently comprised of parcel geometry, the approximate parcel boundary lines drawn as closed multi-sided shapes (parcel polygons) as sourced from municipalities, and parcel attribution from the annual Grand List collected and published by the Tax Department. These two components are joined together by a matching School Property Account Number (SPAN) in the attribute table of the parcel polygons layer and in the Grand List. In most cases, each polygon is joined to one Grand List record but it is not uncommon for more than one Grand List record to be joined to the same polygon. This happens most often with condominiums as they are typically described by their percentage of undivided interest in the common area and facilities rather than discrete boundaries that can be easily represented by polygons. While VCGI has provided some guidance on mapping condominiums per the Vermont GIS Parcel Data Standard, a more comprehensive recommendation for mapping all types of unlanded structures is necessary to improve data quality, clarity, and ease of use.
+Statewide standardized parcel data in Vermont is currently comprised of parcel geometry, the approximate parcel boundary lines drawn as closed multi-sided shapes (parcel polygons) as sourced from municipalities, and parcel attribution from the annual Grand List collected and published by the Tax Department. These two components are joined together by a matching School Property Account Number (SPAN) in the attribute table of the parcel polygons layer and in the Grand List. In most cases each polygon is joined to one Grand List record, but it is not uncommon for more than one Grand List record to be joined to the same polygon. This happens most often with condominiums as they are typically described by their percentage of undivided interest in the common area and facilities rather than discrete boundaries that can be easily represented by polygons. While VCGI has provided some guidance on mapping condominiums per the Vermont GIS Parcel Data Standard, a more comprehensive recommendation for mapping all types of unlanded structures is necessary to improve data quality, clarity, and ease of use.
 
 #### A.3.3.1 Current Unlanded Structure and Common Interest Parcel Mapping Practices in Vermont
 
 **Discrete and Distributed Methods**
 
-Building footprints  are often used to visually distinguish between unlanded structures and the common land, particularly as a paper tax map convention. The difference between the “Distributed” and “Discrete” building footprint methods is whether or not the common land has a SPAN. Per the Vermont GIS Parcel Data Standard, “in some instances, a deed specifies a percentage of common land ownership to each condominium unit and the common land does not have a SPAN number. In other instances, a deed does not allocate the common land, and the common land does have a SPAN number.”
+Building footprints are often used to visually distinguish between unlanded structures and the common land, particularly as a paper tax map convention. The difference between the “Distributed” and “Discrete” building footprint methods is whether or not the common land has a SPAN. Per the Vermont GIS Parcel Data Standard, “in some instances, a deed specifies a percentage of common land ownership to each condominium unit and the common land does not have a SPAN number. In other instances, a deed does not allocate the common land, and the common land does have a SPAN number.”
 
 ![image](https://github.com/user-attachments/assets/2ff17158-461a-490d-8062-6c014960c6f0)
 
@@ -1033,7 +1033,7 @@ Stacked polygons use a standalone Intersection Table to relate multiple SPANs fr
 
 **Figure 26: Relationship Between GIS SPAN (Geometry) and Grand List SPAN.** *In Vermont parcel data, the stacked method is recommended. This method uses a placeholder GIS SPAN in the parcel geometry. In the Intersection Table, the GIS SPAN is listed for all corresponding Grand List SPANs at that parcel.*
 
-This creates identical polygons "stacked" on top of each other, which can be “flattened” to remove all but one polygon for each parcel for analytical purposes. Unlike the building footprints methods, there is no visual distinction between unlanded structures and the common land. Because of this, parcel geometry is simpler to maintain.
+This method creates identical polygons "stacked" on top of each other, which can be “flattened” to remove all but one polygon for each parcel for analytical purposes. Unlike the building footprints methods, there is no visual distinction between unlanded structures and the common land. Because of this, parcel geometry is simpler to maintain.
 
 ![image](https://github.com/user-attachments/assets/8da7e8ab-d3e0-4423-881a-1ce1e2a9d399)
 
