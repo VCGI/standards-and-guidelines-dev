@@ -100,18 +100,19 @@ As of October 24, 2024:
 
 ## 2.3 Design
 
-Additional support for parcel data upkeep and quality improvements should be contingent on data submittal to the State, consider Municipal maintenance practices and costs, be reflective of only those parcels that are changed (and thus need maintenance) since the last update, and potentially, account for cost differences by regional location and/or situation. Still, who ultimately should be responsible for parcel map data maintenance? That is the more fundamental question that Vermont will need to answer, particularly given the growing needs and expectations that are dependent on parcel-related data (e.g., grand list, property transfers, CAMA data, land records) and experience with the limitations of a town-based voluntary model after five years of operation.
+Additional support for parcel data upkeep and quality improvements should be contingent on data submittal to the State, consider Municipal maintenance practices and costs, be reflective of only those parcels that are changed (and thus need maintenance) since the last update, and potentially, account for cost differences by regional location and/or situation. Still, who ultimately should be responsible for parcel map data upkeep? That is the more fundamental question that Vermont will need to answer, particularly given the growing needs and expectations that are dependent on parcel-related data (e.g., grand list, property transfers, CAMA data, land records) and experience with the limitations of a town-based voluntary model after five years of operation.
 
 ### 2.3.1 Three Models of Map Maintenance
 
-There are three models of parcel map maintenance to consider that represent additional support. They differ primarily in who is the responsible jurisdiction and/or institution for oversight and execution. They are in addition to the current, town-based, voluntary-state-submittal approach, which represents no change (see [appendix 2.1](#a21-current-shared-responsibility-model-town-maintenance)).
+There are three models of parcel map maintenance to consider that represent additional support, differing primarily in who is the responsible jurisdiction and/or institution for oversight and execution. They are in addition to the current, town-based, voluntary-state-submittal approach, which represents no change (see [appendix 2.1](#a21-current-shared-responsibility-model-town-maintenance)).
 
 1. Enhanced Town-led Maintenance via Per Parcel Payment
 2. Regional Appraisal District-led Maintenance
 3. State-led Maintenance
 
 ### 2.3.2 Enhanced Town-Led Maintenance
-**Enhanced town-led maintenance** would institute a per parcel payment as a financial incentive to assist towns with the cost of parcel mapping. 
+**Enhanced town-led maintenance** would institute a per parcel payment as a financial incentive to assist towns with the cost of parcel mapping. Disbursement of this payment would be contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town. Eligibility
+submittal quality criteria
 
 Pros
 
@@ -143,7 +144,7 @@ A financial incentive to assist [JURISDICTION] with the cost of parcel mapping t
 Other states have implemented similar contingent financial incentives to maintain foundational, local spatial data (Massachusetts, for example, [with their 911 addressing data](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download)). Assuming that municipalities remain responsible for and the authoritative source of land records, 
 [It is time to consider supporting Vermont municipalities in the upkeep of parcel data on which many State programs now depend.]
 
-### 2.3.2 Support Eligibility
+### 2.3.2 Eligibility
 
 - VCGI will continue to accept and review parcel geometry updates on a rolling basis. A municipal official (or a contact from a municipality's mapping vendor) must send a standard-compliant parcel geometry update to VCGI by October 1st of a calendar year to be eligible to receive a financial incentive the following year
 - No more than one standard-compliant parcel geometry update per municipality will be accepted each calendar year
