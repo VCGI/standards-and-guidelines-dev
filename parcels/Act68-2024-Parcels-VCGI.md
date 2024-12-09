@@ -114,6 +114,7 @@ There are three models of parcel map maintenance to consider that represent addi
 **Enhanced town-led maintenance** would institute a per parcel payment as a financial incentive to assist towns with the cost of parcel mapping. Disbursement of this payment would be contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town. The amount of the payment would reflect a cost per parcel based on current municipal maintenance, estimated to average $2.66 per parcel (see [appendix 2.4](#a24-funding-estimates)). The payment 
 Eligibility
 submittal quality criteria
+contract guidance
 
 Pros
 
@@ -121,6 +122,9 @@ Cons
 
 ### 2.3.3 Regional Appraisal District Maintenance
 **Regional Appraisal District-led maintenance** would be contingent on the creation of such districts as proposed in part 1 of this report and ideally, follow existing county boundaries per [recommendation 12](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries).
+
+vendors
+contracts / contract guidance
 
 Pros
 
