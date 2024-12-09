@@ -119,13 +119,13 @@ This model assumes that a financial incentive, when combined with the fact that 
 
 Municipalities would be expected to continue to individually contract with and oversee the work of GIS mapping vendors in this model. New contract guidance could also be developed to ensure municipalities maintain quality data that is eligible of a per parcel payment (see [Recommendation 8: Develop and Offer Updated Parcel Contract Guidance](#recommendation-8-develop-and-offer-updated-parcel-contract-guidance)).
 
-| **Enhanced Town-Led Maintenance**                      |                                                                                                                                    |
-|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| **Pros**                                               | **Cons**                                                                                                                           |
-| Limited disturbance as extends current practices       | New payments to towns may still not be enough to get all of them to regularly maintain quality GIS parcel data and submit to state |
+| **Enhanced Town-Led Maintenance**                                              |                                                                                                                                    |
+|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| **Pros**                                                                       | **Cons**                                                                                                                           |
+| Limited disturbance as extends current practices                               | New payments to towns may still not be enough to get all of them to regularly maintain quality GIS parcel data and submit to state |
 | Compatible with potential Regional Appraisal Districts or State-led appraisals | Technical difficulties in determining accurate updated parcel counts given current maintenance methods                             |
-|                                                        | Administrative overhead in determining up-to-date fair payment amount and allocation of funds                                      |
-|                                                        | Source of recurring funds is undetermined                                                                                          |
+| Can be instituted via existing grand list maintenance payments                 | Administrative overhead in determining up-to-date fair payment amount and allocation of funds                                      |
+|                                                                                | Availability of recurring funds is undetermined                                                                                    |                                                                                |
 
 **Table X: Enhanced Town-Led Maintenance.** *Pros and cons of a town-led approach to parcel maintenance.*
 
@@ -484,11 +484,12 @@ Text.
 ## 9.1 Summary
 
 - Recent changes in grand list maintenance via the Vermont Property Information Exchange (VTPIE) have improved internal data organization and access to current use information
-- There is no modern, accessible public-facing means of digitally entering the mapped extents of lands submitted to be enrolled in current use, nor os there a way to depict the specific extent of all currently enrolled areas as a digital map layer
-- Many historical 
-- digitization (could be aided by records digitization)
-compatible with other state efforts at records digitization
+- Web applications can help modernize mapping aspects of enrollment and display of specific extents of all currently enrolled areas
+- Historical, analog map documents associated with enrolled lands could benefit from other records digitization efforts
+
 ## 9.2 Justification
+
+Although there is no accessible public-facing means of digitally entering the mapped extents of lands to be considered for current use enrollment, nor is there a way to depict the specific extent of all currently enrolled areas as a statewide digital map layer, map applications can help modernize these functions.
 
 ### 9.2.1 Lands in Current Use
 
@@ -507,6 +508,9 @@ In addition, Current Use parcels may only have a percentage of their acreage enr
 
 ## 10.1 Summary
 
+- Current statute is not reflective of actual oversight and operation of statewide parcel program
+- Updating existing statute to reflect current and future practice could be completed with little to no impact on operations
+
 ## 10.2 Justification
 
 ## 10.3 Implementation
@@ -524,6 +528,8 @@ In addition, Current Use parcels may only have a percentage of their acreage enr
 # Recommendation 11: Coordinate With Concurrent Efforts to Digitize Land Records
 
 ## 11.1 Summary
+
+- Digital land records statewide would offer numerous benefits including integration with parcel data and potentially reduce the need for duplicative mapping needed by state initiatives
 
 ## 11.2 Justification
 Text.
