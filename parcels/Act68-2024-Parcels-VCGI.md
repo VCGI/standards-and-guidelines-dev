@@ -327,6 +327,18 @@ In addition to acreage and resulting taxation associated with areas of property 
 
 **Figures X and Y:** *Visualized differences in listed acreage and GIS (drawn) acreage in Northfield, VT. The amount of percent difference is shown in five ranges and colors, as well as described in text on each parcel. [See an interactive map of these differences here.](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=e452fa5505644e12b1bf8b6308f7b2e8)*
 
+### 5.2.1 Discrepancies in Listed and Mapped Acreage
+
+|                                              |Total Acreage             |
+|----------------------------------------------|--------------------------|
+|**Listed Acreage** (2023 Grand List)          |5,609,102 ac              |
+|**Mapped Acreage** (statewide parcel dataset) |5,786,273 ac              |
+|                                              |*177,171 ac difference*   |
+
+- 42,162 grand list records had no listed acreage
+- Mapped acreage was calculated for parcels only based on property type (PROPTYPE) field
+- A small subset of grand list records represent railroad rights-of-way based on property description (DESCPROP) field
+
 ## 5.3 Implementation
 
 The Tax Department, in collaboration with partners, should develop guidance for handling of these acreage discrepancies. This may include specifying when the difference is large enough to trigger review of the parcel(s) underlying recorded legal descriptions, and when updating the listed and/or as-drawn acreage should result. These recommendations may be included in an updated Listers and Assessors handbook and ensuing training/guidance for municipalities. VCGI should continue to make web applications that display acreage discrepancies on a per parcel basis statewide.
@@ -982,16 +994,12 @@ New Jersey
 
 ## Appendix 5: Clarify Grand List vs. GIS Acreage Guidance Considerations
 
-## Appendix X: Maps and Tables
-
-
-
-### X.X Acreage Not Counted (Gaps) and Duplicately Counted (Overlaps)
+### A5.1 Acreage Not Counted (Gaps) and Double Counted (Overlaps)
 ![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
 
-**Figure X:** *Example of gaps (red) and overlaps (blue) in parcel geometry at municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Black lines repersent town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI.*
+**Figure X:** *Example of gaps (red) and overlaps (blue) in parcel geometry at municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Black lines represent town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI.*
 
-### X.X Acreage in Common Ownership
+### A5.2 Acreage in Common Ownership
 A stacked polygon is a group of identical parcel features (polygons) stacked on top of each other with a different grand list record assigned to each. Stacked polygons often represent common ownership parcels like condominiums.
 
 - There are 27,239 grand list records represented as 3,254 stacked polygons statewide
@@ -1003,21 +1011,9 @@ A stacked polygon is a group of identical parcel features (polygons) stacked on 
 
 ![CommonOwnership_Brattleboro](https://github.com/user-attachments/assets/9580c23e-579e-41fe-aa55-b9fc13aa058b)
 
-**Figure X:** *Stacked parcels in Brattleboro repersenting a mobile home park.*
+**Figure X:** *Stacked parcels in Brattleboro that represent a mobile home park.*
 
-### X.X Discrepancies in Listed and Mapped Acreage
-
-|                                              |Total Acreage             |
-|----------------------------------------------|--------------------------|
-|**Listed Acreage** (2023 Grand List)          |5,609,102 ac              |
-|**Mapped Acreage** (statewide parcel dataset) |5,786,273 ac              |
-|                                              |*177,171 ac difference*   |
-
-- 42,162 grand list records had no listed acreage
-- Mapped acreage was calculated for parcels only based on property type (PROPTYPE) field
-- A small subset of grand list records repersent railroad rights-of-way based on property description (DESCPROP) field
-
-#### State Boundary
+### A5.3 Acreage within State Boundary
 
 | Geography | Total Area |         |            | Land Area |         |            | Water Area |         |         |
 |-----------|------------|---------|------------|-----------|---------|------------|------------|---------|---------|
@@ -1034,9 +1030,3 @@ Notes:
 
 ![image](https://github.com/user-attachments/assets/c61cb466-6e03-46d7-83e9-ebda6adfc6c9)
 **Figure X:** *Vermont land and water areas as depicted using BNDHASH and NHDPlus HR input layers*
-
-### X.X Estimated Percent Change in Parcel Counts
-
-### X.X Age of Parcel Geometry by Town
-
-### X.X Maintenance of Parcel Geometry by Town
