@@ -132,6 +132,8 @@ Cons
 
 ### 2.3.4 State-led Maintenance
 **State-led maintenance** would involve . Prerequisites (CAMA data, digital land records)
+vendors
+contracts / contract guidance
 
 Pros
 
