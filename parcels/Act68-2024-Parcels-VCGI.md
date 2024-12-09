@@ -104,6 +104,9 @@ Additional support for parcel data upkeep and quality improvements that is conti
 
 ### 2.3.1 Three Models of Map Maintenance
 
+There are three models of supporting , differing primarily in who is the responsible jurisdiction.
+These are in addition the current model (no change).
+
 - Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town
 - A payment should help compensate only for those parcels that are changed in geometry since the last update
 - Per parcel payments may be administered and normalized by proposed Regional Appraisal Districts
@@ -273,6 +276,28 @@ In Vermont there is no formally defined practice or requirement for the handling
 
 ![ROW_Zones_Diagram](https://github.com/user-attachments/assets/086078d4-7da8-496a-b4bb-3d380ca477f7)
 **Figure X:** *Caption text.*
+
+### 4.2.1 Acreage in Right-of-Way
+
+Correct mapping of Rights-of-Way has important implications for taxation purposes. Based on the parcel data, over 133,000 acres in Vermont are classified as a Right-of-Way. [Explore ROW Acreage by Town here](https://arcg.is/1qLPXv1) and in the images below. Acreage is based on the sum of parcels by town where the Property Type is classified as "ROW_ROAD", "ROW_RAIL", or "ROW_TRAIL". The second image provides an example of each ROW.  
+
+Note: while the majority (96%) of municipalities include ROWs, a small number do not. Parcels in these towns are generally mapped to centerlines where ROWs are missing. These municipalities include:
+
+- Averill (only main roads)
+- Bloomfield (only main roads)
+- Eden (few road fragments)
+- Johnson (only in town center)
+- Norton (only main roads)
+
+In addition, ROWs for the following municipalities are typically missing or incorrectly attributed when updated data are sent to VCGI: Canaan, Royalton, Saint Albans Town, West Windsor, and Wolcott. ROWs for these municipalities can often be restored, however, using the existing data. 
+
+![ROW_acreage](https://github.com/user-attachments/assets/cd87c576-58a5-443e-8a3b-a31288008565)
+
+**Figure X:** *ROW acreage displayed by town, as summed for all parcels with a Property Type of ROW_Road, ROW_Rail, or ROW_Trail. Total statewide ROW acreage is 133,150 acres, average per town is 522 acres, maximum is 1,883 acres (Randolph), and minimum is 16 acres (Avery's Gore).*
+
+![ROW_zoom](https://github.com/user-attachments/assets/6c4da9a4-2798-4ad9-89b9-ee3a0a5ff5e4)
+
+**Figure X:** *Example of parcels with Property Type of ROW_Road (grey), ROW_Rail (red), and ROW_Trail (green) in Ferrisburgh.*
 
 ## 4.3 Implementation
 
@@ -959,27 +984,7 @@ New Jersey
 
 ## Appendix X: Maps and Tables
 
-### X.X Acreage in Right-of-Way
 
-Correct mapping of Rights-of-Way has important implications for taxation purposes. Based on the parcel data, over 133,000 acres in Vermont are classified as a Right-of-Way. [Explore ROW Acreage by Town here](https://arcg.is/1qLPXv1) and in the images below. Acreage is based on the sum of parcels by town where the Property Type is classified as "ROW_ROAD", "ROW_RAIL", or "ROW_TRAIL". The second image provides an example of each ROW.  
-
-Note: while the majority (96%) of municipalities include ROWs, a small number do not. Parcels in these towns are generally mapped to centerlines where ROWs are missing. These municipalities include:
-
-- Averill (only main roads)
-- Bloomfield (only main roads)
-- Eden (few road fragments)
-- Johnson (only in town center)
-- Norton (only main roads)
-
-In addition, ROWs for the following municipalities are typically missing or incorrectly attributed when updated data are sent to VCGI: Canaan, Royalton, Saint Albans Town, West Windsor, and Wolcott. ROWs for these municipalities can often be restored, however, using the existing data. 
-
-![ROW_acreage](https://github.com/user-attachments/assets/cd87c576-58a5-443e-8a3b-a31288008565)
-
-**Figure X:** *ROW acreage displayed by town, as summed for all parcels with a Property Type of ROW_Road, ROW_Rail, or ROW_Trail. Total statewide ROW acreage is 133,150 acres, average per town is 522 acres, maximum is 1,883 acres (Randolph), and minimum is 16 acres (Avery's Gore).*
-
-![ROW_zoom](https://github.com/user-attachments/assets/6c4da9a4-2798-4ad9-89b9-ee3a0a5ff5e4)
-
-**Figure X:** *Example of parcels with Property Type of ROW_Road (grey), ROW_Rail (red), and ROW_Trail (green) in Ferrisburgh.*
 
 ### X.X Acreage Not Counted (Gaps) and Duplicately Counted (Overlaps)
 ![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
