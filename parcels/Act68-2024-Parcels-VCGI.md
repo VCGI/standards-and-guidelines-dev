@@ -65,7 +65,7 @@ Advance notice of these changes will be sent by VCGI to the VT GIS community, mu
 A full description of proposed changes is within [Appendix 1.7: Proposed Parcel Layers and VT GIS Data Standard Schema, per Updated Parcel Definition](#a17-proposed-parcel-layers-and-vt-gis-data-standard-schema-per-updated-parcel-definition).
 
 ![Woodstock_Inactives_Labels](https://github.com/user-attachments/assets/fd77e797-1a94-4419-9131-cc8536f4a266)
-**Figure X:** *Caption text.*
+**Figure 2: Example of Current Practices for Mapping Inactive Parcels.** *Inactive parcels are tracked differently depending on municipality. Woodstock and Hartford, for example, currently manage inactive parcels and provide them to VCGI while Hartland, Pomfret, and Bridgewater do not. For the latter towns it is unknown whether inactive parcels are only managed internally or not at all.*
 
 # Recommendation 2: Support Digital Parcel Maintenance and Submittal to the State of Vermont
 ## 2.1 Summary
@@ -126,7 +126,7 @@ Municipalities would be expected to continue to individually contract with and o
 | Compatible with potential Regional Appraisal Districts | Technical difficulties in determining accurate updated parcel counts given current maintenance methods                             |
 |                                                        | Administrative overhead in determining up-to-date fair payment amount and allocation of funds                                      |
 
-**Table X:** *Caption text.*
+**Table X: Enhanced Town-Led Maintenance.** *Pros and cons of a town-led approach to parcel maintenance.*
 
 ### 2.3.3 Regional Appraisal District-Led Maintenance
 **Regional Appraisal District-led maintenance** would be contingent on the creation of such districts as proposed in part 1 of this report and ideally, follow existing county boundaries per [recommendation 12](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries).
@@ -139,6 +139,8 @@ Pros
 
 Cons
 
+**Table X: Enhanced Regional Appraisal District Maintenance.** *Pros and cons of a Regional Appraisal District approach to parcel maintenance.*
+
 ### 2.3.4 State-Led Maintenance
 **State-led maintenance** would involve . Prerequisites (CAMA data, digital land records)
 vendors
@@ -147,6 +149,8 @@ contracts / contract guidance
 Pros
 
 Cons
+
+**Table X: Enhanced State-Led Maintenance.** *Pros and cons of a state-led approach to parcel maintenance.*
 
 ## 2.4 Implementation
 
@@ -198,9 +202,9 @@ Building|Heat2ID|Secondary Heat/Cool Source|Secondary heat/cool source, correspo
 |Building|StoryCnt|Story Count|Total count of stories within structure|Integer|3|2|
 |Building|UnlndCode|Unlanded Code|Prefix for unlanded structure type if applicable|String (domain)|2|Null|
 
-*Revisions to proposed schema: used 'Heat1ID' as combination of HeatID and Heat/Cool fields as originally proposed; added 'Heat2ID' and 'Heat2Pct' in case of multiple heat sources. Added 'Three Quarter Baths' field. Used 'Year Renovated' in place of 'Effective Year Built' or similar.
+**Table X: Proposed CAMA Data Schema.** *CAMA data schema for initial phase of data standardization. Following agreement with CAMA vendors, these fields should be made available to VCGI for inclusion in a statewide CAMA dataset. Schema will be expanded to include additional fields over time.*
 
-**Heat source domains, per NEMRC (verify, potentially revise)**: Forced Air, Air Oil, Space Heater, Electric Radiator, Electric Baseboard, Hot Water Baseboard, WrmCool(?), Heat Pump, Exp Cool(?), Air Exchange, Gravity Furnace, Individual Unit, Hot Water Radiator.
+**Proposed heat source domains, per NEMRC**: Forced Air, Air Oil, Space Heater, Electric Radiator, Electric Baseboard, Hot Water Baseboard, WrmCool, Heat Pump, Exp Cool, Air Exchange, Gravity Furnace, Individual Unit, Hot Water Radiator.
 
 **Unlanded code domains**: CO (condominium), CA (camp), MH (landed or unlanded mobile home), SA (ground mount solar array), WT (wind turbine)
 
@@ -209,7 +213,7 @@ All or most of these fields are present in the sample data/schema provided by th
 ![CAMA_Example_Patriot_01](https://github.com/user-attachments/assets/29202d0a-44a5-4630-a220-b13f4a6bb563)
 
 ![CAMA_Example_Patriot_02](https://github.com/user-attachments/assets/dfc4c324-d4d9-47f9-9d5d-73ad8f9e13ba)
-**Figure X:** *Caption text.*
+**Figure 3: Example of CAMA Data Sheet.** *CAMA data and documentation, as provided by AssessPro. Numerous fields exist beyond those in the initially proposed schema; fields available in the statewide dataset will expand over time using a phased approach.*
 
 ### 3.3.2 Implement Changes to Parcel Definition in CAMA Data
 
@@ -237,6 +241,8 @@ To improve the functionality of using stacked polygons to represent unlanded str
 | SA          | Ground-Mount Solar Arrays |
 | WT          | Wind Turbines             |
 
+**Table X: Unlanded Structure and Common Interest Parcels Prefix Codes.** *Prefix codes should be used to signify parcel type where stacked parcel geometry exists in the parcel polygons dataset.*
+
 3. While not the intended purpose, the SOURCENAME field in the parcel polygon layer can also be used to track prefix codes without the need to revise the schema. This is most applicable for mapping vendors who have already established workflows including conforming to the Vermont GIS Parcel Data Standard.
 
 4. Prefix codes can also be used to create GIS SPANs in the Intersection Table based on the type of unlanded structure or common interest parcel. The same two-letter system described above can be implemented followed by the town code (first three digits of the town SPAN) and a four-digit sequential numeric count (e.g., CO-003-0001, MH-003-0002, CO-003-0003, CO-003-0004, etc.).
@@ -252,13 +258,13 @@ Ideally, CAMA vendors will provide VCGI with access to a read-only, credentialed
 Following receipt of the updated CAMA data each month, VCGI will work to incorporate the fields listed in Section 3.2.1 in the [Parcel Viewer](https://experience.arcgis.com/experience/b5a5cc7663c84761a305f70b913e1a60) and [Geodata Portal](https://geodata.vermont.gov/). In the Parcel Viewer, users will be able to access CAMA data easily and in relation to existing parcel, Grand List, and Property Transfer data. The comprehensive, tabular CAMA dataset will be available publicly for download through the Geodata Portal. 
 
 ![Spatialized_Property_Transfers_Dash](https://github.com/user-attachments/assets/b72f62e8-953a-4c61-b342-721c17ee9414)
-**Figure X:** *Caption text.*
+**Figure 4: Dashboard Displaying Property Transfer Data.** *Parcels are the primary unit allowing for the spatial display of property transfer data, either via SPAN or property address. Viewing transfer data on a map reveals spatial patterns and allows convenient filtering and querying. The inclusion of CAMA data using a simliar method will further enhance the completeness and capabilities of statewide property data and subsequent analyses.*
 
 ![PTTRs_Primary_and_Secondary_Sales_2020-2024_v2](https://github.com/user-attachments/assets/4f9fe44a-5b02-4c1f-85f3-0bbd8a49a493)
-**Figure X:** *Caption text.*
+**Figure 5: Property Transfers of Primary and Secondary Homes.** *Patterns of ownership and building use are revealed when filtering property transfer data on price and primary or secondary homes. The availability of CAMA fields such as year built, unit count, or other building qualities would provide further insight into these data.*
 
 ![ParcelViewer_Survey_Library_Animation](https://github.com/user-attachments/assets/968d8e9f-b5c0-4702-82e0-8a22db989969)
-**Figure X:** *Caption text.*
+**Figure 6: Survey Data Available within the Parcel Viewer.** *Surveys listed in the [Vermont Land Survey Library](https://landsurvey.vermont.gov/) are included in the Parcel Viewer and linked to their relevant parcel for quick access. Parcels again are the primary unit linking multiple data sources and displaying information collectively.*
 
 ## 3.5 Example Statute Update
 
@@ -297,7 +303,7 @@ In Vermont there is no formally defined practice or requirement for the handling
 [Other states have attempted](#a41-example-statutes-in-other-states) to clarify treatment of rights-of-way in statute which may also be an option for Vermont. However, these examples are arguably not clear for all conditions, and may be legally and administratively burdensome to enact and enforce. Review of listed vs. mapped acreage of ROW-abutting parcels (see [recommendation 5](#recommendation-5-clarify-grand-list-vs-gis-acreage-guidance)), clear guidance within the Tax Department's Lister and Assessor Handbook, and [VCGI's reporting of parcel data submittals](https://maps.vcgi.vermont.gov/parcelstatus) that are out of compliance with the state data standard by mapping to road centerline should be adequate to address the relatively low frequency of this practice (see [appendix 4](#appendix-4-rights-of-way-mapping-and-taxation)).
 
 ![ROW_Zones_Diagram](https://github.com/user-attachments/assets/086078d4-7da8-496a-b4bb-3d380ca477f7)
-**Figure X:** *Caption text.*
+**Figure 7: Methods for Mapping Rights-of-Way.** *Mapping of ROWs may vary depending on road type. Recommended guidance is that all parcels be mapped to the edge of the ROW regardless of road type or ownership (diagram A).*
 
 ### 4.2.1 Acreage in Right-of-Way
 
@@ -315,11 +321,11 @@ In addition, ROWs for the following municipalities are typically missing or inco
 
 ![ROW_acreage](https://github.com/user-attachments/assets/cd87c576-58a5-443e-8a3b-a31288008565)
 
-**Figure X:** *ROW acreage displayed by town, as summed for all parcels with a Property Type of ROW_Road, ROW_Rail, or ROW_Trail. Total statewide ROW acreage is 133,150 acres, average per town is 522 acres, maximum is 1,883 acres (Randolph), and minimum is 16 acres (Avery's Gore).*
+**Figure 8: Total Right-of-Way Acreage by Town.** *ROW acreage, as summed by town for all parcels with a Property Type of ROW_Road, ROW_Rail, or ROW_Trail. Total statewide ROW acreage is 133,150 acres, average per town is 522 acres, maximum is 1,883 acres (Randolph), and minimum is 16 acres (Avery's Gore).*
 
 ![ROW_zoom](https://github.com/user-attachments/assets/6c4da9a4-2798-4ad9-89b9-ee3a0a5ff5e4)
 
-**Figure X:** *Example of parcels with Property Type of ROW_Road (grey), ROW_Rail (red), and ROW_Trail (green) in Ferrisburgh.*
+**Figure 9: Rights-of-Way Types.** *Example of parcels with Property Type of ROW_Road (grey), ROW_Rail (red), and ROW_Trail (green) in Ferrisburgh.*
 
 ## 4.3 Implementation
 
@@ -347,7 +353,7 @@ In addition to acreage and resulting taxation associated with areas of property 
 ![Listed_Vs_Mapped_Acreage_Percent_Difference](https://github.com/user-attachments/assets/9af187d1-4f4f-4f22-b13a-8a84f47a2ed6)
 ![image](https://github.com/user-attachments/assets/d723529b-89de-43e8-915a-312fdfe6d9b6)
 
-**Figures X and Y:** *Visualized differences in listed acreage and GIS (drawn) acreage in Northfield, VT. The amount of percent difference is shown in five ranges and colors, as well as described in text on each parcel. [See an interactive map of these differences here.](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=e452fa5505644e12b1bf8b6308f7b2e8)*
+**Figure 10: Percent Difference Between Grand List Acreage and GIS Acreage.** *Visualized differences in listed acreage and GIS (drawn) acreage in Northfield, VT. The amount of percent difference is shown in five ranges and colors, as well as described in text on each parcel. [See an interactive map of these differences.](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=e452fa5505644e12b1bf8b6308f7b2e8)*
 
 ### 5.2.1 Discrepancies in Listed and Mapped Acreage
 
@@ -356,6 +362,8 @@ In addition to acreage and resulting taxation associated with areas of property 
 |**Listed Acreage** (2023 Grand List)          |5,609,102 ac              |
 |**Mapped Acreage** (statewide parcel dataset) |5,786,273 ac              |
 |                                              |*177,171 ac difference*   |
+
+**Table X: Statewide Discrepancy in Listed and Mapped Acreage.** *While some disagreement is expected, differences in listed and mapped acreage may warrant further investigation of Grand List recordings and/or mapping.*
 
 - 42,162 grand list records had no listed acreage
 - Mapped acreage was calculated for parcels only based on property type (PROPTYPE) field
@@ -396,7 +404,7 @@ Annual access to aerial imagery provides up-to-date, high-resolution visuals of 
 **Standardized Process:** Using consistent statewide imagery reduces reliance on multiple data sources, streamlining workflows, minimizing errors, and lowering overall costs.
 
 ![2023_15cm_SouthBurlingtonDev_close](https://github.com/user-attachments/assets/7b92eefb-6e1c-4239-be4f-fbb9f1b72f5d)
-**Figure X:** *Caption text.*
+**Figure 11: High Resolution Imagery to Capture Development.** *High resolution imagery could improve the efficiency with which assessments are performed while providing up-to-date information.*
 
 ### 6.3.3 Resolution, Frequency, and Types that Speed the Process
 
