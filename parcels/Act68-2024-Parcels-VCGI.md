@@ -90,11 +90,11 @@ VCGI tracks municipal parcel data maintenance and voluntary submittals and prese
 
 As of October 24, 2024:
 -	**90%** of towns are edited/updated by vendors or the town. 10% are edited/updated by VCGI (towns updated by VCGI are considered “not VT GIS Parcel Data Standard compliant”)
--	**10%** of submissions require edits to parcel topology (i.e., geometry) to address gaps and/or overlaps among parcels
+-	**10%** of submissions require edits to parcel geometry to address gaps and/or overlaps among parcels
 -	**50%** of submissions required edits that were already made for the previous submission  (i.e., repeated revisions)
 -	**70%** of submissions contain inactive parcels. Inactives exist for at least some towns that do not include them in their submissions
 -	**96%** of towns include and represent rights-of-way. For those that do not, some map parcels to road centerlines, others only include main ROWs or those in the town/village center, and others have gaps in the parcel data where ROWs should be
--	**24%** of submissions are fully compliant with the current parcel data standard. 26% are compliant with minor edits, 37% are compliant with major edits, and 13% are not compliant (see [submittal criteria](#232-submittal-quality-criteria))
+-	**24%** of submissions are fully compliant with the current parcel data standard. 26% are compliant with minor edits, 37% are compliant with major edits, and 13% are not compliant (see [Appendix 2.3: Submittal Quality Criteria](#a23-submittal-quality-criteria))
 -	**11%** of towns have a mapping vendor (to the best of VCGI's knowledge) but have not submitted an update since the original Parcel Project data (prior to 2020). These towns are currently classified as “fully compliant” despite having stale data.
 -	**12%** of submissions are/have been reviewed by towns prior to submittal; 64% have not, and 24% are unknown. Some vendors are working closely with towns as edits are being made (or edits are only being made at the direction of a town official), which may negate the need for a more formal review of the data prior to submission
 
