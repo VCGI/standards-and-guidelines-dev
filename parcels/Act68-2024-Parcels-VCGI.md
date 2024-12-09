@@ -529,6 +529,8 @@ In addition, Current Use parcels may only have a percentage of their acreage enr
 
 ## 11.1 Summary
 
+- Digital land records statewide would offer numerous benefits including integration with parcel data and potentially reduce the need for duplicative mapping needed by state initiatives
+
 ## 11.2 Justification
 Text.
 
