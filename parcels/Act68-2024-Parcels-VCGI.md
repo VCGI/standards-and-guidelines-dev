@@ -111,9 +111,8 @@ There are three models of parcel map maintenance to consider that represent addi
 3. State-led Maintenance
 
 ### 2.3.2 Enhanced Town-Led Maintenance
-**Enhanced town-led maintenance** would institute a per parcel payment as a financial incentive to assist towns with the cost of parcel mapping. Disbursement of this payment would be contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town. The amount of the payment would reflect a cost per parcel informed by current municipal maintenance, estimated to average $2.66 per parcel (see [appendix 2.4](#a24-funding-estimates)). The payment would be tallied by accounting only for those parcels that are changed in geometry since a town's last update. [Submittal quality criteria](#a23-submittal-quality-criteria) would be established and enforced to determine eligibility for funds.
-Eligibility
-submittal quality criteria
+**Enhanced town-led maintenance** would institute a per parcel payment as a financial incentive to assist towns with the cost of parcel mapping. Disbursement of this payment would be contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town. The amount of the payment would reflect a cost per parcel informed by current municipal maintenance, estimated to average $2.66 per parcel (see [appendix 2.4](#a24-funding-estimates)). The payment would be tallied by accounting only for those parcels that are changed in geometry since a town's last update. [Submittal quality criteria](#a23-submittal-quality-criteria) are established and would be enforced to determine eligibility for funds, with submittals that are not compliant deemed ineligible. Additional eligibility considerations include submittal deadlines, annual communication of intent by municipalities, and an option for towns to opt-out (see [Appendix 2.5 for more on eligibility](#a25-eligibility-for-per-parcel-payment)).
+
 contract guidance
 
 Pros
@@ -150,16 +149,6 @@ A financial incentive to assist [JURISDICTION] with the cost of parcel mapping t
 
 Other states have implemented similar contingent financial incentives to maintain foundational, local spatial data (Massachusetts, for example, [with their 911 addressing data](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download)). Assuming that municipalities remain responsible for and the authoritative source of land records, 
 [It is time to consider supporting Vermont municipalities in the upkeep of parcel data on which many State programs now depend.]
-
-### 2.3.2 Eligibility
-
-- VCGI will continue to accept and review parcel geometry updates on a rolling basis. A municipal official (or a contact from a municipality's mapping vendor) must send a standard-compliant parcel geometry update to VCGI by October 1st of a calendar year to be eligible to receive a financial incentive the following year
-- No more than one standard-compliant parcel geometry update per municipality will be accepted each calendar year
-- Parcel geometry updates will continued to be submitted to VCGI using the [Share Map Data](https://vcgi.vermont.gov/data-and-programs/share-map-data) form
-- VCGI should be notified if a municipality has no changes to report. A municipality that reports no changes will not be eligible to receive a financial incentive
-- Some municipalities may choose to “opt-out,” forgoing their eligibility in exchange for VCGI assisting in their parcel geometry update Municipalities that may be good candidates to opt-out include:
-    - Municipalities not currently updating their parcel geometry, contracting with a non-GIS vendor, or having "low confidence" in their ability to conduct parcel geometry updated internally
-    - Municipalities with a relatively small parcel count or relatively few parcel geometry updates
 
 ### 2.3.3 Considerations
 
@@ -929,6 +918,16 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
 |Windham      |493,362                   |$9,476,204,580         |*$19,207*                 |9%                |1.09                 |
 |Windsor      |604,359                   |$10,979,699,045        |*$18,168*                 |14%               |1.14                 |
 |**Average**  |                          |                       |**$20,976**               |                  |                     |
+
+### A2.5 Eligibility for Per Parcel Payment
+
+- VCGI will continue to accept and review parcel geometry updates on a rolling basis. A municipal official (or a contact from a municipality's mapping vendor) must send a standard-compliant parcel geometry update to VCGI by October 1st of a calendar year to be eligible to receive a financial incentive the following year
+- No more than one standard-compliant parcel geometry update per municipality will be accepted each calendar year
+- Parcel geometry updates will continued to be submitted to VCGI using the [Share Map Data](https://vcgi.vermont.gov/data-and-programs/share-map-data) form
+- VCGI should be notified if a municipality has no changes to report. A municipality that reports no changes will not be eligible to receive a financial incentive
+- Some municipalities may choose to “opt-out,” forgoing their eligibility in exchange for VCGI assisting in their parcel geometry update Municipalities that may be good candidates to opt-out include:
+    - Municipalities not currently updating their parcel geometry, contracting with a non-GIS vendor, or having "low confidence" in their ability to conduct parcel geometry updated internally
+    - Municipalities with a relatively small parcel count or relatively few parcel geometry updates
 
 ## Appendix 3: Implement Vermont CAMA Data Standard and Require Submittal to State Considerations
 
