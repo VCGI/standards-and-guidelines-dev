@@ -1004,11 +1004,11 @@ Building footprints  are often used to visually distinguish between unlanded str
 
 ![image](https://github.com/user-attachments/assets/2ff17158-461a-490d-8062-6c014960c6f0)
 
-**Figure X:** *Discrete Method Mapping of Condos | Source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)*
+**Figure 24: Discrete Method Mapping of Condos.** *The discrete method depicts multiple owners through building footprints; common land does not have a SPAN (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
 
 ![image](https://github.com/user-attachments/assets/b39db8ec-ef97-477d-b394-b303d2ff0c4d)
 
-**Figure X:** *Distributed Method of Mapping Condos | Source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)*
+**Figure 25: Distributed Method of Mapping Condos.** *The distributed method depicts multiple owners through building footprints; common land also has a SPAN (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
 
 Pros
 - Creates visual distinction between unlanded structures and common land
@@ -1024,13 +1024,13 @@ Stacked polygons use a standalone Intersection Table to relate multiple SPANs fr
 
 ![image](https://github.com/user-attachments/assets/959a5b13-4dd0-484c-b064-758ae657ee00)
 
-**Figure X:** *Relationship of Grand List SPANs and GIS (drawing) SPANs in Vermont Parcel Data | Source: VT Standardized Parcel Data*
+**Figure 26: Relationship Between GIS SPAN (Geometry) and Grand List SPAN.** *In Vermont parcel data, the stacked method is recommended. This method uses a placeholder GIS SPAN in the parcel geometry. In the Intersection Table, the GIS SPAN is listed for all corresponding Grand List SPANs at that parcel.*
 
 This creates identical polygons "stacked" on top of each other, which can be “flattened” to remove all but one polygon for each parcel for analytical purposes. Unlike the building footprints methods, there is no visual distinction between unlanded structures and the common land. Because of this, parcel geometry is simpler to maintain.
 
 ![image](https://github.com/user-attachments/assets/8da7e8ab-d3e0-4423-881a-1ce1e2a9d399)
 
-**Figure X:** *Stacked Method Mapping of Condos | Source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)*
+**Figure 27: Stacked Method Mapping of Condos.** *The stacked method depicts multiple owners through parcel stacking; there is no distinction between common land and building footprints (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
 
 Pros
 - Geometry is easier to maintain when compared to the building footprints methods
@@ -1046,7 +1046,7 @@ Parcel points are maintained by Dakota County in the State of Minnesota. This da
 
 ![image](https://github.com/user-attachments/assets/3e0e0b19-c8eb-48ad-922e-44bcfc481928)
 
-**Figure X:** *Parcel Points Method Mapping of Condos | Source: [Dakota County, Minnesota](https://gis.co.dakota.mn.us/DCGIS/)*
+**Figure 28: Parcel Points Method Mapping of Condos.** *While parcel points are not currently maintained or available in Vermont, at least one mapping vendor does manage them for parcels with multiple owners (source: [Dakota County, Minnesota](https://gis.co.dakota.mn.us/DCGIS/)).*
 
 Pros
 - Already practiced by some Vermont municipalities internally
@@ -1080,11 +1080,11 @@ A stacked polygon is a group of identical parcel features (polygons) stacked on 
 
 ![CommonOwnership_statewide](https://github.com/user-attachments/assets/2eecb05d-b610-4d0c-97e0-ab4c7a197e55)
 
-**Figure X:** *Common ownership parcels (stacked polygons) statewide.*
+**Figure 29: Common Ownership Parcels Statewide.** *Shaded areas represent all stacked parcels.*
 
 ![CommonOwnership_Brattleboro](https://github.com/user-attachments/assets/9580c23e-579e-41fe-aa55-b9fc13aa058b)
 
-**Figure X:** *Stacked parcels in Brattleboro that represent a mobile home park.*
+**Figure 30: Stacked Parcels in Brattleboro.** *An example of stacked parcels (shaded) indicating a mobile home park with over 200 unique Grand List SPANs.*
 
 ### A5.2 Acreage within State Boundary
 
@@ -1094,7 +1094,7 @@ A stacked polygon is a group of identical parcel features (polygons) stacked on 
 | Vermont   | 9,615      | 24,903  | 6,153,746  | 9,217     | 23,873  | 5,899,041  | 398        | 1,031   | 254,705 |
 |           |            |         | 100%       |           |         | 96%        |            |         | 4%      |
 
-**Table X:** *Source: [2022 TIGER/Line Geodatabase File.](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-geodatabase-file.2022.html) U.S. Census Bureau*
+**Table X: Statewide Total, Land, and Water Area.** *Areas calculated for the state of Vermont per U.S. Census Bureau's [2022 TIGER/Line Geodatabase File](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-geodatabase-file.2022.html).*
 
 Notes:
 1. The [NIST standard](http://www.nist.gov/system/files/documents/2023/01/30/appc-23-HB44.pdf) for converting square meters into square miles was used (1 square mile = 2,589,988.110336 square meters).
@@ -1102,4 +1102,4 @@ Notes:
 3. Area measurements are from the Census Bureau's master TIGER database. Land and water classifications reflect updates made to the TIGER database through August 2022. Values reflect the ALAND and AWATER fields. Water measurements include only perennial water. All other water (intermittent, glacier, marsh/swamp) is included in the table as part of land area calculations.
 
 ![Vermont Land and Water Area 02 Comp_1144px](https://github.com/user-attachments/assets/79b7d3cd-30c2-4238-bdde-57ac7de9957b)
-**Figure X:** *Vermont land and water areas as depicted using BNDHASH and NHDPlus HR input layers*
+**Figure 31: Vermont Land and Water Areas.** *Statewide land and water areas as depicted using BNDHASH and NHDPlus HR input layers.*
