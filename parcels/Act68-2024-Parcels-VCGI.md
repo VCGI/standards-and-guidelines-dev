@@ -1028,5 +1028,5 @@ Notes:
 2. Acres were calculated by multiplying square miles by 640, per conversion factors in the [NIST Handbook 44 (2023)](https://www.nist.gov/system/files/documents/2023/01/30/appc-23-HB44.pdf), Appendix C: General Tables of Units of Measurement.
 3. Area measurements are from the Census Bureau's master TIGER database. Land and water classifications reflect updates made to the TIGER database through August 2022. Values reflect the ALAND and AWATER fields. Water measurements include only perennial water. All other water (intermittent, glacier, marsh/swamp) is included in the table as part of land area calculations.
 
-![image](https://github.com/user-attachments/assets/c61cb466-6e03-46d7-83e9-ebda6adfc6c9)
+![Vermont Land and Water Area 02 Comp_1144px](https://github.com/user-attachments/assets/79b7d3cd-30c2-4238-bdde-57ac7de9957b)
 **Figure X:** *Vermont land and water areas as depicted using BNDHASH and NHDPlus HR input layers*
