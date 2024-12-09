@@ -21,7 +21,7 @@ This document outlines all recommendations for parcel mapping and data maintenan
 | [9. Modernize Current Use Map Standards and Submittals](#recommendation-9-modernize-current-use-map-standards-and-submittals)                                   |                    |             |                        | X                  |
 | [10. Consider Updating and Moving Parcel Program in VT Statute](#recommendation-10-consider-updating-and-moving-parcel-program-in-vt-statute)                           | X                  |             |                        |                    |
 | [11. Coordinate With Concurrent Efforts to Digitize Land Records](#recommendation-11-coordinate-with-concurrent-efforts-to-digitize-land-records)                         |                   |             |                        | X                   |
-| [12. Make Proposed Assessment Districts Consistent and Compatible with Existing Administrative Boundaries](#recommendation-12-make-proposed-assessment-districts-consistent-and-compatible-with-existing-administrative-boundaries)                         |                   |             | X                        |                    |
+| [12. Make Proposed Appraisal Districts Consistent and Compatible with Existing Administrative Boundaries](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries)                         |                   |             | X                        |                    |
 
 # Recommendation 1: Update Parcel Definition in Vermont Statute
 ## 1.1 Summary
@@ -104,13 +104,19 @@ Additional support for parcel data upkeep and quality improvements should be con
 
 ### 2.3.1 Three Models of Map Maintenance
 
-There are three models of parcel map maintenance to consider that represent additional support. They differ primarily in who is the responsible jurisdiction and/or institution for oversight and execution. These models are in addition to the current, town-based, voluntary-state-submittal approach, which represents no change (see [appendix 2.1](#a21-current-shared-responsibility-model-town-maintenance)).
+There are three models of parcel map maintenance to consider that represent additional support. They differ primarily in who is the responsible jurisdiction and/or institution for oversight and execution. They are in addition to the current, town-based, voluntary-state-submittal approach, which represents no change (see [appendix 2.1](#a21-current-shared-responsibility-model-town-maintenance)).
 
 1. Enhanced Town-led Maintenance via Per Parcel Payment
 2. Regional Appraisal District-led Maintenance
 3. State-led Maintenance
 
 **Enhanced town-led maintenance** would institute a per parcel payment as a financial incentive to assist towns with the cost of parcel mapping. 
+
+Pros
+
+Cons
+
+**Regional Appraisal District-led maintenance would be contingent on the creation of such districts as proposed in part 1 of this report and ideally, following existing county boundaries per [recommendation 12](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries).
 
 /////
 - Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town
@@ -508,7 +514,7 @@ Text.
 
 [H.512 (Act 171) of 2022 - An act relating to modernizing land records and notarial acts law](https://legislature.vermont.gov/bill/status/2022/H.512)
 
-# Recommendation 12: Make Proposed Assessment Districts Consistent and Compatible with Existing Administrative Boundaries
+# Recommendation 12: Make Proposed Appraisal Districts Consistent and Compatible with Existing Administrative Boundaries
 
 ## 12.1 Summary
 
