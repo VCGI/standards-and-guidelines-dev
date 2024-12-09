@@ -79,7 +79,7 @@ A full description of proposed changes is within [Appendix 1.7: Proposed Parcel 
 
 Vermont has 256 municipalities: 237 towns, 10 cities, 5 unincorporated towns, and 4 gores. Unlike other states with county government that often oversees the task, in Vermont individual municipalities are responsible for parcel mapping of taxable lands in their jurisdiction. Most towns budget to hire a GIS vendor to maintain their digital parcel data and depend on them to reflect any changes to parcel geometry since the town's last update. Frequency of geometry updates varies depending on the needs and resources of the town, with some updates performed annually and others completed every two to three years or more. Some towns remain without any digital parcel geometry maintenance. Town oversight of parcel mapping is typically the responsibility of its listers or assessors. Accuracy of taxation and identification of land-based and thus parcel-related trends suffer without a tight relationship between grand list and map maintenance.
 
-The [Statewide Property Parcel Program](https://vcgi.vermont.gov/data-and-programs/parcel-program) publishes municipal parcel map data joined to the annual statewide grand list in a uniform, digital format. The Program relies on towns voluntarily sharing updated parcel geometry with VCGI, typically via their vendor. These data are then reviewed and edited for data standard compliance and made publicly available by VCGI in a uniform, accessible way with [many capabilities](https://github.com/VCGI/documentation/blob/main/parcelviewer4/User_Guide.md). The data drive applications such as the [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/ParcelViewer/) that draws more than 500,000 unique views a year, and are offered as raw spatial data that sees more than 1 million unique views a year. Since 2020, the Statewide Property Parcel Program has been staffed by 2 FTE's at VCGI supported by the ADS Internal Service Fund, with aid from two other VCGI staff as needed and available.
+The [Statewide Property Parcel Program](https://vcgi.vermont.gov/data-and-programs/parcel-program) publishes municipal parcel map data joined to the annual statewide grand list in a uniform, digital format. The Program relies on towns voluntarily sharing updated parcel geometry with VCGI, typically via their vendor. These data are then reviewed and edited for data standard compliance and made publicly available by VCGI in a uniform, accessible way with [many capabilities](https://github.com/VCGI/documentation/blob/main/parcelviewer4/User_Guide.md). The data drive applications such as the [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/ParcelViewer/) that draws more than 500,000 unique views a year, and are offered as raw spatial data that sees more than 1 million unique views a year. Since 2020, the Statewide Property Parcel Program has been staffed by 2 FTE's at VCGI supported by the ADS Internal Service Fund, with aid from two other VCGI staff as needed and available (program manager and database administrator).
 
 Parcel data sourced in this voluntary way are now one of the State of Vermont's most-used spatial datasets, supporting state, regional, and local efforts in emergency management, natural resources policy and planning, permitting and compliance, and transportation. Parcel data also support efforts to address pressing issues such as flood response, resilience planning, and housing. All municipalities may use these data and applications to display their digital parcel maps free of charge. Some towns pay vendors for additional map services such as custom web applications and print map production. The current overarching incentive for municipal parcel data maintenance is for towns to ensure the most accurate, consistent, and timely data exist across all representations of who owns which lands where and with what details, be that in grand list tables or on maps that see high use.
 
@@ -100,30 +100,40 @@ As of October 24, 2024:
 
 ## 2.3 Design
 
-Additional support for parcel data upkeep and quality improvements should be contingent on data submittal to the State, consider Municipal maintenance practices and costs, be reflective of only those parcels that are changed (and thus need maintenance) since the last update, and potentially, account for cost differences by regional location and/or situation. Still, who ultimately should be responsible for parcel map data upkeep? That is the more fundamental question that Vermont will need to answer, particularly given the growing needs and expectations that are dependent on parcel-related data (e.g., grand list, property transfers, CAMA data, land records) and experience with the limitations of a town-based voluntary model after five years of operation.
+Who ultimately should be responsible for parcel map data upkeep? That is a fundamental question that Vermont will need to answer, particularly given the growing needs and expectations that are dependent on parcel-related data (e.g., grand list, property transfers, CAMA data, land records) and experience with the limitations of a town-based voluntary model after five years of operation.
 
 ### 2.3.1 Three Models of Map Maintenance
 
-There are three models of parcel map maintenance to consider that represent additional support, differing primarily in who is the responsible jurisdiction and/or institution for oversight and execution. They all represent support beyond the current, town-based, voluntary-state-submittal approach, which represents no change in practice (see [appendix 2.1](#a21-current-shared-responsibility-model-town-maintenance)).
+There are three models of parcel map maintenance to consider that represent additional support, differing primarily in who is the responsible jurisdiction and/or institution for oversight and execution. They all represent support beyond the current, town-based, voluntary-state-submittal approach, which represents no change in practice (see [Appendix 2.1: Current Shared Responsibility Model](#a21-current-shared-responsibility-model-town-maintenance)).
 
 1. Enhanced Town-led Maintenance via Per Parcel Payment
 2. Regional Appraisal District-led Maintenance
 3. State-led Maintenance
 
 ### 2.3.2 Enhanced Town-Led Maintenance
-**Enhanced town-led maintenance** would institute a per parcel payment as a financial incentive to assist towns with the cost of parcel mapping. Disbursement of this payment would be contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town. The amount of the payment would reflect a cost per parcel informed by current municipal maintenance, estimated to average $2.66 per parcel (see [appendix 2.4](#a24-funding-estimates)). The payment would be tallied by accounting only for those parcels that are changed in geometry since a town's last update. [Submittal quality criteria](#a23-submittal-quality-criteria) are established and would be enforced to determine eligibility for funds, with submittals that are not compliant deemed ineligible. Additional eligibility considerations include submittal deadlines, annual communication of intent by municipalities, and an option for towns to opt-out (see [Appendix 2.5 for more on eligibility](#a25-eligibility-for-per-parcel-payment)).
+**Enhanced town-led maintenance** would institute a per parcel payment as a financial incentive to assist towns with the cost of parcel mapping. Disbursement of this payment would be contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town. The amount of the payment would reflect a cost per parcel informed by current municipal maintenance, estimated to average $2.66 per parcel (see [Appendix 2.4: Funding Estimates](#a24-funding-estimates)). The payment would ideally be tallied by accounting only for those parcels that are changed in geometry since a town's last update, although there are challenges in such accounting (see [Appendix 2.6: Additional Considerations for Per Parcel Payment](#a26-additional-considerations-for-per-parcel-payment)). [Submittal quality criteria](#a23-submittal-quality-criteria) are established and would be enforced to determine eligibility for funds, with submittals that are not compliant deemed ineligible. Additional eligibility considerations include submittal deadlines, annual communication of intent by municipalities, and an option for towns to opt-out (see [Appendix 2.5 for more on eligibility](#a25-eligibility-for-per-parcel-payment)). An incentive is preferable to a submittal requirement as the latter may not be possible for some towns and would be challenging to enforce.
 
-contract guidance
+This model assumes that a financial incentive, when combined with the fact that standardized GIS parcel data exist statewide (albeit with varied recency), would be enough to enable the remaining 10-15% of towns without GIS parcel data maintenance to begin regular upkeep and improvement. Creating incentives to increase data maintenance and sharing was also a recommended consideration in the [2015 Vermont Statewide Digital Parcel Lifecycle & Maintenance Plan](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/VT_Parcel%20Data%20Lifecycle%20and%20Maintenance%20Plan_2015_FINAL.pdf):
 
-Pros
+> As implementation shifts into a maintenance stage, Vermont will want to pay close attention to challenges to compliance. While some impediments may be more attitudinal than logistical or economic, the state may want to consider creating incentives to comply.
 
-Cons
+Municipalities would be expected to continue to individually contract with and oversee the work of GIS mapping vendors in this model. New contract guidance could also be developed to ensure municipalities maintain quality data that is eligible of a per parcel payment (see [Recommendation 8: Develop and Offer Updated Parcel Contract Guidance](#recommendation-8-develop-and-offer-updated-parcel-contract-guidance)).
+
+| **Enhanced Town-Led Maintenance**                      |                                                                                                                                    |
+|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| **Pros**                                               | **Cons**                                                                                                                           |
+| Limited disturbance as extends current practices       | New payments to towns may still not be enough to get all of them to regularly maintain quality GIS parcel data and submit to state |
+| Compatible with potential Regional Appraisal Districts | Technical difficulties in determining accurate updated parcel counts given current maintenance methods                             |
+|                                                        | Administrative overhead in determining up-to-date fair payment amount and allocation of funds                                      |
+
+**Table X:** *Caption text.*
 
 ### 2.3.3 Regional Appraisal District-Led Maintenance
 **Regional Appraisal District-led maintenance** would be contingent on the creation of such districts as proposed in part 1 of this report and ideally, follow existing county boundaries per [recommendation 12](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries).
 
 vendors
 contracts / contract guidance
+Per parcel payments may be administered and normalized by proposed Regional Appraisal Districts
 
 Pros
 
@@ -138,31 +148,7 @@ Pros
 
 Cons
 
-/////
-- Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town
-- A payment should help compensate only for those parcels that are changed in geometry since the last update
-- Per parcel payments may be administered and normalized by proposed Regional Appraisal Districts
-
-A financial incentive to assist [JURISDICTION] with the cost of parcel mapping that is contingent on data standard-compliant parcel geometry submissions to VCGI could be designed to close this “participation gap” while improving data quality. An incentive is preferable to a submittal requirement as the latter may not be possible for some towns and could be challenging to enforce. An incentive, when combined with the fact that standardized GIS parcel data exist statewide (albeit with varied recency), may be enough to enable the remaining 10-15% of towns without GIS parcel data maintenance to begin upkeep and improvement. Creating incentives to increase data maintenance and sharing was also a recommended consideration in the [2015 Vermont Statewide Digital Parcel Lifecycle & Maintenance Plan](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/VT_Parcel%20Data%20Lifecycle%20and%20Maintenance%20Plan_2015_FINAL.pdf):
-
-> As implementation shifts into a maintenance stage, Vermont will want to pay close attention to challenges to compliance. While some impediments may be more attitudinal than logistical or economic, the state may want to consider creating incentives to comply.
-
-Other states have implemented similar contingent financial incentives to maintain foundational, local spatial data (Massachusetts, for example, [with their 911 addressing data](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download)). Assuming that municipalities remain responsible for and the authoritative source of land records, 
-[It is time to consider supporting Vermont municipalities in the upkeep of parcel data on which many State programs now depend.]
-
-### 2.3.3 Considerations
-
--	In addition to submittal compliance criteria, a timeframe component is needed when assessing a town's eligibility for a per parcel payment (likely annual). Some towns are technically “compliant” and are working with a vendor but have not submitted an update to VCGI since before 2020. For small towns that may not have any changes from year to year (and therefore do not submit an update), VCGI should still receive an annual confirmation that no changes or updates are needed to the existing data
--	Consider possible tiered system for payments to encourage compliance. For example: fully compliant or minor edit towns receive full amount, major edit town receive 50%, and non-compliant towns receive none
--	Based on vendor discussions, it is not necessarily practical or feasible for vendors to directly use parcel data published by VCGI (e.g., vendors are not downloading the latest data for a town from VCGI prior to making their next round of edits). Often vendors are maintaining additional fields and formats beyond what is submitted and used by VCGI. This is likely a factor leading to repeated edits with each submission. Consider a way to summarize and communicate submission issues or edits that VCGI makes so vendors are aware and can correct for their subsequent submission, ideally without creating significant extra work for either VCGI or vendor. 
-
-/////
-
-## 2.4 Example Statute Update
-
->32 V.S.A. § 5404(b) (b) Annually, on or before August 15, the clerk of a municipality, or the supervisor of an unorganized town or gore, shall transmit to the Director in an electronic or other format as prescribed by the Director: education and municipal grand list data, including exemption information and grand list abstracts; tax rates; and the total amount of taxes assessed in the town or unorganized town or gore...
-
-## 2.5 Implementation
+## 2.4 Implementation
 
 Text.
 
@@ -275,6 +261,9 @@ Following receipt of the updated CAMA data each month, VCGI will work to incorpo
 **Figure X:** *Caption text.*
 
 ## 3.5 Example Statute Update
+
+>32 V.S.A. § 5404(b) (b) Annually, on or before August 15, the clerk of a municipality, or the supervisor of an unorganized town or gore, shall transmit to the Director in an electronic or other format as prescribed by the Director: education and municipal grand list data, including exemption information and grand list abstracts; tax rates; and the total amount of taxes assessed in the town or unorganized town or gore...
+
 >[Section] "Assessor database" means the database of property information maintained by a municipalities' lister(s) or assessor(s); it is also referred to as a Computer Aided Mass Appraisal (CAMA) system or Computer Aided Mass Appraisal database
 
 >[Section] On or before [initial date], and not less than monthly thereafter, each municipality that possesses or contracts for services for the creation or maintenance of an assessor database shall transmit an extract of the database to [the State of Vermont]. The submitted database shall include, but need not be limited to information that uniquely identifies each property in the municipality, the description of each property, the size of each property, the year in which buildings were constructed on each property, and other fields described in the Vermont CAMA data standard.
@@ -935,6 +924,12 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
 - Some municipalities may choose to “opt-out,” forgoing their eligibility in exchange for VCGI assisting in their parcel geometry update Municipalities that may be good candidates to opt-out include:
     - Municipalities not currently updating their parcel geometry, contracting with a non-GIS vendor, or having "low confidence" in their ability to conduct parcel geometry updated internally
     - Municipalities with a relatively small parcel count or relatively few parcel geometry updates
+
+### A2.6 Additional Considerations for Per Parcel Payment
+
+-	In addition to submittal compliance criteria, a timeframe component is needed when assessing a town's eligibility for a per parcel payment (likely annual). Some towns are technically “compliant” and are working with a vendor but have not submitted an update to VCGI since before 2020. For small towns that may not have any changes from year to year (and therefore do not submit an update), VCGI should still receive an annual confirmation that no changes or updates are needed to the existing data
+-	Consider possible tiered system for payments to encourage compliance. For example: fully compliant or minor edit towns receive full amount, major edit town receive 50%, and non-compliant towns receive none
+-	Based on vendor discussions, it is not necessarily practical or feasible for vendors to directly use parcel data published by VCGI (e.g., vendors are not downloading the latest data for a town from VCGI prior to making their next round of edits). Often vendors are maintaining additional fields and formats beyond what is submitted and used by VCGI. This is likely a factor leading to repeated edits with each submission. Consider a way to summarize and communicate submission issues or edits that VCGI makes so vendors are aware and can correct for their subsequent submission, ideally without creating significant extra work for either VCGI or vendor. 
 
 ## Appendix 3: Implement Vermont CAMA Data Standard and Require Submittal to State Considerations
 
