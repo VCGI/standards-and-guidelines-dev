@@ -119,12 +119,13 @@ This model assumes that a financial incentive, when combined with the fact that 
 
 Municipalities would be expected to continue to individually contract with and oversee the work of GIS mapping vendors in this model. New contract guidance could also be developed to ensure municipalities
 
-| **Enhanced Town-Led Maintenance** |                                                                                                                                    |
-|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| **Pros**                          | **Cons**                                                                                                                           |
-|                                   | New payments to towns may still not be enough to get all of them to regularly maintain quality GIS parcel data and submit to state |
-|                                   | Technical difficulties in determining accurate updated parcel counts given current maintenance methods                             |
-|                                   | Administrative overhead in determining up-to-date fair payment amount and allocation of funds                                      |
+| **Enhanced Town-Led Maintenance**                      |                                                                                                                                    |
+|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| **Pros**                                               | **Cons**                                                                                                                           |
+| Limited disturbance as extends current practices       | New payments to towns may still not be enough to get all of them to regularly maintain quality GIS parcel data and submit to state |
+| Compatible with potential Regional Appraisal Districts | Technical difficulties in determining accurate updated parcel counts given current maintenance methods                             |
+|                                                        | Administrative overhead in determining up-to-date fair payment amount and allocation of funds                                      |
+**Table X:** *Caption text.*
 
 ### 2.3.3 Regional Appraisal District-Led Maintenance
 **Regional Appraisal District-led maintenance** would be contingent on the creation of such districts as proposed in part 1 of this report and ideally, follow existing county boundaries per [recommendation 12](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries).
