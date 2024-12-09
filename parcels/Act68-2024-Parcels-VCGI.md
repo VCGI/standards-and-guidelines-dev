@@ -141,6 +141,8 @@ Other states have implemented similar contingent financial incentives to maintai
 
 Text.
 
+Disclaimer: "the data on this cost sheet/CAMA data reference is based on the last inspection by the listers/assessor for the town. This information should not be used for financing, permitting or any other non-assessment related purposes. Data observed by the listers/assessors will not be adjusted to serve any financing or other purpose."
+
 # Recommendation 3: Implement Vermont CAMA Data Standard and Require Submittal to State
 ## 3.1 Summary
 - Create Computer Assisted Mass Appraisal (CAMA) data standard based on fields from current CAMA software providers and input from the Tax Department, with applicability to current and future CAMA providers operating in Vermont
