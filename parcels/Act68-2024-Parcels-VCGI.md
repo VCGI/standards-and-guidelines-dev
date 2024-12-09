@@ -129,7 +129,7 @@ Municipalities would be expected to continue to individually contract with and o
 **Table X:** *Caption text.*
 
 ### 2.3.3 Regional Appraisal District-Led Maintenance
-**Regional Appraisal District-led maintenance** would be contingent on the creation of such districts as proposed in part 1 of this report and ideally, follow existing county boundaries per [recommendation 12](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries).
+**Regional Appraisal District-led maintenance** would be contingent on the creation of such districts as proposed in part 1 of this report and ideally, follow existing county boundaries per [recommendation 12](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries). This model assumes that the same CAMA provider would be used throughout an appraisal district. 
 
 vendors
 contracts / contract guidance
