@@ -117,7 +117,7 @@ This model assumes that a financial incentive, when combined with the fact that 
 
 > As implementation shifts into a maintenance stage, Vermont will want to pay close attention to challenges to compliance. While some impediments may be more attitudinal than logistical or economic, the state may want to consider creating incentives to comply.
 
-Municipalities would be expected to continue to individually contract with and oversee the work of GIS mapping vendors in this model. New contract guidance could also be developed to ensure municipalities
+Municipalities would be expected to continue to individually contract with and oversee the work of GIS mapping vendors in this model. New contract guidance could also be developed to ensure municipalities maintain quality data that is eligible of a per parcel payment (see [Recommendation 8: Develop and Offer Updated Parcel Contract Guidance](#recommendation-8-develop-and-offer-updated-parcel-contract-guidance)).
 
 | **Enhanced Town-Led Maintenance**                      |                                                                                                                                    |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
