@@ -110,18 +110,21 @@ There are three models of parcel map maintenance to consider that represent addi
 2. Regional Appraisal District-led Maintenance
 3. State-led Maintenance
 
+### 2.3.2 Enhanced Town-Led Maintenance
 **Enhanced town-led maintenance** would institute a per parcel payment as a financial incentive to assist towns with the cost of parcel mapping. 
 
 Pros
 
 Cons
 
+### 2.3.3 Regional Appraisal District Maintenance
 **Regional Appraisal District-led maintenance** would be contingent on the creation of such districts as proposed in part 1 of this report and ideally, follow existing county boundaries per [recommendation 12](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries).
 
 Pros
 
 Cons
 
+### 2.3.4 State-led Maintenance
 **State-led maintenance** would involve . Prerequisites (CAMA data, digital land records)
 
 Pros
