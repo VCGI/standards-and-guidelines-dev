@@ -509,21 +509,21 @@ Text.
 
 # Additional Recommended Improvements
 
-## Submittals of Land Surveys
+## Improve Submittal of Land Surveys
 
 Text.
 
 ![SurveyLibraryStatus_Dec7_2024](https://github.com/user-attachments/assets/6f3e03ae-add5-4135-b70c-61bb4db4a356)
 **Figure X:** *Caption text.*
 
-## Surveying Municipal Boundaries
+## Survey Municipal Boundaries and/or Corner Points
 
 Text.
 
 ![MuniLibrary_Survey_2](https://github.com/user-attachments/assets/6e6ad6d9-711e-4593-9c96-9109075fb448)
 **Figure X:** *Caption text.*
 
-### A5.1 Acreage Not Counted (Gaps) and Double Counted (Overlaps)
+### Acreage Not Counted (Gaps) and Double Counted (Overlaps)
 ![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
 
 **Figure X:** *Example of gaps (red) and overlaps (blue) in parcel geometry at municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Black lines represent town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI.*
