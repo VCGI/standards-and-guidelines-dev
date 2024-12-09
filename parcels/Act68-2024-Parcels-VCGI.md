@@ -281,7 +281,14 @@ Following receipt of the updated CAMA data each month, VCGI will work to incorpo
 
 ## 3.6 Implementation
 
-Disclaimer: "the data on this cost sheet/CAMA data reference is based on the last inspection by the listers/assessor for the town. This information should not be used for financing, permitting or any other non-assessment related purposes. Data observed by the listers/assessors will not be adjusted to serve any financing or other purpose."
+In coordination with the Department of Tax, VCGI will work with the current CAMA data vendors to establish work flows for providing and publishing the agreed-upon schema. CAMA vendors will be responsible for supplying the requested fields meeting standardized specifications (field length, content, data type, etc.) as either a read-only API (preferred), or as an extract of their data sent directly to VCGI. Regardless of method, data should be made available monthly. VCGI will be responsible for compiling data from all four vendors into a single database and performing any transformations needed to ensure data are standardized in format and content. VCGI will also make the dataset publicly through incorporation in the Parcel Viewer and for download via the Vermont Geodata Portal.
+
+As CAMA data become more publicly accessible, it will be important to be explicit about specific and intended uses. Namely, CAMA data should not be used for non-assessment purposes including financing. VCGI and the Department of Tax recommend the following disclaimer accompany CAMA data:
+
+>"the data on this cost sheet/CAMA data reference are based on the last inspection by the listers/assessor for the town. This information should not be used for financing, permitting, or any other non-assessment related purposes. Data observed by the listers/assessors will not be adjusted to serve any financing or other purpose."
+
+Timing between an update to a property's CAMA data and availability in statewide geospatial datasets would be approximately six to eight weeks, depending on data collection by listers/assessors, recording in CAMA software, monthly transfer to VCGI, and final data compilation, transformation, and publish. A similar workflow currently exists for [Vermont Property Transfers](https://vcgi.vermont.gov/data-release/vermont-property-transfers-now-available-spatial-data), which include a weekly extract of property transfer data as provided publicly by the Department of Tax. Under this model, 70% of property transfers appear in geospatial datasets within four to five weeks of their closing date. 
+
 
 # Recommendation 4: Clarify Right-of-Way Mapping for Tax Purposes
 
