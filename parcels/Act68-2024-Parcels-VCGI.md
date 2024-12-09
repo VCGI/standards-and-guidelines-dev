@@ -18,7 +18,7 @@ This document outlines all recommendations for parcel mapping and data maintenan
 | [6. Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract](#recommendation-6-acquire-and-publish-annual-high-resolution-imagery-and-offer-buy-up-imagery-contract) |                    |             | X                      | X                  |
 | [7. Pilot Remotely-Sensed Tools to Support Appraisals](#recommendation-7-pilot-remotely-sensed-tools-to-support-appraisals)                                    |                    |             |                        | X                  |
 | [8. Develop and Offer Updated Parcel Contract Guidance](#recommendation-8-develop-and-offer-updated-parcel-contract-guidance)                  |                    |             | X                      | X                  |
-| [9. Modernize Current Use Map Standards and Submittals](#recommendation-9-modernize-current-use-map-standards-and-submittals)                                   |                    |             |                        | X                  |
+| [9. Modernize Current Use Map Standards, Submittals, and Access](#recommendation-9-modernize-current-use-map-standards-submittals-and-access)                                   |                    |             |                        | X                  |
 | [10. Consider Updating and Moving Parcel Program in VT Statute](#recommendation-10-consider-updating-and-moving-parcel-program-in-vt-statute)                           | X                  |             |                        |                    |
 | [11. Coordinate With Concurrent Efforts to Digitize Land Records](#recommendation-11-coordinate-with-concurrent-efforts-to-digitize-land-records)                         |                   |             |                        | X                   |
 | [12. Make Proposed Appraisal Districts Consistent and Compatible with Existing Administrative Boundaries](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries)                         |                   |             | X                        |                    |
@@ -479,10 +479,15 @@ Text.
 
 ## 8.3 Implementation
 
-# Recommendation 9: Modernize Current Use Map Standards and Submittals
+# Recommendation 9: Modernize Current Use Map Standards, Submittals, and Access
 
 ## 9.1 Summary
 
+- Recent changes in grand list maintenance via the Vermont Property Information Exchange (VTPIE) have improved internal data organization and access to current use information
+- There is no modern, accessible public-facing means of digitally entering the mapped extents of lands submitted to be enrolled in current use, nor os there a way to depict the specific extent of all currently enrolled areas as a digital map layer
+- Many historical 
+- digitization (could be aided by records digitization)
+compatible with other state efforts at records digitization
 ## 9.2 Justification
 
 ### 9.2.1 Lands in Current Use
@@ -961,7 +966,7 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
 
 -	In addition to submittal compliance criteria, a timeframe component is needed when assessing a town's eligibility for a per parcel payment (likely annual). Some towns are technically “compliant” and are working with a vendor but have not submitted an update to VCGI since before 2020. For small towns that may not have any changes from year to year (and therefore do not submit an update), VCGI should still receive an annual confirmation that no changes or updates are needed to the existing data
 -	Consider possible tiered system for payments to encourage compliance. For example: fully compliant or minor edit towns receive full amount, major edit town receive 50%, and non-compliant towns receive none
--	Based on vendor discussions, it is not necessarily practical or feasible for vendors to directly use parcel data published by VCGI (e.g., vendors are not downloading the latest data for a town from VCGI prior to making their next round of edits). Often vendors are maintaining additional fields and formats beyond what is submitted and used by VCGI. This is likely a factor leading to repeated edits with each submission. Consider a way to summarize and communicate submission issues or edits that VCGI makes so vendors are aware and can correct for their subsequent submission, ideally without creating significant extra work for either VCGI or vendor. 
+-	Based on discussions with vendors in 2024, it is not necessarily practical or feasible for vendors to directly use parcel data published by VCGI (e.g., vendors are not downloading the latest data for a town from VCGI prior to making their next round of edits). Often vendors are maintaining additional fields and formats beyond what is submitted and used by VCGI following the existing VT GIS Parcel Data Standard. This is likely a factor leading to repeated edits with each submission. Consider a way to summarize and communicate submission issues or edits that VCGI makes so vendors are aware and can correct for their subsequent submission, ideally without creating significant extra work for either VCGI or vendor. In addition or alternatively, VCGI should work with vendors to potentially update the current VT GIS Parcel Data Standard to be compatible with existing workflows.
 
 ## Appendix 3: Implement Vermont CAMA Data Standard and Require Submittal to State Considerations
 
