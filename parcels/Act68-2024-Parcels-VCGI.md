@@ -100,7 +100,7 @@ As of October 24, 2024:
 
 ## 2.3 Design
 
-Additional support for parcel data upkeep and quality improvements that is contingent on data submittal to the State should consider Municipal maintenance practices and costs, be reflective of only those parcels that are changed (and thus need maintenance) since the last update, and potentially, account for cost differences by regional location and/or situation. Who should ultimately be responsible for parcel map data maintenance? That is the more fundamental question that Vermont will need to answer, particularly given the growing needs and expectations that are dependent on parcel-related data (e.g., grand list, property transfers, CAMA data, land records) and experience with the limitations of a town-based voluntary model after five years of operation.
+Additional support for parcel data upkeep and quality improvements that is contingent on data submittal to the State should consider Municipal maintenance practices and costs, be reflective of only those parcels that are changed (and thus need maintenance) since the last update, and potentially, account for cost differences by regional location and/or situation. Still, who ultimately should be responsible for parcel map data maintenance? That is the more fundamental question that Vermont will need to answer, particularly given the growing needs and expectations that are dependent on parcel-related data (e.g., grand list, property transfers, CAMA data, land records) and experience with the limitations of a town-based voluntary model after five years of operation.
 
 ### 2.3.1 Three Models of Map Maintenance
 
