@@ -104,8 +104,13 @@ Additional support for parcel data upkeep and quality improvements that is conti
 
 ### 2.3.1 Three Models of Map Maintenance
 
-There are three models of parcel map maintenance to consider that represent additional support. They differ primarily in who is the responsible jurisdiction and/or institution for oversight and execution. These three models to consider are in addition to the current, town-based voluntary-state-submittal model, which represents no change (see [appendix 2.1](#a21-current-shared-responsibility-model-town-maintenance)).
+There are three models of parcel map maintenance to consider that represent additional support. They differ primarily in who is the responsible jurisdiction and/or institution for oversight and execution. These models are in addition to the current, town-based, voluntary-state-submittal approach, which represents no change (see [appendix 2.1](#a21-current-shared-responsibility-model-town-maintenance)).
 
+1. Enhanced Town-led Maintenance via Per Parcel Payment
+2. Regional Appraisal District-led Maintenance
+3. State-led Maintenance
+
+**Enhanced town-led maintenance** would institute a per parcel payment as a financial incentive to assist towns with the cost of parcel mapping. 
 
 /////
 - Make disbursement of this per parcel payment to municipalities contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, maximum payment once per year per town
