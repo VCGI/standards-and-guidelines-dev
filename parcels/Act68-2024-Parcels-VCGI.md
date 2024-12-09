@@ -483,10 +483,9 @@ Text.
 ## 9.1 Summary
 
 - Recent changes in grand list maintenance via the Vermont Property Information Exchange (VTPIE) have improved internal data organization and access to current use information
-- There is no modern, accessible public-facing means of digitally entering the mapped extents of lands submitted to be enrolled in current use, nor os there a way to depict the specific extent of all currently enrolled areas as a digital map layer
-- Many historical 
-- digitization (could be aided by records digitization)
-compatible with other state efforts at records digitization
+- There is no accessible public-facing means of digitally entering the mapped extents of lands to be considered for current use enrollment, nor is there a way to depict the specific extent of all currently enrolled areas as a statewide digital map layer
+- Historical, analog map documents associated with enrolled lands could benefit from other records digitization efforts
+
 ## 9.2 Justification
 
 ### 9.2.1 Lands in Current Use
