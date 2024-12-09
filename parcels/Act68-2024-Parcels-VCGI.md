@@ -100,7 +100,7 @@ As of October 24, 2024:
 
 ## 2.3 Design
 
-The design of support for parcel data upkeep and quality improvements that is contingent on data submittal to the State should consider Municipal maintenance practices and costs, be reflective of only those parcels that are changed (and thus need maintenance) since the last update, and potentially, account for cost differences by regional location and/or situation. However, a more fundamental question is: who should ultimately be responsible for parcel map data 
+The design of support for parcel data upkeep and quality improvements that is contingent on data submittal to the State should consider Municipal maintenance practices and costs, be reflective of only those parcels that are changed (and thus need maintenance) since the last update, and potentially, account for cost differences by regional location and/or situation. However, a more fundamental question is: who should ultimately be responsible for parcel map data maintenance given growing needs and expectations that are dependent on parcel-related data (e.g., grand list, property transfers, CAMA data, land records) and experience with the limitations of a town-based voluntary model after five years of operation?
 
 ### 2.3.1 Three Models of Map Maintenance
 
@@ -115,7 +115,7 @@ A financial incentive to assist [JURISDICTION] with the cost of parcel mapping t
 Other states have implemented similar contingent financial incentives to maintain foundational, local spatial data (Massachusetts, for example, [with their 911 addressing data](https://www.mass.gov/doc/standard-for-digital-parcels-and-related-data-sets-version-3/download)). Assuming that municipalities remain responsible for and the authoritative source of land records, 
 [It is time to consider supporting Vermont municipalities in the upkeep of parcel data on which many State programs now depend.]
 
-### 2.3.1 Eligibility
+### 2.3.2 Support Eligibility
 
 - VCGI will continue to accept and review parcel geometry updates on a rolling basis. A municipal official (or a contact from a municipality's mapping vendor) must send a standard-compliant parcel geometry update to VCGI by October 1st of a calendar year to be eligible to receive a financial incentive the following year
 - No more than one standard-compliant parcel geometry update per municipality will be accepted each calendar year
@@ -125,11 +125,8 @@ Other states have implemented similar contingent financial incentives to maintai
     - Municipalities not currently updating their parcel geometry, contracting with a non-GIS vendor, or having "low confidence" in their ability to conduct parcel geometry updated internally
     - Municipalities with a relatively small parcel count or relatively few parcel geometry updates
 
-### 2.3.3 Communication and Timing
+### 2.3.3 Considerations
 
-Text.
-
-### 2.3.5 Considerations
 -	In addition to submittal compliance criteria, a timeframe component is needed when assessing a town's eligibility for a per parcel payment (likely annual). Some towns are technically “compliant” and are working with a vendor but have not submitted an update to VCGI since before 2020. For small towns that may not have any changes from year to year (and therefore do not submit an update), VCGI should still receive an annual confirmation that no changes or updates are needed to the existing data
 -	Consider possible tiered system for payments to encourage compliance. For example: fully compliant or minor edit towns receive full amount, major edit town receive 50%, and non-compliant towns receive none
 -	Based on vendor discussions, it is not necessarily practical or feasible for vendors to directly use parcel data published by VCGI (e.g., vendors are not downloading the latest data for a town from VCGI prior to making their next round of edits). Often vendors are maintaining additional fields and formats beyond what is submitted and used by VCGI. This is likely a factor leading to repeated edits with each submission. Consider a way to summarize and communicate submission issues or edits that VCGI makes so vendors are aware and can correct for their subsequent submission, ideally without creating significant extra work for either VCGI or vendor. 
