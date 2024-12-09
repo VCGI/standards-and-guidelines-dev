@@ -135,7 +135,7 @@ Other states have implemented similar contingent financial incentives to maintai
 
 ## 2.4 Example Statute Update
 
-Text.
+>32 V.S.A. § 5404(b) (b) Annually, on or before August 15, the clerk of a municipality, or the supervisor of an unorganized town or gore, shall transmit to the Director in an electronic or other format as prescribed by the Director: education and municipal grand list data, including exemption information and grand list abstracts; tax rates; and the total amount of taxes assessed in the town or unorganized town or gore...
 
 ## 2.5 Implementation
 
