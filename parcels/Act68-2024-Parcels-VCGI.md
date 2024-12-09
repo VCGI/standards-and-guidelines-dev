@@ -18,7 +18,7 @@ This document outlines all recommendations for parcel mapping and data maintenan
 | [6. Acquire and Publish Annual High Resolution Imagery and Offer Buy-Up Imagery Contract](#recommendation-6-acquire-and-publish-annual-high-resolution-imagery-and-offer-buy-up-imagery-contract) |                    |             | X                      | X                  |
 | [7. Pilot Remotely-Sensed Tools to Support Appraisals](#recommendation-7-pilot-remotely-sensed-tools-to-support-appraisals)                                    |                    |             |                        | X                  |
 | [8. Develop and Offer Updated Parcel Contract Guidance](#recommendation-8-develop-and-offer-updated-parcel-contract-guidance)                  |                    |             | X                      | X                  |
-| [9. Modernize Current Use Map Standards and Submittals](#recommendation-9-modernize-current-use-map-standards-and-submittals)                                   |                    |             |                        | X                  |
+| [9. Modernize Current Use Map Standards, Submittals, and Access](#recommendation-9-modernize-current-use-map-standards-submittals-and-access)                                   |                    |             |                        | X                  |
 | [10. Consider Updating and Moving Parcel Program in VT Statute](#recommendation-10-consider-updating-and-moving-parcel-program-in-vt-statute)                           | X                  |             |                        |                    |
 | [11. Coordinate With Concurrent Efforts to Digitize Land Records](#recommendation-11-coordinate-with-concurrent-efforts-to-digitize-land-records)                         |                   |             |                        | X                   |
 | [12. Make Proposed Appraisal Districts Consistent and Compatible with Existing Administrative Boundaries](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries)                         |                   |             | X                        |                    |
@@ -478,12 +478,14 @@ Text.
 
 ## 8.3 Implementation
 
-# Recommendation 9: Modernize Current Use Map Standards and Submittals
+# Recommendation 9: Modernize Current Use Map Standards, Submittals, and Access
 
 ## 9.1 Summary
 
 - Recent changes in grand list maintenance via the Vermont Property Information Exchange (VTPIE) have improved internal data organization and access to current use information
-- There is no modern, accessible public-facing means of accurante current use extents of lands enrolled
+- There is no modern, accessible public-facing means of digitally entering the mapped extents of lands submitted to be enrolled in current use, nor accurante current use extents of lands enrolled
+
+- digitization (could be aided by records digitization)
 
 ## 9.2 Justification
 
