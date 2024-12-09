@@ -141,8 +141,6 @@ Other states have implemented similar contingent financial incentives to maintai
 
 Text.
 
-Disclaimer: "the data on this cost sheet/CAMA data reference is based on the last inspection by the listers/assessor for the town. This information should not be used for financing, permitting or any other non-assessment related purposes. Data observed by the listers/assessors will not be adjusted to serve any financing or other purpose."
-
 # Recommendation 3: Implement Vermont CAMA Data Standard and Require Submittal to State
 ## 3.1 Summary
 - Create Computer Assisted Mass Appraisal (CAMA) data standard based on fields from current CAMA software providers and input from the Tax Department, with applicability to current and future CAMA providers operating in Vermont
@@ -257,6 +255,8 @@ Following receipt of the updated CAMA data each month, VCGI will work to incorpo
 >[Section] On or before [initial date], and not less than monthly thereafter, each municipality that possesses or contracts for services for the creation or maintenance of an assessor database shall transmit an extract of the database to [the State of Vermont]. The submitted database shall include, but need not be limited to information that uniquely identifies each property in the municipality, the description of each property, the size of each property, the year in which buildings were constructed on each property, and other fields described in the Vermont CAMA data standard.
 
 ## 3.6 Implementation
+
+Disclaimer: "the data on this cost sheet/CAMA data reference is based on the last inspection by the listers/assessor for the town. This information should not be used for financing, permitting or any other non-assessment related purposes. Data observed by the listers/assessors will not be adjusted to serve any financing or other purpose."
 
 # Recommendation 4: Clarify Right-of-Way Mapping for Tax Purposes
 
