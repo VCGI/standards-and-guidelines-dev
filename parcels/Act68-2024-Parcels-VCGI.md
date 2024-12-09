@@ -125,6 +125,7 @@ Municipalities would be expected to continue to individually contract with and o
 | Limited disturbance as extends current practices       | New payments to towns may still not be enough to get all of them to regularly maintain quality GIS parcel data and submit to state |
 | Compatible with potential Regional Appraisal Districts | Technical difficulties in determining accurate updated parcel counts given current maintenance methods                             |
 |                                                        | Administrative overhead in determining up-to-date fair payment amount and allocation of funds                                      |
+|                                                        | Source of recurring funds is undetermined                                                                                          |
 
 **Table X:** *Caption text.*
 
