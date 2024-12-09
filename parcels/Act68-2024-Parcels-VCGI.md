@@ -425,15 +425,15 @@ Key characteristics of oblique imagery include:
 
 ![Obliques_01a_KY_From_Above](https://github.com/user-attachments/assets/6bc4a26b-3984-4b4c-9538-72860a1953ba)
 ![Obliques_01b_KY_From_Above](https://github.com/user-attachments/assets/a6a2951d-62ef-4690-8d07-6204dd7c15bf)
-**Figure X:** *Caption text.*
+**Figure 12: Oblique Imagery.** *Screenshots from a viewer show oblique imagery with possible measurements and identifiable features for properties in Kentucky. The imagery is publicly available [here](https://explore.kyfromabove.ky.gov/?ll=36.738774,-83.737983) (Color_6052_19796, Right_6053_24171, Fwd_6052_19790, Left_6050_12120, and Bwd_6052_19804).*
 
-Image source: Color_6052_19796,Right_6053_24171,Fwd_6052_19790,Left_6050_12120,Bwd_6052_19804, [Link](https://explore.kyfromabove.ky.gov/?ll=36.738774,-83.737983)
+
 
 ## 6.3 Implementation
 
-The Vermont Mapping Program (VMP), was established in 1968 under the Department of Taxes to collect aerial imagery to support tax equity and operational efficiency. Over the years, the program evolved to transition to digital photography in the 1990s, color in the 2000s, as well as a move toward higher resolution and frequency. The program is now managed by the Vermont Center for Geographic Information, a part of the Agency of Digital Services (10 V.S.A. § 123), and Vermont’s aerial imagery is accessed in web applications by hundreds of thousands of individuals every year. 
+The Vermont Mapping Program (VMP), was established in 1968 under the Department of Taxes to collect aerial imagery to support tax equity and operational efficiency. Over the years, the program evolved to transition to digital photography in the 1990s, color in the 2000s, as well as a move toward higher resolution and frequency. The program is now managed by the Vermont Center for Geographic Information, a part of the Agency of Digital Services (10 V.S.A. § 123), and Vermont's aerial imagery is accessed in web applications by hundreds of thousands of individuals every year. 
 
-The change to annual statewide collections and 15cm leaf-off imagery every two years is likely to be implemented by the state’s existing imagery program, managed by ADS, beginning in the Spring of 2026. A 2023 survey of users expressed a strong need and the interagency imagery advisory group has recommended these specifications. In terms of leaf-off imagery, the change would represent a four-fold increase in resolution and double the collection frequency. The cost of the resolution and frequency upgrade is estimated to be approximately double the existing base program budget, which has remained the same for over two decades at $125k a year.  
+The change to annual statewide collections and 15cm leaf-off imagery every two years is likely to be implemented by the state's existing imagery program, managed by ADS, beginning in the Spring of 2026. A 2023 survey of users expressed a strong need and the interagency imagery advisory group has recommended these specifications. In terms of leaf-off imagery, the change would represent a four-fold increase in resolution and double the collection frequency. The cost of the resolution and frequency upgrade is estimated to be approximately double the existing base program budget, which has remained the same for over two decades at $125k a year.  
 
 # Recommendation 7: Pilot Remotely-Sensed Tools to Support Appraisals
 
@@ -457,13 +457,14 @@ Recent advancements in technology have enabled:
 **Error Reduction:** Automated systems minimize human error and bias, ensuring consistent application of appraisal standards across properties.
 
 ![Automated_Detection_01_Vexcel](https://github.com/user-attachments/assets/1c037e71-e185-4eaf-a64f-e4319b09e023)
-**Figure X:** *Caption text.*
+**Figure 13: Automated Change Detection.** *AI algorithms can assess imagery to detect new construction and existing construction both with and without changes over time.*
 
 ![Automated_Attribute_01_Vexcel](https://github.com/user-attachments/assets/470fd5d9-8841-46fe-aef8-8be757c82d36)
-**Figure X:** *Caption text.*
+**Figure 14: Detection of Specified Attributes.** *Using machine learning, models can detect the presence of solar panels on a roof in Texas. The ability to detect certain features will enhance valuation accuracy.*
 
 ![Automated_Id_Examples_Vexcel](https://github.com/user-attachments/assets/5d8e1d54-0d44-42ee-afe2-532a7ef9cc25)
-**Figure X:** *Caption text.*
+
+**Figure 15: Summarized Building Attributes.** *In examples from Arizona and Florida, the presence or absence of property features and measurements are quickly assessed and provided.*
 
 ## 7.3 Implementation
 
@@ -490,12 +491,14 @@ Text.
 
 ### 9.2.1 Lands in Current Use
 
-![2023_CurrentUse](https://github.com/user-attachments/assets/4a0bf7fd-a32d-4217-9f63-b23782bb5f56)
-**Figure X:** *Parcels enrolled in Current Use statewide.*
-
 In 2023 over 19,000 parcels were enrolled in Current Use, totaling over 2.5 million acres statewide. [Explore parcels enrolled in Current Use](https://arcg.is/1vXL4u1).
 
 In addition, Current Use parcels may only have a percentage of their acreage enrolled. The statewide average enrollment is 92.5%, with 75% of parcels between 92-100%.
+
+![2023_CurrentUse](https://github.com/user-attachments/assets/4a0bf7fd-a32d-4217-9f63-b23782bb5f56)
+**Figure 16: Parcels Enrolled in Current Use.** *Shaded parcels are enrolled in the Current Use Program as of 2023 (left). A parcel may be fully or partially enrolled (right).*
+
+
 
 ## 9.3 Implementation
 
@@ -525,7 +528,7 @@ In addition, Current Use parcels may only have a percentage of their acreage enr
 Text.
 
 ![ProtectedLands_Protection_Status_Jurisdiction_Access](https://github.com/user-attachments/assets/eb691607-3da6-4ed5-9057-e34acfbc0bcd)
-**Figure X:** *Caption text.*
+**Figure 17: Protected Lands.** *Protected lands in Vermont, classified by Jurisdiction (top left), Public Access (top right), Primary Protection type (lower left), and GAP Status (lower right).*
 
 ## 11.3 Implementation
 
@@ -549,19 +552,19 @@ Text.
 Text.
 
 ![SurveyLibraryStatus_Dec7_2024](https://github.com/user-attachments/assets/6f3e03ae-add5-4135-b70c-61bb4db4a356)
-**Figure X:** *Caption text.*
+**Figure 18: Statistics from the Vermont Land Survey Library.** *Land surveyors are responsible for submitted new surveys to the Land Survey Library. Information about surveys including type, submittal date, survey year, town, and surveyor are tracked. These data can help assess patterns and completeness when compared to property transfers and new Grand List records, as well as between geographical areas.*
 
 ## Survey Municipal Boundaries and/or Corner Points
 
 Text.
 
 ![MuniLibrary_Survey_2](https://github.com/user-attachments/assets/6e6ad6d9-711e-4593-9c96-9109075fb448)
-**Figure X:** *Caption text.*
+**Figure 19: Survey of Town Line Between Underhill and Westford.** *Town boundaries are not necessarily officially surveyed in many parts of the state. The Land Survey Library includes a specific designation for surveyors to indicate whether the survey is a municipal boundary. Ideally all town boundaries will be officially surveyed in time.*
 
 ### Acreage Not Counted (Gaps) and Double Counted (Overlaps)
 ![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
 
-**Figure X:** *Example of gaps (red) and overlaps (blue) in parcel geometry at municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Black lines represent town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI.*
+**Figure 20: Gaps and Overlaps Between Municipal Boundaries.** *Example of gaps (red) and overlaps (blue) in parcel geometry at municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Black lines represent town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI.*
 
 # Appendices
 
@@ -602,12 +605,14 @@ Depicted visually, a contiguous parcel definition means that the two abutting pa
 
 ![image](https://github.com/user-attachments/assets/239c3a7e-e6f5-44cd-bb89-e8768e81a1da)
 
+**Figure 21: Contiguous Parcel Schematic.** *In the current parcel dataset, abutting parcels with the same ownership are considered to be a single parcel.*
+
 One of the individual parts is to be considered an "inactive" parcel, but this is not uniformly tracked across towns. The other part is to be considered "active", but its status is also not tracked uniformly across towns. These result in data incompleteness that impact analysis as well as long-term change tracking.
 
 #### A1.3.2 Separate Mapped Unit, Defined by Practice
 
 Example:
-> A separately assessed lot or piece of real property - *New York State Property tax and assessment administration definitions / [guidance](https://www.tax.ny.gov/research/property/equal/assessrpt/b_define.htm)*
+> A separately assessed lot or piece of real property - *New York State Property tax and assessment administration definitions / [guidance](https://www.tax.ny.gov/research/property/equal/assessrpt/b_define.htm)*
 
 #### A1.3.3 Separate Mapped Unit, Defined by Unique Identifier
 
@@ -645,7 +650,9 @@ VCGI currently publishes and maintains two statewide parcel layers: Active Parce
 |Purpose   |Primary statewide parcel layer. Groups contiguous separate lots by common ownership to single parcel polygon, conforming to current parcel definition. Included for all municipalities. |Secondary statewide parcel layer. Continues to group separate lots by common ownership to facilitate tax administration, but does not represent new parcel definition of separate and sellable lots. Included for all municipalities. |
 |Schema|- SPAN<br>- MAPID<br>- PROPTYPE<br>- YEAR<br>- TOWN<br>- SOURCENAME<br>- SOURCETYPE<br>- SOURCEDATE<br>- EDITMETHOD<br>- EDITOR<br>- EDITDATE<br>- MATCHSTAT<br>- EDITNOTE<br>- SHAPE_Length<br>- SHAPE_Area<br>|- ADMINSPAN<br>- MAPID<br>- PROPTYPE<br>- YEAR<br>- TOWN<br>- SOURCENAME<br>- SOURCETYPE<br>- SOURCEDATE<br>- EDITMETHOD<br>- EDITOR<br>- EDITDATE<br>- MATCHSTAT<br>- EDITNOTE<br>- SHAPE_Length<br>- SHAPE_Area|
 
-Schema change for the Administrative Parcels layer is renaming "SPAN" to "ADMINSPAN". The ADMINSPAN is the common identifier for all contiguous lots with the same ownership. SPANs for other individual lots within an Administrative Parcel are not included in this layer.
+
+
+**Table X: Active Parcels to Administrative Parcels.** *The schema change for the Administrative Parcels layer is renaming "SPAN" to "ADMINSPAN". The ADMINSPAN is the common identifier for all contiguous lots with the same ownership. SPANs for other individual lots within an Administrative Parcel are not included in this layer.*
 
 #### 2. From Inactive Parcels To Parcels
 
@@ -655,9 +662,11 @@ Schema change for the Administrative Parcels layer is renaming "SPAN" to "ADMINS
 |Purpose   |Secondary statewide parcel layer. Splits contiguous active parcels with common ownership into individual lots where applicable. Included for approximately two-thirds of municipalities. |Primary statewide parcel layer. Depicts parcels as separate and sellable lots or pieces of real property, regardless of contiguous ownership. Conforms to proposed new parcel definition. Included for all municipalities. |
 |Schema|- STATUS<br> - PARENTSPAN<br>- SPAN<br>- MAPID<br>- PROPTYPE<br>- YEAR<br>- TOWN<br>- SOURCENAME<br>- SOURCETYPE<br>- SOURCEDATE<br>- EDITMETHOD<br>- EDITOR<br>- EDITDATE<br>- MATCHSTAT<br>- EDITNOTE<br>- SHAPE_Length<br>- SHAPE_Area<br>|- ADMINSPAN<br>- SPAN<br>- MAPID<br>- PROPTYPE<br>- YEAR<br>- TOWN<br>- SOURCENAME<br>- SOURCETYPE<br>- SOURCEDATE<br>- EDITMETHOD<br>- EDITOR<br>- EDITDATE<br>- MATCHSTAT<br>- EDITNOTE<br>- SHAPE_Length<br>- SHAPE_Area|
 
-Schema changes for the Parcels layer are removing the "STATUS" field and renaming "PARENTSPAN" to "ADMINSPAN". The ADMINSPAN is the common identifier for all contiguous parcels under the same ownership; this field can contain duplicates and can be used to aggregate parcels to the Administrative Parcel layer. The SPAN is the unique identifier for each separate and sellable lot (i.e., a parcel under the proposed new definition); this field should not contain duplicates. In many cases, and all instances where a parcel has no neighbors with the same owner/tax bill, the ADMINSPAN and SPAN fields will be the same. 
+**Table X: Inactive Parcels to Parcels.** *The schema changes for the Parcels layer are removing the "STATUS" field and renaming "PARENTSPAN" to "ADMINSPAN". The ADMINSPAN is the common identifier for all contiguous parcels under the same ownership; this field can contain duplicates and can be used to aggregate parcels to the Administrative Parcel layer. The SPAN is the unique identifier for each separate and sellable lot (i.e., a parcel under the proposed new definition); this field should not contain duplicates. In many cases, and all instances where a parcel has no neighbors with the same owner/tax bill, the ADMINSPAN and SPAN fields will be the same.*
 
 ![AdminSPANs_SPANs](https://github.com/user-attachments/assets/cbb220fb-17ba-4a2a-bafb-6918cb4d5024)
+
+**Figure 22: Tabular and Spatial Representation of Proposed Parcel Layers.** *Under the new parcel definition, the Parcels layer will represent parcels as single sellable units, each with a unique SPAN. The ADMINSPAN field will include duplicates for any parcels with common ownership. The Administrative Parcels layer will combine any parcels with the same ADMINSPAN entries to a single geometry.*
 
 ### A1.5 Parcel Definitions and Interpretations in Existing Vermont Statute
 
@@ -808,7 +817,9 @@ The success of the Parcel Program as a voluntary-based initiative is due to the 
 
 ![image](https://github.com/user-attachments/assets/57368cfe-eb6c-47b7-99ad-66c17cb00e3d)
 
-This graphic representation of the Shared Responsibility model identifies one attribute: a municipality's ability to preform parcel geometry updates by contracting with a mapping vendor or doing updates internally. Municipalities unable to preform parcel geometry updates currently receive irregular updates by VCGI as land surveys that can be used to update a municipality's parcel geometry are submitted to the [Vermont Land Survey Library](https://landsurvey.vermont.gov/). While successful, the limitations of this model are now apparent after five years of operation (2020-2024).
+**Figure 23: Current Parcel Data Maintenance Practices.** *Depending on the needs and resources of a municipality, several types of parcel data maintenance practices exist.*
+
+The Shared Responsibility model identifies one attribute: a municipality's ability to preform parcel geometry updates by contracting with a mapping vendor or doing updates internally. Municipalities unable to perform parcel geometry updates currently receive irregular updates by VCGI as land surveys that can be used to update a municipality's parcel geometry are submitted to the [Vermont Land Survey Library](https://landsurvey.vermont.gov/). While successful, the limitations of this model are now apparent after five years of operation (2020-2024).
 
 ### A2.2 Funding During the Parcel Project (2017-2019)
 The Statewide Property Parcel Mapping Project leveraged both state and federal funds with 80 percent coming from the Federal Highway Administration and the remaining 20 percent from several state agencies and departments. The Vermont Agency of Transportation contracted with several mapping vendor to update or create digital parcel data for each Vermont municipality over a three-year period. Each mapping vendor was assigned to a municipality through a competitive bid process. 
@@ -816,6 +827,8 @@ The Statewide Property Parcel Mapping Project leveraged both state and federal f
 The average cost per parcel for the 67 municipalities completed during the first year of the Parcel Project in 2017 (excluding unincorporated towns and gores) was $6.85 which is slightly more than the national average of $5.20 reported 10 years prior by the National Research Council in *National Land Parcel Data: A Vision for the Future* (2007). The cost per parcel for municipalities completed during the first year of the Parcel Project (excluding unincorporated towns and gores) is depicted below.
 
 ![Parcel Project Year 1 Table](https://github.com/user-attachments/assets/cb114846-6a1b-45c1-89b4-f7a8833b9981)
+
+**Table X: Parcel Project Costs by Town for Year 1 (2017).** *Per parcel costs varied by town and by vendor during the first year of the Parcel Program.*
 
 ### A2.3 Submittal Quality Criteria
 
@@ -825,6 +838,8 @@ The average cost per parcel for the 67 municipalities completed during the first
 |Compliant with Minor Edits  |•	Unmatched parcels (as received) are < 2%<br>•	ROWs included and mapped correctly<br>•	No/minimal repeated edits from prior submission during VCGI review<br>•	No/minimal (<10) edits to intersection table to account for multi-SPAN parcels<br>•	No topology errors<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard. Includes valid topology, SPANs, and ROWs that are mapped correctly. Requires minor editing to address unmatched parcels (<2% of town's total parcels) that should have SPANs and a match in the annual Grand List. May include <10 edits that were made in the prior submission and/or to account for multi-SPAN parcels in the intersection table.
 |Compliant with Major Edits  |•	Unmatched parcels (as received) are > 2%<br>•	Topology errors resulting in gaps/overlaps among parcels<br>•	Incorrect or missing attribution of condos/multi-SPAN parcels in the intersection table<br>•	ROWs are missing or incomplete (e.g., parcels are mapped to road centerlines)<br>•	Repeated edits from prior submission during VCGI review<br><br>Summary: submission meets format and content requirements of the Parcel Data Standard to the extent that it can be incorporated into the statewide parcel dataset following revisions. May require significant edits to address topology errors, missing or invalid SPANs, missing or incomplete ROWs, and/or missing or incomplete multi-SPAN parcel representation in the intersection table. Requires editing to address unmatched parcels (>2% of town's total parcels) that should have SPANs and a match in the annual Grand List. May include >10 edits that were made in the prior submission and/or to account for multi-SPAN parcels in the intersection table.
 |Not Compliant               |•	Includes all towns that are updated by VCGI/have no vendor or capacity to submit their own updates<br>•	Submission does not include SPANs or Parcel/Map IDs that can be linked to the Grand List<br>•	Submission is in an unusable format (e.g., CAD) that cannot be converted to a geodatabase<br>•	Usable format (i.e., GIS files) but missing or invalid fields that do not allow conversion to usable schema/dataset, or require significant effort to update using existing data and external sources/map viewers (e.g., loading existing attribution into new geometry; using E911, AxisGIS, or other to validate/verify SPANs; merging/splitting active and inactive parcels, etc.)<br><br>Summary: submission does not meet format and/or content allowing for inclusion in the statewide parcel dataset. Data format may be unusable/unable to convert to GIS, and/or attribution does not include valid SPANs or Parcel/Map IDs for linking to Grand List. May sometimes include a workable data format that requires significant geometry (e.g., active and inactive parcels) and/or attribute manipulation using internal and external data sources (e.g., AxisGIS sites, surveys, E911 data, etc.) to create dataset with valid schema and attribution. Also includes towns that do not have a vendor or the capacity to make their own edits and are updated by VCGI using data available in the VT Land Survey Library.
+
+**Table X: Parcel Data Submittal Criteria and Quality Assessment.** *Upon review by VCGI, new parcel submissions are published and assessed for how closely they meet the Parcel Data Standard. Data quality for a town's most recent data submission is available in the [Town Mapping Status](https://experience.arcgis.com/experience/d88b19e908a1460da8bcb7326f7c2ec6) application ("Submittal Quality" tab).*
 
 ### A2.4 Funding Estimates
 
@@ -866,6 +881,8 @@ While VCGI would continue to receive parcel data updates from municipalities, fu
 |Windham    |31,727                                    |$119,424           |$3.76                         |
 |Windsor    |36,289                                    |$148,672           |$4.10                         |
 
+**Table X: Preliminary 2024 Parcel Count and Per Parcel Cost by County.** *Parcels counts from the preliminary 2024 Grand List are grouped and compared to county-based Parcel Project total and per-parcel costs.*
+
 At the county-level, the average cost per parcel during the Parcel Project was $5.21 which is slightly below the average cost per parcel of the focus group during the Parcel Project. If the estimated 55% cost reduction was applied to the cost per parcel for each county during the Parcel Project, **funding for a proposed financial incentive would need to be about $700,000 annually for the state**:
 
 |County     |Estimated cost reduction per parcel|Estimated funding|
@@ -885,6 +902,8 @@ At the county-level, the average cost per parcel during the Parcel Project was $
 |Windham    |$1.69                              |$53,741          |
 |Windsor    |$1.84                              |$66,902          |
 |**Total**  |                                   |**$693,714**     |
+
+**Table X: Estimated Statewide Financial Incentive Cost.** *Estimated funding needed to support a financial incentive is calculated by county, along with the estimated cost reduction compared to the cost of the Parcel Project.*
 
 Each county could be assigned its own per parcel fee or a single per parcel fee could be established for the state with some counties receiving an additional percentage above the per parcel fee based on financial capacity. While there are multiple ways to determine financial capacity, two methods using the Real Listed Value field from the 2023 Grand List are shown below. For both methods, any county that is **below** the average value would receive an adjusted per parcel fee. The remaining counties would receive the standard per parcel fee.
 
@@ -908,6 +927,8 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
 |Windsor      |57,753                |$10,979,699,045        |$190,115                    |                  |                     |
 |**Average**  |                      |                       |**$172,122**                |                  |                     |
 
+**Table X: Per Parcel Multiplier Using Real Listed Value per Capita.** *County-based adjustments are calculated based on county population. Counties below the average real listed value per capita would receive an adjusted payment based on the percent difference, while those at or above the average would receive the standard payment.*
+
 **Real Listed Value per Acre**
 
 |County       |Total Acres (parcels only)|Total Real Listed Value|Real Listed Value per acre|Percent difference|Per parcel multiplier|
@@ -927,6 +948,8 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
 |Windham      |493,362                   |$9,476,204,580         |*$19,207*                 |9%                |1.09                 |
 |Windsor      |604,359                   |$10,979,699,045        |*$18,168*                 |14%               |1.14                 |
 |**Average**  |                          |                       |**$20,976**               |                  |                     |
+
+**Table X: Per Parcel Multiplier Using Real Listed Value per Acre.** *County-based adjustments are calculated based on county acreage. Counties below the average real listed value per acre would receive an adjusted payment based on the percent difference, while those at or above the average would receive the standard payment.*
 
 ### A2.5 Eligibility for Per Parcel Payment
 
@@ -949,7 +972,6 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
 ### A3.1 Land Use Codes
  Vermont Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) (category level only):
 
-**Vermont Department of Tax Categories**
 | Category Code | Category                     |
 |---------------|------------------------------|
 | 0             | Unknown                      |
@@ -962,6 +984,8 @@ Each county could be assigned its own per parcel fee or a single per parcel fee 
 | 700           | Government Use               |
 | 800           | Open Land/Misc               |
 | 900           | Other                        |
+
+**Table X: Vermont Department of Tax Property Class Categories and Codes.** *Additional codes exist within each category; however, the category level could provide sufficient detail for information not currently or widely tracked in CAMA data.*
 
 ### A3.2 Standardized CAMA schema
 Proposed standardized CAMA schema, based on example data from CAMA vendors in Vermont as well as a similar schema being developed in Connecticut, can be viewed [here](https://vermontgov.sharepoint.com/:x:/t/ADS.VCGIGroup/EZEBDpDNLNNHk_dhFOhtNW8BiiuDlzcCbWzOrxTXDUgO_g?e=3QqTMj). See 'PriorityFields_v1' for fields to standardize first following agreement between VT Department of Tax and all CAMA vendors.
