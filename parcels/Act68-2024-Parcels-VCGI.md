@@ -509,7 +509,7 @@ In addition, Current Use parcels may only have a percentage of their acreage enr
 ## 10.1 Summary
 
 - Current statute is not reflective of actual oversight and operation of statewide parcel program
-- Updating existing statute to reflect current practice could be completed with little to no impact on operations
+- Updating existing statute to reflect current and future practice could be completed with little to no impact on operations
 
 ## 10.2 Justification
 
