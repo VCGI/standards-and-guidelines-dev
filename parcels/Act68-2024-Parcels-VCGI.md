@@ -601,11 +601,29 @@ Text.
 
 # Glossary
 
+## Abutting
+
+Sharing a contiguous border or boundary.
+
+## Active Parcel
+
+In cases where two or more abutting parcels have the same owner, parcel to which a single tax bill is associated with all the abutting parcels under the same ownership.
+
 ## Attributes
 
-Information associated with a map shape, found in fields.
+Information associated with a map shape, found in fields, organized in a table.
 
-## CAMA
+## Calculated Acreage
+
+The estimated acreage of a mapped parcel derived by using GIS. May or may not differ from listed acreage.
+
+## CAMA (Computer Assisted Mass Appraisal)
+
+Computer software that helps maintain property information. In Vermont, CAMA software platforms are currently handled on a town-by-town basis. These systems may be a source of some of, but ultimately are not the same as data provided by the statewide parcel dataset.
+
+## Centerline
+
+Applied to a street, road, right-of-way, or other strip of land of uniform width, defines the line midway between the side lines of said strip.
 
 ## Data Standard
 
@@ -613,13 +631,15 @@ A uniform way to manage digital information of a particular kind.
 
 ## Digital Land Records
 
+Electronic storage, management, and distribution of land-related information. Includes details about properties, their ownership, boundaries, land uses, encumbrances, transactions, and other legal and administrative data. Used to refer to authoritative land records, in contrast with analog or paper-based land records.
+
 ## Domain
 
 Rules that determine available values in fields. Keeps things tidy.
 
 ## Feature
 
-A map shape.
+A map shape that is a representation of a real-world object.
 
 ## Field
 
