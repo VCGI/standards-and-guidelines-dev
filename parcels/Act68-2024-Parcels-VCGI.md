@@ -70,33 +70,30 @@ A full description of proposed changes is within [Appendix 1.4: Proposed Parcel 
 # Recommendation 2: Support Digital Parcel Maintenance and Submittal to the State of Vermont
 ## 2.1 Summary
 
-- The current model of town-based parcel maintenance with voluntary submittal to the state has reached its limits in data quality and currentness; further improvements will need new support
-- The design of support for parcel data maintenance and submittal will depend on the jurisdiction ultimately responsible for mapping: town (current), region, or state
-- If municipalities are to remain responsible for mapping: institute a per parcel payment to municipalities to aid costs associated with parcel data maintenance
-- If Regional Appraisal District or the State is to assume responsibility for parcel mapping, those practices should be required to adhere to the state data standard, maintain and share with the state on a normalized schedule, and be funded accordingly
+- The current model of town-based parcel maintenance with voluntary submittal to the state has reached its limits in data quality and currentness
+- If municipalities are to remain responsible for reappraisals, grand list maintenance, and tax mapping, any additional per-parcel funding should be contingent on their submittal of standardized GIS parcel data to the state
+- Any change in the jurisdiction responsible for tax assessments/reappraisals should be accompanied by corresponding adjustments to the processes, responsibilities, and resources for tax mapping to ensure statewide consistency and accuracy 
 
 ## 2.2 Justification
 
-Vermont has 256 municipalities: 237 towns, 10 cities, 5 unincorporated towns, and 4 gores. Unlike other states with county government that often oversees the task, in Vermont individual municipalities are responsible for parcel mapping of taxable lands in their jurisdiction. Most towns budget to hire a GIS vendor to maintain their digital parcel data and depend on them to reflect any changes to parcel geometry since the town's last update. Frequency of geometry updates varies depending on the needs and resources of the town, with some updates performed annually and others completed every two to three years or more. Some towns remain without any digital parcel geometry maintenance. Town oversight of parcel mapping is typically the responsibility of its listers or assessors. Accuracy of taxation and identification of land-based and thus parcel-related trends suffer without a tight relationship between grand list and map maintenance.
+Vermont has 256 municipalities: 237 towns, 10 cities, 5 unincorporated towns, and 4 gores. Unlike other states with county government that often oversees the task, in Vermont individual municipalities are responsible for parcel mapping of taxable lands in their jurisdiction. Most towns budget to hire a GIS vendor to maintain their digital parcel data and depend on them to reflect any changes to parcel geometry since the town's last update. Frequency of geometry updates varies depending on the needs and resources of the town, with some updates performed annually and others completed every two to three years or more. Some towns do not update their digital parcel geometry. Town oversight of parcel mapping is typically the responsibility of its listers or assessors. Accuracy of taxation and identification of land-based and thus parcel-related trends suffer without a tight relationship between grand list and map maintenance.
 
-The [Statewide Property Parcel Program](https://vcgi.vermont.gov/data-and-programs/parcel-program) publishes municipal parcel map data joined to the annual statewide grand list in a uniform, digital format. The Program relies on towns voluntarily sharing updated parcel geometry with VCGI, typically via their vendor. These data are then reviewed and edited for data standard compliance and made publicly available by VCGI in a uniform, accessible way with [many capabilities](https://github.com/VCGI/documentation/blob/main/parcelviewer4/User_Guide.md). The data drive applications such as the [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/ParcelViewer/) that draws more than 500,000 unique views a year, and are offered as raw spatial data that sees more than 1 million unique views a year. Since 2020, the Statewide Property Parcel Program has been staffed by 2 FTE's at VCGI supported by the ADS Internal Service Fund, with aid from two other VCGI staff as needed and available (program manager and database administrator).
+The [Statewide Property Parcel Program](https://vcgi.vermont.gov/data-and-programs/parcel-program) publishes municipal parcel map data joined to the annual statewide grand list in a uniform, digital format. The Program relies on towns voluntarily sharing updated parcel geometry with VCGI, typically via their vendor. These data are then reviewed and edited for data standard compliance and made publicly available by VCGI in a uniform, accessible way with [many capabilities](https://github.com/VCGI/documentation/blob/main/parcelviewer4/User_Guide.md). The data drive applications such as the [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/ParcelViewer/) that draws more than 500,000 unique views a year, and are offered as raw spatial data that sees more than 1 million unique views a year.
 
 Parcel data sourced in this voluntary way are now one of the State of Vermont's most-used spatial datasets, supporting state, regional, and local efforts in emergency management, natural resources policy and planning, permitting and compliance, and transportation. Parcel data also support efforts to address pressing issues such as flood response, resilience planning, and housing. All municipalities may use these data and applications to display their digital parcel maps free of charge. Some towns pay vendors for additional map services such as custom web applications and print map production. The current overarching incentive for municipal parcel data maintenance is for towns to ensure the most accurate, consistent, and timely data exist across all representations of who owns which lands where and with what details, be that in grand list tables or on maps that see high use.
 
 While relatively successful, improvements are needed in the current town-sourced model of parcel data maintenance and publishing. About 60% of municipalities have submitted updated parcel geometry to VCGI within the last year. In contrast, about 16% of municipalities have not submitted updated parcel geometry to VCGI in over three years, indicating a divide in participation in the Parcel Program and limitations to its voluntary model. Inaccurate, stale data impacts downstream uses that are now dependent on this information.
 
 ### 2.2.1 Submittal Status
+
 VCGI tracks municipal parcel data maintenance and voluntary submittals and presents this information via the [Parcel Program's Town Mapping Status application](https://maps.vcgi.vermont.gov/parcelstatus/), updated weekly. These statistics represent five years (2020 - 2024) of oversight of the Statewide Property Parcel Program. They highlight the need for improvements to the current data maintenance model.
 
 As of October 24, 2024:
-- **90%** of towns are edited/updated by vendors or the town. 10% are edited/updated by VCGI (towns updated by VCGI are considered “not VT GIS Parcel Data Standard compliant”)
-- **10%** of submissions require edits to parcel geometry to address gaps and/or overlaps among parcels
-- **50%** of submissions required edits that were already made for the previous submission  (i.e., repeated revisions)
-- **70%** of submissions contain inactive parcels. Inactives exist for at least some towns that do not include them in their submissions
-- **96%** of towns include and represent rights-of-way. For those that do not, some map parcels to road centerlines, others only include main ROWs or those in the town/village center, and others have gaps in the parcel data where ROWs should be
-- **24%** of submissions are fully compliant with the current parcel data standard. 26% are compliant with minor edits, 37% are compliant with major edits, and 13% are not compliant (see [Appendix 2.3: Submittal Quality Criteria](#a23-submittal-quality-criteria))
-- **11%** of towns have a mapping vendor (to the best of VCGI's knowledge) but have not submitted an update since the original Parcel Project data (prior to 2020). These towns are currently classified as “fully compliant” despite having stale data.
-- **12%** of submissions are/have been reviewed by towns prior to submittal; 64% have not, and 24% are unknown. Some vendors are working closely with towns as edits are being made (or edits are only being made at the direction of a town official), which may negate the need for a more formal review of the data prior to submission
+- **90%** of towns are edited/updated by vendors or the town. 10% do not maintain their data and these receive limited edits/updates by VCGI
+- **24%** of submissions are fully compliant with the current parcel data standard
+- **76%** of submissions are not compliant with the data standard. Of these, 26% become compliant with minor edits, 37% become compliant with major edits, and 13% are unusable (see [Appendix 2.3: Submittal Quality Criteria](#a23-submittal-quality-criteria))
+- **11%** of towns maintain digital parcel data but have not submitted an update since the original Parcel Project data (prior to 2020)
+- **12%** of submissions are/have been reviewed by towns prior to submittal; 64% have not, and 24% are unknown
 
 ## 2.3 Design
 
@@ -559,7 +556,19 @@ Text.
 
 ## Improve Submittal of Land Surveys
 
-Text.
+The Vermont [Land Survey Library](https://maps.vcgi.vermont.gov/landsurveylibrary/) is a digital repository for land surveys maintained by VCGI as part of the Parcel Program but is maintained separately from parcel data. The library consists of a web map that displays the general location of a land survey with its related information (e.g., date of land survey, town name, and the name of the land surveyor) stored in a pop-up table.
+
+The library was developed in accordance with the amendment of [27 V.S.A. § 341](https://legislature.vermont.gov/statutes/section/27/005/00341) by the passing of Act 38 in 2019 requiring a land survey for a property line change, including a property line adjustment or a subdivision, effective January 1, 2020. In addition to this mandatory practice for all Vermont municipalities, sections [27 V.S.A. §1401](https://legislature.vermont.gov/statutes/section/27/017/01401) and  [27 V.S.A. §1403](https://legislature.vermont.gov/statutes/section/27/017/01403) require a digital copy of a land survey to be submitted to the library by a licensed land surveyor or a municipal official. While there is no legal requirement, land surveys predating the amendment can be submitted to the library by a licensed land surveyor or a municipal official. Others working in the public sector may also submit a land survey to the library (e.g., the Vermont Agency of Transportation).
+
+As of December 10, 2024:
+
+- There are currently 3,121 land surveys published to the library, representing 215 towns. About 55% of land surveys were submitted in accordance with the amendment (dated on or after January 1, 2020).
+
+- There are 41 towns with no land surveys published in the library (215 out of 256 total Vermont municipalities).
+
+- Out of the 215 towns, 143 towns have 10 or fewer land surveys published. Only 2 towns have more than 100 land surveys published.
+
+Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. Mapping vendors have confirmed that the library does not reflect the total number of land surveys they receive.
 
 ![SurveyLibraryStatus_Dec7_2024](https://github.com/user-attachments/assets/6f3e03ae-add5-4135-b70c-61bb4db4a356)
 **Figure 18: Statistics from the Vermont Land Survey Library.** *Land surveyors are responsible for submitted new surveys to the Land Survey Library. Information about surveys including type, submittal date, survey year, town, and surveyor are tracked. These data can help assess patterns and completeness when compared to property transfers and new Grand List records, as well as between geographical areas.*
