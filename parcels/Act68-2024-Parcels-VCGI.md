@@ -653,6 +653,10 @@ Like "column headers" in an excel table. Information organizers.
 
 A GIS representation of spatial data using points, lines, and polygons.
 
+## GIS (Geographic Information Systems)
+
+Computer-based tools used to create, modify, store, visualize, and analyze spatial data.
+
 ## Inactive Parcel
 
 In cases where two or more abutting parcels have the same owner, parcel(s) that does not receive a tax bill. May be represented as multiple parcels within a larger boundary with a single SPAN and owner, for example.
@@ -672,6 +676,10 @@ Parcel data consists of property ownership information (Grand List) joined with 
 ## Schema
 
 Format and rules of the content of spatial data. Uniformity here keeps decision-support tools running smoothly.
+
+## Spatial Data
+
+Information that can be mapped and describes the location, shape, and/or relationships of objects or phenomena on the Earth's surface.
 
 ## Unlanded Structures
 
