@@ -308,7 +308,7 @@ In Vermont there is no formally defined practice or requirement for the handling
 
 ### 4.2.1 Acreage in Right-of-Way
 
-Correct mapping of Rights-of-Way has important implications for taxation purposes. Based on the parcel data, over 133,000 acres in Vermont are classified as a Right-of-Way. [Explore ROW Acreage by Town here](https://arcg.is/1qLPXv1) and in the images below. Acreage is based on the sum of parcels by town where the Property Type is classified as "ROW_ROAD", "ROW_RAIL", or "ROW_TRAIL". The second image provides an example of each ROW.  
+Correct mapping of Rights-of-Way has important implications for taxation purposes. Based on the parcel data, over 133,000 acres in Vermont are classified as a Right-of-Way. [Explore ROW Acreage by Town here](https://www.arcgis.com/apps/mapviewer/index.html?webmap=710b9e14e2b04c4c85a2d6e3b9638e82) and in the images below. Acreage is based on the sum of parcels by town where the Property Type is classified as "ROW_ROAD", "ROW_RAIL", or "ROW_TRAIL". The second image provides an example of each ROW.  
 
 Note: while the majority (96%) of municipalities include ROWs, a small number do not. Parcels in these towns are generally mapped to centerlines where ROWs are missing. These municipalities include:
 
@@ -330,7 +330,7 @@ In addition, ROWs for the following municipalities are typically missing or inco
 
 ## 4.3 Implementation
 
-Implementation of this recommendation is partially contingent on which jurisdiction or institution is ultimately responsible for maintaining parcel map data (see [recommendation 2](#recommendation-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont)). If municipalities are to remain responsible for mapping, the listed vs. mapped acreage review, Tax guidance, and GIS data standard-compliance reporting above, combined with existing education and professional development work via Tax's District Advisors and the Vermont Assessors and Listers Association (VALA) could be effective to bring all towns to uniformly map and calculate taxable acreage to edge of the ROW.
+Implementation of this recommendation is partially contingent on which jurisdiction or institution is ultimately responsible for maintaining parcel map data (see [Recommendation 2](#recommendation-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont)). If municipalities are to remain responsible for mapping, the listed vs. mapped acreage review, Tax guidance, and GIS data standard-compliance reporting above, combined with existing education and professional development work via Tax's District Advisors and the Vermont Assessors and Listers Association (VALA) could be effective to bring all towns to uniformly map and calculate taxable acreage to edge of the ROW.
 
 If either Regional Appraisal Districts or the State assume ultimate responsibility for mapping, work they complete or oversee would need to follow state GIS parcel data standard and map to the edge of right of way. Education via the District Advisors, VALA, and potentially via Regional Appraisal District would still be needed to ensure consistency of practice in calculating taxable acreage to the edge of ROW.
 
@@ -493,7 +493,7 @@ Although there is no accessible public-facing means of digitally entering the ma
 
 ### 9.2.1 Lands in Current Use
 
-In 2023 over 19,000 parcels were enrolled in Current Use, totaling over 2.5 million acres statewide. [Explore parcels enrolled in Current Use](https://arcg.is/1vXL4u1).
+In 2023 over 19,000 parcels were enrolled in Current Use, totaling over 2.5 million acres statewide. [Explore parcels enrolled in Current Use](https://www.arcgis.com/apps/mapviewer/index.html?webmap=6e82347c410d4c00bab809a8a6e5350b).
 
 In addition, Current Use parcels may only have a percentage of their acreage enrolled. The statewide average enrollment is 92.5%, with 75% of parcels between 92-100%.
 
@@ -533,7 +533,7 @@ In addition, Current Use parcels may only have a percentage of their acreage enr
 - Integration with parcel data could potentially reduce the need for duplicative mapping needed by other state initiatives
 
 ## 11.2 Justification
-[Act 171](https://legislature.vermont.gov/Documents/2022/Docs/ACTS/ACT171/ACT171%20As%20Enacted.pdf) is an initiative focused on land records modernization through the Vermont State Archives and Records Administration office (VSARA). VSARA was tasked with consulting the Joint Fiscal Office, Vermont League of Cities and Towns, Vermont Municipal Clerks' and Treasurers' Association, representatives from banking, bar, title insurance, and real industry industry, and other interested parties to assess the fiscal, governance, and operational sustainability of modernization. A [report](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf) was produced suggesting the benefits of an enterprise-wide systems approach to modernization, including consistency and uniformity. Digital land records offer many benefits similar to those above related to standardized statewide CAMA (see [Appendix C](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf), for example); efforts to make all of this information publicly available in a consistent format statewide would have far reaching applicability and long-term cost savings. 
+[Act 171](https://legislature.vermont.gov/Documents/2022/Docs/ACTS/ACT171/ACT171%20As%20Enacted.pdf) is an initiative focused on land records modernization through the Vermont State Archives and Records Administration office (VSARA). VSARA was tasked with consulting the Joint Fiscal Office, Vermont League of Cities and Towns, Vermont Municipal Clerks' and Treasurers' Association, representatives from banking, bar, title insurance, and real industry industry, and other interested parties to assess the fiscal, governance, and operational sustainability of modernization. A [report](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf) was produced suggesting the benefits of an enterprise-wide systems approach to modernization, including consistency and uniformity. Digital land records offer many benefits similar to those above related to standardized statewide CAMA (see [Appendix C](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf#page=21), for example); efforts to make all of this information publicly available in a consistent format statewide would have far reaching applicability and long-term cost savings. 
 
 As an example of utility, the [Protected Lands](https://geodata.vermont.gov/datasets/VCGI::vt-protected-lands-database/about) database could be enhanced through the inclusion of authoritative, digital land records indicating ownership and easements linked to parcel geometry. 
 
