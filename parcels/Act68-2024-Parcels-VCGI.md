@@ -305,7 +305,7 @@ In Vermont there is no formally defined practice or requirement for the handling
 
 ### 4.2.1 Acreage in Right-of-Way
 
-Correct mapping of Rights-of-Way has important implications for taxation purposes. Based on the parcel data, over 133,000 acres in Vermont are classified as a Right-of-Way. [Explore ROW Acreage by Town here](https://www.arcgis.com/apps/mapviewer/index.html?webmap=710b9e14e2b04c4c85a2d6e3b9638e82) and in the images below. Acreage is based on the sum of parcels by town where the Property Type is classified as "ROW_ROAD", "ROW_RAIL", or "ROW_TRAIL". The second image provides an example of each ROW.  
+Correct mapping of Rights-of-Way has important implications for taxation purposes. Based on the parcel data, over 133,000 acres in Vermont are classified as a Right-of-Way. [Explore ROW acreage by town here](https://www.arcgis.com/apps/mapviewer/index.html?webmap=710b9e14e2b04c4c85a2d6e3b9638e82) and in the images below. Acreage is based on the sum of parcels by town where the Property Type is classified as "ROW_ROAD", "ROW_RAIL", or "ROW_TRAIL". The second image provides an example of each ROW.  
 
 Note: while the majority (96%) of municipalities include ROWs, a small number do not. Parcels in these towns are generally mapped to centerlines where ROWs are missing. These municipalities include:
 
@@ -490,12 +490,12 @@ Although there is no accessible public-facing means of digitally entering the ma
 
 ### 9.2.1 Lands in Current Use
 
-In 2023 over 19,000 parcels were enrolled in Current Use, totaling over 2.5 million acres statewide. [Explore parcels enrolled in Current Use](https://www.arcgis.com/apps/mapviewer/index.html?webmap=6e82347c410d4c00bab809a8a6e5350b).
+In 2023 over 19,000 parcels were enrolled in current use, totaling over 2.5 million acres statewide. [Explore parcels enrolled in Current Use](https://www.arcgis.com/apps/mapviewer/index.html?webmap=6e82347c410d4c00bab809a8a6e5350b).
 
-In addition, Current Use parcels may only have a percentage of their acreage enrolled. The statewide average enrollment is 92.5%, with 75% of parcels between 92-100%.
+In addition, current use parcels may only have a percentage of their acreage enrolled. The statewide average enrollment is 92.5%, with 75% of parcels between 92-100%.
 
 ![2023_CurrentUse](https://github.com/user-attachments/assets/4a0bf7fd-a32d-4217-9f63-b23782bb5f56)
-**Figure 16: Parcels Enrolled in Current Use.** *Shaded parcels are enrolled in the Current Use Program as of 2023 (left). A parcel may be fully or partially enrolled (right).*
+**Figure 16: Parcels Enrolled in Current Use.** *Shaded parcels are enrolled in the current use program as of 2023 (left). A parcel may be fully or partially enrolled (right).*
 
 
 
@@ -563,14 +563,22 @@ The library was developed in accordance with the amendment of [27 V.S.A. § 341]
 
 As of December 10, 2024:
 
-- There are currently 3,121 land surveys published to the library, representing 215 towns. About 55% of land surveys were submitted in accordance with the amendment (dated on or after January 1, 2020).
+- There are 3,121 land surveys published to the library, representing 215 towns. About 55% of land surveys were submitted in accordance with the amendment (dated on or after January 1, 2020)
 
-- There are 41 towns with no land surveys published in the library (215 out of 256 total Vermont municipalities).
+- There are 41 towns with no land surveys published in the library (215 out of 256 total Vermont municipalities)
 
-- Out of the 215 towns, 143 towns have 10 or fewer land surveys published. Only 2 towns have more than 100 land surveys published.
+- Of the 215 towns, 143 towns have 10 or fewer land surveys published. Only two towns have more than 100 land surveys published
 
-Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. Mapping vendors have confirmed that the library does not reflect the total number of land surveys they receive.
+Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. At least one mapping vendors has confirmed that the library does not currently reflect the total number of land surveys they receive. However, the 2 towns with over 100 land surveys published to the library demonstrate the potential value of the library. Now that the library is integrated into the Parcel Viewer, with increased participation, the library may be used to conduct preliminary research as part of a title search. From a town in Windham County: 
 
+>This is a great resource once surveys are scanned, allowing towns to index their surveys and host them for free. I have been using this resource, realtors and title searchers know they can expect to see this information on this site.
+
+Other potential uses include:
+
+- Assist land surveyors with research prior to conducting field work 
+- Identify and address discrepancies at town boundaries
+- Create a digital copy to preserve historic land surveys
+ 
 ![SurveyLibraryStatus_Dec7_2024](https://github.com/user-attachments/assets/6f3e03ae-add5-4135-b70c-61bb4db4a356)
 **Figure 18: Statistics from the Vermont Land Survey Library.** *Land surveyors are responsible for submitted new surveys to the Land Survey Library. Information about surveys including type, submittal date, survey year, town, and surveyor are tracked. These data can help assess patterns and completeness when compared to property transfers and new Grand List records, as well as between geographical areas.*
 
@@ -579,7 +587,7 @@ Mapping vendors typically receive the land surveys they need to complete a parce
 Text.
 
 ![MuniLibrary_Survey_2](https://github.com/user-attachments/assets/6e6ad6d9-711e-4593-9c96-9109075fb448)
-**Figure 19: Survey of Town Line Between Underhill and Westford.** *Town boundaries are not necessarily officially surveyed in many parts of the state. The Land Survey Library includes a specific designation for surveyors to indicate whether the survey is a municipal boundary. Ideally all town boundaries will be officially surveyed in time.*
+**Figure 19: Survey of Town Line Between Underhill and Westford.** *Town boundaries are not necessarily officially surveyed in many parts of the state. The Land Survey Library includes a specific designation for surveyors to indicate whether the survey is a municipal boundary. Ideally all town boundaries will be officially surveyed and formally documented in time.*
 
 ### Acreage Not Counted (Gaps) and Double Counted (Overlaps)
 ![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
