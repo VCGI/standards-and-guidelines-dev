@@ -645,6 +645,10 @@ A map shape that is a representation of a real-world object.
 
 Like "column headers" in an excel table. Information organizers.
 
+## Listed Acreage
+
+The estimated acreage of a mapped parcel as presented within a Grand List. Often based on deeds within land records for a given property.
+
 ## Parcel Data
 
 Parcel data consists of property ownership information (Grand List) joined with mapped property boundaries. Digital parcel data are easily distributed, are searchable and can be analyzed and applied for other uses. Not a survey but rather a map index of property ownership. 
