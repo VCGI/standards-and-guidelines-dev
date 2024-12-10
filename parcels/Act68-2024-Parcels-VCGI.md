@@ -691,7 +691,7 @@ Arranged for access to locations by traversing one or more parcels. Ingress-egre
 
 ## Public Right-of-Way: 
 
-An area that is legally dedicated to public right-of-way (access) purposes. Public rights-of-way areas do not have SPAN numbers, but are a type of parcel.
+An area that is legally dedicated to public right-of-way (access) purposes. Public rights-of-way areas do not have SPAN numbers, but are a type of parcel (bounded area).
 
 ## Schema
 
