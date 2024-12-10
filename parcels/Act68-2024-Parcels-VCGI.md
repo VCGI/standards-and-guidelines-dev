@@ -569,21 +569,9 @@ As of December 10, 2024:
 
 - Of the 215 towns, 143 towns have 10 or fewer land surveys published. Only two towns have more than 100 land surveys published
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. Mapping vendors has confirmed that the library does not currently reflect the total number of land surveys they receive. However, the 2 towns with over 100 land surveys published to the library demonstrate the potential value of the library. Now that the library is integrated into the Parcel Viewer, with increased participation, the library may be used to conduct preliminary research as part of a title search. From a town in Windham County: 
-=======
-<<<<<<< HEAD
-Mapping vendors typically receive the land surveys needed to complete a parcel data update directly from the town. Mapping vendors have confirmed that the library does not reflect the total number of land surveys they receive.
-=======
-Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. At least one mapping vendors has confirmed that the library does not currently reflect the total number of land surveys they receive. However, the 2 towns with over 100 land surveys published to the library demonstrate the potential value of the library. Now that the library is integrated into the Parcel Viewer, with increased participation, the library may be used to conduct preliminary research as part of a title search. From a town in Windham County: 
->>>>>>> 59bd8228f5aa805ae78c3e4b2b0b259ca8d4fb58
->>>>>>> cfaca650c519cf6773b741fbae77c873a33e777a
-=======
-Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. At least one mapping vendors has confirmed that the library does not currently reflect the total number of land surveys they receive. However, the 2 towns with over 100 land surveys published to the library demonstrate the potential value of the library. Now that the library is integrated into the Parcel Viewer, with increased participation, the library may be used to conduct preliminary research as part of a title search. From a town in Windham County: 
->>>>>>> 840d3df0f94cd650f2193cfa0fdb95d4ebf425c3
 
->This is a great resource once surveys are scanned, allowing towns to index their surveys and host them for free. I have been using this resource, realtors and title searchers know they can expect to see this information on this site.
+> This is a great resource once surveys are scanned, allowing towns to index their surveys and host them for free. I have been using this resource, realtors and title searchers know they can expect to see this information on this site.
 
 Other potential uses include:
 
