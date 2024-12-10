@@ -559,7 +559,19 @@ Text.
 
 ## Improve Submittal of Land Surveys
 
-Text.
+The Vermont [Land Survey Library](https://maps.vcgi.vermont.gov/landsurveylibrary/) is a digital repository for land surveys maintained by VCGI as part of the Parcel Program but is maintained separately from parcel data. The library consists of a web map that displays the general location of a land survey with its related information (e.g., date of land survey, town name, and the name of the land surveyor) stored in a pop-up table.
+
+The library was developed in accordance with the amendment of [27 V.S.A. § 341](https://legislature.vermont.gov/statutes/section/27/005/00341) by the passing of Act 38 in 2019 requiring a land survey for a property line change, including a property line adjustment or a subdivision, effective January 1, 2020. In addition to this mandatory practice for all Vermont municipalities, sections [27 V.S.A. §1401](https://legislature.vermont.gov/statutes/section/27/017/01401) and  [27 V.S.A. §1403](https://legislature.vermont.gov/statutes/section/27/017/01403) require a digital copy of a land survey to be submitted to the library by a licensed land surveyor or a municipal official. While there is no legal requirement, land surveys predating the amendment can be submitted to the library by a licensed land surveyor or a municipal official. Others working in the public sector may also submit a land survey to the library (e.g., the Vermont Agency of Transportation).
+
+As of December 10, 2024:
+
+- There are currently 3,121 land surveys published to the library, representing 215 towns. About 55% of land surveys were submitted in accordance with the amendment (dated on or after January 1, 2020).
+
+- There are 41 towns with no land surveys published in the library (215 out of 256 total Vermont municipalities).
+
+- Out of the 215 towns, 143 towns have 10 or fewer land surveys published. Only 2 towns have more than 100 land surveys published.
+
+Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. Mapping vendors have confirmed that the library does not reflect the total number of land surveys they receive.
 
 ![SurveyLibraryStatus_Dec7_2024](https://github.com/user-attachments/assets/6f3e03ae-add5-4135-b70c-61bb4db4a356)
 **Figure 18: Statistics from the Vermont Land Survey Library.** *Land surveyors are responsible for submitted new surveys to the Land Survey Library. Information about surveys including type, submittal date, survey year, town, and surveyor are tracked. These data can help assess patterns and completeness when compared to property transfers and new Grand List records, as well as between geographical areas.*
