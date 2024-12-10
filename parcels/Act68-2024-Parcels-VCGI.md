@@ -609,6 +609,10 @@ Sharing a contiguous border or boundary.
 
 In cases where two or more abutting parcels have the same owner, parcel to which a single tax bill is associated with all the abutting parcels under the same ownership.
 
+## Administrative Parcel
+
+A parcel defined in boundaries and/or function by its tax or other administrative uses, not necessarily its legally documented boundaries. Often used in contrast to legal parcel.
+
 ## Attributes
 
 Information associated with a map shape, found in fields, organized in a table.
@@ -661,17 +665,33 @@ Computer-based tools used to create, modify, store, visualize, and analyze spati
 
 In cases where two or more abutting parcels have the same owner, parcel(s) that does not receive a tax bill. May be represented as multiple parcels within a larger boundary with a single SPAN and owner, for example.
 
+## Legal Parcel
+
+A parcel defined in boundaries by deed, survey, or other official legal document. Often used in contrast to administrative parcel.
+
 ## Listed Acreage
 
 The estimated acreage of a mapped parcel as presented within a Grand List. Often based on deeds within land records for a given property.
 
-## Multi-part Parcel
+## Multi-Part Parcel
 
 A non-contiguous geometry object (multi-part polygon) modeling one Grand List record as one record in the GIS data. For example, a single parcel split into two pieces by a water body or road but with a single SPAN and Grand List record.
+
+## Parcel
+
+A map representation of a bounded area of the Earth's surface. Often used to represent ownership of said area.
 
 ## Parcel Data
 
 Parcel data consists of property ownership information (Grand List) joined with mapped property boundaries. Digital parcel data are easily distributed, are searchable and can be analyzed and applied for other uses. Not a survey but rather a map index of property ownership. 
+
+## Private Right-of-Way (or Ingress-Egress Easement): 
+
+Arranged for access to locations by traversing one or more parcels. Ingress-egress easements that overlay underlying parcels are not considered to be public rights-of-way and are not considered to be parcels.
+
+## Public Right-of-Way: 
+
+An area that is legally dedicated to public right-of-way (access) purposes. Public rights-of-way areas do not have SPAN numbers, but are a type of parcel.
 
 ## Schema
 
