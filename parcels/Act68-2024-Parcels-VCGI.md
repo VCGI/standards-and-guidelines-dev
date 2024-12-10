@@ -589,10 +589,12 @@ Other potential uses include:
 
 ## Survey Municipal Boundaries and/or Corner Points
 
-Text.
+Town boundaries form the basis of numerous administrative decisions, governance, and demographic analyses in Vermont. While most states are primarily organized and governed at the county level, Vermont continues to operate heavily at the town level. Even so, many boundaries between towns have not been officially surveyed. Charters often reference obscure landmarks or features that may have changed or disappeared over time, creating challenges and discrepancies in modern day mapping. It is common for data from VCGI, VTrans, E911, and other state agencies to disagree on the exact location of various town boundaries. Where surveys do exist, they often only include one neighboring town or a portion of the town edge. VCGI's current recommendation for resolving town boundaries is for towns to work with neighboring municipalities to establish agreed-upon lines and ideally have them surveyed. Unsurprisingly, this is a cumbersome and often challenging effort for towns to undertake without additional support.
+
+Massachusetts began [officially surveying corner points of municipalities in the 1890s](https://www.mass.gov/info-details/massgis-data-municipalities), and continues to update [surveyed points](https://gis.massdot.state.ma.us/towncorners/) and town boundaries statewide with any boundary changes approved by the state's legislature. Formally surveying all of Vermont's municipal boundaries and/or corner points would be a significant undertaking but ultimately help confirm and establish reliable, consistent, and permanent boundary designations. 
 
 ![MuniLibrary_Survey_2](https://github.com/user-attachments/assets/6e6ad6d9-711e-4593-9c96-9109075fb448)
-**Figure 19: Survey of Town Line Between Underhill and Westford.** *Town boundaries are not necessarily officially surveyed in many parts of the state. The Land Survey Library includes a specific designation for surveyors to indicate whether the survey is a municipal boundary. Ideally all town boundaries will be officially surveyed and formally documented in time.*
+**Figure 19: Survey of Town Line Between Underhill and Westford.** *Town boundaries are not officially surveyed in many parts of the state. The Land Survey Library includes a specific designation for surveyors to indicate whether the survey is a municipal boundary. Ideally all town boundaries will be officially surveyed and formally documented in time.*
 
 ### Acreage Not Counted (Gaps) and Double Counted (Overlaps)
 ![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
