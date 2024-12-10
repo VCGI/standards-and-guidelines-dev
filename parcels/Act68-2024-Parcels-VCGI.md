@@ -568,11 +568,11 @@ The library was developed in accordance with the amendment of [27 V.S.A. § 341]
 
 As of December 10, 2024:
 
-- There are 3,121 land surveys published to the library, representing 215 towns. About 55% of land surveys were submitted in accordance with the amendment (dated on or after January 1, 2020)
+- There are 3,121 land surveys published to the library, representing 215 towns (out of 256 total Vermont municipalities). About 55% of land surveys were submitted in accordance with the amendment (dated on or after January 1, 2020)
 
-- There are 41 towns with no land surveys published in the library (215 out of 256 total Vermont municipalities)
+- There are 41 towns with no land surveys published in the library
 
-- Of the 215 towns, 143 towns have 10 or fewer land surveys published. Only two towns have more than 100 land surveys published
+- 143 towns have 10 or fewer land surveys published. Only 2 towns have more than 100 land surveys published
 
 Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. Mapping vendors has confirmed that the library does not currently reflect the total number of land surveys they receive. However, the 2 towns with over 100 land surveys published to the library demonstrate the potential value of the library. Now that the library is integrated into the Parcel Viewer, with increased participation, the library may be used to conduct preliminary research as part of a title search. From a town in Windham County: 
 
