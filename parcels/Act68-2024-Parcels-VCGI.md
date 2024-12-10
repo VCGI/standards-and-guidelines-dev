@@ -526,13 +526,12 @@ In addition, current use parcels may only have a percentage of their acreage enr
 
 ## 11.1 Summary
 
-- Digital land records statewide would offer numerous benefits including integration with parcel data to increase transparency and ease access
+- If changes are made to assessment jurisdiction, digital land records become important to minimize inefficiencies between tax administration and maintenance of authoritative land records
+- Digital land records statewide would offer numerous benefits including integration with parcel data to increase transparency and ease access, regardless of assessment jurisdiction
 - Integration with parcel data could potentially reduce the need for duplicative mapping needed by other state initiatives
 
 ## 11.2 Justification
-[Act 171](https://legislature.vermont.gov/Documents/2022/Docs/ACTS/ACT171/ACT171%20As%20Enacted.pdf) is an initiative focused on land records modernization through the Vermont State Archives and Records Administration office (VSARA). VSARA was tasked with consulting the Joint Fiscal Office, Vermont League of Cities and Towns, Vermont Municipal Clerks' and Treasurers' Association, representatives from banking, bar, title insurance, and real industry industry, and other interested parties to assess the fiscal, governance, and operational sustainability of modernization. A [report](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf) was produced suggesting the benefits of an enterprise-wide systems approach to modernization, including overall consistency and uniformity. Digital land records offer many benefits similar to those above related to standardized statewide CAMA (see [Appendix C](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf#page=21), for example). 
-
-The overlap in efforts to standardize, modernize, and streamline multiple veins of property-related data suggest the need for and advantage of combining such initiatives. Openly accessible, statewide data containing ownership history, property information, and spatial representation would have far reaching appplicability and long-term cost savings.
+[Act 171](https://legislature.vermont.gov/Documents/2022/Docs/ACTS/ACT171/ACT171%20As%20Enacted.pdf) is an initiative focused on land records modernization through the Vermont State Archives and Records Administration office (VSARA) under the Secretary of State. VSARA was tasked with consulting the Joint Fiscal Office, Vermont League of Cities and Towns, Vermont Municipal Clerks' and Treasurers' Association, representatives from banking, bar, title insurance, and real industry industry, and other interested parties to assess the fiscal, governance, and operational sustainability of modernization. A [report](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf) was produced suggesting the benefits of an enterprise-wide systems approach to modernization, including consistency and uniformity. Digital land records offer many benefits similar to those above related to standardized statewide CAMA (see [Appendix C](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf#page=21), for example); efforts to make all of this information publicly available in a consistent format statewide would have far reaching applicability and long-term cost savings. 
 
 As an example of utility, the [Protected Lands](https://geodata.vermont.gov/datasets/VCGI::vt-protected-lands-database/about) database could be enhanced through the inclusion of authoritative, digital land records indicating ownership and easements linked to parcel geometry. 
 
@@ -571,6 +570,7 @@ As of December 10, 2024:
 - Of the 215 towns, 143 towns have 10 or fewer land surveys published. Only two towns have more than 100 land surveys published
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. Mapping vendors has confirmed that the library does not currently reflect the total number of land surveys they receive. However, the 2 towns with over 100 land surveys published to the library demonstrate the potential value of the library. Now that the library is integrated into the Parcel Viewer, with increased participation, the library may be used to conduct preliminary research as part of a title search. From a town in Windham County: 
 =======
 <<<<<<< HEAD
@@ -579,6 +579,9 @@ Mapping vendors typically receive the land surveys needed to complete a parcel d
 Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. At least one mapping vendors has confirmed that the library does not currently reflect the total number of land surveys they receive. However, the 2 towns with over 100 land surveys published to the library demonstrate the potential value of the library. Now that the library is integrated into the Parcel Viewer, with increased participation, the library may be used to conduct preliminary research as part of a title search. From a town in Windham County: 
 >>>>>>> 59bd8228f5aa805ae78c3e4b2b0b259ca8d4fb58
 >>>>>>> cfaca650c519cf6773b741fbae77c873a33e777a
+=======
+Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. At least one mapping vendors has confirmed that the library does not currently reflect the total number of land surveys they receive. However, the 2 towns with over 100 land surveys published to the library demonstrate the potential value of the library. Now that the library is integrated into the Parcel Viewer, with increased participation, the library may be used to conduct preliminary research as part of a title search. From a town in Windham County: 
+>>>>>>> 840d3df0f94cd650f2193cfa0fdb95d4ebf425c3
 
 >This is a great resource once surveys are scanned, allowing towns to index their surveys and host them for free. I have been using this resource, realtors and title searchers know they can expect to see this information on this site.
 
