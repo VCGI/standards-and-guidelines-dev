@@ -574,7 +574,7 @@ Text.
 ### Acreage Not Counted (Gaps) and Double Counted (Overlaps)
 ![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
 
-**Figure 20: Gaps and Overlaps Between Municipal Boundaries.** *Example of gaps (red) and overlaps (blue) in parcel geometry at municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Black lines represent town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI.*
+**Figure 20: Gaps and Overlaps Between Municipal Boundaries.** *Example of gaps (red) and overlaps (blue) in parcel geometry at municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Black lines represent town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI. [Explore gaps and overlaps in parcel data along town boundaries](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=7972f2b2ab0646deae0fd8d8b79e138d).*
 
 # Appendices
 
@@ -632,7 +632,7 @@ Example:
 
 > "Legal parcel" means any parcel of real property that may be separately sold in compliance with the Subdivision Map Act (Division 2 (commencing with Section 66410) of Title 7 of the Government Code). - *[California, Sierra County](http://sierracounty.ca.gov/AgendaCenter/ViewFile/Agenda/05052014-115). In Compliance with State Subdivision Law.*
 
-This example is notable in that any **one** of the following must be met to define a legal parcel, per commentary by [CA Real Estate Law Firm](https://www.lee-associates.com/elee/sandiego/Newsletter/2017April/Miller.pdf):
+This example is notable in that any **one** of the following must be met to define a legal parcel, per commentary by [CA Real Estate Law Firm](https://www.sandiegocounty.gov/pds/zoning/formfields/POLICY-G-3.pdf):
 > - A lot shown on a Final Map. (Major Subdivision Map)
 > - A lot or parcel shown on a Record of Survey approved by the Board of Supervisors or Planning Commission.
 > - A parcel shown on a Parcel Map or Certificate of Compliance recorded in lieu of a Parcel Map.
@@ -640,7 +640,7 @@ This example is notable in that any **one** of the following must be met to defi
 > - A parcel shown on an approved Division of Land Plat.
 > - A parcel shown on a Lot legalization Plat used as evidence of legal parcel prior to a Certificate of Compliance.
 > - A parcel shown on an approved Boundary Adjustment Plat.
-> - A parcel described in a Grant Deed or other bona fide conveyance document recorded prior to February 1, 1972. The deed/document does not have to be in the name of the present owner. However, it must describe the perimeter boundaries only of the subject property and no other contiguous property. The legal description and County Recorder’s information must be legible to County staff. The Deed need not be an original or certified copy.
+> - A parcel described in a Grant Deed or other bona fide conveyance document recorded prior to February 1, 1972. The deed/document does not have to be in the name of the present owner. However, it must describe the perimeter boundaries only of the subject property and no other contiguous property. The legal description and County Recorder's information must be legible to County staff. The Deed need not be an original or certified copy.
 
 There is no statewide subdivision requirement in Vermont, and not all municipalities require subdivisions. Thus, several instruments may be relied upon to help define a parcel (deed, subdivision plat where required by municipality, or property transfer or sale).
 
@@ -692,7 +692,7 @@ This section lists existing Vermont statutes that define or interpret a definiti
 
 #### 9 V.S.A. Uniform Commercial Code
 
-[9A V.S.A. § 2A-103 - Uniform Commercial Code / Leases](https://legislature.vermont.gov/statutes/section/09A/002A/00103)
+[9A V.S.A. § 2A-103 - Uniform Commercial Code / Leases](https://legislature.vermont.gov/statutes/section/09a/002A/00002A)
 > **§ 2A—103. Definitions and index of definitions.** (1) In this article unless the context otherwise requires:...(s) (s) “Lot” means a parcel or a single article that is the subject matter of a separate lease or delivery, whether or not it is sufficient to perform the lease contract.
 
 #### 10 V.S.A. Conservation and Development
@@ -726,7 +726,7 @@ This section lists existing Vermont statutes that define or interpret a definiti
 [27 V.S.A. § 1401 - Property / Filing of Land Plats](https://legislature.vermont.gov/statutes/section/27/017/01401)
 > **§ 1401. Acceptance of survey plats; definition.** (b) As used in this chapter: (1) “Survey plat” means a map or plan drawn to scale of one or more parcels, tracts, or subdivisions of land, showing, but not limited to, boundaries, corners, markers, monuments, easements, and other rights. (2) “Center” means the Vermont Center for Geographic Information. (c)(1) Whenever a survey plat that maps the subdivision of a parcel or a change in a parcel boundary is filed for record with a town clerk, the surveyor who created the survey plat shall submit a digital copy of the plat to the Center. The Center shall maintain digital copies of survey plats in a statewide digital repository and make them available to the public. 
 
-[27A V.S.A. § 1-105 - Uniform Common Interest Ownership Act (1994) / General Provisions](https://legislature.vermont.gov/statutes/section/27A/001/00105)
+[27A V.S.A. § 1-105 - Uniform Common Interest Ownership Act (1994) / General Provisions](https://legislature.vermont.gov/statutes/fullchapter/27A/001)
 > **§ 1-105. Separate titles and taxation.** (a) In a condominium or planned community: (1) if there is any unit owner other than a declarant, each unit that has been created, together with its interest in the common elements, constitutes for all purposes a separate parcel of real estate; and (2) if there is any unit owner other than a declarant, each unit shall be separately taxed and assessed, and no separate tax or assessment may be rendered against any common elements for which a declarant has reserved no development rights; provided, however, that if a portion of the common elements is located in a town other than the town in which the unit is located, the town in which the common elements are located may designate that portion of the common elements within its boundaries as a parcel for property tax assessment purposes and may tax each unit owner at an appraisal value pursuant to 32 V.S.A. § 3481.
 
 #### 32 V.S.A. Taxation and Finance
@@ -1008,22 +1008,23 @@ Each county could be assigned its own per parcel fee, or a single per parcel fee
 ## Appendix 3: Implement Vermont CAMA Data Standard and Require Submittal to State Considerations
 
 ### A3.1 Land Use Codes
- Vermont Department of Tax [Property Class Codes](https://tax.vermont.gov/sites/tax/files/documents/Property%20Class%20Codes.pdf) (category level only):
+ Vermont Department of Tax [Use of Property Codes](https://taxpttrpublicblob.blob.core.usgovcloudapi.net/taxpttrpublic/_Documentation/PTTR%20XML%20Documentation%20November%202024.pdf), updated August 2024:
 
-| Category Code | Category                     |
-|---------------|------------------------------|
-| 0             | Unknown                      |
-| 100           | Primary Year Round Residence |
-| 200           | Secondary Residence          |
-| 300           | Commercial                   |
-| 400           | Industrial                   |
-| 500           | Operating Farm/Ag            |
-| 600           | Timberland                   |
-| 700           | Government Use               |
-| 800           | Open Land/Misc               |
-| 900           | Other                        |
+| Category Code| Category                     |
+|--------------|------------------------------|
+| 01           | Domicile/Principal Residence |
+| 02           | Non-Principal Residence: Fit for year-round |
+| 03           | Non-Principal Residence: Not fit for year-round habitation |
+| 04           | Non-Principal Residence: Long-term rental |
+| 05           | Commercial                   |
+| 06           | Government Use               |
+| 07           | Industrial                   |
+| 08           | Open Land                    |
+| 09           | Timberland                   |
+| 10           | Operating Farm               |
+| 11           | Other                        |
 
-**Table X: Vermont Department of Tax Property Class Categories and Codes.** *Additional codes exist within each category; however, the category level could provide sufficient detail for information not currently or widely tracked in CAMA data.*
+**Table X: Vermont Department of Tax Use of Property Codes.** *Use codes could provide sufficient detail for information not currently or widely tracked in CAMA data.*
 
 ### A3.2 Standardized CAMA schema
 The proposed standardized CAMA schema, based on example data from CAMA vendors in Vermont as well as a similar schema being developed in Connecticut, can be viewed [here](https://vermontgov.sharepoint.com/:x:/t/ADS.VCGIGroup/EZEBDpDNLNNHk_dhFOhtNW8BiiuDlzcCbWzOrxTXDUgO_g?e=3QqTMj). See 'PriorityFields_v1' for fields to standardize first following agreement between VT Department of Tax and all CAMA vendors.
@@ -1075,10 +1076,7 @@ Pros
 Cons
 - Time intensive to create/maintain individual building footprints geometry
 
-***
 
-
-***
 #### A.3.3.2 Other Unlanded Structures Mapping Practices from Other States
 
 Parcel points are maintained by Dakota County in the State of Minnesota. This data layer is a compilation of tax parcel information, containing one record for each real estate/tax parcel identification number (PIN) within the county. Condominiums are included in this dataset (whereas they are not in the polygons).
@@ -1112,14 +1110,14 @@ New Jersey
 ## Appendix 5: Clarify Grand List vs. GIS Acreage Guidance Considerations
 
 ### A5.1 Acreage in Common Ownership
-A stacked polygon is a group of identical parcel features (polygons) stacked on top of each other with a different grand list record assigned to each. Stacked polygons often represent common ownership parcels like condominiums.
+A stacked polygon is a group of identical parcel features (polygons) stacked on top of each other with a different grand list record assigned to each. Stacked polygons often represent common ownership parcels like condominiums. [Explore common ownership parcels](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=01a6baaaf41d4667b2f9cce09d9c26a3).
 
 - There are 27,239 grand list records represented as 3,254 stacked polygons statewide
 - Stacked polygons account for 200,457 acres (about 3.5% of the total acres attributed to parcels)
 
 ![CommonOwnership_statewide](https://github.com/user-attachments/assets/2eecb05d-b610-4d0c-97e0-ab4c7a197e55)
 
-**Figure 29: Common Ownership Parcels Statewide.** *Shaded areas represent all stacked parcels.*
+**Figure 29: Common Ownership Parcels Statewide.** *Shaded areas represent stacked parcels.*
 
 ![CommonOwnership_Brattleboro](https://github.com/user-attachments/assets/9580c23e-579e-41fe-aa55-b9fc13aa058b)
 
