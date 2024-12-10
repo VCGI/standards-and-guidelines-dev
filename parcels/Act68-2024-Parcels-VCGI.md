@@ -609,13 +609,15 @@ Information associated with a map shape, found in fields.
 
 ## Data Standard
 
+A uniform way to manage digital information of a particular kind.
+
 ## Digital Land Records
 
 ## Domain
 
 Rules that determine available values in fields. Keeps things tidy.
 
-## feature
+## Feature
 
 A map shape.
 
@@ -624,6 +626,8 @@ A map shape.
 Like "column headers" in an excel table. Information organizers.
 
 ## Parcel Data
+
+Parcel data consists of property ownership information (Grand List) joined with mapped property boundaries. Digital parcel data are easily distributed, are searchable and can be analyzed and applied for other uses. Not a survey but rather a map index of property ownership. 
 
 ## Schema
 
