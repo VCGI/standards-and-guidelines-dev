@@ -158,13 +158,13 @@ Text.
 ## 3.1 Summary
 - Create Computer Assisted Mass Appraisal (CAMA) data standard based on fields from current CAMA software providers and input from the Tax Department, with applicability to current and future CAMA providers operating in Vermont
 - Normalize 'priority fields' in initial standardization, expanding to additional fields in future phases
-- Use stacked polygons for representing and accounting for unlanded structures and common interest parcels
+- Use stacked polygons to represent and account for unlanded structures and common interest parcels
 - Improve attribution of unlanded structures and common interest parcels via prefix codes
-- Require monthly submittal of CAMA data, or provide read-only source, adherent to the VT CAMA data standard to the State of Vermont
+- Provide read-only source of CAMA data, or require monthly submittal, adherent to the VT CAMA data standard to the State of Vermont
 - Make submitted CAMA data publicly available and relatable with parcel map data
 
 ## 3.2 Justification
-These recommendations are intended to provide useful property description information to aid timely and accurate reappraisals, while also supporting key public policy concerns (e.g., housing) that are best served by CAMA data. The recommendations are also intended to improve access to and use of public information for data analysis and visualization. Linking select standardized CAMA information with existing GIS data such as parcels and spatialized property transfers will further enhance data analysis and parcel-dependent policy decisions.
+These recommendations are intended to provide useful property description information to aid timely and accurate reappraisals, while also supporting key public policy concerns (e.g., housing) best served by CAMA data. The recommendations are also intended to improve access to and use of public information for data analysis and visualization. Linking select standardized CAMA information with existing GIS data such as parcels and spatialized property transfers will further enhance data analysis and parcel-dependent policy decisions.
 
 ## 3.3 Components
 
@@ -175,9 +175,9 @@ Four CAMA software providers [operate in Vermont](https://tax.vermont.gov/munici
 - Vision Government Solutions CAMA
 - AssessPro (Catalis, Formerly Patriot)
 
-Based on sample data and documentation, all providers differ in how they collect, format, and organize CAMA data. VCGI recommends developing a standardized template and schema, including domains for applicable fields, with input and agreement from each vendor. In most cases, vendors should be able extract fields they are already collecting with little or no modification (or, ideally, provide VCGI with a read-only API). 
+Based on sample data and documentation, all providers differ in how they collect, format, and organize CAMA data. VCGI recommends developing a standardized template and schema, including domains for applicable fields, with input and agreement from all vendors. In most cases, vendors should be able extract fields they are already collecting with little or no modification (or, ideally, provide VCGI with a read-only API). 
 
-Following discussion with the VT Department of Tax, a phased approach for standardizing fields is the most feasible and realistic. The following fields comprise the first phase of standardization. All fields except 'SPAN' allow Null values.
+Following discussion with the VT Department of Tax, a phased approach for standardizing fields is the most feasible and realistic. The following fields comprise the first phase of standardization. All fields except 'SPAN' would allow Null values.
 
 |Type           |Field   |Alias   |Description                             |Field Type |Length |Example  |
 |---------------|--------|--------|----------------------------------------|-----------|-------|---------|
@@ -200,9 +200,9 @@ Building|Heat2ID|Secondary Heat/Cool Source|Secondary heat/cool source, correspo
 |Building|StoryCnt|Story Count|Total count of stories within structure|Integer|3|2|
 |Building|UnlndCode|Unlanded Code|Prefix for unlanded structure type if applicable|String (domain)|2|Null|
 
-**Table X: Proposed CAMA Data Schema.** *CAMA data schema for initial phase of data standardization. Following agreement with CAMA vendors, these fields should be made available to VCGI for inclusion in a statewide CAMA dataset. Schema will be expanded to include additional fields over time.*
+**Table X: Proposed CAMA Data Schema.** *CAMA data schema for initial phase of data standardization. Following agreement with CAMA vendors, these fields should be made available to VCGI for inclusion in a statewide CAMA dataset.*
 
-**Proposed heat source domains, per NEMRC**: Forced Air, Air Oil, Space Heater, Electric Radiator, Electric Baseboard, Hot Water Baseboard, WrmCool, Heat Pump, Exp Cool, Air Exchange, Gravity Furnace, Individual Unit, Hot Water Radiator.
+**Proposed heat source domains**: Forced Air, Air Oil, Space Heater, Electric Radiator, Electric Baseboard, Hot Water Baseboard, WrmCool, Heat Pump, Exp Cool, Air Exchange, Gravity Furnace, Individual Unit, Hot Water Radiator.
 
 **Unlanded code domains**: CO (condominium), CA (camp), MH (landed or unlanded mobile home), SA (ground mount solar array), WT (wind turbine)
 
@@ -215,7 +215,7 @@ All or most of these fields are present in the sample data/schema provided by th
 
 ### 3.3.2 Implement Changes to Parcel Definition in CAMA Data
 
-Existing CAMA data software solutions offer advanced data maintenance capabilities and should accommodate a parcel definition change to separate and sellable pieces of real estate. Data entry and maintenance practices will need to adjust to reflect these changes.
+Existing CAMA data software offers advanced data maintenance capabilities and should accommodate a parcel definition change to separate and sellable pieces of real estate, per [Recommendation 1](#recommendation-1-update-parcel-definition-in-vermont-statute). Data entry and maintenance practices will need to adjust to reflect these changes.
 
 ### 3.3.3 Normalize Actual Year Built, Effective Year Built, and Unit Count Information
 
