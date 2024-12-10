@@ -616,7 +616,7 @@ Inactive parcels are not managed consistently across towns; currently 178 towns 
 
 **From a municipality in Windham County:**
 
-> As part of [the municipality's] reappraisal, we will review parcels previously classified as "inactive" to determine their contributory value. We believe that our Grand List (similar to every town across the state) contains inactive parcels not represented in the Grand List or [in the parcel data]. Our goal is to identify and recreate these parcels through a thorough review of deeds, surveys, and historical grand lists.
+> As part of [the municipality's] reappraisal, we will review parcels previously classified as "inactive" to determine their contributory value. We believe that our [records] (similar to every town across the state) contain inactive parcels not represented in the Grand List or [in the parcel data]. Our goal is to identify and recreate these parcels through a thorough review of deeds, surveys, and historical grand lists.
 
 **From a mapping vendor working with Vermont municipalities:**
 
