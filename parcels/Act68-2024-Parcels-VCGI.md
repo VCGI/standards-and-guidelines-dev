@@ -599,6 +599,16 @@ Text.
 
 **Figure 20: Gaps and Overlaps Between Municipal Boundaries.** *Example of gaps (red) and overlaps (blue) in parcel geometry at municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Black lines represent town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI. [Explore gaps and overlaps in parcel data along town boundaries](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=7972f2b2ab0646deae0fd8d8b79e138d).*
 
+# Glossary
+
+## CAMA
+
+## Digital Land Records
+
+## Parcel Data
+
+## Vermont GIS Parcel Data Standard
+
 # Appendices
 
 ## Appendix 1: Update Parcel Definition in Vermont Statute Considerations
