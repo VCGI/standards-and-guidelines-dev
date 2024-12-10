@@ -305,7 +305,7 @@ In Vermont there is no formally defined practice or requirement for the handling
 
 ### 4.2.1 Acreage in Right-of-Way
 
-Correct mapping of Rights-of-Way has important implications for taxation purposes. Based on the parcel data, over 133,000 acres in Vermont are classified as a Right-of-Way. [Explore ROW Acreage by Town here](https://www.arcgis.com/apps/mapviewer/index.html?webmap=710b9e14e2b04c4c85a2d6e3b9638e82) and in the images below. Acreage is based on the sum of parcels by town where the Property Type is classified as "ROW_ROAD", "ROW_RAIL", or "ROW_TRAIL". The second image provides an example of each ROW.  
+Correct mapping of Rights-of-Way has important implications for taxation purposes. Based on the parcel data, over 133,000 acres in Vermont are classified as a Right-of-Way. [Explore ROW acreage by town here](https://www.arcgis.com/apps/mapviewer/index.html?webmap=710b9e14e2b04c4c85a2d6e3b9638e82) and in the images below. Acreage is based on the sum of parcels by town where the Property Type is classified as "ROW_ROAD", "ROW_RAIL", or "ROW_TRAIL". The second image provides an example of each ROW.  
 
 Note: while the majority (96%) of municipalities include ROWs, a small number do not. Parcels in these towns are generally mapped to centerlines where ROWs are missing. These municipalities include:
 
@@ -490,12 +490,12 @@ Although there is no accessible public-facing means of digitally entering the ma
 
 ### 9.2.1 Lands in Current Use
 
-In 2023 over 19,000 parcels were enrolled in Current Use, totaling over 2.5 million acres statewide. [Explore parcels enrolled in Current Use](https://www.arcgis.com/apps/mapviewer/index.html?webmap=6e82347c410d4c00bab809a8a6e5350b).
+In 2023 over 19,000 parcels were enrolled in current use, totaling over 2.5 million acres statewide. [Explore parcels enrolled in Current Use](https://www.arcgis.com/apps/mapviewer/index.html?webmap=6e82347c410d4c00bab809a8a6e5350b).
 
-In addition, Current Use parcels may only have a percentage of their acreage enrolled. The statewide average enrollment is 92.5%, with 75% of parcels between 92-100%.
+In addition, current use parcels may only have a percentage of their acreage enrolled. The statewide average enrollment is 92.5%, with 75% of parcels between 92-100%.
 
 ![2023_CurrentUse](https://github.com/user-attachments/assets/4a0bf7fd-a32d-4217-9f63-b23782bb5f56)
-**Figure 16: Parcels Enrolled in Current Use.** *Shaded parcels are enrolled in the Current Use Program as of 2023 (left). A parcel may be fully or partially enrolled (right).*
+**Figure 16: Parcels Enrolled in Current Use.** *Shaded parcels are enrolled in the current use program as of 2023 (left). A parcel may be fully or partially enrolled (right).*
 
 
 
@@ -530,7 +530,9 @@ In addition, Current Use parcels may only have a percentage of their acreage enr
 - Integration with parcel data could potentially reduce the need for duplicative mapping needed by other state initiatives
 
 ## 11.2 Justification
-[Act 171](https://legislature.vermont.gov/Documents/2022/Docs/ACTS/ACT171/ACT171%20As%20Enacted.pdf) is an initiative focused on land records modernization through the Vermont State Archives and Records Administration office (VSARA). VSARA was tasked with consulting the Joint Fiscal Office, Vermont League of Cities and Towns, Vermont Municipal Clerks' and Treasurers' Association, representatives from banking, bar, title insurance, and real industry industry, and other interested parties to assess the fiscal, governance, and operational sustainability of modernization. A [report](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf) was produced suggesting the benefits of an enterprise-wide systems approach to modernization, including consistency and uniformity. Digital land records offer many benefits similar to those above related to standardized statewide CAMA (see [Appendix C](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf#page=21), for example); efforts to make all of this information publicly available in a consistent format statewide would have far reaching applicability and long-term cost savings. 
+[Act 171](https://legislature.vermont.gov/Documents/2022/Docs/ACTS/ACT171/ACT171%20As%20Enacted.pdf) is an initiative focused on land records modernization through the Vermont State Archives and Records Administration office (VSARA). VSARA was tasked with consulting the Joint Fiscal Office, Vermont League of Cities and Towns, Vermont Municipal Clerks' and Treasurers' Association, representatives from banking, bar, title insurance, and real industry industry, and other interested parties to assess the fiscal, governance, and operational sustainability of modernization. A [report](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf) was produced suggesting the benefits of an enterprise-wide systems approach to modernization, including overall consistency and uniformity. Digital land records offer many benefits similar to those above related to standardized statewide CAMA (see [Appendix C](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf#page=21), for example). 
+
+The overlap in efforts to standardize, modernize, and streamline multiple veins of property-related data suggest the need for and advantage of combining such initiatives. Openly accessible, statewide data containing ownership history, property information, and spatial representation would have far reaching appplicability and long-term cost savings.
 
 As an example of utility, the [Protected Lands](https://geodata.vermont.gov/datasets/VCGI::vt-protected-lands-database/about) database could be enhanced through the inclusion of authoritative, digital land records indicating ownership and easements linked to parcel geometry. 
 
@@ -562,13 +564,13 @@ The library was developed in accordance with the amendment of [27 V.S.A. § 341]
 
 As of December 10, 2024:
 
-- There are currently 3,121 land surveys published to the library, representing 215 towns. About 55% of land surveys were submitted in accordance with the amendment (dated on or after January 1, 2020).
+- There are 3,121 land surveys published to the library, representing 215 towns. About 55% of land surveys were submitted in accordance with the amendment (dated on or after January 1, 2020)
 
-- There are 41 towns with no land surveys published in the library (215 out of 256 total Vermont municipalities).
+- There are 41 towns with no land surveys published in the library (215 out of 256 total Vermont municipalities)
 
-- Out of the 215 towns, 143 towns have 10 or fewer land surveys published. Only 2 towns have more than 100 land surveys published.
+- Of the 215 towns, 143 towns have 10 or fewer land surveys published. Only two towns have more than 100 land surveys published
 
-Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. Mapping vendors have confirmed that the library does not reflect the total number of land surveys they receive.
+Mapping vendors typically receive the land surveys needed to complete a parcel data update directly from the town. Mapping vendors have confirmed that the library does not reflect the total number of land surveys they receive.
 
 ![SurveyLibraryStatus_Dec7_2024](https://github.com/user-attachments/assets/6f3e03ae-add5-4135-b70c-61bb4db4a356)
 **Figure 18: Statistics from the Vermont Land Survey Library.** *Land surveyors are responsible for submitted new surveys to the Land Survey Library. Information about surveys including type, submittal date, survey year, town, and surveyor are tracked. These data can help assess patterns and completeness when compared to property transfers and new Grand List records, as well as between geographical areas.*
@@ -578,7 +580,7 @@ Mapping vendors typically receive the land surveys they need to complete a parce
 Text.
 
 ![MuniLibrary_Survey_2](https://github.com/user-attachments/assets/6e6ad6d9-711e-4593-9c96-9109075fb448)
-**Figure 19: Survey of Town Line Between Underhill and Westford.** *Town boundaries are not necessarily officially surveyed in many parts of the state. The Land Survey Library includes a specific designation for surveyors to indicate whether the survey is a municipal boundary. Ideally all town boundaries will be officially surveyed in time.*
+**Figure 19: Survey of Town Line Between Underhill and Westford.** *Town boundaries are not necessarily officially surveyed in many parts of the state. The Land Survey Library includes a specific designation for surveyors to indicate whether the survey is a municipal boundary. Ideally all town boundaries will be officially surveyed and formally documented in time.*
 
 ### Acreage Not Counted (Gaps) and Double Counted (Overlaps)
 ![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
