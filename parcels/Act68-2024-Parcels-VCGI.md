@@ -1040,6 +1040,13 @@ At the county-level, the average cost per parcel during the Parcel Project was $
 
 **Table X: Estimated Statewide Financial Incentive Cost.** *Estimated funding needed to support a financial incentive is calculated by county, along with the estimated cost reduction compared to the cost of the Parcel Project.*
 
+|              |Average cost per parcel|
+|--------------|-----------------------|
+|Focus Group   |$2.66                  |
+|County-level  |$2.34                  |
+
+**Table X: A summary of the average costs per parcel.** *The average cost per parcel for the seven towns that participated in the focus group is $2.66 - this number is based on the current contract each towns has with their mapping vendor divided by their 2023 Grand List parcel count. During the Parcel Project, the average cost per parcel for the same seven towns was $5.87 (55% cost reduction). At the county-level, the average cost per parcel during the Parcel Project was $5.21. If a 55% cost reduction was applied at the county-level, it can be estimated that the average cost per parcel would currently be around $2.34.*    
+
 Each county could be assigned its own per parcel fee, or a single per parcel fee could be established for the state with some counties receiving an additional percentage above the per parcel fee based on financial capacity. While there are multiple ways to determine financial capacity, two methods using the Real Listed Value field from the 2023 Grand List are shown below. For both methods, any county that is **below** the average value would receive an adjusted per parcel fee. The remaining counties would receive the standard per parcel fee.
 
 **Real Listed Value per Capita**
