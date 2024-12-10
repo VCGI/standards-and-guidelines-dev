@@ -106,7 +106,12 @@ In Vermont, the size and capacity of some extremely small municipalities make it
 Municipalities that do maintain parcel data should be required to adhere to the State’s basic standards and submit their data to the state. This approach mirrors the adoption of Municipal Plans in Vermont, where towns are not mandated to adopt plans, but if they do, they must include provisions specified in 24 V.S.A. § 4382.
 
 At the same time, adding new requirements for municipalities without incentives may not significantly increase the number of municipalities submitting standardized data. Therefore, it is recommended that this be done in tandem with the approach outlined in Act 68 Section 4. (3) (G):
+
 > Incentivizing municipalities to submit grand list parcel map data to the Vermont Center for Geographic Information, including conditioning payment of higher per grand list parcel fees on the submission of data.
+
+Increasing the per-parcel payment to municipalities, even marginally, could meaningfully increase the number of municipalities sharing data with the state.  Creating incentives to improve data maintenance and sharing was also a recommendation in the [2015 Vermont Statewide Digital Parcel Lifecycle & Maintenance Plan](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/VT_Parcel%20Data%20Lifecycle%20and%20Maintenance%20Plan_2015_FINAL.pdf):
+
+> As implementation shifts into a maintenance stage, Vermont will want to pay close attention to challenges to compliance. While some impediments may be more attitudinal than logistical or economic, the state may want to consider creating incentives to comply.
 
 ## 2.3.2 Scenario: Regional/State Assessment Jurisdiction
 
