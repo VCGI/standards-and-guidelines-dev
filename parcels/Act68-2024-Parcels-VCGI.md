@@ -568,7 +568,7 @@ As of December 10, 2024:
 
 - Out of the 215 towns, 143 towns have 10 or fewer land surveys published. Only 2 towns have more than 100 land surveys published.
 
-Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. At least one mapping vendors has confirmed that the library does not currently reflect the total number of land surveys they receive. However, the 2 towns with over 100 land surveys published to the library demonstrate the potential value of the library. Now that the library is integrated into the Parcel Viewer, with increased participation, the library may be used to conduct preliminary research as part of a title search. From a town in Windham County: 
+Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. Mapping vendors has confirmed that the library does not currently reflect the total number of land surveys they receive. However, the 2 towns with over 100 land surveys published to the library demonstrate the potential value of the library. Now that the library is integrated into the Parcel Viewer, with increased participation, the library may be used to conduct preliminary research as part of a title search. From a town in Windham County: 
 
 >This is a great resource once surveys are scanned, allowing towns to index their surveys and host them for free. I have been using this resource, realtors and title searchers know they can expect to see this information on this site.
 
