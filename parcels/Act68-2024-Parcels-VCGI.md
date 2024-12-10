@@ -625,6 +625,10 @@ Computer software that helps maintain property information. In Vermont, CAMA sof
 
 Applied to a street, road, right-of-way, or other strip of land of uniform width, defines the line midway between the side lines of said strip.
 
+## Contiguous
+
+Next to or close to one another; adjacent, having a common boundary, sharing an edge.
+
 ## Data Standard
 
 A uniform way to manage digital information of a particular kind.
@@ -645,9 +649,21 @@ A map shape that is a representation of a real-world object.
 
 Like "column headers" in an excel table. Information organizers.
 
+## Geometry
+
+A GIS representation of spatial data using points, lines, and polygons.
+
+## Inactive Parcel
+
+In cases where two or more abutting parcels have the same owner, parcel(s) that does not receive a tax bill. May be represented as multiple parcels within a larger boundary with a single SPAN and owner, for example.
+
 ## Listed Acreage
 
 The estimated acreage of a mapped parcel as presented within a Grand List. Often based on deeds within land records for a given property.
+
+## Multi-part Parcel
+
+A non-contiguous geometry object (multi-part polygon) modeling one Grand List record as one record in the GIS data. For example, a single parcel split into two pieces by a water body or road but with a single SPAN and Grand List record.
 
 ## Parcel Data
 
