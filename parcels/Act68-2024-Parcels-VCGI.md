@@ -603,11 +603,31 @@ Text.
 
 ## Attributes
 
+Information associated with a map shape, found in fields.
+
 ## CAMA
+
+## Data Standard
 
 ## Digital Land Records
 
+## Domain
+
+Rules that determine available values in fields. Keeps things tidy.
+
+## feature
+
+A map shape.
+
+## Field
+
+Like "column headers" in an excel table. Information organizers.
+
 ## Parcel Data
+
+## Schema
+
+Format and rules of the content of spatial data. Uniformity here keeps decision-support tools running smoothly.
 
 ## Unlanded Structures
 
