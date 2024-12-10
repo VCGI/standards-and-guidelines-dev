@@ -56,13 +56,13 @@ See [Appendix A1.5 Parcel Definitions and Interpretations in Existing State Stat
 
 ## 1.5 Implementation
 
-Vermont municipalities would be expected to continue to aggregate parcels by common ownership and account for them as they do currently. An aggregate, "contiguous" map layer reflecting this accounting would continue to be submitted to the Statewide Property Parcel Program overseen by VCGI, and remain adherent to an updated VT GIS Parcel Data Standard. The layer will be renamed from "active" parcels to "administrative" parcels by VCGI. SPAN numbers for administrative parcels would be maintained in a field called ADMINSPAN, and mirror the source ADMINSPAN of its constituent parts that have the same ownership (see Figure 1 and [Appendix 1.7](#a17-proposed-parcel-layers-and-vt-gis-data-standard-schema-per-updated-parcel-definition)). When a parcel has only one bounded area in common ownership, its ADMINSPAN would be the same value as its SPAN. CAMA providers would be engaged to reflect these changes in their accounting systems.
+Vermont municipalities would be expected to continue to aggregate parcels by common ownership and account for them as they do currently. An aggregate, "contiguous" map layer reflecting this accounting would continue to be submitted to the Statewide Property Parcel Program overseen by VCGI, and remain adherent to an updated VT GIS Parcel Data Standard. The layer will be renamed from "active" parcels to "administrative" parcels by VCGI. SPAN numbers for administrative parcels would be maintained in a field called ADMINSPAN, and mirror the source ADMINSPAN of its constituent parts that have the same ownership (see Figure 1 and [Appendix 1.4](#a14-proposed-parcel-layers-and-vt-gis-data-standard-schema-per-updated-parcel-definition)). When a parcel has only one bounded area in common ownership, its ADMINSPAN would be the same value as its SPAN. CAMA providers would be engaged to reflect these changes in their accounting systems.
 
 Municipalities would also be expected to account for what are currently called "inactive" parcels, however, these parcels would reflect the updated parcel definition and depict separately sellable pieces of real estate given their best available documentation, and regardless of common ownership. Representative spatial data are to remain adherent to an updated VT GIS Parcel Data Standard, albeit "inactive" parcels are to be renamed to simply "parcels". They are also to continue to be submitted to the State Property Parcel Program overseen by VCGI, who will rename the current "inactive" parcels layer as "parcels". It is expected that mapping and tracking of these parcels reflective of an updated parcel definition by municipalities will take time and improve with continued maintenance.
 
 Advance notice of these changes will be sent by VCGI to the VT GIS community, municipalities, and their mapping vendors.
 
-A full description of proposed changes is within [Appendix 1.7: Proposed Parcel Layers and VT GIS Data Standard Schema, per Updated Parcel Definition](#a17-proposed-parcel-layers-and-vt-gis-data-standard-schema-per-updated-parcel-definition).
+A full description of proposed changes is within [Appendix 1.4: Proposed Parcel Layers and VT GIS Data Standard Schema, per Updated Parcel Definition](#a14-proposed-parcel-layers-and-vt-gis-data-standard-schema-per-updated-parcel-definition).
 
 ![Woodstock_Inactives_Labels](https://github.com/user-attachments/assets/fd77e797-1a94-4419-9131-cc8536f4a266)
 **Figure 2: Example of Current Practices for Mapping Inactive Parcels.** *Inactive parcels are tracked differently depending on municipality. Woodstock and Hartford, for example, currently manage inactive parcels and provide them to VCGI while Hartland, Pomfret, and Bridgewater do not. For the latter towns it is unknown whether inactive parcels are only managed internally or not at all.*
@@ -130,7 +130,7 @@ Municipalities would be expected to continue to individually contract with and o
 **Table X: Enhanced Town-Led Maintenance.** *Pros and cons of a town-led approach to parcel maintenance.*
 
 ### 2.3.3 Regional Appraisal District-Led Maintenance
-**Regional Appraisal District-led maintenance** would be contingent on the creation of such districts as proposed in part 1 of this report and ideally, follow existing county boundaries per [recommendation 12](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries). This model assumes that the same CAMA provider would be used throughout an appraisal district. In this scenario, regional appraisal districts would be staffed and supported to administer a single GIS parcel mapping contract for all of its municipalities, effectively taking over current responsibility from towns. Mapping would be required to be 
+**Regional Appraisal District-led maintenance** would be contingent on the creation of such districts as proposed in part 1 of this report and ideally, follow existing county boundaries per [Recommendation 12](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries). This model assumes that the same CAMA provider would be used throughout an appraisal district. In this scenario, regional appraisal districts would be staffed and supported to administer a single GIS parcel mapping contract for all of its municipalities, effectively taking over current responsibility from towns. Mapping would be required to be 
 
 vendors
 contracts / contract guidance
@@ -226,7 +226,7 @@ Consistent definitions and formatting for actual year built, year renovated, uni
 
 ### 3.3.4 Normalize Attribution and Mapping of Unlanded Structures and Common Interest Parcels
 
-The [stacked polygons method](#stacked-method---recommended) is the current and continuing recommendation for representing unlanded structures and common interest parcels, per the Vermont GIS Parcel Data Standard. Alternative methods are described in Appendix 3.3. 
+The [stacked polygons method](#a331-current-unlanded-structure-and-common-interest-parcel-mapping-practices-in-vermont) is the current and continuing recommendation for representing unlanded structures and common interest parcels, per the Vermont GIS Parcel Data Standard. Alternative methods are described in [Appendix 3.3](#a33-mapping-of-unlanded-structures-and-common-interest-parcels). 
 
 To improve the functionality of using stacked polygons to represent unlanded structures and common interest parcels, the following recommendations should be considered: 
 
@@ -1035,17 +1035,38 @@ Statewide standardized parcel data in Vermont is currently comprised of parcel g
 
 #### A.3.3.1 Current Unlanded Structure and Common Interest Parcel Mapping Practices in Vermont
 
+**Stacked Method - Recommended**
+
+Stacked polygons use a standalone Intersection Table to relate multiple SPANs from the Grand List to the same “placeholder” SPAN assigned to a polygon in the parcel data. 
+
+![image](https://github.com/user-attachments/assets/959a5b13-4dd0-484c-b064-758ae657ee00)
+
+**Figure 24: Relationship Between GIS SPAN (Geometry) and Grand List SPAN.** *In Vermont parcel data, the stacked method is recommended. This method uses a placeholder GIS SPAN in the parcel geometry. In the Intersection Table, the GIS SPAN is listed for all corresponding Grand List SPANs at that parcel.*
+
+This method creates identical polygons "stacked" on top of each other, which can be “flattened” to remove all but one polygon for each parcel for analytical purposes. Unlike the building footprints methods, there is no visual distinction between unlanded structures and the common land. Because of this, parcel geometry is simpler to maintain.
+
+![image](https://github.com/user-attachments/assets/8da7e8ab-d3e0-4423-881a-1ce1e2a9d399)
+
+**Figure 25: Stacked Method Mapping of Condos.** *The stacked method depicts multiple owners through parcel stacking; there is no distinction between common land and building footprints (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
+
+Pros
+- Geometry is easier to maintain when compared to the building footprints methods
+- Geometry includes common land to reflect total, calculated acreage and is relatively easy to “flatten” stacked polygons for analysis purposes
+
+Cons
+- Requires the creation and maintenance of GIS SPANs in the Intersection Table
+
 **Discrete and Distributed Methods**
 
 Building footprints are often used to visually distinguish between unlanded structures and the common land, particularly as a paper tax map convention. The difference between the “Distributed” and “Discrete” building footprint methods is whether or not the common land has a SPAN. Per the Vermont GIS Parcel Data Standard, “in some instances, a deed specifies a percentage of common land ownership to each condominium unit and the common land does not have a SPAN number. In other instances, a deed does not allocate the common land, and the common land does have a SPAN number.”
 
 ![image](https://github.com/user-attachments/assets/2ff17158-461a-490d-8062-6c014960c6f0)
 
-**Figure 24: Discrete Method Mapping of Condos.** *The discrete method depicts multiple owners through building footprints; common land does not have a SPAN (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
+**Figure 26: Discrete Method Mapping of Condos.** *The discrete method depicts multiple owners through building footprints; common land does not have a SPAN (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
 
 ![image](https://github.com/user-attachments/assets/b39db8ec-ef97-477d-b394-b303d2ff0c4d)
 
-**Figure 25: Distributed Method of Mapping Condos.** *The distributed method depicts multiple owners through building footprints; common land also has a SPAN (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
+**Figure 27: Distributed Method of Mapping Condos.** *The distributed method depicts multiple owners through building footprints; common land also has a SPAN (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
 
 Pros
 - Creates visual distinction between unlanded structures and common land
@@ -1055,26 +1076,7 @@ Cons
 - Time intensive to create/maintain individual building footprints geometry
 
 ***
-**Stacked Method - Recommended**
 
-Stacked polygons use a standalone Intersection Table to relate multiple SPANs from the Grand List to the same “placeholder” SPAN assigned to a polygon in the parcel data. 
-
-![image](https://github.com/user-attachments/assets/959a5b13-4dd0-484c-b064-758ae657ee00)
-
-**Figure 26: Relationship Between GIS SPAN (Geometry) and Grand List SPAN.** *In Vermont parcel data, the stacked method is recommended. This method uses a placeholder GIS SPAN in the parcel geometry. In the Intersection Table, the GIS SPAN is listed for all corresponding Grand List SPANs at that parcel.*
-
-This method creates identical polygons "stacked" on top of each other, which can be “flattened” to remove all but one polygon for each parcel for analytical purposes. Unlike the building footprints methods, there is no visual distinction between unlanded structures and the common land. Because of this, parcel geometry is simpler to maintain.
-
-![image](https://github.com/user-attachments/assets/8da7e8ab-d3e0-4423-881a-1ce1e2a9d399)
-
-**Figure 27: Stacked Method Mapping of Condos.** *The stacked method depicts multiple owners through parcel stacking; there is no distinction between common land and building footprints (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
-
-Pros
-- Geometry is easier to maintain when compared to the building footprints methods
-- Geometry includes common land to reflect total, calculated acreage and is relatively easy to “flatten” stacked polygons for analysis purposes
-
-Cons
-- Requires the creation and maintenance of GIS SPANs in the Intersection Table
 
 ***
 #### A.3.3.2 Other Unlanded Structures Mapping Practices from Other States
