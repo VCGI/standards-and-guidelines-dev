@@ -857,11 +857,7 @@ The Shared Responsibility model identifies a municipality's ability to perform p
 ### A2.2 Funding During the Parcel Project (2017-2019)
 The Statewide Property Parcel Mapping Project leveraged both state and federal funds with 80% coming from the Federal Highway Administration and the remaining 20% from several state agencies and departments. The Vermont Agency of Transportation contracted with several mapping vendor to update or create digital parcel data for each Vermont municipality over a three-year period. Each municipality was assigned  mapping vendor through a competitive bid process. 
 
-The average cost per parcel for the 67 municipalities completed during the first year of the Parcel Project in 2017 (excluding unincorporated towns and gores) was $6.85, which is slightly more than the national average of $5.20 reported 10 years prior by the National Research Council in *National Land Parcel Data: A Vision for the Future* (2007). The cost per parcel for municipalities completed during the first year of the Parcel Project (excluding unincorporated towns and gores) is depicted below.
-
-![Parcel Project Year 1 Table](https://github.com/user-attachments/assets/cb114846-6a1b-45c1-89b4-f7a8833b9981)
-
-**Table X: Parcel Project Costs by Town for Year 1 (2017).** *Per parcel costs varied by town and by vendor during the first year of the Parcel Program.*
+The average cost per parcel during the Parcel Project was $8.45 compared to the national average of $5.20 reported 10 years prior by the National Research Council in *National Land Parcel Data: A Vision for the Future* (2007). The cost per parcel during the Parcel Project ranged from $0.42 to $166.67 with 185 municipalities falling at or below the average cost per parcel (74%). Based on our records, one municipality did not contract with a mapping vendor during the Parcel Project opting to standardize its parcel data internally (the total cost and cost per parcel for this municipality is listed as $0.00). The total cost as well as the cost per parcel for each municipality during the Parcel Project can be viewed in this [table](https://services1.arcgis.com/BkFxaEFNwHqX3tAw/arcgis/rest/services/Statewide_Parcel_Data_Financial_Table/FeatureServer). 
 
 ### A2.3 Submittal Quality Criteria
 
