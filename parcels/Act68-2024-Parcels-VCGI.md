@@ -601,11 +601,15 @@ Text.
 
 # Glossary
 
+## Attributes
+
 ## CAMA
 
 ## Digital Land Records
 
 ## Parcel Data
+
+## Unlanded Structures
 
 ## Vermont GIS Parcel Data Standard
 
