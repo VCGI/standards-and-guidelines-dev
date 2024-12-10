@@ -685,11 +685,11 @@ A map representation of a bounded area of the Earth's surface. Often used to rep
 
 Parcel data consists of property ownership information (Grand List) joined with mapped property boundaries. Digital parcel data are easily distributed, are searchable and can be analyzed and applied for other uses. Not a survey but rather a map index of property ownership. 
 
-## Private Right-of-Way (or Ingress-Egress Easement): 
+## Private Right-of-Way (ROW) (or Ingress-Egress Easement): 
 
 Arranged for access to locations by traversing one or more parcels. Ingress-egress easements that overlay underlying parcels are not considered to be public rights-of-way and are not considered to be parcels.
 
-## Public Right-of-Way: 
+## Public Right-of-Way (ROW): 
 
 An area that is legally dedicated to public right-of-way (access) purposes. Public rights-of-way areas do not have SPAN numbers, but are a type of parcel (bounded area).
 
@@ -697,15 +697,33 @@ An area that is legally dedicated to public right-of-way (access) purposes. Publ
 
 Format and rules of the content of spatial data. Uniformity here keeps decision-support tools running smoothly.
 
+## SPAN (School Property Account Number)
+
+Unique, statewide eleven-digit identification number assigned by a municipality to a property, per the Director of PVR via [32 V.S.A. § 5404](https://legislature.vermont.gov/statutes/section/32/135/05404).
+
 ## Spatial Data
 
 Information that can be mapped and describes the location, shape, and/or relationships of objects or phenomena on the Earth's surface.
 
+## Subdivision
+
+Division of a lot, tract, or parcel of land into two or more lots, plats, sites, or other divisions of land for immediate or future sale or building development. 
+
+## Survey
+
+The process and resulting document of recording observations, making measurements, and marking the boundaries of tracts of land. 
+
 ## Unlanded Structures
+
+A condominium unit, mobile home, camp, or other structure that is a unit of real estate which is separate from the underlying land surface. In some cases, the underlying land is rented.
 
 ## Vermont GIS Parcel Data Standard
 
 The current Vermont GIS Parcel Data Standard ensures that all mapped properties statewide are linkable to their unique grand list record. This link between table record and its mapped area is enabled by the unique School Property Account Number (SPAN) assigned for every parcel. Parcel data adherent to the standard enables visualization of a statewide parcel data layer along with their respective grand list information for every property in the state. Standardized parcel data also enable other information to be related with properties on a map, such as weekly property transfers.
+
+## VTPIE (Vermont Property Information Exchange)
+
+An integrated system overseen by the Tax Department to collect Vermont’s statewide education grand list and to manage the statewide education property tax system, to be used by every municipality in the state. Integrates with parcel data served by the Vermont Parcel Program.
 
 # Appendices
 
