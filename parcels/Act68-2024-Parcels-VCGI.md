@@ -58,7 +58,7 @@ See [Appendix A1.5 Parcel Definitions and Interpretations in Existing State Stat
 
 Vermont municipalities would be expected to continue to aggregate parcels by common ownership and account for them as they do currently. An aggregate, "contiguous" map layer reflecting this accounting would still be submitted to the Statewide Property Parcel Program overseen by VCGI, and remain adherent to an updated VT GIS Parcel Data Standard. The layer will be renamed from "active" parcels to "administrative" parcels by VCGI. SPANs for administrative parcels would be maintained in a field called ADMINSPAN, and match the source ADMINSPAN of abutting lots under the same ownership (see Figure 1 and [Appendix 1.4](#a14-proposed-parcel-layers-and-vt-gis-data-standard-schema-per-updated-parcel-definition)). When a parcel has only one bounded area in common ownership, its ADMINSPAN would be the same value as its SPAN. CAMA providers would be engaged to reflect these changes in their accounting systems.
 
-Municipalities would also be expected to account for what are currently called "inactive" parcels. These parcels would reflect the updated parcel definition and depict separately sellable pieces of real estate given their best available documentation, and regardless of common ownership. Representative spatial data are to remain adherent to an updated VT GIS Parcel Data Standard, albeit "inactive" parcels are to be renamed to simply "parcels". This layer will be submitted to the State Property Parcel Program overseen by VCGI, who will rename the current "inactive" parcels layer as "parcels". 
+Municipalities would also be expected to account for what are currently called "inactive" parcels, however, these parcels would reflect the updated parcel definition and depict separately sellable pieces of real estate given their best available documentation, and regardless of common ownership. This practice is compatible with at least one parcel map vendor's current practices in Vermont (see [Appendix 1.2: Comments on Maintaining Inactive Parcels at the Municipal Level](#a12-comments-on-maintaining-inactive-parcels-at-the-municipal-level)). Representative spatial data are to remain adherent to an updated VT GIS Parcel Data Standard, albeit "inactive" parcels are to be renamed to simply "parcels". They are also to continue to be submitted to the State Property Parcel Program overseen by VCGI, who will rename the current "inactive" parcels layer as "parcels". It is expected that mapping and tracking of these parcels reflective of an updated parcel definition by municipalities will take time and improve with continued maintenance.
 
 VCGI will send advance notice of these changes to the VT GIS community, municipalities, and their mapping vendors. It is expected that mapping and tracking of parcels that reflect an updated parcel definition will take time and improve with continued maintenance.
 
@@ -78,7 +78,7 @@ A full description of proposed changes is in [Appendix 1.4: Proposed Parcel Laye
 
 Vermont has 256 municipalities: 237 towns, 10 cities, 5 unincorporated towns, and 4 gores. Unlike other states with county government that often oversees the task, in Vermont individual municipalities are responsible for parcel mapping of taxable lands in their jurisdiction. Most towns budget to hire a GIS vendor to maintain their digital parcel data and depend on them to reflect any changes to parcel geometry since the town's last update. Frequency of geometry updates varies depending on the needs and resources of the town, with some updates performed annually and others completed every two to three years or more. Some towns do not update their digital parcel geometry. Town oversight of parcel mapping is typically the responsibility of its listers or assessors. Accuracy of taxation and identification of land-based and parcel-related trends suffer without a tight relationship between grand list and map maintenance.
 
-The [Statewide Property Parcel Program](https://vcgi.vermont.gov/data-and-programs/parcel-program) publishes municipal parcel map data joined to the annual statewide grand list in a uniform, digital format. The Program relies on towns voluntarily sharing updated parcel geometry with VCGI, typically via their vendor (see [Appendix 2.1](#a21-current-shared-responsibility-model-town-maintenance)). VCGI reviews submissions, performs any required edits for standard compliance, and makes the data publicly available with [enhanced functionality](https://github.com/VCGI/documentation/blob/main/parcelviewer4/User_Guide.md). The data drive applications such as the [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/ParcelViewer/), which draws more than 500,000 unique views a year, and offers raw spatial data which sees more than 1 million unique views a year.
+The [Statewide Property Parcel Program](https://vcgi.vermont.gov/data-and-programs/parcel-program) publishes municipal parcel map data joined to the annual statewide grand list in a uniform, digital format (see [Glossary: VT GIS Parcel Data Standard](#vermont-gis-parcel-data-standard)). The Program relies on towns voluntarily sharing updated parcel geometry with VCGI, typically via their vendor. These data are then reviewed and edited for data standard compliance and made publicly available by VCGI in a uniform, accessible way with [many capabilities](https://github.com/VCGI/documentation/blob/main/parcelviewer4/User_Guide.md). The data drive applications such as the [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/ParcelViewer/) that draws more than 500,000 unique views a year, and are offered as raw spatial data that sees more than 1 million unique views a year.
 
 This voluntary method of sourcing parcel data has supported one of the State of Vermont's most-used spatial datasets, including state, regional, and local efforts in emergency management, natural resources policy and planning, permitting and compliance, and transportation. Parcel data also support efforts to address pressing issues such as flood response, resilience planning, and housing. All municipalities may use these data and applications to display their parcels digitally and free of charge. Some towns pay vendors for additional map services such as custom web applications and print map production. The overarching incentive for municipal parcel data maintenance is for towns to ensure the most accurate, consistent, and timely data exist across all representations of land ownership and location, be that in grand list tables or on maps that see high use.
 
@@ -526,12 +526,15 @@ In addition, current use parcels may only have a percentage of their acreage enr
 
 ## 11.1 Summary
 
-- If changes are made to assessment jurisdiction, digital land records become important to minimize inefficiencies between tax administration and maintenance of authoritative land records
+- If changes are made to assessment jurisdiction, digital land records become additionally important to minimize inefficiencies between tax administration and maintenance of authoritative land records
 - Digital land records statewide would offer numerous benefits including integration with parcel data to increase transparency and ease access, regardless of assessment jurisdiction
 - Integration with parcel data could potentially reduce the need for duplicative mapping needed by other state initiatives
 
 ## 11.2 Justification
-[Act 171](https://legislature.vermont.gov/Documents/2022/Docs/ACTS/ACT171/ACT171%20As%20Enacted.pdf) is an initiative focused on land records modernization through the Vermont State Archives and Records Administration office (VSARA) under the Secretary of State. VSARA was tasked with consulting the Joint Fiscal Office, Vermont League of Cities and Towns, Vermont Municipal Clerks' and Treasurers' Association, representatives from banking, bar, title insurance, and real industry industry, and other interested parties to assess the fiscal, governance, and operational sustainability of modernization. A [report](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf) was produced suggesting the benefits of an enterprise-wide systems approach to modernization, including consistency and uniformity. Digital land records offer many benefits similar to those above related to standardized statewide CAMA (see [Appendix C](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf#page=21), for example); efforts to make all of this information publicly available in a consistent format statewide would have far reaching applicability and long-term cost savings. 
+Digital land records are X. Current efforts to digitize authoritative documents .
+A parcel is the container by which land records could be joined, enabling easy, map-based access to associated documents.
+
+[Act 171  of 2022](https://legislature.vermont.gov/Documents/2022/Docs/ACTS/ACT171/ACT171%20As%20Enacted.pdf) is focused on land records modernization through the Vermont State Archives and Records Administration office (VSARA) under the Secretary of State. VSARA was tasked with consulting the Joint Fiscal Office, Vermont League of Cities and Towns, Vermont Municipal Clerks' and Treasurers' Association, representatives from banking, bar, title insurance, and real industry industry, and other interested parties to assess the fiscal, governance, and operational sustainability of modernization. A [report](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf) was produced suggesting the benefits of an enterprise-wide systems approach to modernization, including consistency and uniformity. Digital land records offer many benefits similar to those above related to standardized statewide CAMA (see [Appendix C](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf#page=21), for example); efforts to make all of this information publicly available in a consistent format statewide would have far reaching applicability and long-term cost savings. 
 
 As an example of utility, the [Protected Lands](https://geodata.vermont.gov/datasets/VCGI::vt-protected-lands-database/about) database could be enhanced through the inclusion of authoritative, digital land records indicating ownership and easements linked to parcel geometry. 
 
@@ -539,6 +542,8 @@ As an example of utility, the [Protected Lands](https://geodata.vermont.gov/data
 **Figure 17: Protected Lands.** *Protected lands in Vermont, classified by Jurisdiction (top left), Public Access (top right), Primary Protection type (lower left), and GAP Status (lower right). Inclusion of digital land records could provide additional information for classification, including which parcels contain easements or the history of ownership.*
 
 ## 11.3 Implementation
+
+
 
 ## 11.4 Related Statutes and Bills
 
@@ -594,6 +599,70 @@ Text.
 
 **Figure 20: Gaps and Overlaps Between Municipal Boundaries.** *Example of gaps (red) and overlaps (blue) in parcel geometry at municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Black lines represent town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI. [Explore gaps and overlaps in parcel data along town boundaries](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=7972f2b2ab0646deae0fd8d8b79e138d).*
 
+# Glossary
+
+## Abutting
+
+Sharing a contiguous border or boundary.
+
+## Active Parcel
+
+In cases where two or more abutting parcels have the same owner, parcel to which a single tax bill is associated with all the abutting parcels under the same ownership.
+
+## Attributes
+
+Information associated with a map shape, found in fields, organized in a table.
+
+## Calculated Acreage
+
+The estimated acreage of a mapped parcel derived by using GIS. May or may not differ from listed acreage.
+
+## CAMA (Computer Assisted Mass Appraisal)
+
+Computer software that helps maintain property information. In Vermont, CAMA software platforms are currently handled on a town-by-town basis. These systems may be a source of some of, but ultimately are not the same as data provided by the statewide parcel dataset.
+
+## Centerline
+
+Applied to a street, road, right-of-way, or other strip of land of uniform width, defines the line midway between the side lines of said strip.
+
+## Data Standard
+
+A uniform way to manage digital information of a particular kind.
+
+## Digital Land Records
+
+Electronic storage, management, and distribution of land-related information. Includes details about properties, their ownership, boundaries, land uses, encumbrances, transactions, and other legal and administrative data. Used to refer to authoritative land records, in contrast with analog or paper-based land records.
+
+## Domain
+
+Rules that determine available values in fields. Keeps things tidy.
+
+## Feature
+
+A map shape that is a representation of a real-world object.
+
+## Field
+
+Like "column headers" in an excel table. Information organizers.
+
+## Listed Acreage
+
+The estimated acreage of a mapped parcel as presented within a Grand List. Often based on deeds within land records for a given property.
+
+## Parcel Data
+
+Parcel data consists of property ownership information (Grand List) joined with mapped property boundaries. Digital parcel data are easily distributed, are searchable and can be analyzed and applied for other uses. Not a survey but rather a map index of property ownership. 
+
+## Schema
+
+Format and rules of the content of spatial data. Uniformity here keeps decision-support tools running smoothly.
+
+## Unlanded Structures
+
+## Vermont GIS Parcel Data Standard
+
+The current Vermont GIS Parcel Data Standard ensures that all mapped properties statewide are linkable to their unique grand list record. This link between table record and its mapped area is enabled by the unique School Property Account Number (SPAN) assigned for every parcel. Parcel data adherent to the standard enables visualization of a statewide parcel data layer along with their respective grand list information for every property in the state. Standardized parcel data also enable other information to be related with properties on a map, such as weekly property transfers.
+
 # Appendices
 
 ## Appendix 1: Update Parcel Definition in Vermont Statute Considerations
@@ -611,7 +680,7 @@ Inactive parcels are not managed consistently across towns; currently 178 towns 
 
 **From a municipality in Windham County:**
 
-> As part of [the municipality's] reappraisal, we will review parcels previously classified as "inactive" to determine their contributory value. We believe that our Grand List (similar to every town across the state) contains inactive parcels not represented in the Grand List or [in the parcel data]. Our goal is to identify and recreate these parcels through a thorough review of deeds, surveys, and historical grand lists.
+> As part of [the municipality's] reappraisal, we will review parcels previously classified as "inactive" to determine their contributory value. We believe that our [records] (similar to every town across the state) contain inactive parcels not represented in the Grand List or [in the parcel data]. Our goal is to identify and recreate these parcels through a thorough review of deeds, surveys, and historical grand lists.
 
 **From a mapping vendor working with Vermont municipalities:**
 
@@ -677,8 +746,6 @@ VCGI currently publishes and maintains two statewide parcel layers: Active Parce
 |Name      |Active Parcels              |Administrative Parcels         |
 |Purpose   |Primary statewide parcel layer. Groups contiguous separate lots by common ownership to single parcel polygon, conforming to current parcel definition. Included for all municipalities. |Secondary statewide parcel layer. Continues to group separate lots by common ownership to facilitate tax administration, but does not represent new parcel definition of separate and sellable lots. Included for all municipalities. |
 |Schema|- SPAN<br> - MAPID<br>- PROPTYPE<br>- YEAR<br>- TOWN<br>- SOURCENAME<br>- SOURCETYPE<br>- SOURCEDATE<br>- EDITMETHOD<br>- EDITOR<br>- EDITDATE<br>- MATCHSTAT<br>- EDITNOTE<br>- SHAPE_Length<br>- SHAPE_Area<br>|- ADMINSPAN<br>- MAPID<br>- PROPTYPE<br>- YEAR<br>- TOWN<br>- SOURCENAME<br>- SOURCETYPE<br>- SOURCEDATE<br>- EDITMETHOD<br>- EDITOR<br>- EDITDATE<br>- MATCHSTAT<br>- EDITNOTE<br>- SHAPE_Length<br>- SHAPE_Area|
-
-
 
 **Table X: Transition from Active Parcels to Administrative Parcels.** *The schema change for the Administrative Parcels layer is renaming "SPAN" to "ADMINSPAN". The ADMINSPAN is the common identifier for all contiguous lots with the same ownership. SPANs for other individual lots within an Administrative Parcel are not included in this layer.*
 
@@ -852,11 +919,7 @@ The Shared Responsibility model identifies a municipality's ability to perform p
 ### A2.2 Funding During the Parcel Project (2017-2019)
 The Statewide Property Parcel Mapping Project leveraged both state and federal funds with 80% coming from the Federal Highway Administration and the remaining 20% from several state agencies and departments. The Vermont Agency of Transportation contracted with several mapping vendor to update or create digital parcel data for each Vermont municipality over a three-year period. Each municipality was assigned  mapping vendor through a competitive bid process. 
 
-The average cost per parcel for the 67 municipalities completed during the first year of the Parcel Project in 2017 (excluding unincorporated towns and gores) was $6.85, which is slightly more than the national average of $5.20 reported 10 years prior by the National Research Council in *National Land Parcel Data: A Vision for the Future* (2007). The cost per parcel for municipalities completed during the first year of the Parcel Project (excluding unincorporated towns and gores) is depicted below.
-
-![Parcel Project Year 1 Table](https://github.com/user-attachments/assets/cb114846-6a1b-45c1-89b4-f7a8833b9981)
-
-**Table X: Parcel Project Costs by Town for Year 1 (2017).** *Per parcel costs varied by town and by vendor during the first year of the Parcel Program.*
+The average cost per parcel during the Parcel Project was $8.45 compared to the national average of $5.20 reported 10 years prior by the National Research Council in *National Land Parcel Data: A Vision for the Future* (2007). The cost per parcel during the Parcel Project ranged from $0.42 to $166.67 with 185 municipalities falling at or below the average cost per parcel (74%). Based on our records, one municipality did not contract with a mapping vendor during the Parcel Project opting to standardize its parcel data internally (the total cost and cost per parcel for this municipality is listed as $0.00). The total cost as well as the cost per parcel for each municipality during the Parcel Project can be viewed in this [table](https://vcgi.maps.arcgis.com/home/item.html?id=33735911459d49e88553618642e9dcfd). 
 
 ### A2.3 Submittal Quality Criteria
 
