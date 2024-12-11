@@ -488,9 +488,9 @@ It is assumed that one mapping contract per regional assessment district would b
 
 Vermont's current use program has been a cornerstone of the state's tax policy for several decades. As the program depends on the bounded extents of either forested or agricultural lands and associated acreage thresholds, mapping has been central to the program since its inception. That has also meant that what was once considered sufficiently accurate mapping to meet the program's requirements has long been surpassed by far more accurate digital mapping tools and techniques that are publicly available. The result is that the quality of the underlying maps that support enrolled parcels varies widely.
 
-Map storage includes the need to house years of print-only documents with no digital equivalent, to receiving modern GIS work submitted by county foresters, for example. Forested parcels are much further along in their digitization, with the Agency of Natural Resources (ANR) leading the effort to maintain a
+Map storage includes the need to house years of print-only documents with no digital equivalent, to receiving modern GIS work submitted by county foresters, for example. Forested parcels are much further along in their digitization with the Agency of Natural Resources (ANR) maintaining a [statewide GIS dataset of those records](#https://geodata.vermont.gov/datasets/VTANR::use-value-appraisal-parcels/explore), albeit simply joined to full parcel geometry rather than specific enrolled extents. There is no equivalent for agricultural parcels, which represent 4,700+ records covering more than 320,000 acres.
 
-Although there is no accessible public-facing means of digitally entering the mapped extents of lands to be considered for current use enrollment, nor is there a way to depict the specific extent of all currently enrolled areas as a statewide digital map layer, map applications can help modernize these functions.
+These specific figures are possible as recent modernization of the 
 
 Act No. 181 (H.687) of 2024. Future Land Use maps by Regional Planning Commissions (RPC's)
 
@@ -504,6 +504,8 @@ A meaningful detail and caveat to the map link above is that current use parcels
 **Figure 18: Parcels Enrolled in Current Use.** *Shaded parcels are enrolled in the current use program as of 2023 (left). A parcel may be fully or partially enrolled (right).*
 
 ## 9.3 Implementation
+
+Although there is no accessible public-facing means of digitally entering the mapped extents of lands to be considered for current use enrollment or a way to depict the specific extent of all currently enrolled areas as a statewide digital map layer, map applications can help modernize these functions. The table 
 
 # Recommendation 10: Consider Updating and Moving Parcel Program in VT Statute
 
