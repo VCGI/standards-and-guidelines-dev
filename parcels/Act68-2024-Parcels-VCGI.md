@@ -470,6 +470,8 @@ Vermont Parcel Viewer
 
 jurisdiction
 
+![BarreCity_CAI_WebApp01](https://github.com/user-attachments/assets/95343fbf-8e25-414d-b9c4-3854bcd8d3cd)
+**Figure 16: Municipal Parcel Web Map Application.** *Some towns contract for additional services such as web maps that display CAMA data for all properties.*
 
 ## 8.3 Implementation
 
