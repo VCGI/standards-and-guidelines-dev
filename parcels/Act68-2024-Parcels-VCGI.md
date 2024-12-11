@@ -480,7 +480,7 @@ It is assumed that one mapping contract per regional assessment district would b
 ## 9.1 Summary
 
 - Recent changes in grand list maintenance via the Vermont Property Information Exchange (VTPIE) have improved internal data organization and access to current use information
-- Web applications can help modernize mapping aspects of enrollment and display of specific extents of all currently enrolled areas
+- Web applications can help modernize mapping aspects of enrollment and display of specific extents of all currently enrolled areas which increasingly requested for other mapping use
 - Historical, analog map documents associated with enrolled lands could benefit from other records digitization efforts
 
 ## 9.2 Justification
