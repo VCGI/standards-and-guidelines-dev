@@ -517,8 +517,26 @@ Although there is no accessible public-facing means of digitally entering the ma
 
 - Current statute is not reflective of actual oversight and operation of statewide parcel program
 - Updating existing statute to reflect current and future practice could be completed with little to no impact on operations
+- The current Parcel Advisory Board, developed in 2016, should be retired and rebuilt to better serve present and future program operations
 
 ## 10.2 Justification
+
+In 2016 the Vermont Legislature passed a Transportation Bill which was led by the Vermont Agency of Transportation (VTrans) and the Agency of Commerce and Community Development. This bill contained language creating the Parcel Program, which was the product of a work group including multiple state agencies, regional planning commissions, nonprofits, and professional organizations. The initial phase, the Statewide Parcel Mapping Project, involved federal and state funding and occurred over a three year period from 2017-2019. Since then, parcel mapping maintenance has transitioned to the Parcel Program, which is the ongoing effort to maintain, publish, and improve existing statewide data. 
+
+[Statutorily](https://legislature.vermont.gov/statutes/section/19/001/00010), the Parcel Program continues to reside under the supervision of VTrans. Practically, the program is entirely managed and staffed within VCGI (Agency of Digital Services). Transitioning the specified responsibilities and maintenance of the program to the appropriate stewards in statute will improve accuracy and clarity around work being performed and the duties of both agencies.
+
+Relatedly, [19 V.S.A. § 44](https://legislature.vermont.gov/statutes/section/19/001/00044) specifies a Parcel Advisory Board to monitor the program and make recommendations for improvements. The Advisory Board is comprised of the following, or assigned designees:
+
+- Secretary of Transportation (chair)
+- Secretrary of Natural Resources
+- Secretary of Commerce and Community Development
+- Commissioner of Taxes
+- Representative of the Vermont Association of Planning and Development Agencies
+- Representative of the Vermont League of Cities and Towns
+- Land Surveyor licensed under [26 V.S.A. § 45](https://legislature.vermont.gov/statutes/chapter/26/045)
+
+While the Parcel Advisory Board [met regularly](https://vcgi.vermont.gov/data-and-programs/parcel-program/parcel-advisory-board) from 2016-2019, the needs and priorities of ongoing parcel maintenance have shifted since the transition to the Parcel Program. Since then, meetings have been infrequent and have primarily focused on updating the Board on the current Program status rather than identifying and enacting improvements. 
+In addition, statute wording specifies VTrans as the agency receiving Board recommendations. In summary, the need exists to update statute language and location, and to modernize the objective, role, and composition of the Advisory Board to better align with the future of the Program.
 
 ## 10.3 Implementation
 
