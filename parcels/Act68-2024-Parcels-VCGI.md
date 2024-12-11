@@ -486,13 +486,15 @@ It is assumed that one mapping contract per regional assessment district would b
 
 ## 9.2 Justification
 
-Vermont's current use program has been a cornerstone of the state's tax policy for several decades. As the program depends on the bounded extents of either forested or agricultural lands and associated acreage thresholds, mapping has been central to the program since its inception. That has also meant that what was once considered sufficiently accurate mapping to meet the program's requirements has long been surpassed by far more accurate digital mapping tools and techniques that are publicly available. The result is that the quality of the underlying maps that support enrolled parcels varies widely.
+Vermont's current use program has been a cornerstone of the state's tax policy for several decades. As the program depends on the bounded extents of either forested or agricultural lands and associated acreage thresholds, mapping has been central to the program since its inception. That has also meant that what was once considered sufficiently accurate mapping to meet the program's requirements has been surpassed by far more accurate digital mapping tools and techniques that are publicly available. The result is that the quality of the underlying maps that support enrolled parcels varies widely.
 
-Map storage includes the need to house years of print-only documents with no digital equivalent, to receiving modern GIS work submitted by county foresters, for example. Forested parcels are much further along in their digitization with the Agency of Natural Resources (ANR) maintaining a [statewide GIS dataset of those records](#https://geodata.vermont.gov/datasets/VTANR::use-value-appraisal-parcels/explore), albeit simply joined to full parcel geometry rather than specific enrolled extents. There is no equivalent for agricultural parcels, which represent 4,700+ records covering more than 320,000 acres.
+Map storage includes the need to house years of print-only documents with no digital equivalent, to receiving modern GIS work submitted by county foresters, for example. Forested parcels are much further along in their digitization with the Agency of Natural Resources (ANR) maintaining a [statewide GIS dataset of those records](#https://geodata.vermont.gov/datasets/VTANR::use-value-appraisal-parcels/explore), albeit simply joined to full parcel geometry rather than specific enrolled extents. There is no digitally mapped equivalent for agricultural parcels, which represent 4,700+ records covering more than 320,000 acres.
 
-These specific figures are possible as recent modernization of the 
+These specific numbers are possible as recent modernization of the state's grand list maintenance software titled the Vermont Property Information Exchange (VTPIE) has
 
 Act No. 181 (H.687) of 2024. Future Land Use maps by Regional Planning Commissions (RPC's)
+
+concurrent digitization efforts
 
 ### 9.2.1 Lands in Current Use
 
