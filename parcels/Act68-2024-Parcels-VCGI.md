@@ -23,6 +23,10 @@ This document outlines all recommendations for parcel mapping and data maintenan
 | [11. Coordinate With Concurrent Efforts to Digitize Land Records](#recommendation-11-coordinate-with-concurrent-efforts-to-digitize-land-records)                         |                   |             |                        | X                   |
 | [12. Make Proposed Appraisal Districts Consistent and Compatible with Existing Administrative Boundaries](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries)                         |                   |             | X                        |                    |
 
+**Additional Recommended Improvements**
+- [Improve Submittal of Land Surveys to Vermont Land Survey Library](#improve-submittal-of-land-surveys-to-vermont-land-survey-library)
+- [Support Survey of Municipal Boundaries and/or Corner Points](#support-survey-of-municipal-boundaries-andor-corner-points)
+
 # Recommendation 1: Update Parcel Definition in Vermont Statute
 ## 1.1 Summary
 - While functional for tax administration, the current parcel definition has limitations for valuation, data management, complete documentation, and parcel-dependent analysis that informs policy
@@ -578,7 +582,7 @@ Text.
 
 # Additional Recommended Improvements
 
-## Improve Submittal of Land Surveys
+## Improve Submittal of Land Surveys to Vermont Land Survey Library
 
 The Vermont [Land Survey Library](https://maps.vcgi.vermont.gov/landsurveylibrary/) is a digital repository for land surveys maintained by VCGI as part of the Parcel Program but is maintained separately from parcel data. The library consists of a web map that displays the general location of a land survey with its related information (e.g., date of land survey, town name, and the name of the land surveyor) stored in a pop-up table.
 
@@ -605,7 +609,7 @@ Other potential uses include:
 ![SurveyLibraryStatus_Dec7_2024](https://github.com/user-attachments/assets/6f3e03ae-add5-4135-b70c-61bb4db4a356)
 **Figure 18: Statistics from the Vermont Land Survey Library.** *Land surveyors are responsible for submitted new surveys to the Land Survey Library. Information about surveys including type, submittal date, survey year, town, and surveyor are tracked. These data can help assess patterns and completeness when compared to property transfers and new Grand List records, as well as between geographical areas.*
 
-## Survey Municipal Boundaries and/or Corner Points
+## Support Survey of Municipal Boundaries and/or Corner Points
 
 Town boundaries form the basis of numerous administrative decisions, governance, and demographic analyses in Vermont. While most states are primarily organized and governed at the county level, Vermont continues to operate heavily at the town level. Even so, many boundaries between towns have not been officially surveyed. Charters often reference obscure landmarks or features that may have changed or disappeared over time, creating challenges and discrepancies in modern day mapping. It is common for data from VCGI, VTrans, E911, and other state agencies to disagree on the exact location of various town boundaries. Where surveys do exist, they often only include one neighboring town or a portion of the town edge. VCGI's current recommendation for resolving town boundaries is for towns to work with neighboring municipalities to establish agreed-upon lines and ideally have them surveyed. Unsurprisingly, this is a cumbersome and often challenging effort for towns to undertake without additional support.
 
