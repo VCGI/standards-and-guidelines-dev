@@ -487,6 +487,8 @@ It is assumed that one mapping contract per regional assessment district would b
 
 Although there is no accessible public-facing means of digitally entering the mapped extents of lands to be considered for current use enrollment, nor is there a way to depict the specific extent of all currently enrolled areas as a statewide digital map layer, map applications can help modernize these functions.
 
+Act No. 181 (H.687) of 2024.
+
 ### 9.2.1 Lands in Current Use
 
 In 2023 over 19,000 parcels were enrolled in current use, totaling over 2.5 million acres statewide. [Explore parcels enrolled in Current Use](https://www.arcgis.com/apps/mapviewer/index.html?webmap=6e82347c410d4c00bab809a8a6e5350b).
