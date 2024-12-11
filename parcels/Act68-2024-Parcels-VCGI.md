@@ -571,7 +571,7 @@ There are however current efforts to explore the benefits of such integration. [
 
 From a mapping perspective, a parcel is a container by which land records could be joined and displayed, enabling easy, map-based access to associated documents. Other places have pursed map-based ways of displaying this information with great success.
 
-As an example of the utility and need, the [Protected Lands](https://geodata.vermont.gov/datasets/VCGI::vt-protected-lands-database/about) database could be enhanced through the inclusion of authoritative, digital land records indicating ownership and easements linked to parcel geometry. Mapping of these conserved lands is now a statutory requirement of the Vermont Housing and Conservation Board and ANR every two years under Act 59 of 2023.
+As an example of the utility and need in Vermont, the [Protected Lands](https://geodata.vermont.gov/datasets/VCGI::vt-protected-lands-database/about) database could be enhanced through the inclusion of authoritative, digital land records indicating ownership and easements linked to parcel geometry. Mapping of these conserved lands is now a statutory requirement of the Vermont Housing and Conservation Board and ANR every two years under Act 59 of 2023.
 
 ![ProtectedLands_Protection_Status_Jurisdiction_Access](https://github.com/user-attachments/assets/eb691607-3da6-4ed5-9057-e34acfbc0bcd)
 **Figure 19: Protected Lands.** *Protected lands in Vermont, classified by Jurisdiction (top left), Public Access (top right), Primary Protection type (lower left), and GAP Status (lower right). Inclusion of digital land records could provide additional information for classification, including which parcels contain easements or the history of ownership.*
