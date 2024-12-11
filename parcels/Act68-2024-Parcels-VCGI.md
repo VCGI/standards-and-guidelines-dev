@@ -486,9 +486,11 @@ It is assumed that one mapping contract per regional assessment district would b
 
 ## 9.2 Justification
 
+Vermont's current use program has been a cornerstone of the state's tax policy for several decades. As the program specifically deals with the mapped extents of either forested or agricultural 
+
 Although there is no accessible public-facing means of digitally entering the mapped extents of lands to be considered for current use enrollment, nor is there a way to depict the specific extent of all currently enrolled areas as a statewide digital map layer, map applications can help modernize these functions.
 
-Act No. 181 (H.687) of 2024. 
+Act No. 181 (H.687) of 2024. Future Land Use maps by Regional Planning Commissions (RPC's)
 
 ### 9.2.1 Lands in Current Use
 
