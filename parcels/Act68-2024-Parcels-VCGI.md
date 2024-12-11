@@ -473,6 +473,9 @@ jurisdiction
 ![BarreCity_CAI_WebApp01](https://github.com/user-attachments/assets/95343fbf-8e25-414d-b9c4-3854bcd8d3cd)
 **Figure 16: Municipal Parcel Web Map Application.** *Some towns contract for additional services such as web maps that display CAMA data for all properties.*
 
+![BarreCity_ParcelViewer](https://github.com/user-attachments/assets/da32ee08-a992-42e2-9d43-9877518a622f)
+**Figure 17: Statewide Parcel Viewer Web Map Application.** *All towns have access to best-available parcel data via the Vermont Parcel Viewer web map application. As of 2024 the viewer presents property transfers and submitted land surveys along with grand list information for all parcels. Future integration with CAMA data is possible should that become available per Recommendation 3.*
+
 ## 8.3 Implementation
 
 Since 2017, VCGI has made [parcel mapping guidelines](https://vcgi.vermont.gov/document/vermont-gis-parcel-mapping-guideline) available that includes contract guidance, however,
