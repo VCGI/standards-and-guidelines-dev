@@ -563,7 +563,7 @@ Given successful completion of the Parcel Project, the current Parcel Advisory B
 
 ## 11.2 Justification
 
-Digital land records are the electronic means by which authoritative land-related documents are stored, maintained, and distributed. 
+Digital land records are the electronic means by which authoritative land-related documents are stored, maintained, and distributed. In a New England state as old as Vermont, it is understandable that land records currently maintained by municipalities are primarily analog, reflecting documents at times that may be more than a century old, far preceding anything remotely digital. 
 
 Current efforts to digitize authoritative documents . Vermont Land Records Online
 A parcel is the container by which land records could be joined, enabling easy, map-based access to associated documents.
