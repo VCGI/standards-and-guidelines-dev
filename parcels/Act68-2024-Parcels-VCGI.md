@@ -503,8 +503,10 @@ A meaningful detail and caveat to the map linked above is that current use parce
 
 ## 9.3 Implementation
 
-A near term improvement would be for VCGI, with the authorization of the Tax Department, to publish an annual statewide layer of all enrolled current use lands joined with statewide parcel data as open spatial data. This process could be largely automated and meet many mapping needs, in addition to increasing transparency about the program.
+A near term improvement would be for VCGI, with the authorization of the Tax Department, to publish a publicly-accessible annual statewide layer of all enrolled current use lands joined with statewide parcel data. This process could be largely automated and meet many mapping needs, in addition to increasing transparency about the program and lands within.
 
+A medium term improvement could involve modernizing a public-facing map submittal interface by 
+Map standards, last updated in 2009, ma
 
 Longer term:
 
