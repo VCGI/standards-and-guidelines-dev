@@ -490,7 +490,7 @@ Vermont's current use program has been a cornerstone of the state's tax policy f
 
 Map storage includes the need to house years of print-only documents with no digital equivalent, to receiving modern GIS work submitted by county foresters, for example. Forested parcels are much further along in their digitization with the Agency of Natural Resources (ANR) maintaining a [statewide GIS dataset of those records](#https://geodata.vermont.gov/datasets/VTANR::use-value-appraisal-parcels/explore), albeit simply joined to full parcel geometry rather than specific enrolled extents. There is no digitally mapped equivalent for agricultural parcels, which represent 4,700+ records covering more than 320,000 acres.
 
-These specific numbers are possible as recent modernization of the state's grand list maintenance software known as the Vermont Property Information Exchange (VTPIE) has improved internal access to enrolled parcels statewide, at least as tabular data. This 
+These specific numbers are possible to convey as recent modernization of the state's grand list maintenance software known as the Vermont Property Information Exchange (VTPIE) has improved internal access to enrolled parcels statewide, at least as tabular data. This is important as several other mapping uses want to depict current and complete  current use data
 
 Act No. 181 (H.687) of 2024. Future Land Use maps by Regional Planning Commissions (RPC's)
 
@@ -507,6 +507,10 @@ A meaningful detail and caveat to the map link above is that current use parcels
 **Figure 18: Parcels Enrolled in Current Use.** *Shaded parcels are enrolled in the current use program as of 2023 (left). A parcel may be fully or partially enrolled (right).*
 
 ## 9.3 Implementation
+
+Near term: publish annual current use enrolled lands joined with associated parcels as open spatial data at the VT Open Geodata Portal. 
+
+Longer term:
 
 Although there is no accessible public-facing means of digitally entering the mapped extents of lands to be considered for current use enrollment or a way to depict the specific extent of all currently enrolled areas as a statewide digital map layer, map applications can help modernize these functions. The table 
 
