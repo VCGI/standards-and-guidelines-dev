@@ -23,9 +23,10 @@ This document outlines all recommendations for parcel mapping and data maintenan
 | [11. Coordinate With Concurrent Efforts to Digitize Land Records](#recommendation-11-coordinate-with-concurrent-efforts-to-digitize-land-records)                         |                   |             |                        | X                   |
 | [12. Make Proposed Appraisal Districts Consistent and Compatible with Existing Administrative Boundaries](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries)                         |                   |             | X                        |                    |
 
-**Additional Recommended Improvements**
-- [Improve Submittal of Land Surveys to Vermont Land Survey Library](#improve-submittal-of-land-surveys-to-vermont-land-survey-library)
-- [Support Survey of Municipal Boundaries and/or Corner Points](#support-survey-of-municipal-boundaries-andor-corner-points)
+| **Additional Recommended Improvements**                              |
+|----------------------------------------------------------------------|
+| [Improve Submittal of Land Surveys to the Vermont Land Survey Library](#improve-submittal-of-land-surveys-to-vermont-land-survey-library) |
+| [Support Survey of Municipal Boundaries and/or Corner Points](#support-survey-of-municipal-boundaries-andor-corner-points)          |
 
 # Recommendation 1: Update Parcel Definition in Vermont Statute
 ## 1.1 Summary
