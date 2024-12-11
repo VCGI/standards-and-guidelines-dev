@@ -471,12 +471,9 @@ Towns are not limited to print products to provide access to current, accurate t
 
 ## 8.3 Implementation
 
-Since 2017, VCGI has made [parcel mapping guidelines](https://vcgi.vermont.gov/document/vermont-gis-parcel-mapping-guideline) available that include contract templates and considerations. These may be updated to reflect current best practices and increase accessibility. However, tailoring updated contract guidance reflective of the above and more will depend on the jurisdiction ultimately responsible for tax assessments (see [section 2.3: Implementation](#23-implementation)). If towns are to remain the assessment jurisdiction, clarification of the importance and means of using current GIS, as well as separation of parcel data maintenance from paying for print maps would be in focus. This would ideally be combined with a requirement that any changes in per parcel payments associated with mapping would be limited to use for parcel data maintenance and not payment for derived products. Those print products or custom map applications may be purchased separately by towns should they continue to wish to do so.
+Since 2017, VCGI has made [parcel mapping guidelines](https://vcgi.vermont.gov/document/vermont-gis-parcel-mapping-guideline) available that include contract templates and considerations. These may be updated to reflect current best practices and increase accessibility. However, tailoring updated contract guidance reflective of the above and more will depend on the jurisdiction ultimately responsible for tax assessments (see [section 2.3: Implementation](#23-implementation)). If towns are to remain the assessment jurisdiction, clarification of the importance and means of using current GIS as well as separation of parcel data maintenance from paying for print maps would be in focus. Updated guidance would ideally be combined with a requirement that any changes in per parcel payments associated with mapping would be limited to use for parcel data maintenance and not payment for derived products. Those print products or custom map applications may be purchased separately by towns should they continue to wish to do so.
 
-If there is a change in assessment jurisdiction 
-
-
-BGS
+It is assumed that one mapping contract per regional assessment district would be used if there is a change in assessment jurisdiction. From a mapping perspective, reducing 250+ separate contracts to approximately 14 would have advantages in ensuring that quality and timely data are maintained statewide. In this scenario, contract guidance could be designed to require standardized parcel data maintenance while permitting towns the option to "buy-up" additional services on their own should they wish to do so.
 
 # Recommendation 9: Modernize Current Use Map Standards, Submittals, and Access
 
