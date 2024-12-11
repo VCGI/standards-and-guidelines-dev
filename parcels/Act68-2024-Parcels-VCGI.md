@@ -451,6 +451,7 @@ The Tax Department should partner with willing jurisdictions to test and evaluat
 
 ## 8.1 Summary
 
+- Updated mapping contract guidance that reflects current best practices may improve quality and currentness of parcel data
 - Separation of standardized parcel data maintenance from town-specific derivatives (such as print maps and custom web applications) in contract may ease uniform administration
 
 ## 8.2 Justification
