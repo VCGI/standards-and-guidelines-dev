@@ -595,7 +595,7 @@ Regardless of change to assessment jurisdiction.
 
 ## 12.1 Summary
 
-- Proposed assessment districts should leverage existing administrative boundaries rather than developing new areas
+- Proposed assessment districts should leverage and match existing administrative boundaries rather than developing new areas
 
 ## 12.2 Justification
 
@@ -604,6 +604,8 @@ Vermont maintains spatial data, including established [codes, names, and standar
 The development of entirely new geographies introduces complexity in terms of development, relevance, and relatability to existing metrics, reporting, and resource management. Using existing geographies will streamline the process of establishing proposed districts and provide a more usable foundation for policies and analyses.
 
 ## 12.3 Implementation
+
+Following careful review of the objectives and role of regional assessment districts, the Department of Tax and other stakeholders should determine whether county boundaries or RPC boundaries are most suitable for a regional assessment geography. Towns within the specified geography can then be compiled to help inform cost estimates, available resources, and other operational components.
 
 # Additional Recommended Improvements
 
