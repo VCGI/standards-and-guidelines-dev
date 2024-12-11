@@ -597,6 +597,10 @@ In cases where two or more abutting parcels have the same owner, parcel to which
 
 A parcel defined in boundaries and/or function by its tax or other administrative uses, not necessarily its legally documented boundaries. Often used in contrast to legal parcel.
 
+## API (Application Programming Interface)
+
+Digital tools and protocols that allow different software applications or systems to communicate and share information with each other.
+
 ## Assessment Jurisdiction
 
 The bounded area in which a government or authorized entity has the authority to assess property for taxation. Typically also responsible for conducting appraisals, maintaining the grand list and associated property records, overseeing mapping of property within the area, and addressing appeals or disputes about property assessments. In Vermont, the current assessment jurisdiction is the municipality. In other states it is often the county.
