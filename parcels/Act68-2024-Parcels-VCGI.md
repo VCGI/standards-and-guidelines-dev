@@ -505,12 +505,9 @@ A meaningful detail and caveat to the map linked above is that current use parce
 
 A near term improvement would be for VCGI, with the authorization of the Tax Department, to publish a publicly-accessible annual statewide layer of all enrolled current use lands joined with statewide parcel data. This process could be largely automated and meet many mapping needs, in addition to increasing transparency about the program and lands within.
 
-A medium term improvement could involve modernizing a public-facing map submittal interface by 
-Map standards, last updated in 2009, ma
+A medium term improvement could involve developing a modern, public-facing map submittal tool to enable those without access to GIS to enter recent and accurate areas to be considered for enrollment, and be GIS-compatible at the source. Associated current use map standards, last updated in 2009 and still referring to outdated print-based mapping methods, could be updated at the same time.
 
-Longer term:
-
-Although there is no accessible public-facing means of digitally entering the mapped extents of lands to be considered for current use enrollment or a way to depict the specific extent of all currently enrolled areas as a statewide digital map layer, map applications can help modernize these functions. The table 
+A long term ideal would be to leverage any concurrent records digitization efforts or resources to consider digitizing print-only maps of enrolled areas. This would likely be a substantial effort but would ultimately lead to the most useful information. Automated digitization technology continues to evolve at a surprisingly quick pace and may also be applicable sooner than one may expect.
 
 # Recommendation 10: Consider Updating and Moving Parcel Program in VT Statute
 
