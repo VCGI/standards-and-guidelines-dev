@@ -104,7 +104,7 @@ As of October 24, 2024:
 
 The implementation of recommendations to support parcel data submissions is significantly influenced by the jurisdiction responsible for tax assessments. Any modifications to the current responsibilities should be accompanied by corresponding adjustments to the existing tax mapping practices within the state. It is crucial to continue the aggregation of parcels into a single standardized statewide layer as it has become critical information relied on by many policies, programs, and practices. These data are expected by most to remain available and useful as a fundamental public resource.
 
-### 2.3.1 Scenario: Continued Municipal Assessment Jurisdiction
+### 2.3.1 Scenario A: Continued Municipal Assessment Jurisdiction
 
 The size and capacity of some small Vermont municipalities make it difficult to mandate that they maintain and submit standardized parcel data to the state without providing adequate resources to help cover the costs. Still, it is important to note that 90% of towns in Vermont currently maintain parcel data, either independently or through vendors.
 
@@ -124,38 +124,10 @@ While such requirements and incentives are likely effective for most municipalit
 
 Further considerations regarding per parcel payments are in [Appendix 2](#appendix-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont-considerations).
 
-### 2.3.2 Scenario: Regional/State Assessment Jurisdiction
+### 2.3.2 Scenario B: New Regional/State Assessment Jurisdiction
 
 ///////
 
-Who ultimately should be responsible for parcel map data upkeep? That is a fundamental question that Vermont will need to answer, particularly given the growing needs and expectations that are dependent on parcel-related data (e.g., grand list, property transfers, CAMA data, land records) and experience with the limitations of a town-based voluntary model after five years of operation.
-
-### 2.3.X Three Models of Map Maintenance
-
-There are three models of parcel map maintenance to consider that represent additional support, differing primarily in the jurisdiction and/or institution responsible for oversight and execution. All models represent support beyond the current, town-based, voluntary-state-submittal approach, which represents no change in practice (see [Appendix 2.1: Current Shared Responsibility Model](#a21-current-shared-responsibility-model-town-maintenance)).
-
-1. Enhanced Town-led Maintenance via Per Parcel Payment
-2. Regional Appraisal District-led Maintenance
-3. State-led Maintenance
-
-### 2.3.X Enhanced Town-Led Maintenance
-**Enhanced town-led maintenance** would institute a per parcel payment by the State as a financial incentive to assist towns with the cost of parcel mapping. Disbursement of this payment would be contingent on submittal of [Vermont GIS Data Standard-compliant](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/02-k-VT_GIS_Parcel_Data_Standard.pdf) digital parcel data to VCGI, with a maximum payment of once per year per town. The amount of the payment would reflect a per parcel cost informed by current municipal maintenance, estimated to average $2.66 per parcel (see [Appendix 2.4: Funding Estimates](#a24-funding-estimates)). The payment would ideally be tallied by accounting only for those parcels that are changed in geometry since a town's last update, although there are challenges in such accounting (see [Appendix 2.6: Additional Considerations for Per Parcel Payment](#a26-additional-considerations-for-per-parcel-payment)). [Submittal quality criteria](#a23-submittal-quality-criteria) are established and would be enforced to determine eligibility for funds, with submittals that are not compliant deemed ineligible. Additional eligibility considerations include submittal deadlines, annual communication of intent by municipalities, and an option for towns to opt-out (see [Appendix 2.5 for more on eligibility](#a25-eligibility-for-per-parcel-payment)). An incentive is preferable to a submittal requirement, as the latter may not be possible for some towns and would be challenging to enforce.
-
-This model assumes that a financial incentive, when combined with existence of standardized statewide GIS parcel data (albeit with varied recency), would be enough to enable the remaining 10-15% of towns without GIS parcel data maintenance to begin regular upkeep and improvement. Creating incentives to improve data maintenance and sharing was also a recommendation in the [2015 Vermont Statewide Digital Parcel Lifecycle & Maintenance Plan](https://vcgi.vermont.gov/sites/vcgiupdate/files/doc_library/VT_Parcel%20Data%20Lifecycle%20and%20Maintenance%20Plan_2015_FINAL.pdf):
-
-> As implementation shifts into a maintenance stage, Vermont will want to pay close attention to challenges to compliance. While some impediments may be more attitudinal than logistical or economic, the state may want to consider creating incentives to comply.
-
-Municipalities would be expected to continue to individually contract with and oversee the work of GIS mapping vendors in this model. New contract guidance could also be developed to ensure municipalities maintain quality data that is eligible of a per parcel payment (see [Recommendation 8: Develop and Offer Updated Parcel Contract Guidance](#recommendation-8-develop-and-offer-updated-parcel-contract-guidance)).
-
-| **Enhanced Town-Led Maintenance**                                              |                                                                                                                                    |
-|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| **Pros**                                                                       | **Cons**                                                                                                                           |
-| Limited disturbance as extends current practices                               | New payments to towns may still not be enough to get all of them to regularly maintain quality GIS parcel data and submit to state |
-| Compatible with potential Regional Appraisal Districts or State-led appraisals | Technical difficulties in determining accurate updated parcel counts given current maintenance methods                             |
-| Can be instituted via existing grand list maintenance payments                 | Administrative overhead in determining up-to-date fair payment amount and allocation of funds                                      |
-|                                                                                | Availability of recurring funds is undetermined                                                                                    |                                                                                |
-
-**Table X: Enhanced Town-Led Maintenance.** *Pros and cons of a town-led approach to parcel maintenance.*
 
 ### 2.3.X Regional Appraisal District-Led Maintenance
 **Regional Appraisal District-led maintenance** would be contingent on the creation of such districts as proposed in part 1 of this report and ideally, follow existing county boundaries per [Recommendation 12](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries). This model assumes that the same CAMA provider would be used throughout an appraisal district. In this scenario, Regional Appraisal Districts would be staffed and supported to administer a single GIS parcel mapping contract for all of its municipalities, effectively taking over current responsibility from towns. Mapping would be required to be 
@@ -164,22 +136,10 @@ vendors
 contracts / contract guidance
 Per parcel payments may be administered and normalized by proposed Regional Appraisal Districts
 
-Pros
-
-Cons
-
-**Table X: Enhanced Regional Appraisal District Maintenance.** *Pros and cons of a Regional Appraisal District approach to parcel maintenance.*
-
 ### 2.3.X State-Led Maintenance
 **State-led maintenance** would involve . Prerequisites (CAMA data, digital land records)
 vendors
 contracts / contract guidance
-
-Pros
-
-Cons
-
-**Table X: Enhanced State-Led Maintenance.** *Pros and cons of a state-led approach to parcel maintenance.*
 
 ///////
 
