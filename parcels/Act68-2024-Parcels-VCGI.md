@@ -456,7 +456,11 @@ The Tax Department should partner with willing jurisdictions to test and evaluat
 - Updated contract guidance is contingent on the assessment jurisdiction extent
 
 ## 8.2 Justification
-Per VCGI's records, about 90% of Vermont municipalities currently maintain parcel data. The vast majority of these towns do so via a GIS, making them capable of maintaining map data with a SPAN assigned to each parcel, and thus basic compliance with state data standard that permits joining with the annual grand list. A small number of towns continue to use a Computer-Aided 
+Per VCGI's records, about 90% of Vermont municipalities currently maintain parcel data. The vast majority of these towns do so via a GIS, making them capable of maintaining map data with a SPAN assigned to each parcel and thus meeting basic compliance with state data standard that permits joining with the annual grand list. A small number of towns continue to hire vendors using Computer-Aided Design (CAD) software to maintain parcels,
+
+In all cases, a town is currently responsible for drafting a mapping contract for parcel data maintenance to meet their specific needs.
+
+Since 2017, VCGI has made [parcel mapping guidelines](https://vcgi.vermont.gov/document/vermont-gis-parcel-mapping-guideline) available that includes contract guidance, however,
 
 BGS
 
