@@ -558,7 +558,7 @@ Given successful completion of the Parcel Project, the current Parcel Advisory B
 ## 11.1 Summary
 
 - If changes are made to assessment jurisdiction, digital land records become additionally important to minimize inefficiencies between tax administration and maintenance of authoritative land records
-- Digital land records statewide would offer numerous benefits including integration with parcel data to increase transparency and ease access, regardless of assessment jurisdiction
+- Digital land records statewide would offer numerous benefits including integration with parcel data to increase transparency and ease access to key documents, and are worth serious consideration regardless of assessment jurisdiction
 - Integration with parcel data could potentially reduce the need for duplicative mapping needed by other state initiatives
 
 ## 11.2 Justification
