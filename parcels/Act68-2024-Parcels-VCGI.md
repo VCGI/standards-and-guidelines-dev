@@ -578,6 +578,8 @@ As an example of the utility and need in Vermont, the [Protected Lands](https://
 
 ## 11.3 Implementation
 
+Existing efforts to promote and/or integrate digital land records access 
+
 We are under no illusion that implementing 
 
 Any effort to change the assessment jurisdiction in Vermont needs to seriously consider the logistics associated with maintaining land records. and what benefits may arise from integrating these data with parcels, and ideally, statewide.
