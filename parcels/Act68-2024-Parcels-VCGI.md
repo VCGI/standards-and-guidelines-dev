@@ -309,7 +309,7 @@ In addition, ROWs for the following municipalities are typically missing or inco
 
 Implementation of this recommendation is partially contingent on which jurisdiction or institution is ultimately responsible for maintaining parcel map data (see [Recommendation 2](#recommendation-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont)). If municipalities are to remain responsible for mapping, the listed vs. mapped acreage review, Tax guidance, and GIS data standard-compliance reporting above, combined with existing education and professional development work via Tax's District Advisors and the Vermont Assessors and Listers Association (VALA) could be effective to bring all towns to uniformly map and calculate taxable acreage to edge of the ROW.
 
-If either Regional Appraisal Districts or the State assume ultimate responsibility for mapping, efforts they complete or oversee would need to follow state GIS parcel data standard and map to the edge of right of way. Education via the District Advisors, VALA, and potentially via Regional Appraisal District would still be needed to ensure consistency practices when calculating taxable acreage to the edge of ROW.
+If either regional assessment districts or the State assume ultimate responsibility for mapping, efforts they complete or oversee would need to follow state GIS parcel data standard and map to the edge of right of way. Education via the District Advisors, VALA, and potentially via regional assessment district would still be needed to ensure consistency practices when calculating taxable acreage to the edge of ROW.
 
 ## 4.4 Related Statutes
 [19 V.S.A. § 32 Assumed width of right-of-way](https://legislature.vermont.gov/statutes/section/19/001/00032)
@@ -1084,7 +1084,7 @@ In November 2024, VCGI organized a focus group of 12 municipalities selected bas
 
 **Table X: Municipalities contacted for current parcel data maintenance cost information.** *Bold text denotes towns that responded with current maintenance costs.*
 
-Funding could be allocated by the proposed assessment districts which could help account for any geographic variance between municipalities with respect to parcel mapping. VCGI would still continue to receive parcel data updates from municipalities. Using counties as an example, there is a significant range between cost per parcel during the Parcel Project:
+If not organized by town, funding could be allocated by the proposed assessment districts which could help account for any geographic variance between municipalities with respect to parcel mapping. VCGI would still continue to receive parcel data updates from municipalities. Using counties as an example, there is a significant range between cost per parcel during the Parcel Project:
 
 |County     |2024 Grand List parcel count (preliminary)|Parcel Project cost|Parcel Project cost per parcel|
 |-----------|------------------------------------------|-------------------|------------------------------|
