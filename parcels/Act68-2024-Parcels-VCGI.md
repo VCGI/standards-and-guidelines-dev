@@ -459,13 +459,16 @@ The Tax Department should partner with willing jurisdictions to test and evaluat
 
 Per VCGI's records, about 90% of Vermont municipalities currently maintain parcel data. The vast majority of these towns do so via a GIS, making them capable of maintaining map data with a SPAN assigned to each parcel and thus meeting basic compliance with the state data standard that permits joining with the annual grand list. As a remnant of print map-focused practices, a small number of towns continue to hire vendors using Computer-Aided Design (CAD) software to maintain parcels, which is not capable of data integration like a GIS. These data are thus unusable for joining with grand list, CAMA and other related information. A small remainder of towns do not maintain parcel data in any way. In all cases, the town is the jurisdiction currently responsible for drafting and overseeing a mapping contract for parcel data maintenance to meet their specific wants and needs.
 
-It is common for these wants and needs to include print media products, typically large format plots of keyed tax map sheets with parcel identifiers and owner names printed on them. Such static maps are "derived" from dynamic parcel data, meaning, upkeep of digital data precedes and is separate from any map made from them, and those source data are regularly changing even if only in property ownership. Still, because 
+It is common for these wants and needs to include print media products, typically large format plots of keyed tax map sheets with parcel identifiers and owner names printed on them. Such static maps are "derived" from dynamic parcel data, meaning, upkeep of digital data precedes and is separate from any map made from them and those source data are regularly changing even if only in property ownership. This means that print parcel maps are outdated and inaccurate shortly after they are made. Still, because parcel data maintenance and the creation of maps derived from them both require GIS skill, the same vendor is typically paid for both services in the same mapping contract. The creation of print map products represent a sizable portion of total funds for those contracts that specify them. Ideally, these print map products would not be covered by any per parcel payments, which could potentially reduce the overall cost of maintaining quality, current parcel data.
+
+Towns are not limited to print products to provide access to current, accurate tax map information. 
 
 represent a sizable portion of funds for contracts that specify them.
 
 town-specific custom map applications
 Vermont Parcel Viewer
 
+jurisdiction
 
 
 ## 8.3 Implementation
