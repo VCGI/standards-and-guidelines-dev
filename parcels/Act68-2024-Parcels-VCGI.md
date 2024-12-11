@@ -463,9 +463,6 @@ It is common for these wants and needs to include print media products, typicall
 
 Towns are not limited to print products to provide access to current, accurate tax map information. Many towns also contract for custom web applications that display digital parcel data in a web map along with CAMA card integration for all properties. Tied with the underlying, dynamic data sources, these web map applications provide citizens access to current information. For towns that do not individually contract for custom map applications, the [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/ParcelViewer/) provides access to best-available parcel data statewide and [offers much of the same functionality](https://github.com/VCGI/documentation/blob/main/parcelviewer4/User_Guide.md).
 
-Tailoring updated contract guidance reflective of the above and more will depend on the jurisdiction ultimately responsible for tax assessments (see [section 2.3: Implementation](#23-implementation)).
-jurisdiction
-
 ![BarreCity_CAI_WebApp01](https://github.com/user-attachments/assets/95343fbf-8e25-414d-b9c4-3854bcd8d3cd)
 **Figure 16: Municipal Parcel Web Map Application.** *Some towns contract for additional services such as web maps that display CAMA data for all properties.*
 
@@ -474,7 +471,10 @@ jurisdiction
 
 ## 8.3 Implementation
 
-Since 2017, VCGI has made [parcel mapping guidelines](https://vcgi.vermont.gov/document/vermont-gis-parcel-mapping-guideline) available that includes contract guidance, however,
+Since 2017, VCGI has made [parcel mapping guidelines](https://vcgi.vermont.gov/document/vermont-gis-parcel-mapping-guideline) available that include contract templates and considerations. These may be updated to reflect current best practices and increase accessibility. However, tailoring updated contract guidance reflective of the above and more will depend on the jurisdiction ultimately responsible for tax assessments (see [section 2.3: Implementation](#23-implementation)). If towns are to remain the assessment jurisdiction, clarification of the importance and means of using current GIS, as well as separation of parcel data maintenance from paying for print maps would be in focus. This would ideally be combined with a requirement that any changes in per parcel payments associated with mapping would be limited to use for parcel data maintenance and not payment for derived products. Those print products or custom map applications may be purchased separately by towns should they continue to wish to do so.
+
+If there is a change in assessment jurisdiction 
+
 
 BGS
 
