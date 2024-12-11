@@ -490,20 +490,21 @@ Vermont's current use program has been a cornerstone of the state's tax policy f
 
 Map storage includes the need to house years of print-only documents with no digital equivalent, to receiving modern GIS work submitted by county foresters, for example. Forested parcels are much further along in their digitization with the Agency of Natural Resources (ANR) maintaining a [statewide GIS dataset of those records](#https://geodata.vermont.gov/datasets/VTANR::use-value-appraisal-parcels/explore), albeit simply joined to full parcel geometry rather than depicting specific enrolled extents. There is no digitally mapped equivalent for agricultural parcels, which represent 4,700+ records covering more than 320,000 acres.
 
-These specific numbers are possible to convey as recent modernization of the state's grand list maintenance software known as the Vermont Property Information Exchange (VTPIE) has improved internal access to enrolled parcels statewide, at least as tabular data. This is important as several other mapping requirements are looking to depict current and complete current use lands statewide. For example, Act No. 181 (H.687) of 2024 tasks Regional Planning Commissions (RPC's) to update regional plans and future land use maps to support an Act 250 tier system, and RPC's understandably want to reflect current use lands within. Normalizing at least an annual publish of enrolled current use lands joined with the entire parcel as an open spatial data layer is one quick way to help meet these needs.
+These specific numbers are possible to convey as recent modernization of the state's grand list maintenance software known as the Vermont Property Information Exchange (VTPIE) has improved internal access to enrolled parcels statewide, at least as tabular data. This is important as several other mapping requirements are looking to depict current and complete current use lands statewide. For example, Act No. 181 (H.687) of 2024 tasks Regional Planning Commissions (RPC's) to update regional plans and future land use maps to support an Act 250 tier system, and RPC's understandably want to reflect current use lands within.
 
 ### 9.2.1 Lands in Current Use
 
 In 2023 over 19,000 parcels were enrolled in current use, totaling over 2.5 million acres statewide. [Explore parcels enrolled in Current Use](https://www.arcgis.com/apps/mapviewer/index.html?webmap=6e82347c410d4c00bab809a8a6e5350b).
 
-A meaningful detail and caveat to the map link above is that current use parcels may only have a percentage of their acreage enrolled. The statewide average enrollment is 92.5%, with 75% of parcels between 92-100%.
+A meaningful detail and caveat to the map linked above is that current use parcels may only have a percentage of their acreage enrolled. The statewide average enrollment is 92.5%, with 75% of parcels between 92-100%.
 
 ![2023_CurrentUse](https://github.com/user-attachments/assets/4a0bf7fd-a32d-4217-9f63-b23782bb5f56)
 **Figure 18: Parcels Enrolled in Current Use.** *Shaded parcels are enrolled in the current use program as of 2023 (left). A parcel may be fully or partially enrolled (right).*
 
 ## 9.3 Implementation
 
-Near term: publish annual current use enrolled lands joined with associated parcels as open spatial data at the VT Open Geodata Portal. (access to existing data)
+A near term improvement would be for VCGI, with the authorization of the Tax Department, to publish an annual statewide layer of all enrolled current use lands joined with statewide parcel data as open spatial data. This process could be largely automated and meet many mapping needs, in addition to increasing transparency about the program.
+
 
 Longer term:
 
