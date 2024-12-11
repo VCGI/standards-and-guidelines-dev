@@ -21,7 +21,7 @@ This document outlines all recommendations for parcel mapping and data maintenan
 | [9. Modernize Current Use Map Standards, Submittals, and Access](#recommendation-9-modernize-current-use-map-standards-submittals-and-access)                                   |                    |             |                        | X                  |
 | [10. Consider Updating and Moving Parcel Program in VT Statute](#recommendation-10-consider-updating-and-moving-parcel-program-in-vt-statute)                           | X                  |             |                        |                    |
 | [11. Coordinate With Concurrent Efforts to Digitize Land Records](#recommendation-11-coordinate-with-concurrent-efforts-to-digitize-land-records)                         |                   |             |                        | X                   |
-| [12. Make Proposed Appraisal Districts Consistent and Compatible with Existing Administrative Boundaries](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries)                         |                   |             | X                        |                    |
+| [12. Make Proposed Assessment Districts Consistent and Compatible with Existing Administrative Boundaries](#recommendation-12-make-proposed-assessment-districts-consistent-and-compatible-with-existing-administrative-boundaries)                         |                   |             | X                        |                    |
 
 | **Additional Recommended Improvements**                              |
 |----------------------------------------------------------------------|
@@ -588,12 +588,17 @@ Regardless of change to assessment jurisdiction.
 
 [H.512 (Act 171) of 2022 - An act relating to modernizing land records and notarial acts law](https://legislature.vermont.gov/bill/status/2022/H.512)
 
-# Recommendation 12: Make Proposed Appraisal Districts Consistent and Compatible with Existing Administrative Boundaries
+# Recommendation 12: Make Proposed Assessment Districts Consistent and Compatible with Existing Administrative Boundaries
 
 ## 12.1 Summary
 
+- Proposed assessment districts should leverage existing administrative boundaries rather than developing new areas
+
 ## 12.2 Justification
-Text.
+
+Vermont maintains spatial data, including established [codes, names, and standards](https://vcgi.vermont.gov/document/vt-geographic-area-names-and-codes-standard), for numerous levels of administrative geographies. Scaling up from the municipality level, counties are the most logical grouping to use as a basis for regional assessment districts. Regional Planning Commissions offer a similar size boundary. Both layers already exist in the Vermont Geodata Portal and adhere to existing town boundaries along their edges. 
+
+The development of entirely new geographies introduces complexity in terms of development, relevance, and relatability to existing metrics, reporting, and resource management. Using existing geographies will streamline the process of establishing proposed districts and provide a more usable foundation for policies and analyses.
 
 ## 12.3 Implementation
 
