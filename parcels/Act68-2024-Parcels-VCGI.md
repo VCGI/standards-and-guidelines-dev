@@ -132,7 +132,7 @@ In Vermont, this could mean that all towns within the regional assessment jurisd
 
 Additional per parcel payments in this scenario would likely not exist as an additional payment to towns. Instead, parcel counts for the entire assessment jurisdiction could be used to tailor adequate funding to support the parcel mapping function of the district. Funding for these services may be devised as a combination of state funds and those from towns in the district, with the relative amounts of each to be considered both within and across districts. Further considerations regarding funding are in [Appendix 2](#appendix-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont-considerations).
 
-There are also likely advantages to the use of a single CAMA system for each district as this would also ease mapping and data maintenance. How land records are managed in this scenario would need serious consideration. It is not clear how major inefficiencies could be avoided without progress in digital land records statewide (see [Recommendation 11](#recommendation-11-coordinate-with-concurrent-efforts-to-digitize-land-records)).
+There are likely advantages to the use of a single CAMA system for each district as this would also ease mapping and data maintenance. How land records are managed in this scenario would need serious consideration. It is not clear how major inefficiencies could be avoided without progress in digital land records statewide (see [Recommendation 11](#recommendation-11-coordinate-with-concurrent-efforts-to-digitize-land-records)).
 
 # Recommendation 3: Implement Vermont CAMA Data Standard and Require Submittal to State
 ## 3.1 Summary
