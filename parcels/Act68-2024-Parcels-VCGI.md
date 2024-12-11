@@ -453,9 +453,12 @@ The Tax Department should partner with willing jurisdictions to test and evaluat
 
 - Updated mapping contract guidance that reflects current best practices may improve quality and currentness of parcel data
 - Separation of standardized parcel data maintenance from town-specific derivatives (such as print maps and custom web applications) in contract may ease uniform administration
+- Updated contract guidance is contingent on the assessment jurisdiction extent
 
 ## 8.2 Justification
-Text.
+Per VCGI's records, about 90% of Vermont municipalities currently maintain parcel data. The vast majority of these towns do so via a GIS, making them capable of maintaining map data with a SPAN assigned to each parcel, and thus basic compliance with state data standard that permits joining with the annual grand list. A small number of towns continue to use a Computer-Aided 
+
+BGS
 
 ## 8.3 Implementation
 
