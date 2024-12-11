@@ -76,22 +76,22 @@ A full description of proposed changes is in [Appendix 1.4: Proposed Parcel Laye
 ## 2.1 Summary
 
 - The current model of town-based parcel maintenance with voluntary submittal to the state has reached its limits in data quality and currentness
-- If municipalities are to remain responsible for reappraisals, grand list maintenance, and tax mapping, any additional per-parcel funding should be contingent on their submittal of standardized GIS parcel data to the state
+- If municipalities are to remain responsible for reappraisals, grand list maintenance, and tax mapping, any additional per-parcel funding should be contingent on the submittal of standardized GIS parcel data to the state
 - Any change in the jurisdiction responsible for tax assessments/reappraisals should be accompanied by corresponding adjustments to the processes, responsibilities, and resources for tax mapping to ensure statewide consistency and accuracy 
 
 ## 2.2 Justification
 
-Vermont has 256 municipalities: 237 towns, 10 cities, 5 unincorporated towns, and 4 gores. Unlike other states with county government that often oversees the task, in Vermont individual municipalities are responsible for parcel mapping of taxable lands in their jurisdiction. Most towns budget to hire a GIS vendor to maintain their digital parcel data and depend on them to reflect any changes to parcel geometry since the town's last update. Frequency of geometry updates varies depending on the needs and resources of the town, with some updates performed annually and others completed every two to three years or more. Some towns do not update their digital parcel geometry. Town oversight of parcel mapping is typically the responsibility of its listers or assessors. Accuracy of taxation and identification of land-based and parcel-related trends suffer without a tight relationship between grand list and map maintenance.
+Vermont has 256 municipalities: 237 towns, 10 cities, 5 unincorporated towns, and 4 gores. In Vermont individual municipalities are responsible for parcel mapping of taxable lands in their jurisdiction, unlike other states with county governments that often oversee the task. Most towns budget to hire a GIS vendor to maintain their digital parcel data and reflect any changes to parcel geometry since the town's last update. Frequency of geometry updates varies depending on the needs and resources of the town, with some updates performed annually and others completed every two to three years or more. Some towns do not update their digital parcel geometry. Town oversight of parcel mapping is typically the responsibility of listers or assessors. Accuracy of taxation and identification of land-based and parcel-related trends suffer without a tight relationship between grand list and map maintenance.
 
-The [Statewide Property Parcel Program](https://vcgi.vermont.gov/data-and-programs/parcel-program) publishes municipal parcel map data joined to the annual statewide grand list in a uniform, digital format (see [Glossary: VT GIS Parcel Data Standard](#vermont-gis-parcel-data-standard)). The Program relies on towns voluntarily sharing updated parcel geometry with VCGI, typically via their vendor (see [Appendix 2](#a21-current-shared-responsibility-model-town-maintenance)). VCGI reviews submissions, performs any edits required for standard compliance, and makes the data publicly available with [enhanced functionality](https://github.com/VCGI/documentation/blob/main/parcelviewer4/User_Guide.md). The data drive applications such as the [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/ParcelViewer/), which draws more than 500,000 unique views a year, and offers raw spatial data which sees over 1 million unique views a year.
+The [Statewide Property Parcel Program](https://vcgi.vermont.gov/data-and-programs/parcel-program) publishes municipal parcel map data joined to the annual statewide grand list in a uniform, digital format (see [Glossary: VT GIS Parcel Data Standard](#vermont-gis-parcel-data-standard)). The Program relies on towns voluntarily sharing updated parcel geometry with VCGI, typically via their vendor (see [Appendix 2](#a21-current-shared-responsibility-model-town-maintenance)). VCGI reviews submissions, performs any edits required for standard compliance, and makes the data publicly available with [enhanced functionality](https://github.com/VCGI/documentation/blob/main/parcelviewer4/User_Guide.md). The data drive applications such as the [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/ParcelViewer/), which draws more than 500,000 unique views a year, and are also provided as raw spatial data which sees over 1 million unique views a year. Parcel data are one of the state's most-used spatial datasets.
 
-This voluntary method of sourcing parcel data has supported one of the State of Vermont's most-used spatial datasets, including state, regional, and local efforts in emergency management, natural resources policy and planning, permitting and compliance, and transportation. Parcel data also support efforts to address pressing issues such as flood response, resilience planning, and housing. All municipalities may use these data and applications to display their parcels digitally and free of charge. Some towns pay vendors for additional map services such as custom web applications and print map production. The overarching incentive for municipal parcel data maintenance is for towns to ensure the most accurate, consistent, and timely data exist across all representations of land ownership and location, be that in grand list tables or on maps that see high use.
+This voluntary method of sourcing parcel data has supported state, regional, and local efforts in emergency management, natural resources policy and planning, permitting and compliance, and transportation. Parcel data also support efforts to address pressing issues such as flood response, resilience planning, and housing. All municipalities may use these data and applications to display their parcels digitally and free of charge. Some towns pay vendors for additional map services such as custom web applications and print map production. The overarching incentive for municipal parcel data maintenance is for towns to ensure the most accurate, consistent, and timely data exist across all representations of land ownership and location, be that in grand list tables or on maps that see high use.
 
 While relatively successful, improvements are needed in the current town-sourced model of parcel data maintenance and publishing. About 60% of municipalities have submitted updated parcel geometry to VCGI within the last year. In contrast, about 16% of municipalities have not submitted updated parcel geometry to VCGI in over three years, indicating a divide in participation in the Parcel Program and limitations to its voluntary model. Inaccurate, stale data impacts downstream uses that are now dependent on this information.
 
 ### 2.2.1 Submittal Status
 
-VCGI tracks municipal parcel data maintenance and voluntary submittals in the [Parcel Program's Town Mapping Status application](https://maps.vcgi.vermont.gov/parcelstatus/), updated weekly. These statistics represent five years (2020 - 2024) of oversight of the Statewide Property Parcel Program. They highlight the need for improvements to the current data maintenance model.
+VCGI tracks municipal parcel data maintenance and voluntary submittals in the [Parcel Program's Town Mapping Status application](https://maps.vcgi.vermont.gov/parcelstatus/), which is updated weekly. These statistics represent five years (2020 - 2024) of oversight of the Statewide Property Parcel Program. They highlight the need for improvements to the current data maintenance model.
 
 As of October 24, 2024:
 - **90%** of towns are edited/updated by vendors or the town. 10% do not maintain their data and receive limited edits/updates by VCGI
@@ -106,9 +106,9 @@ The implementation of recommendations to support parcel data submissions is sign
 
 ### 2.3.1 Scenario A: Continued Municipal Assessment Jurisdiction
 
-The size and capacity of some small Vermont municipalities make it difficult to mandate that they maintain and submit standardized parcel data to the state without providing adequate resources to help cover the costs. Still, it is important to note that 90% of towns in Vermont currently maintain parcel data, either independently or through vendors.
+The size and capacity of some small Vermont municipalities make it difficult to mandate that they maintain and submit standardized parcel data to the state without providing resources to help cover costs. Still, it is important to note that 90% of towns in Vermont currently maintain parcel data, either independently or through vendors.
 
-Municipalities that do maintain parcel data should be required to adhere to the State’s basic standard and submit their data to the state. This approach would mirror the adoption of Municipal Plans in Vermont, where towns are not mandated to adopt plans, but if they do, they must include provisions specified in 24 V.S.A. § 4382.
+Municipalities that do maintain parcel data should be required to adhere to the State's basic standard and submit their data to the state. This approach would mirror the adoption of Municipal Plans in Vermont, where towns are not mandated to adopt plans, but if they do, they must include provisions specified in [24 V.S.A. § 4382](https://legislature.vermont.gov/statutes/section/24/117/04382).
 
 At the same time, adding new requirements for municipalities without new incentives may not significantly increase the number of towns maintaining and submitting standardized data. Therefore, it is recommended that this be done in tandem with the approach outlined in Act 68 Section 4. (3) (G):
 
@@ -118,21 +118,21 @@ Increasing the per-parcel payment to municipalities, even marginally, could mean
 
 > As implementation shifts into a maintenance stage, Vermont will want to pay close attention to challenges to compliance. While some impediments may be more attitudinal than logistical or economic, the state may want to consider creating incentives to comply.
 
-New contract guidance could also be developed to ensure municipalities maintain quality data that is eligible of a per parcel payment (see [Recommendation 8: Develop and Offer Updated Parcel Contract Guidance](#recommendation-8-develop-and-offer-updated-parcel-contract-guidance)).
+New contract guidance could also be developed to ensure municipalities maintain quality data that are eligible for a per parcel payment (see [Recommendation 8: Develop and Offer Updated Parcel Contract Guidance](#recommendation-8-develop-and-offer-updated-parcel-contract-guidance)).
 
-While such requirements and incentives are likely effective for most municipalities, they may not be significant enough for small municipalities that do not maintain parcel data. In such cases, those updates should be managed by VCGI’s parcel data program staff given available time and resources, such as the [Vermont Land Survey Library](#improve-submittal-of-land-surveys-to-vermont-land-survey-library). 
+While such requirements and incentives are likely effective for most municipalities, they may not be significant enough for small municipalities that do not maintain parcel data. In such cases, those updates should be managed by VCGI's Parcel Program staff given available time and resources, including the [Vermont Land Survey Library](#improve-submittal-of-land-surveys-to-vermont-land-survey-library). 
 
 Further considerations regarding per parcel payments are in [Appendix 2](#appendix-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont-considerations).
 
 ### 2.3.2 Scenario B: New Regional/State Assessment Jurisdiction
 
-This scenario assumes the creation of regional assessment districts as discussed in part 1 of this report, representing a change in assessment jurisdiction from that which is currently the municipality. As an assessment jurisdiction is typically responsible for all of the components of assessing property for tax purposes, depending on the specifics, the responsibility for tax mapping should also shift to that jurisdiction.
+This scenario assumes the creation of regional assessment districts as discussed in part 1 of this report, representing a change from the current assessment jurisdiction of the municipality. An assessment jurisdiction is typically responsible for all of the components of assessing property for tax purposes, therefore the responsibility for tax mapping should also shift to that jurisdiction.
 
-In Vermont, this could mean that all towns within the regional assessment jurisdiction are mapped under one contract, and likely by the same vendor. There may be advantages to this approach as the details and costs of the mapping contract could be met with contributions from all towns, while potentially enabling modern mapping to cover all towns statewide. Should this change occur, and assuming that the assessment jurisdiction is in some way related to the State's Tax Department, standardized parcel submittal to the state should become mandatory. The cumulative advantage from a mapping perspective in this approach is that all towns would be covered with uniform, up-to-date parcel data, which is supportive of many other uses beyond tax assessment.
+In Vermont, this could mean that all towns within the regional assessment jurisdiction are mapped under one contract, and likely by the same vendor. There may be advantages to this approach as the details and costs of the mapping contract could be met with contributions from all towns, while potentially enabling modern mapping to cover all towns statewide. Should this change occur, and assuming that the assessment jurisdiction is in some way related to the State's Tax Department, standardized parcel submittal to the state should become mandatory. The cumulative advantage from a mapping perspective is that all towns would be covered with uniform, up-to-date parcel data, which is supports many other uses beyond tax assessment.
 
-Additional per parcel payments in this scenario would likely not exist as an additional payment to towns. Instead, parcel counts for the entire assessment jurisdiction could be used to tailor adequate funding to support the parcel mapping function of the district. Funding for these services may be devised as a combination of state funds and those from towns in the district, with the relative amounts of each to be considered both within and across districts. Further considerations regarding funding are in [Appendix 2](#appendix-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont-considerations).
+Additional per parcel payments in this scenario would likely not exist as an additional payment to towns. Instead, parcel counts for the entire assessment jurisdiction could be used to tailor adequate funding to support the parcel mapping function of the district. Funding for these services may be comprised of a combination of state funds and those from towns in the district, with the relative amounts of each to be considered both within and across districts. Further considerations regarding funding are in [Appendix 2](#appendix-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont-considerations).
 
-There are likely advantages to the use of a single CAMA system for each district as this would also ease mapping and data maintenance. How land records are managed in this scenario would need serious consideration. It is not clear how major inefficiencies could be avoided without progress in digital land records statewide (see [Recommendation 11](#recommendation-11-coordinate-with-concurrent-efforts-to-digitize-land-records)).
+There are likely advantages to the use of a single CAMA system for each district which would also ease mapping and data maintenance. The management of land records in this scenario would need serious consideration. It is not clear how major inefficiencies could be avoided without progress in digital land records statewide (see [Recommendation 11](#recommendation-11-coordinate-with-concurrent-efforts-to-digitize-land-records)).
 
 # Recommendation 3: Implement Vermont CAMA Data Standard and Require Submittal to State
 ## 3.1 Summary
@@ -452,22 +452,22 @@ The Tax Department should partner with willing jurisdictions to test and evaluat
 ## 8.1 Summary
 
 - Updated mapping contract guidance that reflects current best practices may improve quality and currentness of parcel data
-- Separation of standardized parcel data maintenance from town-specific derivatives (such as print maps and custom web applications) in contract may ease uniform administration and reduce costs
+- Separation of standardized parcel data maintenance from town-specific derivatives (such as print maps and custom web applications) in contracts may ease uniform administration and reduce costs
 - Updated contract guidance is contingent on the assessment jurisdiction extent
 
 ## 8.2 Justification
 
-Per VCGI's records, about 90% of Vermont municipalities currently maintain parcel data. The vast majority of these towns do so via a GIS, making them capable of maintaining map data with a SPAN assigned to each parcel and thus meeting basic compliance with the state data standard that permits joining with the annual grand list. As a remnant of print map-focused practices, a small number of towns continue to hire vendors using Computer-Aided Design (CAD) software to maintain parcels, which is not capable of data integration like a GIS. These data are thus unusable for joining with grand list, CAMA and other related information. A small remainder of towns do not maintain parcel data in any way. In all cases, the town is the jurisdiction currently responsible for drafting and overseeing a mapping contract for parcel data maintenance to meet their specific wants and needs.
+Per VCGI's records, about 90% of Vermont municipalities currently maintain parcel data. The vast majority of these towns do so via a GIS, allowing maintenance of map data with SPANs assigned to each parce. SPAN assignment meets basic compliance with the state data standard and permits joining with the annual grand list. A small number of towns continue to hire vendors using Computer-Aided Design (CAD) software to maintain parcels, but these are not capable of data integration like a GIS. CAD data are thus unusable for joining with the grand list, CAMA, and other related information. A small remainder of towns do not maintain parcel data in any way. In all cases, the town is the jurisdiction currently responsible for drafting and overseeing a contract for parcel data maintenance meeting their specific wants and needs.
 
-It is common for these wants and needs to include print media products, typically large format plots of keyed tax map sheets with parcel identifiers and owner names printed on them. Such static maps are derived from dynamic parcel data. In other words, upkeep of digital data precedes and is separate from any map made from them and those source data are regularly changing even if only in property ownership. This means that print parcel maps are outdated and inaccurate shortly after they are made. Still, because parcel data maintenance and the creation of maps derived from them both require GIS skill, the same vendor is typically paid for both services in the same mapping contract. The creation of print map products represent a sizable portion of total funds for those contracts that specify them. Ideally, these print map products would not be covered by any per parcel payments, which could potentially reduce the overall cost of maintaining quality, current parcel data.
+Contracts commonly include print media products, often in the form of large format plots of keyed tax map sheets with parcel identifiers and owner names. Such static maps are generated from digital parcel data, which are able to rapidly and continuously reflect changes in geometry or attribution. As such, print parcel maps may be outdated and inaccurate shortly after they are made. Still, because parcel data maintenance and the creation of print maps both require GIS skills, the same vendor is typically paid for both services in the same contract. The creation of print map products represent a sizable portion of total funds for contracts that specify them. Ideally, print map products would not be covered by any per parcel payments. This specification could potentially reduce the overall cost of maintaining quality, current parcel data.
 
-Towns are not limited to print products to provide access to current, accurate tax map information. Many towns also contract for custom web applications that display digital parcel data in a web map along with CAMA card integration for all properties. Tied with the underlying, dynamic data sources, these web map applications provide citizens access to current information. For towns that do not individually contract for custom map applications, the [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/ParcelViewer/) provides access to best-available parcel data statewide and [offers much of the same functionality](https://github.com/VCGI/documentation/blob/main/parcelviewer4/User_Guide.md).
+Towns are not limited to print products to provide access to current, accurate tax map information. Many towns also contract for custom web applications that display digital parcel data in a web map along with CAMA card integration for all properties. These web map applications provide citizens access to current information via underlying dynamic data sources. The [Vermont Parcel Viewer](https://maps.vcgi.vermont.gov/ParcelViewer/) provides access to best-available parcel data statewide and [offers much of the same functionality](https://github.com/VCGI/documentation/blob/main/parcelviewer4/User_Guide.md) for towns that do not individually contract for custom map applications.
 
 ![BarreCity_CAI_WebApp01](https://github.com/user-attachments/assets/95343fbf-8e25-414d-b9c4-3854bcd8d3cd)
 **Figure 16: Municipal Parcel Web Map Application.** *Some towns contract for additional services such as web maps that display CAMA data for all properties.*
 
 ![BarreCity_ParcelViewer](https://github.com/user-attachments/assets/da32ee08-a992-42e2-9d43-9877518a622f)
-**Figure 17: Statewide Parcel Viewer Web Map Application.** *All towns have access to best-available parcel data via the Vermont Parcel Viewer web map application. As of 2024 the viewer presents property transfers and submitted land surveys along with grand list information for all parcels. Future integration with CAMA data is possible should that become available per Recommendation 3.*
+**Figure 17: Statewide Parcel Viewer Web Map Application.** *All towns have access to best-available parcel data via the Vermont Parcel Viewer web map application. As of 2024 the viewer presents property transfers and submitted land surveys along with grand list information for all parcels. Future integration with CAMA data is possible should it become available per Recommendation 3.*
 
 ## 8.3 Implementation
 
@@ -494,7 +494,7 @@ In 2023 over 19,000 parcels were enrolled in current use, totaling over 2.5 mill
 In addition, current use parcels may only have a percentage of their acreage enrolled. The statewide average enrollment is 92.5%, with 75% of parcels between 92-100%.
 
 ![2023_CurrentUse](https://github.com/user-attachments/assets/4a0bf7fd-a32d-4217-9f63-b23782bb5f56)
-**Figure 16: Parcels Enrolled in Current Use.** *Shaded parcels are enrolled in the current use program as of 2023 (left). A parcel may be fully or partially enrolled (right).*
+**Figure 18: Parcels Enrolled in Current Use.** *Shaded parcels are enrolled in the current use program as of 2023 (left). A parcel may be fully or partially enrolled (right).*
 
 ## 9.3 Implementation
 
@@ -536,7 +536,7 @@ A parcel is the container by which land records could be joined, enabling easy, 
 As an example of utility, the [Protected Lands](https://geodata.vermont.gov/datasets/VCGI::vt-protected-lands-database/about) database could be enhanced through the inclusion of authoritative, digital land records indicating ownership and easements linked to parcel geometry. 
 
 ![ProtectedLands_Protection_Status_Jurisdiction_Access](https://github.com/user-attachments/assets/eb691607-3da6-4ed5-9057-e34acfbc0bcd)
-**Figure 17: Protected Lands.** *Protected lands in Vermont, classified by Jurisdiction (top left), Public Access (top right), Primary Protection type (lower left), and GAP Status (lower right). Inclusion of digital land records could provide additional information for classification, including which parcels contain easements or the history of ownership.*
+**Figure 19: Protected Lands.** *Protected lands in Vermont, classified by Jurisdiction (top left), Public Access (top right), Primary Protection type (lower left), and GAP Status (lower right). Inclusion of digital land records could provide additional information for classification, including which parcels contain easements or the history of ownership.*
 
 ## 11.3 Implementation
 
@@ -583,7 +583,7 @@ Other uses include:
 While there is no penalty or enforcement devised within the current survey and submittal requirement, opportunities exist in encouraging surveys of line changes and use of the library before those methods should be considered. Any future work in land records digitization or realignment of assessment jurisdictions should consider ways to leverage this existing resource. The professional surveying, appraisal, and real estate communities, along with municipal officials who oversee local bylaws and development regulations, are groups that could be further engaged for improvements.
  
 ![SurveyLibraryStatus_Dec7_2024](https://github.com/user-attachments/assets/6f3e03ae-add5-4135-b70c-61bb4db4a356)
-**Figure 18: Statistics from the Vermont Land Survey Library.** *Land surveyors are responsible for submitted new surveys to the Land Survey Library. Information about surveys including type, submittal date, survey year, town, and surveyor are tracked. These data can help assess patterns and completeness when compared to property transfers and new Grand List records, as well as between geographical areas.*
+**Figure 20: Statistics from the Vermont Land Survey Library.** *Land surveyors are responsible for submitted new surveys to the Land Survey Library. Information about surveys including type, submittal date, survey year, town, and surveyor are tracked. These data can help assess patterns and completeness when compared to property transfers and new Grand List records, as well as between geographical areas.*
 
 ## Support Survey of Municipal Boundaries and/or Corner Points
 
@@ -592,12 +592,12 @@ Town boundaries form the basis of numerous administrative decisions, governance,
 Massachusetts began [officially surveying corner points of municipalities in the 1890s](https://www.mass.gov/info-details/massgis-data-municipalities), and continues to update [surveyed points](https://gis.massdot.state.ma.us/towncorners/) and town boundaries statewide with any boundary changes approved by the state's legislature. Formally surveying all of Vermont's municipal boundaries and/or corner points would be a significant undertaking but ultimately help confirm and establish reliable, consistent, and permanent boundary designations that would improve all dependent mapping and policies.
 
 ![MuniLibrary_Survey_2](https://github.com/user-attachments/assets/6e6ad6d9-711e-4593-9c96-9109075fb448)
-**Figure 19: Survey of Town Line Between Underhill and Westford.** *Town boundaries are not officially surveyed in many parts of the state. The Land Survey Library includes a specific designation for surveyors to indicate whether the survey is a municipal boundary. Ideally all town boundaries will be officially surveyed and formally documented in time.*
+**Figure 21: Survey of Town Line Between Underhill and Westford.** *Town boundaries are not officially surveyed in many parts of the state. The Land Survey Library includes a specific designation for surveyors to indicate whether the survey is a municipal boundary. Ideally all town boundaries will be officially surveyed and formally documented in time.*
 
 ### Acreage Not Counted (Gaps) and Double Counted (Overlaps)
 ![WinooskiTopology_example](https://github.com/user-attachments/assets/c94e43ea-2df6-4d89-9d60-a22c4a7c611b)
 
-**Figure 20: Gaps and Overlaps Between Municipal Boundaries.** *Example of gaps (red) and overlaps (blue) in parcel geometry at municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Black lines represent town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI. [Explore gaps and overlaps in parcel data along town boundaries](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=7972f2b2ab0646deae0fd8d8b79e138d).*
+**Figure 22: Gaps and Overlaps Between Municipal Boundaries.** *Example of gaps (red) and overlaps (blue) in parcel geometry at municipal boundaries between Winooski and bordering South Burlington, Burlington, and Colchester. Black lines represent town boundaries as reflected in the [town boundary dataset](https://geodata.vermont.gov/datasets/VCGI::vt-data-town-boundaries-1/about) maintained by VCGI. [Explore gaps and overlaps in parcel data along town boundaries](https://vcgi.maps.arcgis.com/apps/mapviewer/index.html?webmap=7972f2b2ab0646deae0fd8d8b79e138d).*
 
 # Glossary
 
@@ -772,7 +772,7 @@ Depicted visually, a contiguous parcel definition means that the two abutting pa
 
 ![image](https://github.com/user-attachments/assets/239c3a7e-e6f5-44cd-bb89-e8768e81a1da)
 
-**Figure 21: Contiguous Parcel Schematic.** *In the current parcel dataset, abutting parcels with the same ownership are considered to be a single parcel.*
+**Figure 23: Contiguous Parcel Schematic.** *In the current parcel dataset, abutting parcels with the same ownership are considered to be a single parcel.*
 
 One of the individual parts is to be considered an "inactive" parcel, but this is not uniformly tracked across towns. The other part is to be considered "active", but its status is also not tracked uniformly across towns. These inconsistencies result in data incompleteness that impact analyses as well as long-term change tracking.
 
@@ -831,7 +831,7 @@ VCGI currently publishes and maintains two statewide parcel layers: Active Parce
 
 ![AdminSPANs_SPANs](https://github.com/user-attachments/assets/cbb220fb-17ba-4a2a-bafb-6918cb4d5024)
 
-**Figure 22: Tabular and Spatial Representation of Proposed Parcel Layers.** *Under the new parcel definition, the Parcels layer will represent parcels as single sellable units, each with a unique SPAN. The ADMINSPAN field will include duplicates for any abutting parcels with common ownership. The Administrative Parcels layer will combine any parcels with the same ADMINSPAN entries to a single geometry.*
+**Figure 24: Tabular and Spatial Representation of Proposed Parcel Layers.** *Under the new parcel definition, the Parcels layer will represent parcels as single sellable units, each with a unique SPAN. The ADMINSPAN field will include duplicates for any abutting parcels with common ownership. The Administrative Parcels layer will combine any parcels with the same ADMINSPAN entries to a single geometry.*
 
 ### A1.5 Parcel Definitions and Interpretations in Existing Vermont Statute
 
@@ -982,7 +982,7 @@ The success of the Parcel Program as a voluntary-based initiative is due to the 
 
 ![image](https://github.com/user-attachments/assets/57368cfe-eb6c-47b7-99ad-66c17cb00e3d)
 
-**Figure 23: Current Parcel Data Maintenance Practices.** *Depending on the needs and resources of a municipality, several types of parcel data maintenance practices exist.*
+**Figure 25: Current Parcel Data Maintenance Practices.** *Depending on the needs and resources of a municipality, several types of parcel data maintenance practices exist.*
 
 The Shared Responsibility model identifies a municipality's ability to perform parcel geometry updates by contracting with a mapping vendor or completing updates internally. Municipalities unable to perform parcel geometry maintenance are updated by VCGI using any new land surveys available in the [Vermont Land Survey Library](https://landsurvey.vermont.gov/). This method does not typically capture all geometry changes do to the incomplete nature of the Land Stuvey Library, and updates do not happen on a regular schedule. While generally successful, the limitations of the Shared Responsibility model have emerged after five years of operation (2020-2024).
 
@@ -1200,13 +1200,13 @@ Stacked polygons use a standalone Intersection Table to relate multiple SPANs fr
 
 ![image](https://github.com/user-attachments/assets/959a5b13-4dd0-484c-b064-758ae657ee00)
 
-**Figure 24: Relationship Between GIS SPAN (Geometry) and Grand List SPAN.** *In Vermont parcel data, the stacked method is recommended. This method uses a placeholder GIS SPAN in the parcel geometry. In the Intersection Table, the GIS SPAN is listed for all corresponding Grand List SPANs at that parcel.*
+**Figure 26: Relationship Between GIS SPAN (Geometry) and Grand List SPAN.** *In Vermont parcel data, the stacked method is recommended. This method uses a placeholder GIS SPAN in the parcel geometry. In the Intersection Table, the GIS SPAN is listed for all corresponding Grand List SPANs at that parcel.*
 
 This method creates identical polygons "stacked" on top of each other, which can be “flattened” to remove all but one polygon for each parcel for analytical purposes. Unlike the building footprints methods, there is no visual distinction between unlanded structures and the common land. Because of this, parcel geometry is simpler to maintain.
 
 ![image](https://github.com/user-attachments/assets/8da7e8ab-d3e0-4423-881a-1ce1e2a9d399)
 
-**Figure 25: Stacked Method Mapping of Condos.** *The stacked method depicts multiple owners through parcel stacking; there is no distinction between common land and building footprints (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
+**Figure 27: Stacked Method Mapping of Condos.** *The stacked method depicts multiple owners through parcel stacking; there is no distinction between common land and building footprints (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
 
 Pros
 - Geometry is easier to maintain when compared to the building footprints methods
@@ -1221,11 +1221,11 @@ Building footprints are often used to visually distinguish between unlanded stru
 
 ![image](https://github.com/user-attachments/assets/2ff17158-461a-490d-8062-6c014960c6f0)
 
-**Figure 26: Discrete Method Mapping of Condos.** *The discrete method depicts multiple owners through building footprints; common land does not have a SPAN (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
+**Figure 28: Discrete Method Mapping of Condos.** *The discrete method depicts multiple owners through building footprints; common land does not have a SPAN (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
 
 ![image](https://github.com/user-attachments/assets/b39db8ec-ef97-477d-b394-b303d2ff0c4d)
 
-**Figure 27: Distributed Method of Mapping Condos.** *The distributed method depicts multiple owners through building footprints; common land also has a SPAN (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
+**Figure 29: Distributed Method of Mapping Condos.** *The distributed method depicts multiple owners through building footprints; common land also has a SPAN (source: [Wisconsin Condo Stack Tool Guide](https://www.sco.wisc.edu/parcels/tools/CondoStack/Condo_Stack_Tool_Guide.pdf)).*
 
 Pros
 - Creates visual distinction between unlanded structures and common land
@@ -1240,7 +1240,7 @@ Parcel points are maintained by Dakota County in the State of Minnesota. This da
 
 ![image](https://github.com/user-attachments/assets/3e0e0b19-c8eb-48ad-922e-44bcfc481928)
 
-**Figure 28: Parcel Points Method Mapping of Condos.** *While parcel points are not currently maintained or available in Vermont, at least one mapping vendor does manage them for parcels with multiple owners (source: [Dakota County, Minnesota](https://gis.co.dakota.mn.us/DCGIS/)).*
+**Figure 30: Parcel Points Method Mapping of Condos.** *While parcel points are not currently maintained or available in Vermont, at least one mapping vendor does manage them for parcels with multiple owners (source: [Dakota County, Minnesota](https://gis.co.dakota.mn.us/DCGIS/)).*
 
 Pros
 - Already practiced by some Vermont municipalities internally
@@ -1274,11 +1274,11 @@ A stacked polygon is a group of identical parcel features (polygons) stacked on 
 
 ![CommonOwnership_statewide](https://github.com/user-attachments/assets/2eecb05d-b610-4d0c-97e0-ab4c7a197e55)
 
-**Figure 29: Common Ownership Parcels Statewide.** *Shaded areas represent stacked parcels.*
+**Figure 31: Common Ownership Parcels Statewide.** *Shaded areas represent stacked parcels.*
 
 ![CommonOwnership_Brattleboro](https://github.com/user-attachments/assets/9580c23e-579e-41fe-aa55-b9fc13aa058b)
 
-**Figure 30: Stacked Parcels in Brattleboro.** *An example of stacked parcels (shaded) indicating a mobile home park with over 200 unique Grand List SPANs.*
+**Figure 32: Stacked Parcels in Brattleboro.** *An example of stacked parcels (shaded) indicating a mobile home park with over 200 unique Grand List SPANs.*
 
 ### A5.2 Acreage within State Boundary
 
@@ -1296,4 +1296,4 @@ Notes:
 3. Area measurements are from the Census Bureau's master TIGER database. Land and water classifications reflect updates made to the TIGER database through August 2022. Values reflect the ALAND and AWATER fields. Water measurements include only perennial water. All other water (intermittent, glacier, marsh/swamp) is included in the table as part of land area calculations.
 
 ![Vermont Land and Water Area 02 Comp_1144px](https://github.com/user-attachments/assets/79b7d3cd-30c2-4238-bdde-57ac7de9957b)
-**Figure 31: Vermont Land and Water Areas.** *Statewide land and water areas as depicted using BNDHASH and NHDPlus HR input layers.*
+**Figure 33: Vermont Land and Water Areas.** *Statewide land and water areas as depicted using BNDHASH and NHDPlus HR input layers.*
