@@ -1044,7 +1044,7 @@ Summary: submission does not meet format and/or content allowing for inclusion i
 
 ### A2.4 Funding Estimates
 
-In November 2024 VCGI organized a focus group of 12 municipalities selected based on parcel count, location, and mapping vendor. A municipal official (lister, assessor, or clerk) from each municipality was contacted by email and asked how much the municipality currently spends on parcel mapping. While sample size is a limiting factor, based on the information provided by the seven municipalities that responded the cost of ongoing parcel data maintenance is less than the initial cost during the Parcel Project. This is true even for municipalities that are no longer contracting with their Parcel Project mapping vendor. The current cost per parcel averaged $2.66 compared to $5.87 during the Parcel Project (55% cost reduction).
+In November 2024, VCGI organized a focus group of 12 municipalities selected based on parcel count, location, and mapping vendor. A municipal official (lister, assessor, or clerk) from each municipality was contacted by email and asked how much the municipality currently spends on parcel mapping. While sample size is a limiting factor, based on the information provided by the seven municipalities that responded, the cost of ongoing parcel data maintenance is less than the initial cost during the Parcel Project. This is true even for municipalities that are no longer contracting with their Parcel Project mapping vendor. The current cost per parcel averaged $2.66 compared to $5.87 during the Parcel Project (55% cost reduction).
 
 |Municipality    |2023 Grand List Parcel Count|Active Polygons|Inactive Polygons|Current Vendor        | Parcel Project Vendor|
 |----------------|----------------------------|---------------|-----------------|----------------------|----------------------|
@@ -1103,6 +1103,7 @@ At the county-level, the average cost per parcel during the Parcel Project was $
 |Windham    |$1.69                              |$53,741          |
 |Windsor    |$1.84                              |$66,902          |
 |**Total**  |                                   |**$693,714**     |
+|**Average**|**$5.21**                          |                 |
 
 **Table X: Estimated Statewide Financial Incentive Cost.** *Estimated funding needed to support a financial incentive is calculated by county, along with the estimated cost reduction compared to the cost of the Parcel Project.*
 
@@ -1111,9 +1112,9 @@ At the county-level, the average cost per parcel during the Parcel Project was $
 |Focus Group   |$2.66                  |
 |County-level  |$2.34                  |
 
-**Table X: A summary of the average costs per parcel.** *The average cost per parcel for the seven towns that participated in the focus group is $2.66 - this number is based on the current contract each towns has with their mapping vendor divided by their 2023 Grand List parcel count. During the Parcel Project, the average cost per parcel for the same seven towns was $5.87 (55% cost reduction). At the county-level, the average cost per parcel during the Parcel Project was $5.21. If a 55% cost reduction was applied at the county-level, it can be estimated that the average cost per parcel would currently be around $2.34.*    
+**Table X: A summary of the average costs per parcel.** *The average cost per parcel for the seven towns that participated in the focus group is $2.66 - this number is based on the current contract each towns has with their mapping vendor divided by their 2023 Grand List parcel count. During the Parcel Project, the average cost per parcel for the same seven towns was $5.87 (this repersents a 55% cost reduction from the Parcel Project to current maintenance costs). At the county-level, the average cost per parcel during the Parcel Project was $5.21. If a 55% cost reduction was applied at the county-level, it can be estimated that the average cost per parcel would currently be around $2.34.*    
 
-Each county could be assigned its own per parcel fee, or a single per parcel fee could be established for the state with some counties receiving an additional percentage above the per parcel fee based on financial capacity. While there are multiple ways to determine financial capacity, two methods using the Real Listed Value field from the 2023 Grand List are shown below. For both methods, any county that is **below** the average value would receive an adjusted per parcel fee. The remaining counties would receive the standard per parcel fee.
+Each county could be assigned its own per parcel fee, or a single per parcel fee could be established for the state with some counties receiving an additional percentage above the per parcel fee based on financial capacity. While there are multiple ways to determine financial capacity, two methods using the Real Listed Value field from the 2023 Grand List are shown below. For both methods, any county that is **below** the average value are shown as receiving an adjusted per parcel fee. The remaining counties are shown receiving the standard per parcel fee.
 
 **Real Listed Value per Capita**
 
