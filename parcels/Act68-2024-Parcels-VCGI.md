@@ -246,11 +246,7 @@ Following receipt of the updated CAMA data each month, VCGI will work to incorpo
 
 ## 3.5 Example Statute Update
 
->32 V.S.A. § 5404(b) (b) Annually, on or before August 15, the clerk of a municipality, or the supervisor of an unorganized town or gore, shall transmit to the Director in an electronic or other format as prescribed by the Director: education and municipal grand list data, including exemption information and grand list abstracts; tax rates; and the total amount of taxes assessed in the town or unorganized town or gore...
-
->[Section] "Assessor database" means the database of property information maintained by a municipalities' lister(s) or assessor(s); it is also referred to as a Computer Aided Mass Appraisal (CAMA) system or Computer Aided Mass Appraisal database
-
->[Section] On or before [initial date], and not less than monthly thereafter, each municipality that possesses or contracts for services for the creation or maintenance of an assessor database shall transmit an extract of the database to [the State of Vermont]. The submitted database shall include, but need not be limited to information that uniquely identifies each property in the municipality, the description of each property, the size of each property, the year in which buildings were constructed on each property, and other fields described in the Vermont CAMA data standard.
+>32 V.S.A. § 5404(b) (b) Annually, on or before August 15, the clerk of a municipality, or the supervisor of an unorganized town or gore, shall transmit to the Director in an electronic or other format as prescribed by the Director: education and municipal grand list data, including exemption information and grand list abstracts; tax rates; **an extract of the assessor database also referred to as a Computer Aided Mass Appraisal (CAMA) system or Computer Aided Mass Appraisal database,** and the total amount of taxes assessed in the town or unorganized town or gore...
 
 ## 3.6 Implementation
 
