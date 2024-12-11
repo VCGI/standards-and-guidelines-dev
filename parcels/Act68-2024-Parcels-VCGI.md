@@ -451,6 +451,8 @@ The Tax Department should partner with willing jurisdictions to test and evaluat
 
 ## 8.1 Summary
 
+- Separation of standardized parcel data maintenance from town-specific derivatives (such as print maps and custom web applications) in contract may ease uniform administration
+
 ## 8.2 Justification
 Text.
 
@@ -476,8 +478,6 @@ In addition, current use parcels may only have a percentage of their acreage enr
 
 ![2023_CurrentUse](https://github.com/user-attachments/assets/4a0bf7fd-a32d-4217-9f63-b23782bb5f56)
 **Figure 16: Parcels Enrolled in Current Use.** *Shaded parcels are enrolled in the current use program as of 2023 (left). A parcel may be fully or partially enrolled (right).*
-
-
 
 ## 9.3 Implementation
 
