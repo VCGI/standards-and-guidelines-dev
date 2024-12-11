@@ -584,9 +584,9 @@ Text.
 
 ## Improve Submittal of Land Surveys to Vermont Land Survey Library
 
-The Vermont [Land Survey Library](https://maps.vcgi.vermont.gov/landsurveylibrary/) is a digital repository for land surveys maintained by VCGI as part of the Parcel Program but is maintained separately from parcel data. The library consists of a web map that displays the general location of a land survey with its related information (e.g., date of land survey, town name, and the name of the land surveyor) stored in a pop-up table.
+The Vermont [Land Survey Library](https://maps.vcgi.vermont.gov/landsurveylibrary/) is a repository for digital copies of land surveys maintained by VCGI as part of the Parcel Program but is maintained separately from parcel data. The library consists of a web map that displays the general location of a land survey with its related information.
 
-The library was developed in accordance with the amendment of [27 V.S.A. § 341](https://legislature.vermont.gov/statutes/section/27/005/00341) by the passing of Act 38 in 2019 requiring a land survey for a property line change, including a property line adjustment or a subdivision, effective January 1, 2020. In addition to this mandatory practice for all Vermont municipalities, sections [27 V.S.A. §1401](https://legislature.vermont.gov/statutes/section/27/017/01401) and  [27 V.S.A. §1403](https://legislature.vermont.gov/statutes/section/27/017/01403) require a digital copy of a land survey to be submitted to the library by a licensed land surveyor or a municipal official. While there is no legal requirement, land surveys predating the amendment can be submitted to the library by a licensed land surveyor or a municipal official. Others working in the public sector may also submit a land survey to the library (e.g., the Vermont Agency of Transportation).
+The library was developed in accordance with the amendment of [27 V.S.A. § 341](https://legislature.vermont.gov/statutes/section/27/005/00341) by the passing of Act 38 in 2019 requiring a land survey for a property line change, including a boundary line adjustment or a subdivision, effective January 1, 2020. In addition to this mandatory practice for all Vermont municipalities (which includes those without development regulations), sections [27 V.S.A. §1401](https://legislature.vermont.gov/statutes/section/27/017/01401) and [27 V.S.A. §1403](https://legislature.vermont.gov/statutes/section/27/017/01403) require a digital copy of a land survey to be submitted to the library by a licensed land surveyor or a municipal official. While there is no legal requirement that applies to them, land surveys predating January 1, 2020 can be submitted to the library by a licensed land surveyor or a municipal official. Others working in the public sector may also submit a land survey to the library (e.g., the Vermont Agency of Transportation).
 
 As of December 10, 2024:
 
@@ -596,7 +596,7 @@ As of December 10, 2024:
 
 - 143 towns have 10 or fewer land surveys published. Only 2 towns have more than 100 land surveys published
 
-Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. Mapping vendors has confirmed that the library does not currently reflect the total number of land surveys they receive. However, the 2 towns with over 100 land surveys published to the library demonstrate the potential value of the library. Now that the library is integrated into the Parcel Viewer, with increased participation, the library may be used to conduct preliminary research as part of a title search. From a town in Windham County: 
+Mapping vendors typically receive the land surveys they need to complete a parcel data update directly from the town. Vendors have confirmed that the library does not currently reflect the total number of land surveys they receive. However, the 2 towns with over 100 land surveys published to the library demonstrate the potential value of the library. Now that the library is also integrated into the Vermont Parcel Viewer, with increased participation the library may be used to conduct preliminary research as part of a title search. From a town in Windham County: 
 
 > This is a great resource once surveys are scanned, allowing towns to index their surveys and host them for free. I have been using this resource, realtors and title searchers know they can expect to see this information on this site.
 
@@ -605,6 +605,8 @@ Other potential uses include:
 - Assist land surveyors with research prior to conducting field work 
 - Identify and address discrepancies at town boundaries
 - Create a digital copy to preserve historic land surveys
+
+While there is no penalty or enforcement devised within the current survey and submittal requirement, opportunities exist in encouraging surveys of line changes and use of the library before those methods should be considered. Any future work in land records digitization or realignment of assessment jurisdictions should consider ways to leverage this existing resource. The professional surveying, appraisal, and real estate communities, along with municipal officials who oversee local bylaws and development regulations, are groups that could be further engaged for improvements.
  
 ![SurveyLibraryStatus_Dec7_2024](https://github.com/user-attachments/assets/6f3e03ae-add5-4135-b70c-61bb4db4a356)
 **Figure 18: Statistics from the Vermont Land Survey Library.** *Land surveyors are responsible for submitted new surveys to the Land Survey Library. Information about surveys including type, submittal date, survey year, town, and surveyor are tracked. These data can help assess patterns and completeness when compared to property transfers and new Grand List records, as well as between geographical areas.*
