@@ -537,9 +537,13 @@ Relatedly, [19 V.S.A. § 44](https://legislature.vermont.gov/statutes/section/19
 - Land Surveyor licensed under [26 V.S.A. § 45](https://legislature.vermont.gov/statutes/chapter/26/045)
 
 While the Parcel Advisory Board [met regularly](https://vcgi.vermont.gov/data-and-programs/parcel-program/parcel-advisory-board) from 2016-2019, the needs and priorities of ongoing parcel maintenance have shifted since the transition to the Parcel Program. Since then, meetings have been infrequent and have primarily focused on updating the Board on the current Program status rather than identifying and enacting improvements. 
-In addition, statute wording specifies VTrans as the agency receiving Board recommendations. In summary, the need exists to update statute language and location, and to modernize the objective, role, and composition of the Advisory Board to better align with the future of the Program.
+In addition, statute wording specifies VTrans as the agency receiving Board recommendations. Given the evolution of operations the need exists to update statute language and location, and to modernize the objective, role, and composition of the Advisory Board to better align with the future of the Program.
 
 ## 10.3 Implementation
+
+Transferring ownership of the Parcel Program in statute should be relatively seamless and could happen without significant impact to current operations. [where will it go instead...?]
+
+Given successful completion of the Parcel Project, the current Parcel Advisory Board should be retired and a new oversight body of similar composition could be established to guide the Parcel Program moving forward. This body could continue to provide insight and recommendations based on experience from a variety of users and stakeholders. The new advisory board should meet with VCGI on a pre-determined schedule once or twice a year at minimum. This schedule would allow the Parcel Program to remain responsive and attentive to issues and needed improvements, particularly in light of the prosposed operational changes.
 
 ## 10.4 Related Statutes
 
