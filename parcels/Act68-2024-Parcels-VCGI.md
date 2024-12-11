@@ -488,7 +488,7 @@ It is assumed that one mapping contract per regional assessment district would b
 
 Vermont's current use program has been a cornerstone of the state's tax policy for several decades. As the program depends on the bounded extents of either forested or agricultural lands and associated acreage thresholds, mapping has been central to the program since its inception. That has also meant that what was once considered sufficiently accurate mapping to meet the program's requirements has long been surpassed by far more accurate digital mapping tools and techniques that are publicly available. The result is that the quality of the underlying maps that support enrolled parcels varies widely.
 
-
+Map storage includes the need to house years of print-only documents with no digital equivalent, to receiving modern GIS work submitted by county foresters, for example. Forested parcels are much further along in their digitization, with the Agency of Natural Resources (ANR) leading the effort to maintain 
 
 Although there is no accessible public-facing means of digitally entering the mapped extents of lands to be considered for current use enrollment, nor is there a way to depict the specific extent of all currently enrolled areas as a statewide digital map layer, map applications can help modernize these functions.
 
