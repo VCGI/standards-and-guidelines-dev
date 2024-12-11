@@ -563,9 +563,9 @@ Given successful completion of the Parcel Project, the current Parcel Advisory B
 
 ## 11.2 Justification
 
-Digital land records are the electronic means by which authoritative land-related documents are stored, maintained, and distributed. In a New England state as old as Vermont, it is understandable that land records currently maintained by municipalities are primarily analog, reflecting documents at times that may be more than a century old, far preceding anything remotely digital. 
+Digital land records are the electronic means by which authoritative land-related documents are stored, maintained, and distributed. In a New England state as old as Vermont, it is understandable that land records currently maintained by municipalities are primarily analog, reflecting documents that may be more than a century old. Yet as the recent pandemic and its limited physical access or extreme storms and floods that have placed stored print documents at risk have clarified, having redundant, non-local, digital storage and access to these records may be becoming a necessity of modern life.
 
-Current efforts to digitize authoritative documents . Vermont Land Records Online
+Current responsibility to digitize authoritative land records lies with individual municipalities. The Vermont Municipal Clerks and Treasurer's Association's (VMCTA) [Vermont Land Records Online](https://vmcta.org/Vermont_Land_Records_Online) is perhaps the most current and accessible reflection of current status. As of December 2024, 174 towns have begun some form of land records digitization using a handful of private vendors.  
 A parcel is the container by which land records could be joined, enabling easy, map-based access to associated documents.
 
 [Act 171  of 2022](https://legislature.vermont.gov/Documents/2022/Docs/ACTS/ACT171/ACT171%20As%20Enacted.pdf) is focused on land records modernization through the Vermont State Archives and Records Administration office (VSARA) under the Secretary of State. VSARA was tasked with consulting the Joint Fiscal Office, Vermont League of Cities and Towns, Vermont Municipal Clerks' and Treasurers' Association, representatives from banking, bar, title insurance, and real industry industry, and other interested parties to assess the fiscal, governance, and operational sustainability of modernization. A [report](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf) was produced suggesting the benefits of an enterprise-wide systems approach to modernization, including consistency and uniformity. Digital land records offer many benefits similar to those above related to standardized statewide CAMA (see [Appendix C](https://outside.vermont.gov/dept/sos/VSARA/Reports/VSARA_2024LegislativeReport_Act171_2022.pdf#page=21), for example); efforts to make all of this information publicly available in a consistent format statewide would have far reaching applicability and long-term cost savings. 
@@ -576,6 +576,8 @@ As an example of utility, the [Protected Lands](https://geodata.vermont.gov/data
 **Figure 19: Protected Lands.** *Protected lands in Vermont, classified by Jurisdiction (top left), Public Access (top right), Primary Protection type (lower left), and GAP Status (lower right). Inclusion of digital land records could provide additional information for classification, including which parcels contain easements or the history of ownership.*
 
 ## 11.3 Implementation
+
+We are under no illusion that implementing 
 
 Any effort to change the assessment jurisdiction in Vermont needs to seriously consider the logistics associated with maintaining land records. 
 
