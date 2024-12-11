@@ -126,24 +126,13 @@ Further considerations regarding per parcel payments are in [Appendix 2](#append
 
 ### 2.3.2 Scenario B: New Regional/State Assessment Jurisdiction
 
-This scenario assumes the creation of regional assessment districts as proposed in part 1 of this report, representing a change in assessment jurisdiction.
+This scenario assumes the creation of regional assessment districts as discussed in part 1 of this report, representing a change in assessment jurisdiction from that which is currently the municipality. As an assessment jurisdiction is typically responsible for all of the components of assessing property for tax purposes, and depending on the specifics, the responsibility for tax mapping should also shift to that jurisdiction.
 
-///////
+In Vermont, this could mean that all towns within the regional assessment jurisdiction are mapped under one contract, and likely by the same vendor. There may be advantages to this approach as the details and costs of the mapping contract could be met with contributions from all towns depending on their specifics, while potentially permitting modern mapping to cover all towns statewide. Should this change occur, and assuming that the assessment jurisdiction is in some way related to the State's Tax Department, standardized parcel submittal to the state should become mandatory. The cumulative advantage from a mapping perspective in this approach is that all towns would be covered with uniform, up-to-date parcel data, which is supportive of many other uses beyond tax assessment.
 
+Additional per parcel payments in this scenario would likely not exist as an additional payment to towns. Instead, parcel counts for the entire assessment jurisdiction could be used to tailor adequate funding to support the parcel mapping function of the district. Funding for these services may be devised as a combination of state funds and those from towns in the district, with the relative amounts of each to be considered both within and across districts. Further considerations regarding funding are in [Appendix 2](#appendix-2-support-digital-parcel-maintenance-and-submittal-to-the-state-of-vermont-considerations).
 
-### 2.3.X Regional Appraisal District-Led Maintenance
-**Regional Appraisal District-led maintenance** would be contingent on the creation of such districts as proposed in part 1 of this report and ideally, follow existing county boundaries per [Recommendation 12](#recommendation-12-make-proposed-appraisal-districts-consistent-and-compatible-with-existing-administrative-boundaries). This model assumes that the same CAMA provider would be used throughout an appraisal district. In this scenario, Regional Appraisal Districts would be staffed and supported to administer a single GIS parcel mapping contract for all of its municipalities, effectively taking over current responsibility from towns. Mapping would be required to be 
-
-vendors
-contracts / contract guidance
-Per parcel payments may be administered and normalized by proposed Regional Appraisal Districts
-
-### 2.3.X State-Led Maintenance
-**State-led maintenance** would involve . Prerequisites (CAMA data, digital land records)
-vendors
-contracts / contract guidance
-
-///////
+There are also likely advantages to the use of a single CAMA system for each district as this would also ease mapping and data maintenance. How land records are managed in this scenario would need serious consideration. It is not clear how major inefficiencies could be avoided without progress in digital land records statewide (see [Recommendation 11](#recommendation-11-coordinate-with-concurrent-efforts-to-digitize-land-records)).
 
 # Recommendation 3: Implement Vermont CAMA Data Standard and Require Submittal to State
 ## 3.1 Summary
