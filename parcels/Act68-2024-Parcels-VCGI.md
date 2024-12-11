@@ -480,13 +480,13 @@ It is assumed that one mapping contract per regional assessment district would b
 ## 9.1 Summary
 
 - Recent changes in grand list maintenance via the Vermont Property Information Exchange (VTPIE) have improved internal data organization and access to current use information
-- There is no way to currently visualize the specific extents of all currently enrolled areas, which are increasingly requested to support other mapping uses
-- Web mapping tools can help modernize the mapping component of current use applications and visualizing enrollment
+- There is no way to currently visualize the specific extents of all currently enrolled areas statewide, which are increasingly requested to support other mapping uses
+- Web mapping tools can help modernize the mapping components of current use applications and visualizing specific enrolled areas
 - Historical, analog map documents associated with enrolled lands could benefit from other records digitization efforts
 
 ## 9.2 Justification
 
-Vermont's current use program has been a cornerstone of the state's tax policy for several decades. As the program specifically deals with the mapped extents of either forested or agricultural 
+Vermont's current use program has been a cornerstone of the state's tax policy for several decades. As the program depends on the bounded extents of either forested or agricultural lands and associated acreage thresholds, mapping has been central to the program since its inception. That has also meant that what was once considered sufficiently accurate mapping techniques 
 
 Although there is no accessible public-facing means of digitally entering the mapped extents of lands to be considered for current use enrollment, nor is there a way to depict the specific extent of all currently enrolled areas as a statewide digital map layer, map applications can help modernize these functions.
 
