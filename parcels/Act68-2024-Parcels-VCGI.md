@@ -539,7 +539,7 @@ In addition, statute wording specifies VTrans as the agency receiving Board reco
 
 ## 10.3 Implementation
 
-Transferring ownership of the Parcel Program in statute should be relatively seamless and could happen without significant impact to current operations. One option is for it to be moved to 10 V.S.A. § 123, powers and duties of VCGI as that most accurately reflects program operation.
+Transferring ownership of the Parcel Program in statute should be relatively seamless and could happen without significant impact to current operations. One option is for it to be moved to [10 V.S.A. § 123](https://legislature.vermont.gov/statutes/section/10/008/00123), powers and duties of VCGI, as that most accurately reflects program operation.
 
 Given successful completion of the Parcel Project, the current Parcel Advisory Board should be retired and a new oversight body of similar composition could be established to guide the Parcel Program moving forward. The Tax Department should have a leading role in this new advisory group as parcel data and Tax's work, as these reports convey, are now closely related. This body could continue to provide insight and recommendations based on experience from a variety of users and stakeholders. The new advisory board should meet with VCGI on a pre-determined schedule once or twice a year at minimum. This schedule would allow the Parcel Program to remain responsive and attentive to issues and needed improvements, particularly in light of the proposed operational changes.
 
