@@ -126,6 +126,8 @@ Further considerations regarding per parcel payments are in [Appendix 2](#append
 
 ### 2.3.2 Scenario B: New Regional/State Assessment Jurisdiction
 
+This scenario assumes the creation of regional assessment districts as proposed in part 1 of this report, representing a change in assessment jurisdiction.
+
 ///////
 
 
@@ -605,6 +607,10 @@ In cases where two or more abutting parcels have the same owner, parcel to which
 ## Administrative Parcel
 
 A parcel defined in boundaries and/or function by its tax or other administrative uses, not necessarily its legally documented boundaries. Often used in contrast to legal parcel.
+
+## Assessment Jurisdiction
+
+The bounded area in which a government or authorized entity has the authority to assess property for taxation. Typically also responsible for conducting appraisals, maintaining the grand list and associated property records, overseeing mapping of property within the area, and addressing appeals or disputes about property assessments. In Vermont, the current assessment jurisdiction is the municipality. In other states it is often the county.
 
 ## Attributes
 
@@ -1218,7 +1224,6 @@ Pros
   
 Cons
 - Time intensive to create/maintain individual building footprints geometry
-
 
 #### A.3.3.2 Other Unlanded Structures Mapping Practices from Other States
 
