@@ -456,15 +456,20 @@ The Tax Department should partner with willing jurisdictions to test and evaluat
 - Updated contract guidance is contingent on the assessment jurisdiction extent
 
 ## 8.2 Justification
-Per VCGI's records, about 90% of Vermont municipalities currently maintain parcel data. The vast majority of these towns do so via a GIS, making them capable of maintaining map data with a SPAN assigned to each parcel and thus meeting basic compliance with state data standard that permits joining with the annual grand list. A small number of towns continue to hire vendors using Computer-Aided Design (CAD) software to maintain parcels,
 
-In all cases, a town is currently responsible for drafting a mapping contract for parcel data maintenance to meet their specific needs.
+Per VCGI's records, about 90% of Vermont municipalities currently maintain parcel data. The vast majority of these towns do so via a GIS, making them capable of maintaining map data with a SPAN assigned to each parcel and thus meeting basic compliance with the state data standard that permits joining with the annual grand list. As a remnant of print map-focused practices, a small number of towns continue to hire vendors using Computer-Aided Design (CAD) software to maintain parcels, which is not capable of data integration like a GIS. These data are thus unusable for joining with grand list, CAMA and other related information. A small remainder of towns do not maintain parcel data in any way. In all cases, the town is the jurisdiction currently responsible for drafting and overseeing a mapping contract for parcel data maintenance to meet their specific wants and needs.
+
+It is common for these wants and needs to include 
+
+
+
+
+
+## 8.3 Implementation
 
 Since 2017, VCGI has made [parcel mapping guidelines](https://vcgi.vermont.gov/document/vermont-gis-parcel-mapping-guideline) available that includes contract guidance, however,
 
 BGS
-
-## 8.3 Implementation
 
 # Recommendation 9: Modernize Current Use Map Standards, Submittals, and Access
 
