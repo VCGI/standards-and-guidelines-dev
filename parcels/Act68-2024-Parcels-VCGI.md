@@ -246,7 +246,7 @@ Following receipt of the updated CAMA data each month, VCGI will work to incorpo
 
 ## 3.5 Example Statute Update
 
->32 V.S.A. § 5404(b) (b) Annually, on or before August 15, the clerk of a municipality, or the supervisor of an unorganized town or gore, shall transmit to the Director in an electronic or other format as prescribed by the Director: education and municipal grand list data, including exemption information and grand list abstracts; tax rates; **an extract of the assessor database also referred to as a Computer Aided Mass Appraisal (CAMA) system or Computer Aided Mass Appraisal database,** and the total amount of taxes assessed in the town or unorganized town or gore...
+>32 V.S.A. § 5404(b) (b) Annually, on or before August 15, the clerk of a municipality, or the supervisor of an unorganized town or gore, shall transmit to the Director in an electronic or other format as prescribed by the Director: education and municipal grand list data, including exemption information and grand list abstracts; tax rates; <ins>an extract of the assessor database also referred to as a Computer Aided Mass Appraisal (CAMA) system or Computer Aided Mass Appraisal database,</ins> and the total amount of taxes assessed in the town or unorganized town or gore...
 
 ## 3.6 Implementation
 
