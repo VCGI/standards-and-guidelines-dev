@@ -53,7 +53,7 @@ These changes in parcel definition and mapping practices would increase the curr
 
 ## 1.3 Example Statute Update
 
-> 32 V.S.A. § 4152 (a)(3) A brief description of each parcel of taxable real estate in the town. “Parcel” means <ins>a separate and sellable lot or piece of real estate. Parcels are to be combined to represent</ins> *all contiguous land in the same ownership, together with all improvements thereon* <ins>for tax administration.</ins>
+> 32 V.S.A. § 4152 (a)(3) A brief description of each parcel of taxable real estate in the town. “Parcel” means <ins>a separate and sellable lot or piece of real estate. Parcels are to be combined to represent</ins> all contiguous land in the same ownership, together with all improvements thereon <ins>for tax administration.</ins>
 
 ## 1.4 Related Statutes
 
