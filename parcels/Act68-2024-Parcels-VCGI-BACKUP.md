@@ -4,6 +4,10 @@ This document is for backup or extra sections of the Act 68 Part II report by VC
 
 # Recommendation 1
 
+## 1.3 Example Statute Update
+
+> 32 V.S.A. § 4152 (a)(3) A brief description of each parcel of taxable real estate in the town. “Parcel” means <ins>a separate and sellable lot or piece of real estate. Parcels are to be combined to represent</ins> *all contiguous land in the same ownership, together with all improvements thereon* <ins>for tax administration.</ins>
+
 # Recommendation 2: Support Digital Parcel Maintenance and Submittal to the State of Vermont - Version 2
 
 ## 2.1 Summary
